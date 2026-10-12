@@ -289,38 +289,38 @@
     else if (grp.includes("đối tượng")) tagClass = "tag-sub";
     else if (item.status.includes("Hành lang")) tagClass = "tag-hl";
 
+    let rgbBadgeHtml = "";
+    if (item.rgb && item.rgb.hex) {
+      colorPreviewBox.classList.remove("hidden");
+      colorPreviewBox.style.backgroundColor = item.rgb.hex;
+      colorPreviewBox.title = `Mẫu màu bản đồ: RGB(${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b}) - ${item.rgb.hex}`;
+      rgbBadgeHtml = `<span class="badge-tag" style="background-color: #E2E8F0; color: #1E293B; font-family: var(--font-mono);" title="Thông số màu bản đồ hiện trạng">RGB: ${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b} (${item.rgb.hex})</span>`;
+    } else {
+      colorPreviewBox.classList.add("hidden");
+    }
+
     heroBadges.innerHTML = `
       <span class="badge-tag ${tagClass}">${escapeHtml(item.group)}</span>
       <span class="badge-tag" style="background-color: #E2E8F0; color: #334155;">${escapeHtml(item.primaryPeriod)}</span>
       <span class="badge-tag" style="background-color: #FEF3C7; color: #92400E;">${escapeHtml(item.status)}</span>
+      ${rgbBadgeHtml}
     `;
 
-    // 2. MÀU RGB
-    if (item.rgb && item.rgb.hex) {
-      colorSpecCard.classList.remove("hidden");
-      colorPreviewBox.style.backgroundColor = item.rgb.hex;
-      colorRgbVal.textContent = `${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b}`;
-      colorHexVal.textContent = item.rgb.hex;
-      colorTargetName.textContent = item.rgb.target ? `(Áp dụng: ${item.rgb.target})` : "";
-    } else {
-      colorSpecCard.classList.add("hidden");
-    }
-
-    // 3. TRỤC THỜI GIAN 5 THỜI KỲ
+    // 2. TRỤC THỜI GIAN 5 THỜI KỲ (DẠNG NGANG DENSE)
     renderTimeline(item);
 
-    // 4. QUY ĐỊNH PHÁP LUẬT CHI TIẾT
+    // 3. QUY ĐỊNH PHÁP LUẬT CHI TIẾT
     detailLegalBasis.textContent = item.legalBasis || "Quy định tại Luật Đất đai 2024 và các văn bản hướng dẫn thi hành.";
     detailDefinition.textContent = item.definition || item.name;
     detailEvolution.textContent = item.evolutionNote || "Không có thay đổi cơ bản qua các thời kỳ.";
 
-    // 5. BẢNG ĐỐI CHIẾU CÁC VĂN BẢN QUY PHẠM
+    // 4. BẢNG ĐỐI CHIẾU CÁC VĂN BẢN QUY PHẠM
     renderCrossComparisonTable(item);
 
-    // 6. PHÁP LÝ ĐẶC THÙ (ĐIỀU 141, ĐIỀU 210, ĐIỀU 152)
+    // 5. PHÁP LÝ ĐẶC THÙ (ĐIỀU 141, ĐIỀU 210, ĐIỀU 152)
     renderSpecialLegal(item);
 
-    // 7. CÁC MÃ LIÊN QUAN
+    // 6. CÁC MÃ LIÊN QUAN
     renderRelatedChips(item);
   }
 
@@ -333,11 +333,9 @@
       const node = document.createElement("div");
       node.className = "timeline-node" + (isCurrent ? " current-era" : "");
       node.innerHTML = `
-        <div>
-          <div class="timeline-period-name">${escapeHtml(step.period)}</div>
-          <div class="timeline-doc-hint">${escapeHtml(step.doc)} · ${escapeHtml(step.status || "")}</div>
-        </div>
+        <div class="timeline-period-name">${escapeHtml(step.period)}</div>
         <div class="timeline-code-badge">${escapeHtml(step.code || "-")}</div>
+        <div class="timeline-doc-hint" title="${escapeHtml(step.doc)} · ${escapeHtml(step.status || '')}">${escapeHtml(step.doc)}</div>
       `;
       timelineContainer.appendChild(node);
     });
