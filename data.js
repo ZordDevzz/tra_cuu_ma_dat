@@ -222,38 +222,64 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất 1 vụ lúa (299)"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng lúa nước 01 vụ hoặc phụ thuộc nước mưa xác định là Đất trồng lúa nước còn lại (mã LUK).",
-      "definition": "Tên gọi: Đất lúa 1 vụ theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất trồng lúa nước còn lại (Mã LUK). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng lúa nước 01 vụ hoặc phụ thuộc nước mưa xác định là Đất trồng lúa nước còn lại (mã LUK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUK",
+        "name2024": "Đất trồng lúa nước còn lại",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng lúa nước 01 vụ hoặc phụ thuộc nước mưa xác định là Đất trồng lúa nước còn lại (mã LUK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất lúa 1 vụ. Quy đổi tương đương theo Luật 2024: Đất trồng lúa nước còn lại.",
+        "evolution": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng lúa nước 01 vụ hoặc phụ thuộc nước mưa xác định là Đất trồng lúa nước còn lại (mã LUK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "1L / L1",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất lúa 1 vụ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Quy đổi sang: Đất trồng lúa nước còn lại (Mã LUK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "1L / L1 ➔ LUK",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất trồng lúa nước còn lại"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LUK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "1L / L1",
+          "sodo": "1L / L1",
+          "kk": "1L / L1",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "1L / L1",
+          "sodo": "1L / L1",
+          "kk": "1L / L1",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất lúa 1 vụ"
         }
       ],
-      "comparison": {
-        "m24": "LUK",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "1L / L1",
-        "m299": "1L / L1"
+      "sec3": {
+        "oldScenario": "Đất lúa 1 vụ (Ký hiệu: 1L / L1)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng lúa nước 01 vụ hoặc phụ thuộc nước mưa xác định là Đất trồng lúa nước còn lại (mã LUK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -277,38 +303,64 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất 2 vụ lúa (299)"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng từ 02 vụ lúa nước trở lên trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
-      "definition": "Tên gọi: Đất lúa 2 vụ theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất chuyên trồng lúa nước (Mã LUC). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng từ 02 vụ lúa nước trở lên trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUC",
+        "name2024": "Đất chuyên trồng lúa nước",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng từ 02 vụ lúa nước trở lên trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất lúa 2 vụ. Quy đổi tương đương theo Luật 2024: Đất chuyên trồng lúa nước.",
+        "evolution": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng từ 02 vụ lúa nước trở lên trong năm xác định là Đất chuyên trồng lúa nước (mã LUC)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "2L / L2",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất lúa 2 vụ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LUC",
+          "sodo": "LUC",
+          "kk": "LUC",
+          "note": "Quy đổi sang: Đất chuyên trồng lúa nước (Mã LUC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "2L / L2 ➔ LUC",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất chuyên trồng lúa nước"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LUC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "2L / L2",
+          "sodo": "2L / L2",
+          "kk": "2L / L2",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "2L / L2",
+          "sodo": "2L / L2",
+          "kk": "2L / L2",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất lúa 2 vụ"
         }
       ],
-      "comparison": {
-        "m24": "LUC",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "2L / L2",
-        "m299": "2L / L2"
+      "sec3": {
+        "oldScenario": "Đất lúa 2 vụ (Ký hiệu: 2L / L2)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng từ 02 vụ lúa nước trở lên trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -332,38 +384,64 @@ window.LAND_DATA = {
         "hex": "#AAEBFF",
         "target": "Đất ao (299)"
       },
-      "legalBasis": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất ao trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất ao độc lập xác định là đất nuôi trồng thủy sản (NTS) quy định tại Điều 9 Luật Đất đai 2024.",
-      "definition": "Tên gọi: Đất ao theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất nuôi trồng thủy sản (Mã NTS). Quan hệ: 1 -> 1 hoặc điều kiện.",
-      "evolutionNote": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất ao trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất ao độc lập xác định là đất nuôi trồng thủy sản (NTS) quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất ao trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất ao độc lập xác định là đất nuôi trồng thủy sản (NTS) quy định tại Điều 9 Luật Đất đai 2024.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất ao. Quy đổi tương đương theo Luật 2024: Đất nuôi trồng thủy sản.",
+        "evolution": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất ao trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất ao độc lập xác định là đất nuôi trồng thủy sản (NTS) quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "Ao",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất ao"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy đổi sang: Đất nuôi trồng thủy sản (Mã NTS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "Ao ➔ NTS",
-          "doc": "1 -> 1 hoặc điều kiện",
-          "status": "Quy đổi sang: Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Ao",
+          "sodo": "Ao",
+          "kk": "Ao",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Ao",
+          "sodo": "Ao",
+          "kk": "Ao",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất ao"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "Ao",
-        "m299": "Ao"
+      "sec3": {
+        "oldScenario": "Đất ao (Ký hiệu: Ao)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1 hoặc điều kiện",
+        "statutoryRule": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất ao trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất ao độc lập xác định là đất nuôi trồng thủy sản (NTS) quy định tại Điều 9 Luật Đất đai 2024.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ cấp GCN và công nhận hạn mức đất ở đối với hồ sơ xác lập trước ngày 15/10/1993.",
@@ -387,38 +465,64 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất bằng trồng cây hàng năm khác"
       },
-      "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân biệt đất bằng và nương rẫy, hợp nhất thành Đất trồng cây hàng năm khác (mã HNK).",
-      "definition": "Tên gọi: Đất bằng trồng cây hàng năm khác theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất trồng cây hàng năm khác (Mã HNK). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân biệt đất bằng và nương rẫy, hợp nhất thành Đất trồng cây hàng năm khác (mã HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân biệt đất bằng và nương rẫy, hợp nhất thành Đất trồng cây hàng năm khác (mã HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất bằng trồng cây hàng năm khác. Quy đổi tương đương theo Luật 2024: Đất trồng cây hàng năm khác.",
+        "evolution": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân biệt đất bằng và nương rẫy, hợp nhất thành Đất trồng cây hàng năm khác (mã HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "BHK",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất bằng trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy đổi sang: Đất trồng cây hàng năm khác (Mã HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "BHK ➔ HNK",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "BHK",
+          "sodo": "BHK",
+          "kk": "BHK",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất bằng trồng cây hàng năm khác"
         }
       ],
-      "comparison": {
-        "m24": "HNK",
-        "m13_bddc": "BHK",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất bằng trồng cây hàng năm khác (Ký hiệu: BHK)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân biệt đất bằng và nương rẫy, hợp nhất thành Đất trồng cây hàng năm khác (mã HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -442,38 +546,64 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
       },
-      "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng hoa màu, rau, đậu, cây hàng năm khác xác định là Đất trồng cây hàng năm khác (mã HNK).",
-      "definition": "Tên gọi: Đất trồng hoa màu, cây hàng năm khác theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất trồng cây hàng năm khác (Mã HNK). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng hoa màu, rau, đậu, cây hàng năm khác xác định là Đất trồng cây hàng năm khác (mã HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng hoa màu, rau, đậu, cây hàng năm khác xác định là Đất trồng cây hàng năm khác (mã HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng hoa màu, cây hàng năm khác. Quy đổi tương đương theo Luật 2024: Đất trồng cây hàng năm khác.",
+        "evolution": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng hoa màu, rau, đậu, cây hàng năm khác xác định là Đất trồng cây hàng năm khác (mã HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "C / Màu",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất trồng hoa màu, cây hàng năm khác"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy đổi sang: Đất trồng cây hàng năm khác (Mã HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "C / Màu ➔ HNK",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "C / Màu",
+          "sodo": "C / Màu",
+          "kk": "C / Màu",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C / Màu",
+          "sodo": "C / Màu",
+          "kk": "C / Màu",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng hoa màu, cây hàng năm khác"
         }
       ],
-      "comparison": {
-        "m24": "HNK",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "C / Màu",
-        "m299": "C / Màu"
+      "sec3": {
+        "oldScenario": "Đất trồng hoa màu, cây hàng năm khác (Ký hiệu: C / Màu)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất trồng hoa màu, rau, đậu, cây hàng năm khác xác định là Đất trồng cây hàng năm khác (mã HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -497,50 +627,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
-      "evolutionNote": "Từ Luật 2013 và Luật 2024 dùng mã thống nhất CLN. Thời kỳ 2003 tách chi tiết LNC, LNQ, LNK.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
+        "evolution": "Từ Luật 2013 và Luật 2024 dùng mã thống nhất CLN. Thời kỳ 2003 tách chi tiết LNC, LNQ, LNK."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "V / R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây lâu năm (nói chung)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "LNC / LNQ / Vườn",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: CLN | Kiểm kê: CLN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CLN | GCN: CLN | KK: CLN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LNC / LNQ / Vườn",
+          "sodo": "LNC / LNQ / Vườn",
+          "kk": "LNC / LNQ / Vườn",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CLN",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V / R",
+          "sodo": "V / R",
+          "kk": "V / R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CLN",
-        "m13_bddc": "CLN",
-        "m13_sodo": "CLN",
-        "m13_kk": "CLN",
-        "m03_hsdc": "CLN",
-        "m03_kk": "CLN",
-        "m95": "LNC / LNQ / Vườn",
-        "m299": "V / R"
+      "sec3": {
+        "oldScenario": "Đất trồng cây lâu năm (nói chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -563,50 +707,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
-      "evolutionNote": "Mã cũ thời kỳ Luật 2003 (TT 08/2007, TT 09/2007) ghi rõ LNC. Khi chuẩn hóa CSDL sang Luật 2013/2024, LNC chuyển đổi thành CLN.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
+        "evolution": "Mã cũ thời kỳ Luật 2003 (TT 08/2007, TT 09/2007) ghi rõ LNC. Khi chuẩn hóa CSDL sang Luật 2013/2024, LNC chuyển đổi thành CLN."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "V / R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây công nghiệp lâu năm (cao su, cà phê, hồ tiêu, chè...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "LNC",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LNC | Kiểm kê: LNC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNC",
+          "sodo": "LNC",
+          "kk": "LNC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CLN | GCN: CLN | KK: CLN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LNC",
+          "sodo": "LNC",
+          "kk": "LNC",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CLN (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V / R",
+          "sodo": "V / R",
+          "kk": "V / R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CLN (quy đổi)",
-        "m13_bddc": "CLN",
-        "m13_sodo": "CLN",
-        "m13_kk": "CLN",
-        "m03_hsdc": "LNC",
-        "m03_kk": "LNC",
-        "m95": "LNC",
-        "m299": "V / R"
+      "sec3": {
+        "oldScenario": "Đất trồng cây công nghiệp lâu năm (cao su, cà phê, hồ tiêu, chè...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -629,50 +787,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
-      "evolutionNote": "Mã cũ thời kỳ Luật 2003 ghi LNQ. Khi chuyển đổi CSDL sang Luật 2024, mã LNQ chuyển đổi sang CLN.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
+        "evolution": "Mã cũ thời kỳ Luật 2003 ghi LNQ. Khi chuyển đổi CSDL sang Luật 2024, mã LNQ chuyển đổi sang CLN."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "V",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây ăn quả lâu năm (cam, bưởi, xoài, sầu riêng, vải...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "LNQ / Vườn",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LNQ | Kiểm kê: LNQ",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNQ",
+          "sodo": "LNQ",
+          "kk": "LNQ",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CLN | GCN: CLN | KK: CLN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LNQ / Vườn",
+          "sodo": "LNQ / Vườn",
+          "kk": "LNQ / Vườn",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CLN (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V",
+          "sodo": "V",
+          "kk": "V",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CLN (quy đổi)",
-        "m13_bddc": "CLN",
-        "m13_sodo": "CLN",
-        "m13_kk": "CLN",
-        "m03_hsdc": "LNQ",
-        "m03_kk": "LNQ",
-        "m95": "LNQ / Vườn",
-        "m299": "V"
+      "sec3": {
+        "oldScenario": "Đất trồng cây ăn quả lâu năm (cam, bưởi, xoài, sầu riêng, vải...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -695,50 +867,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
-      "evolutionNote": "Mã cũ thời kỳ Luật 2003 ghi LNK. Nay thống nhất trong mã CLN theo Luật 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
+        "evolution": "Mã cũ thời kỳ Luật 2003 ghi LNK. Nay thống nhất trong mã CLN theo Luật 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "V / R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây lâu năm khác (lấy gỗ lâu năm, cây bóng mát...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "LNK",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LNK | Kiểm kê: LNK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNK",
+          "sodo": "LNK",
+          "kk": "LNK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CLN | GCN: CLN | KK: CLN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LNK",
+          "sodo": "LNK",
+          "kk": "LNK",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CLN (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V / R",
+          "sodo": "V / R",
+          "kk": "V / R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CLN (quy đổi)",
-        "m13_bddc": "CLN",
-        "m13_sodo": "CLN",
-        "m13_kk": "CLN",
-        "m03_hsdc": "LNK",
-        "m03_kk": "LNK",
-        "m95": "LNK",
-        "m299": "V / R"
+      "sec3": {
+        "oldScenario": "Đất trồng cây lâu năm khác (lấy gỗ lâu năm, cây bóng mát...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -761,50 +947,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
-      "evolutionNote": "Ký hiệu 'Vườn' xuất hiện nhiều trên sổ đỏ cấp theo TT 1990/2001 và QĐ 499. Cần phân biệt: đất vườn độc lập (thành CLN/HNK) với đất vườn cùng thửa đất ở (xác định hạn mức đất ở).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây sinh trưởng trên 01 năm, cho thu hoạch sản phẩm trong nhiều năm (cây công nghiệp, ăn quả, lấy gỗ, bóng mát...).",
+        "evolution": "Ký hiệu 'Vườn' xuất hiện nhiều trên sổ đỏ cấp theo TT 1990/2001 và QĐ 499. Cần phân biệt: đất vườn độc lập (thành CLN/HNK) với đất vườn cùng thửa đất ở (xác định hạn mức đất ở)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "V",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất vườn (thuộc nhóm nông nghiệp, canh tác cây hàng năm/lâu năm)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Vườn (hoặc V)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CLN / BHK",
+          "sodo": "CLN / BHK",
+          "kk": "CLN / HNK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: Vườn / CLN | Kiểm kê: Vườn",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "Vườn / CLN",
+          "sodo": "Vườn / CLN",
+          "kk": "Vườn",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CLN / BHK | GCN: CLN / BHK | KK: CLN / HNK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Vườn (hoặc V)",
+          "sodo": "Vườn (hoặc V)",
+          "kk": "Vườn (hoặc V)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CLN hoặc HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V",
+          "sodo": "V",
+          "kk": "V",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CLN hoặc HNK",
-        "m13_bddc": "CLN / BHK",
-        "m13_sodo": "CLN / BHK",
-        "m13_kk": "CLN / HNK",
-        "m03_hsdc": "Vườn / CLN",
-        "m03_kk": "Vườn",
-        "m95": "Vườn (hoặc V)",
-        "m299": "V"
+      "sec3": {
+        "oldScenario": "Đất vườn (thuộc nhóm nông nghiệp, canh tác cây hàng năm/lâu năm)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -827,50 +1027,64 @@ window.LAND_DATA = {
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
       },
-      "legalBasis": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất xây dựng trang trại chăn nuôi gia súc, gia cầm và động vật khác quy mô tập trung theo Luật Chăn nuôi.",
-      "evolutionNote": "Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã CNT cho đất chăn nuôi tập trung (trước đây thuộc mã COC theo Luật 2003 hoặc NKH theo Luật 2013).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CNT",
+        "name2024": "Đất chăn nuôi tập trung",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất xây dựng trang trại chăn nuôi gia súc, gia cầm và động vật khác quy mô tập trung theo Luật Chăn nuôi.",
+        "evolution": "Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã CNT cho đất chăn nuôi tập trung (trước đây thuộc mã COC theo Luật 2003 hoặc NKH theo Luật 2013)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C (Chuồng trại)",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CNT",
+          "sodo": "CNT",
+          "kk": "CNT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất chăn nuôi tập trung (trang trại chăn nuôi gia súc, gia cầm quy mô tập trung)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Chăn nuôi / NKH",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NKH",
+          "sodo": "NKH",
+          "kk": "NKH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: COC / NKH | Kiểm kê: COC / NKH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "COC / NKH",
+          "sodo": "COC / NKH",
+          "kk": "COC / NKH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NKH | GCN: NKH | KK: NKH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Chăn nuôi / NKH",
+          "sodo": "Chăn nuôi / NKH",
+          "kk": "Chăn nuôi / NKH",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CNT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C (Chuồng trại)",
+          "sodo": "C (Chuồng trại)",
+          "kk": "C (Chuồng trại)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CNT",
-        "m13_bddc": "NKH",
-        "m13_sodo": "NKH",
-        "m13_kk": "NKH",
-        "m03_hsdc": "COC / NKH",
-        "m03_kk": "COC / NKH",
-        "m95": "Chăn nuôi / NKH",
-        "m299": "C (Chuồng trại)"
+      "sec3": {
+        "oldScenario": "Đất chăn nuôi tập trung (trang trại chăn nuôi gia súc, gia cầm quy mô tập trung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -893,50 +1107,64 @@ window.LAND_DATA = {
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
       },
-      "legalBasis": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất xây dựng trang trại chăn nuôi gia súc, gia cầm và động vật khác quy mô tập trung theo Luật Chăn nuôi.",
-      "evolutionNote": "Mã cũ COC theo Luật Đất đai 2003 (TT 08/2007). Khi Luật 2013 bỏ COC thì chuyển vào NKH hoặc BHK. Nay nếu chăn nuôi tập trung chuyển sang CNT.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CNT",
+        "name2024": "Đất chăn nuôi tập trung",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất xây dựng trang trại chăn nuôi gia súc, gia cầm và động vật khác quy mô tập trung theo Luật Chăn nuôi.",
+        "evolution": "Mã cũ COC theo Luật Đất đai 2003 (TT 08/2007). Khi Luật 2013 bỏ COC thì chuyển vào NKH hoặc BHK. Nay nếu chăn nuôi tập trung chuyển sang CNT."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "H / C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CNT",
+          "sodo": "CNT",
+          "kk": "CNT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất cỏ dùng vào chăn nuôi (đồng cỏ, bãi chăn thả gia súc)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Đồng cỏ",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NKH / BHK",
+          "sodo": "NKH / BHK",
+          "kk": "NKH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: COC | Kiểm kê: COC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "COC",
+          "sodo": "COC",
+          "kk": "COC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NKH / BHK | GCN: NKH / BHK | KK: NKH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đồng cỏ",
+          "sodo": "Đồng cỏ",
+          "kk": "Đồng cỏ",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CNT hoặc HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "H / C",
+          "sodo": "H / C",
+          "kk": "H / C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CNT hoặc HNK",
-        "m13_bddc": "NKH / BHK",
-        "m13_sodo": "NKH / BHK",
-        "m13_kk": "NKH",
-        "m03_hsdc": "COC",
-        "m03_kk": "COC",
-        "m95": "Đồng cỏ",
-        "m299": "H / C"
+      "sec3": {
+        "oldScenario": "Đất cỏ dùng vào chăn nuôi (đồng cỏ, bãi chăn thả gia súc)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -959,38 +1187,64 @@ window.LAND_DATA = {
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
       },
-      "legalBasis": "Điểm g Khoản 1 Điều 9 Luật Đất đai 2024 và Điều 4 Nghị định 102/2024/NĐ-CP: Đất chăn nuôi quy mô trang trại tập trung xác định là Đất chăn nuôi tập trung (mã CNT); đất trồng cỏ nhỏ lẻ xác định là đất trồng cây hàng năm khác (HNK).",
-      "definition": "Tên gọi: Đất cỏ dùng vào chăn nuôi theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất chăn nuôi tập trung / Đất trồng cây hàng năm khác (Mã CNT / HNK). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm g Khoản 1 Điều 9 Luật Đất đai 2024 và Điều 4 Nghị định 102/2024/NĐ-CP: Đất chăn nuôi quy mô trang trại tập trung xác định là Đất chăn nuôi tập trung (mã CNT); đất trồng cỏ nhỏ lẻ xác định là đất trồng cây hàng năm khác (HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CNT",
+        "name2024": "Đất chăn nuôi tập trung / Đất trồng cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm g Khoản 1 Điều 9 Luật Đất đai 2024 và Điều 4 Nghị định 102/2024/NĐ-CP: Đất chăn nuôi quy mô trang trại tập trung xác định là Đất chăn nuôi tập trung (mã CNT); đất trồng cỏ nhỏ lẻ xác định là đất trồng cây hàng năm khác (HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất cỏ dùng vào chăn nuôi. Quy đổi tương đương theo Luật 2024: Đất chăn nuôi tập trung / Đất trồng cây hàng năm khác.",
+        "evolution": "Điểm g Khoản 1 Điều 9 Luật Đất đai 2024 và Điều 4 Nghị định 102/2024/NĐ-CP: Đất chăn nuôi quy mô trang trại tập trung xác định là Đất chăn nuôi tập trung (mã CNT); đất trồng cỏ nhỏ lẻ xác định là đất trồng cây hàng năm khác (HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "COC",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất cỏ dùng vào chăn nuôi"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CNT",
+          "sodo": "CNT",
+          "kk": "CNT",
+          "note": "Quy đổi sang: Đất chăn nuôi tập trung / Đất trồng cây hàng năm khác (Mã CNT / HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "COC ➔ CNT / HNK",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất chăn nuôi tập trung / Đất trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CNT / HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "COC",
+          "sodo": "COC",
+          "kk": "COC",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất cỏ dùng vào chăn nuôi"
         }
       ],
-      "comparison": {
-        "m24": "CNT / HNK",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "COC",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất cỏ dùng vào chăn nuôi (Ký hiệu: COC)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm g Khoản 1 Điều 9 Luật Đất đai 2024 và Điều 4 Nghị định 102/2024/NĐ-CP: Đất chăn nuôi quy mô trang trại tập trung xác định là Đất chăn nuôi tập trung (mã CNT); đất trồng cỏ nhỏ lẻ xác định là đất trồng cây hàng năm khác (HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1005,7 +1259,7 @@ window.LAND_DATA = {
       "displayCode": "HLR",
       "name": "Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy",
       "group": "Nông nghiệp",
-      "status": "Hành lang an toàn bảo vệ công trình (Layer ranh giới)",
+      "status": "Hành lang an toàn bảo vệ công trình",
       "primaryPeriod": "Hạn chế quyền sử dụng (Điều 210 Luật 2024)",
       "rgb": {
         "r": 160,
@@ -1014,38 +1268,64 @@ window.LAND_DATA = {
         "hex": "#A0DC78",
         "target": "Hành lang bảo vệ rừng"
       },
-      "legalBasis": "Điều 210 Luật Đất đai 2024 và Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang an toàn bảo vệ rừng và phòng chống cháy rừng; mục đích sử dụng đất chính xác định theo phân loại đất rừng phòng hộ (RPH) hoặc đất rừng sản xuất (RSX).",
-      "definition": "Tên gọi: Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy theo Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề). Quy đổi tương đương sang Luật 2024: Đất thuộc hành lang bảo vệ an toàn rừng (Mã RPH / RSX). Quan hệ: Thuộc tính hành lang.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 và Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang an toàn bảo vệ rừng và phòng chống cháy rừng; mục đích sử dụng đất chính xác định theo phân loại đất rừng phòng hộ (RPH) hoặc đất rừng sản xuất (RSX).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất thuộc hành lang bảo vệ an toàn rừng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điều 210 Luật Đất đai 2024 và Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang an toàn bảo vệ rừng và phòng chống cháy rừng; mục đích sử dụng đất chính xác định theo phân loại đất rừng phòng hộ (RPH) hoặc đất rừng sản xuất (RSX).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy. Quy đổi tương đương theo Luật 2024: Đất thuộc hành lang bảo vệ an toàn rừng.",
+        "evolution": "Điều 210 Luật Đất đai 2024 và Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang an toàn bảo vệ rừng và phòng chống cháy rừng; mục đích sử dụng đất chính xác định theo phân loại đất rừng phòng hộ (RPH) hoặc đất rừng sản xuất (RSX)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "HLR",
-          "doc": "Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề)",
-          "status": "Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy đổi sang: Đất thuộc hành lang bảo vệ an toàn rừng (Mã RPH / RSX)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "HLR ➔ RPH / RSX",
-          "doc": "Thuộc tính hành lang",
-          "status": "Quy đổi sang: Đất thuộc hành lang bảo vệ an toàn rừng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "HLR",
+          "sodo": "HLR",
+          "kk": "HLR",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RPH / RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy"
         }
       ],
-      "comparison": {
-        "m24": "RPH / RSX",
-        "m13_bddc": "HLR",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy (Ký hiệu: HLR)",
+        "oldDoc": "Luật 2013 (Quy ước kỹ thuật lâm nghiệp và bản đồ chuyên đề)",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điều 210 Luật Đất đai 2024 và Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang an toàn bảo vệ rừng và phòng chống cháy rừng; mục đích sử dụng đất chính xác định theo phân loại đất rừng phòng hộ (RPH) hoặc đất rừng sản xuất (RSX).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1069,50 +1349,64 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
       },
-      "legalBasis": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
-      "definition": "Đất trồng cây hằng năm không phải là trồng lúa, như cây rau màu, cây họ đậu, cây hoa, cây dược liệu ngắn ngày...",
-      "evolutionNote": "Luật 2024 gom BHK và NHK thành mã thống nhất HNK (Đất trồng cây hằng năm khác). CSDL cũ ghi BHK được quy đổi tương đương thành HNK.",
-      "timeline": [
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hằng năm khác",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng cây hằng năm không phải là trồng lúa, như cây rau màu, cây họ đậu, cây hoa, cây dược liệu ngắn ngày...",
+        "evolution": "Luật 2024 gom BHK và NHK thành mã thống nhất HNK (Đất trồng cây hằng năm khác). CSDL cũ ghi BHK được quy đổi tương đương thành HNK."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "M",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất bằng trồng cây hằng năm khác (rau màu, cây ngắn ngày vùng bằng)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "M (Đất màu)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "BHK",
+          "sodo": "BHK",
+          "kk": "BHK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: BHK | Kiểm kê: BHK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "BHK",
+          "sodo": "BHK",
+          "kk": "BHK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: BHK | GCN: BHK | KK: BHK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "M (Đất màu)",
+          "sodo": "M (Đất màu)",
+          "kk": "M (Đất màu)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "HNK (gộp)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "M",
+          "sodo": "M",
+          "kk": "M",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "HNK (gộp)",
-        "m13_bddc": "BHK",
-        "m13_sodo": "BHK",
-        "m13_kk": "BHK",
-        "m03_hsdc": "BHK",
-        "m03_kk": "BHK",
-        "m95": "M (Đất màu)",
-        "m299": "M"
+      "sec3": {
+        "oldScenario": "Đất bằng trồng cây hằng năm khác (rau màu, cây ngắn ngày vùng bằng)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1135,50 +1429,64 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
       },
-      "legalBasis": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
-      "definition": "Đất trồng cây hằng năm không phải là trồng lúa, như cây rau màu, cây họ đậu, cây hoa, cây dược liệu ngắn ngày...",
-      "evolutionNote": "Luật 2024 không duy trì mã riêng NHK mà dùng chung mã HNK. CSDL cũ ghi NHK được chuẩn hóa sang HNK.",
-      "timeline": [
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hằng năm khác",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng cây hằng năm không phải là trồng lúa, như cây rau màu, cây họ đậu, cây hoa, cây dược liệu ngắn ngày...",
+        "evolution": "Luật 2024 không duy trì mã riêng NHK mà dùng chung mã HNK. CSDL cũ ghi NHK được chuẩn hóa sang HNK."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "M",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất nương rẫy trồng cây hằng năm khác (canh tác nương rẫy dốc)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "M / Nương",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NHK",
+          "sodo": "NHK",
+          "kk": "NHK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NHK | Kiểm kê: NHK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NHK",
+          "sodo": "NHK",
+          "kk": "NHK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NHK | GCN: NHK | KK: NHK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "M / Nương",
+          "sodo": "M / Nương",
+          "kk": "M / Nương",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "HNK (gộp)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "M",
+          "sodo": "M",
+          "kk": "M",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "HNK (gộp)",
-        "m13_bddc": "NHK",
-        "m13_sodo": "NHK",
-        "m13_kk": "NHK",
-        "m03_hsdc": "NHK",
-        "m03_kk": "NHK",
-        "m95": "M / Nương",
-        "m299": "M"
+      "sec3": {
+        "oldScenario": "Đất nương rẫy trồng cây hằng năm khác (canh tác nương rẫy dốc)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1201,38 +1509,64 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024: Đất thâm canh trồng lúa nhiều vụ trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
-      "definition": "Tên gọi: Đất lúa 3 vụ theo Chỉ thị 299/TTg (Nam Bộ). Quy đổi tương đương sang Luật 2024: Đất chuyên trồng lúa nước (Mã LUC). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024: Đất thâm canh trồng lúa nhiều vụ trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUC",
+        "name2024": "Đất chuyên trồng lúa nước",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024: Đất thâm canh trồng lúa nhiều vụ trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất lúa 3 vụ. Quy đổi tương đương theo Luật 2024: Đất chuyên trồng lúa nước.",
+        "evolution": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024: Đất thâm canh trồng lúa nhiều vụ trong năm xác định là Đất chuyên trồng lúa nước (mã LUC)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "L3",
-          "doc": "Chỉ thị 299/TTg (Nam Bộ)",
-          "status": "Đất lúa 3 vụ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LUC",
+          "sodo": "LUC",
+          "kk": "LUC",
+          "note": "Quy đổi sang: Đất chuyên trồng lúa nước (Mã LUC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "L3 ➔ LUC",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất chuyên trồng lúa nước"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (Nam Bộ)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LUC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (Nam Bộ)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (Nam Bộ)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "L3",
+          "sodo": "L3",
+          "kk": "L3",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất lúa 3 vụ"
         }
       ],
-      "comparison": {
-        "m24": "LUC",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "L3"
+      "sec3": {
+        "oldScenario": "Đất lúa 3 vụ (Ký hiệu: L3)",
+        "oldDoc": "Chỉ thị 299/TTg (Nam Bộ)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024: Đất thâm canh trồng lúa nhiều vụ trong năm xác định là Đất chuyên trồng lúa nước (mã LUC).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1256,50 +1590,64 @@ window.LAND_DATA = {
         "hex": "#000000",
         "target": "Đất làm muối"
       },
-      "legalBasis": "Khoản 6 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất các ruộng muối biển chuyên dùng cho mục đích sản xuất muối ăn và muối công nghiệp.",
-      "evolutionNote": "Ruộng muối, làm muối biển. Ổn định ký hiệu qua các thời kỳ.",
-      "timeline": [
+      "sec1": {
+        "code2024": "LMU",
+        "name2024": "Đất làm muối",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 6 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất các ruộng muối biển chuyên dùng cho mục đích sản xuất muối ăn và muối công nghiệp.",
+        "evolution": "Ruộng muối, làm muối biển. Ổn định ký hiệu qua các thời kỳ."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "Muối",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LMU",
+          "sodo": "LMU",
+          "kk": "LMU",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất làm muối"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Muối",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LMU",
+          "sodo": "LMU",
+          "kk": "LMU",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LMU | Kiểm kê: LMU",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LMU",
+          "sodo": "LMU",
+          "kk": "LMU",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: LMU | GCN: LMU | KK: LMU",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Muối",
+          "sodo": "Muối",
+          "kk": "Muối",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "LMU",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Muối",
+          "sodo": "Muối",
+          "kk": "Muối",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "LMU",
-        "m13_bddc": "LMU",
-        "m13_sodo": "LMU",
-        "m13_kk": "LMU",
-        "m03_hsdc": "LMU",
-        "m03_kk": "LMU",
-        "m95": "Muối",
-        "m299": "Muối"
+      "sec3": {
+        "oldScenario": "Đất làm muối",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 6 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1322,38 +1670,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây sinh trưởng trên 01 năm thu hoạch nhiều lần xác định là Đất trồng cây lâu năm (mã CLN).",
-      "definition": "Tên gọi: Đất trồng cây lâu năm theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất trồng cây lâu năm (Mã CLN). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây sinh trưởng trên 01 năm thu hoạch nhiều lần xác định là Đất trồng cây lâu năm (mã CLN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây sinh trưởng trên 01 năm thu hoạch nhiều lần xác định là Đất trồng cây lâu năm (mã CLN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng cây lâu năm. Quy đổi tương đương theo Luật 2024: Đất trồng cây lâu năm.",
+        "evolution": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây sinh trưởng trên 01 năm thu hoạch nhiều lần xác định là Đất trồng cây lâu năm (mã CLN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "LN",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất trồng cây lâu năm"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy đổi sang: Đất trồng cây lâu năm (Mã CLN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "LN ➔ CLN",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất trồng cây lâu năm"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CLN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LN",
+          "sodo": "LN",
+          "kk": "LN",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "LN",
+          "sodo": "LN",
+          "kk": "LN",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng cây lâu năm"
         }
       ],
-      "comparison": {
-        "m24": "CLN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "LN",
-        "m299": "LN"
+      "sec3": {
+        "oldScenario": "Đất trồng cây lâu năm (Ký hiệu: LN)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây sinh trưởng trên 01 năm thu hoạch nhiều lần xác định là Đất trồng cây lâu năm (mã CLN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ cấp GCN và công nhận hạn mức đất ở đối với hồ sơ xác lập trước ngày 15/10/1993.",
@@ -1377,38 +1751,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây công nghiệp lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "definition": "Tên gọi: Đất trồng cây công nghiệp lâu năm theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất trồng cây lâu năm (Mã CLN). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây công nghiệp lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây công nghiệp lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng cây công nghiệp lâu năm. Quy đổi tương đương theo Luật 2024: Đất trồng cây lâu năm.",
+        "evolution": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây công nghiệp lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "LNC",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất trồng cây công nghiệp lâu năm"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy đổi sang: Đất trồng cây lâu năm (Mã CLN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "LNC ➔ CLN",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng cây lâu năm"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CLN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNC",
+          "sodo": "LNC",
+          "kk": "LNC",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng cây công nghiệp lâu năm"
         }
       ],
-      "comparison": {
-        "m24": "CLN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "LNC",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trồng cây công nghiệp lâu năm (Ký hiệu: LNC)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây công nghiệp lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1432,38 +1832,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây lâu năm khác theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "definition": "Tên gọi: Đất trồng cây lâu năm khác theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất trồng cây lâu năm (Mã CLN). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây lâu năm khác theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây lâu năm khác theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng cây lâu năm khác. Quy đổi tương đương theo Luật 2024: Đất trồng cây lâu năm.",
+        "evolution": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây lâu năm khác theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "LNK",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất trồng cây lâu năm khác"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy đổi sang: Đất trồng cây lâu năm (Mã CLN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "LNK ➔ CLN",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng cây lâu năm"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CLN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNK",
+          "sodo": "LNK",
+          "kk": "LNK",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng cây lâu năm khác"
         }
       ],
-      "comparison": {
-        "m24": "CLN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "LNK",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trồng cây lâu năm khác (Ký hiệu: LNK)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây lâu năm khác theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1487,38 +1913,64 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
-      "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây ăn quả lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "definition": "Tên gọi: Đất trồng cây ăn quả lâu năm theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất trồng cây lâu năm (Mã CLN). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây ăn quả lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây ăn quả lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng cây ăn quả lâu năm. Quy đổi tương đương theo Luật 2024: Đất trồng cây lâu năm.",
+        "evolution": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây ăn quả lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "LNQ",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất trồng cây ăn quả lâu năm"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy đổi sang: Đất trồng cây lâu năm (Mã CLN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "LNQ ➔ CLN",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng cây lâu năm"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CLN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNQ",
+          "sodo": "LNQ",
+          "kk": "LNQ",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng cây ăn quả lâu năm"
         }
       ],
-      "comparison": {
-        "m24": "CLN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "LNQ",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trồng cây ăn quả lâu năm (Ký hiệu: LNQ)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm c Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng cây ăn quả lâu năm theo Nghị định 181/2004 hợp nhất vào Đất trồng cây lâu năm (mã CLN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1542,50 +1994,64 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
-      "definition": "Đất trồng từ 02 vụ lúa nước trở lên trong năm theo quy định về bảo vệ đất trồng lúa.",
-      "evolutionNote": "Đất chuyên trồng lúa từ 02 vụ trở lên; hạn chế chuyển mục đích sử dụng theo Điều 182 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUC",
+        "name2024": "Đất chuyên trồng lúa",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng từ 02 vụ lúa nước trở lên trong năm theo quy định về bảo vệ đất trồng lúa.",
+        "evolution": "Đất chuyên trồng lúa từ 02 vụ trở lên; hạn chế chuyển mục đích sử dụng theo Điều 182 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "2L",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LUC",
+          "sodo": "LUC",
+          "kk": "LUC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất chuyên trồng lúa nước (trồng từ 2 vụ lúa trở lên)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "2L (hoặc LUC)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUC",
+          "sodo": "LUC",
+          "kk": "LUC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LUC | Kiểm kê: LUC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LUC",
+          "sodo": "LUC",
+          "kk": "LUC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: LUC | GCN: LUC | KK: LUC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "2L (hoặc LUC)",
+          "sodo": "2L (hoặc LUC)",
+          "kk": "2L (hoặc LUC)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "LUC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "2L",
+          "sodo": "2L",
+          "kk": "2L",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "LUC",
-        "m13_bddc": "LUC",
-        "m13_sodo": "LUC",
-        "m13_kk": "LUC",
-        "m03_hsdc": "LUC",
-        "m03_kk": "LUC",
-        "m95": "2L (hoặc LUC)",
-        "m299": "2L"
+      "sec3": {
+        "oldScenario": "Đất chuyên trồng lúa nước (trồng từ 2 vụ lúa trở lên)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1608,50 +2074,64 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
-      "definition": "Đất chỉ trồng được 01 vụ lúa nước trong năm hoặc đất trồng lúa nương.",
-      "evolutionNote": "Đất chỉ trồng được 1 vụ lúa nước trong năm, các vụ khác bỏ hoang hoặc trồng hoa màu, nuôi trồng thủy sản luân canh.",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUK",
+        "name2024": "Đất trồng lúa còn lại",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất chỉ trồng được 01 vụ lúa nước trong năm hoặc đất trồng lúa nương.",
+        "evolution": "Đất chỉ trồng được 1 vụ lúa nước trong năm, các vụ khác bỏ hoang hoặc trồng hoa màu, nuôi trồng thủy sản luân canh."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "1L",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng lúa nước còn lại (trồng 1 vụ lúa trong năm)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "1L (hoặc LUK)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LUK | Kiểm kê: LUK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: LUK | GCN: LUK | KK: LUK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "1L (hoặc LUK)",
+          "sodo": "1L (hoặc LUK)",
+          "kk": "1L (hoặc LUK)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "LUK",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "1L",
+          "sodo": "1L",
+          "kk": "1L",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "LUK",
-        "m13_bddc": "LUK",
-        "m13_sodo": "LUK",
-        "m13_kk": "LUK",
-        "m03_hsdc": "LUK",
-        "m03_kk": "LUK",
-        "m95": "1L (hoặc LUK)",
-        "m299": "1L"
+      "sec3": {
+        "oldScenario": "Đất trồng lúa nước còn lại (trồng 1 vụ lúa trong năm)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1674,50 +2154,64 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
-      "definition": "Đất chỉ trồng được 01 vụ lúa nước trong năm hoặc đất trồng lúa nương.",
-      "evolutionNote": "Luật 2024 không còn duy trì mã riêng LUN mà gộp chung vào đất trồng lúa còn lại (LUK). CSDL cũ ghi LUN được chuẩn hóa thành LUK.",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUK",
+        "name2024": "Đất trồng lúa còn lại",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất chỉ trồng được 01 vụ lúa nước trong năm hoặc đất trồng lúa nương.",
+        "evolution": "Luật 2024 không còn duy trì mã riêng LUN mà gộp chung vào đất trồng lúa còn lại (LUK). CSDL cũ ghi LUN được chuẩn hóa thành LUK."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "L",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng lúa nương (canh tác lúa trên sườn dốc/nương rẫy)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "LN (hoặc L)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUN",
+          "sodo": "LUN",
+          "kk": "LUN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: LUN | Kiểm kê: LUN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LUN",
+          "sodo": "LUN",
+          "kk": "LUN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: LUN | GCN: LUN | KK: LUN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "LN (hoặc L)",
+          "sodo": "LN (hoặc L)",
+          "kk": "LN (hoặc L)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "LUK (gộp)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "L",
+          "sodo": "L",
+          "kk": "L",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "LUK (gộp)",
-        "m13_bddc": "LUN",
-        "m13_sodo": "LUN",
-        "m13_kk": "LUN",
-        "m03_hsdc": "LUN",
-        "m03_kk": "LUN",
-        "m95": "LN (hoặc L)",
-        "m299": "L"
+      "sec3": {
+        "oldScenario": "Đất trồng lúa nương (canh tác lúa trên sườn dốc/nương rẫy)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1740,38 +2234,64 @@ window.LAND_DATA = {
         "hex": "#FFFCB4",
         "target": "Đất trồng lúa nương"
       },
-      "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân loại riêng đất lúa nương, hợp nhất vào Đất trồng lúa nước còn lại (mã LUK).",
-      "definition": "Tên gọi: Đất trồng lúa nương theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất trồng lúa nước còn lại (Mã LUK). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân loại riêng đất lúa nương, hợp nhất vào Đất trồng lúa nước còn lại (mã LUK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUK",
+        "name2024": "Đất trồng lúa nước còn lại",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân loại riêng đất lúa nương, hợp nhất vào Đất trồng lúa nước còn lại (mã LUK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng lúa nương. Quy đổi tương đương theo Luật 2024: Đất trồng lúa nước còn lại.",
+        "evolution": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân loại riêng đất lúa nương, hợp nhất vào Đất trồng lúa nước còn lại (mã LUK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "LUN",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất trồng lúa nương"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Quy đổi sang: Đất trồng lúa nước còn lại (Mã LUK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "LUN ➔ LUK",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng lúa nước còn lại"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUN",
+          "sodo": "LUN",
+          "kk": "LUN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LUK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng lúa nương"
         }
       ],
-      "comparison": {
-        "m24": "LUK",
-        "m13_bddc": "LUN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trồng lúa nương (Ký hiệu: LUN)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm a Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bãi bỏ phân loại riêng đất lúa nương, hợp nhất vào Đất trồng lúa nước còn lại (mã LUK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1795,38 +2315,64 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
       },
-      "legalBasis": "Khoản 1 Điều 9 Luật Đất đai 2024: Đất mạ phục vụ sản xuất nông nghiệp xác định thuộc nhóm đất trồng lúa nước còn lại (LUK) hoặc đất trồng cây hàng năm khác (HNK).",
-      "definition": "Tên gọi: Đất mạ theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất trồng lúa nước còn lại / Cây hàng năm khác (Mã LUK / HNK). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Khoản 1 Điều 9 Luật Đất đai 2024: Đất mạ phục vụ sản xuất nông nghiệp xác định thuộc nhóm đất trồng lúa nước còn lại (LUK) hoặc đất trồng cây hàng năm khác (HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUK",
+        "name2024": "Đất trồng lúa nước còn lại / Cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 9 Luật Đất đai 2024: Đất mạ phục vụ sản xuất nông nghiệp xác định thuộc nhóm đất trồng lúa nước còn lại (LUK) hoặc đất trồng cây hàng năm khác (HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất mạ. Quy đổi tương đương theo Luật 2024: Đất trồng lúa nước còn lại / Cây hàng năm khác.",
+        "evolution": "Khoản 1 Điều 9 Luật Đất đai 2024: Đất mạ phục vụ sản xuất nông nghiệp xác định thuộc nhóm đất trồng lúa nước còn lại (LUK) hoặc đất trồng cây hàng năm khác (HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "M",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất mạ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LUK",
+          "sodo": "LUK",
+          "kk": "LUK",
+          "note": "Quy đổi sang: Đất trồng lúa nước còn lại / Cây hàng năm khác (Mã LUK / HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "M ➔ LUK / HNK",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất trồng lúa nước còn lại / Cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LUK / HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "M",
+          "sodo": "M",
+          "kk": "M",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "M",
+          "sodo": "M",
+          "kk": "M",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất mạ"
         }
       ],
-      "comparison": {
-        "m24": "LUK / HNK",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "M",
-        "m299": "M"
+      "sec3": {
+        "oldScenario": "Đất mạ (Ký hiệu: M)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 9 Luật Đất đai 2024: Đất mạ phục vụ sản xuất nông nghiệp xác định thuộc nhóm đất trồng lúa nước còn lại (LUK) hoặc đất trồng cây hàng năm khác (HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ cấp GCN và công nhận hạn mức đất ở đối với hồ sơ xác lập trước ngày 15/10/1993.",
@@ -1850,38 +2396,64 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất mặt nước ven biển có rừng ngập mặn"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng ngập mặn ven biển xác định là đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD) theo quy hoạch 3 loại rừng.",
-      "definition": "Tên gọi: Mặt nước ven biển có rừng ngập mặn theo Luật 2013 (Thông tư 27/2018/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng phòng hộ / Rừng đặc dụng (Mã RPH / RDD). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng ngập mặn ven biển xác định là đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD) theo quy hoạch 3 loại rừng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ / Rừng đặc dụng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng ngập mặn ven biển xác định là đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD) theo quy hoạch 3 loại rừng.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Mặt nước ven biển có rừng ngập mặn. Quy đổi tương đương theo Luật 2024: Đất rừng phòng hộ / Rừng đặc dụng.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng ngập mặn ven biển xác định là đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD) theo quy hoạch 3 loại rừng."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "MVR",
-          "doc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
-          "status": "Mặt nước ven biển có rừng ngập mặn"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy đổi sang: Đất rừng phòng hộ / Rừng đặc dụng (Mã RPH / RDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "MVR ➔ RPH / RDD",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất rừng phòng hộ / Rừng đặc dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MVR",
+          "sodo": "MVR",
+          "kk": "MVR",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RPH / RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Mặt nước ven biển có rừng ngập mặn"
         }
       ],
-      "comparison": {
-        "m24": "RPH / RDD",
-        "m13_bddc": "MVR",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Mặt nước ven biển có rừng ngập mặn (Ký hiệu: MVR)",
+        "oldDoc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng ngập mặn ven biển xác định là đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD) theo quy hoạch 3 loại rừng.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1905,38 +2477,64 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất mặt nước ven biển nuôi trồng thủy sản"
       },
-      "legalBasis": "Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Thủy sản 2017: Diện tích mặt nước bãi triều thuộc địa giới xã nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
-      "definition": "Tên gọi: Mặt nước ven biển nuôi trồng thủy sản theo Luật 2013 (Thông tư 27/2018/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất nuôi trồng thủy sản (Mã NTS). Quan hệ: 1 -> N.",
-      "evolutionNote": "Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Thủy sản 2017: Diện tích mặt nước bãi triều thuộc địa giới xã nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Thủy sản 2017: Diện tích mặt nước bãi triều thuộc địa giới xã nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Mặt nước ven biển nuôi trồng thủy sản. Quy đổi tương đương theo Luật 2024: Đất nuôi trồng thủy sản.",
+        "evolution": "Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Thủy sản 2017: Diện tích mặt nước bãi triều thuộc địa giới xã nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "MVT",
-          "doc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
-          "status": "Mặt nước ven biển nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy đổi sang: Đất nuôi trồng thủy sản (Mã NTS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "MVT ➔ NTS",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MVT",
+          "sodo": "MVT",
+          "kk": "MVT",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Mặt nước ven biển nuôi trồng thủy sản"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "MVT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Mặt nước ven biển nuôi trồng thủy sản (Ký hiệu: MVT)",
+        "oldDoc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
+        "relation": "1 -> N",
+        "statutoryRule": "Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Thủy sản 2017: Diện tích mặt nước bãi triều thuộc địa giới xã nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -1960,38 +2558,64 @@ window.LAND_DATA = {
         "hex": "#000000",
         "target": "Đất làm muối"
       },
-      "legalBasis": "Điểm e Khoản 1 Điều 9 Luật Đất đai 2024: Đất ruộng phơi muối sản xuất xác định là Đất làm muối (mã LMU).",
-      "definition": "Tên gọi: Đất làm muối theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất làm muối (Mã LMU). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm e Khoản 1 Điều 9 Luật Đất đai 2024: Đất ruộng phơi muối sản xuất xác định là Đất làm muối (mã LMU).",
-      "timeline": [
+      "sec1": {
+        "code2024": "LMU",
+        "name2024": "Đất làm muối",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm e Khoản 1 Điều 9 Luật Đất đai 2024: Đất ruộng phơi muối sản xuất xác định là Đất làm muối (mã LMU).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất làm muối. Quy đổi tương đương theo Luật 2024: Đất làm muối.",
+        "evolution": "Điểm e Khoản 1 Điều 9 Luật Đất đai 2024: Đất ruộng phơi muối sản xuất xác định là Đất làm muối (mã LMU)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "Muối",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất làm muối"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LMU",
+          "sodo": "LMU",
+          "kk": "LMU",
+          "note": "Quy đổi sang: Đất làm muối (Mã LMU)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "Muối ➔ LMU",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất làm muối"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "LMU",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Muối",
+          "sodo": "Muối",
+          "kk": "Muối",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Muối",
+          "sodo": "Muối",
+          "kk": "Muối",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất làm muối"
         }
       ],
-      "comparison": {
-        "m24": "LMU",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "Muối",
-        "m299": "Muối"
+      "sec3": {
+        "oldScenario": "Đất làm muối (Ký hiệu: Muối)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm e Khoản 1 Điều 9 Luật Đất đai 2024: Đất ruộng phơi muối sản xuất xác định là Đất làm muối (mã LMU).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2015,38 +2639,64 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất nương rẫy trồng cây hàng năm khác"
       },
-      "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Hợp nhất đất nương rẫy trồng cây hàng năm vào Đất trồng cây hàng năm khác (mã HNK).",
-      "definition": "Tên gọi: Đất nương rẫy trồng cây hàng năm khác theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất trồng cây hàng năm khác (Mã HNK). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Hợp nhất đất nương rẫy trồng cây hàng năm vào Đất trồng cây hàng năm khác (mã HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Hợp nhất đất nương rẫy trồng cây hàng năm vào Đất trồng cây hàng năm khác (mã HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất nương rẫy trồng cây hàng năm khác. Quy đổi tương đương theo Luật 2024: Đất trồng cây hàng năm khác.",
+        "evolution": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Hợp nhất đất nương rẫy trồng cây hàng năm vào Đất trồng cây hàng năm khác (mã HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "NHK",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất nương rẫy trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy đổi sang: Đất trồng cây hàng năm khác (Mã HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "NHK ➔ HNK",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NHK",
+          "sodo": "NHK",
+          "kk": "NHK",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất nương rẫy trồng cây hàng năm khác"
         }
       ],
-      "comparison": {
-        "m24": "HNK",
-        "m13_bddc": "NHK",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất nương rẫy trồng cây hàng năm khác (Ký hiệu: NHK)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Hợp nhất đất nương rẫy trồng cây hàng năm vào Đất trồng cây hàng năm khác (mã HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2070,50 +2720,64 @@ window.LAND_DATA = {
         "hex": "#F5FFB4",
         "target": "Đất nông nghiệp khác"
       },
-      "legalBasis": "Khoản 7 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất xây dựng nhà kính trồng trọt, vườn ươm giống, chuồng trại chăn nuôi nhỏ lẻ hộ gia đình, cơ sở nghiên cứu thí nghiệm.",
-      "evolutionNote": "Bao gồm đất xây dựng nhà kính trồng trọt, chuồng trại nông hộ nhỏ, vườn ươm giống, nghiên cứu thí nghiệm nông nghiệp.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NKH",
+        "name2024": "Đất nông nghiệp khác",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 7 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất xây dựng nhà kính trồng trọt, vườn ươm giống, chuồng trại chăn nuôi nhỏ lẻ hộ gia đình, cơ sở nghiên cứu thí nghiệm.",
+        "evolution": "Bao gồm đất xây dựng nhà kính trồng trọt, chuồng trại nông hộ nhỏ, vườn ươm giống, nghiên cứu thí nghiệm nông nghiệp."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C (Nông nghiệp)",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NKH",
+          "sodo": "NKH",
+          "kk": "NKH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất nông nghiệp khác (nhà kính, ươm giống, nghiên cứu nông nghiệp...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "NKH",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NKH",
+          "sodo": "NKH",
+          "kk": "NKH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NKH | Kiểm kê: NKH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NKH",
+          "sodo": "NKH",
+          "kk": "NKH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NKH | GCN: NKH | KK: NKH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "NKH",
+          "sodo": "NKH",
+          "kk": "NKH",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "NKH",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C (Nông nghiệp)",
+          "sodo": "C (Nông nghiệp)",
+          "kk": "C (Nông nghiệp)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "NKH",
-        "m13_bddc": "NKH",
-        "m13_sodo": "NKH",
-        "m13_kk": "NKH",
-        "m03_hsdc": "NKH",
-        "m03_kk": "NKH",
-        "m95": "NKH",
-        "m299": "C (Nông nghiệp)"
+      "sec3": {
+        "oldScenario": "Đất nông nghiệp khác (nhà kính, ươm giống, nghiên cứu nông nghiệp...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 7 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2136,50 +2800,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
-      "legalBasis": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất có mặt nước nội địa, bãi bồi ven sông, ven biển chuyên dùng để nuôi trồng thủy sản nước ngọt, lợ, mặn.",
-      "evolutionNote": "Nuôi thủy hải sản nước ngọt, lợ, mặn. Giai đoạn 1995-2001 thường ký hiệu TSN hoặc Ao.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất có mặt nước nội địa, bãi bồi ven sông, ven biển chuyên dùng để nuôi trồng thủy sản nước ngọt, lợ, mặn.",
+        "evolution": "Nuôi thủy hải sản nước ngọt, lợ, mặn. Giai đoạn 1995-2001 thường ký hiệu TSN hoặc Ao."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "Ao",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất nuôi trồng thủy sản"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "TSN (hoặc Ao)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NTS | Kiểm kê: NTS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NTS | GCN: NTS | KK: NTS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "TSN (hoặc Ao)",
+          "sodo": "TSN (hoặc Ao)",
+          "kk": "TSN (hoặc Ao)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Ao",
+          "sodo": "Ao",
+          "kk": "Ao",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "NTS",
-        "m13_sodo": "NTS",
-        "m13_kk": "NTS",
-        "m03_hsdc": "NTS",
-        "m03_kk": "NTS",
-        "m95": "TSN (hoặc Ao)",
-        "m299": "Ao"
+      "sec3": {
+        "oldScenario": "Đất nuôi trồng thủy sản",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2202,50 +2880,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
-      "legalBasis": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất có mặt nước nội địa, bãi bồi ven sông, ven biển chuyên dùng để nuôi trồng thủy sản nước ngọt, lợ, mặn.",
-      "evolutionNote": "Ký hiệu 'Ao' xuất hiện phổ biến trong sổ mục kê 299 và sổ cấp theo QĐ 499. Nếu nuôi cá chuyển thành NTS, nếu mặt nước cảnh quan thành MNC, nếu gắn liền đất ở xác định theo hạn mức.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất có mặt nước nội địa, bãi bồi ven sông, ven biển chuyên dùng để nuôi trồng thủy sản nước ngọt, lợ, mặn.",
+        "evolution": "Ký hiệu 'Ao' xuất hiện phổ biến trong sổ mục kê 299 và sổ cấp theo QĐ 499. Nếu nuôi cá chuyển thành NTS, nếu mặt nước cảnh quan thành MNC, nếu gắn liền đất ở xác định theo hạn mức."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "Ao",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất ao (thuộc nhóm đất nông nghiệp)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Ao",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NTS / Ao | Kiểm kê: Ao / NTS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NTS / Ao",
+          "sodo": "NTS / Ao",
+          "kk": "Ao / NTS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NTS | GCN: NTS | KK: NTS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Ao",
+          "sodo": "Ao",
+          "kk": "Ao",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "NTS (hoặc MNC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Ao",
+          "sodo": "Ao",
+          "kk": "Ao",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "NTS (hoặc MNC)",
-        "m13_bddc": "NTS",
-        "m13_sodo": "NTS",
-        "m13_kk": "NTS",
-        "m03_hsdc": "NTS / Ao",
-        "m03_kk": "Ao / NTS",
-        "m95": "Ao",
-        "m299": "Ao"
+      "sec3": {
+        "oldScenario": "Đất ao (thuộc nhóm đất nông nghiệp)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -2268,38 +2960,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Lâm nghiệp 2017: Căn cứ quy hoạch 3 loại rừng cấp tỉnh được phê duyệt để xác định mục đích là đất rừng sản xuất (RSX), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
-      "definition": "Tên gọi: Đất rừng theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất rừng sản xuất / Phòng hộ / Đặc dụng (Mã RSX / RPH / RDD). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Lâm nghiệp 2017: Căn cứ quy hoạch 3 loại rừng cấp tỉnh được phê duyệt để xác định mục đích là đất rừng sản xuất (RSX), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất / Phòng hộ / Đặc dụng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Lâm nghiệp 2017: Căn cứ quy hoạch 3 loại rừng cấp tỉnh được phê duyệt để xác định mục đích là đất rừng sản xuất (RSX), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất rừng. Quy đổi tương đương theo Luật 2024: Đất rừng sản xuất / Phòng hộ / Đặc dụng.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Lâm nghiệp 2017: Căn cứ quy hoạch 3 loại rừng cấp tỉnh được phê duyệt để xác định mục đích là đất rừng sản xuất (RSX), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "R / Lâm nghiệp",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất rừng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy đổi sang: Đất rừng sản xuất / Phòng hộ / Đặc dụng (Mã RSX / RPH / RDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "R / Lâm nghiệp ➔ RSX / RPH / RDD",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất rừng sản xuất / Phòng hộ / Đặc dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSX / RPH / RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "R / Lâm nghiệp",
+          "sodo": "R / Lâm nghiệp",
+          "kk": "R / Lâm nghiệp",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R / Lâm nghiệp",
+          "sodo": "R / Lâm nghiệp",
+          "kk": "R / Lâm nghiệp",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất rừng"
         }
       ],
-      "comparison": {
-        "m24": "RSX / RPH / RDD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "R / Lâm nghiệp",
-        "m299": "R / Lâm nghiệp"
+      "sec3": {
+        "oldScenario": "Đất rừng (Ký hiệu: R / Lâm nghiệp)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024 và Luật Lâm nghiệp 2017: Căn cứ quy hoạch 3 loại rừng cấp tỉnh được phê duyệt để xác định mục đích là đất rừng sản xuất (RSX), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2323,50 +3041,64 @@ window.LAND_DATA = {
         "hex": "#6EFF64",
         "target": "Đất rừng đặc dụng"
       },
-      "legalBasis": "Điểm a Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng cho mục đích bảo tồn hệ sinh thái, nghiên cứu khoa học, bảo tồn nguồn gen sinh vật, di tích lịch sử...",
-      "evolutionNote": "Vườn quốc gia, khu bảo tồn thiên nhiên, khu dự trữ sinh quyển. Kiểm kê 2018 có mã con RDN, RDT, RDM.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RDD",
+        "name2024": "Đất rừng đặc dụng",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm a Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng cho mục đích bảo tồn hệ sinh thái, nghiên cứu khoa học, bảo tồn nguồn gen sinh vật, di tích lịch sử...",
+        "evolution": "Vườn quốc gia, khu bảo tồn thiên nhiên, khu dự trữ sinh quyển. Kiểm kê 2018 có mã con RDN, RDT, RDM."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất rừng đặc dụng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "RDD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RDD | Kiểm kê: RDD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RDD | GCN: RDD | KK: RDD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RDD",
-        "m13_bddc": "RDD",
-        "m13_sodo": "RDD",
-        "m13_kk": "RDD",
-        "m03_hsdc": "RDD",
-        "m03_kk": "RDD",
-        "m95": "RDD",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất rừng đặc dụng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2389,38 +3121,64 @@ window.LAND_DATA = {
         "hex": "#6EFF64",
         "target": "Đất có rừng đặc dụng là rừng tự nhiên"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
-      "definition": "Tên gọi: Rừng tự nhiên đặc dụng theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng đặc dụng (Mã RDD). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RDD",
+        "name2024": "Đất rừng đặc dụng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng tự nhiên đặc dụng. Quy đổi tương đương theo Luật 2024: Đất rừng đặc dụng.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RDN",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Rừng tự nhiên đặc dụng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Quy đổi sang: Đất rừng đặc dụng (Mã RDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RDN ➔ RDD",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng đặc dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RDN",
+          "sodo": "RDN",
+          "kk": "RDN",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng tự nhiên đặc dụng"
         }
       ],
-      "comparison": {
-        "m24": "RDD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RDN",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng tự nhiên đặc dụng (Ký hiệu: RDN)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2444,38 +3202,64 @@ window.LAND_DATA = {
         "hex": "#6EFF64",
         "target": "Đất có rừng đặc dụng là rừng trồng"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
-      "definition": "Tên gọi: Rừng trồng đặc dụng theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng đặc dụng (Mã RDD). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RDD",
+        "name2024": "Đất rừng đặc dụng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng trồng đặc dụng. Quy đổi tương đương theo Luật 2024: Đất rừng đặc dụng.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RDT",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Rừng trồng đặc dụng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RDD",
+          "sodo": "RDD",
+          "kk": "RDD",
+          "note": "Quy đổi sang: Đất rừng đặc dụng (Mã RDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RDT ➔ RDD",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng đặc dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RDT",
+          "sodo": "RDT",
+          "kk": "RDT",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng trồng đặc dụng"
         }
       ],
-      "comparison": {
-        "m24": "RDD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RDT",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng trồng đặc dụng (Ký hiệu: RDT)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng đặc dụng thuộc nhóm Đất rừng đặc dụng (mã RDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2499,50 +3283,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
-      "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
-      "evolutionNote": "Bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, sạt lở. Kiểm kê 2018 có mã con RPN (tự nhiên), RPT (trồng), RPM (khoanh nuôi).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
+        "evolution": "Bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, sạt lở. Kiểm kê 2018 có mã con RPN (tự nhiên), RPT (trồng), RPM (khoanh nuôi)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất rừng phòng hộ"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "RPH",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RPH | Kiểm kê: RPH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RPH | GCN: RPH | KK: RPH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RPH",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RPH",
-        "m13_bddc": "RPH",
-        "m13_sodo": "RPH",
-        "m13_kk": "RPH",
-        "m03_hsdc": "RPH",
-        "m03_kk": "RPH",
-        "m95": "RPH",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất rừng phòng hộ",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2565,50 +3363,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
-      "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
-      "evolutionNote": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT & TT 28/2004/TT-BTNMT: Chỉ tiêu kiểm kê cấp 3; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
+        "evolution": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT & TT 28/2004/TT-BTNMT: Chỉ tiêu kiểm kê cấp 3; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khoanh nuôi phục hồi rừng phòng hộ"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "RPH",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPM",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RPH | Kiểm kê: RPK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RPH | GCN: RPH | KK: RPM",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RPH (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RPH (quy đổi)",
-        "m13_bddc": "RPH",
-        "m13_sodo": "RPH",
-        "m13_kk": "RPM",
-        "m03_hsdc": "RPH",
-        "m03_kk": "RPK",
-        "m95": "RPH",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất khoanh nuôi phục hồi rừng phòng hộ",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2631,50 +3443,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
-      "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 & Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang bảo vệ rừng; mục đích sử dụng đất xác định theo phân loại đất rừng phòng hộ (RPH) hoặc rừng sản xuất (RSX).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, chống sa mạc hóa, hạn chế thiên tai...",
+        "evolution": "Điều 210 Luật Đất đai 2024 & Điều 62 Luật Lâm nghiệp 2017: Đất thuộc phạm vi hành lang bảo vệ rừng; mục đích sử dụng đất xác định theo phân loại đất rừng phòng hộ (RPH) hoặc rừng sản xuất (RSX)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hành lang rừng",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RPH / RSX",
+          "sodo": "RPH / RSX",
+          "kk": "RPH / RSX",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RPH / RSX | Kiểm kê: HLR",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPH / RSX",
+          "sodo": "RPH / RSX",
+          "kk": "HLR",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RPH / RSX | GCN: RPH / RSX | KK: RPH / RSX",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hành lang rừng",
+          "sodo": "Hành lang rừng",
+          "kk": "Hành lang rừng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RPH / RSX (hành lang)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RPH / RSX (hành lang)",
-        "m13_bddc": "RPH / RSX",
-        "m13_sodo": "RPH / RSX",
-        "m13_kk": "RPH / RSX",
-        "m03_hsdc": "RPH / RSX",
-        "m03_kk": "HLR",
-        "m95": "Hành lang rừng",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điểm b Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2697,38 +3523,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
-      "legalBasis": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng phòng hộ; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "definition": "Tên gọi: Đất khoanh nuôi phục hồi rừng phòng hộ theo Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng phòng hộ (Mã RPH). Quan hệ: N -> 1.",
-      "evolutionNote": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng phòng hộ; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Nông nghiệp",
+        "legalBasis": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng phòng hộ; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất khoanh nuôi phục hồi rừng phòng hộ. Quy đổi tương đương theo Luật 2024: Đất rừng phòng hộ.",
+        "evolution": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng phòng hộ; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RPK",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)",
-          "status": "Đất khoanh nuôi phục hồi rừng phòng hộ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy đổi sang: Đất rừng phòng hộ (Mã RPH)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RPK ➔ RPH",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng phòng hộ"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RPH",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPK",
+          "sodo": "RPK",
+          "kk": "RPK",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất khoanh nuôi phục hồi rừng phòng hộ"
         }
       ],
-      "comparison": {
-        "m24": "RPH",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RPK",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khoanh nuôi phục hồi rừng phòng hộ (Ký hiệu: RPK)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng phòng hộ; tương đương mã RPH theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2752,38 +3604,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất có rừng phòng hộ là rừng tự nhiên"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
-      "definition": "Tên gọi: Rừng tự nhiên phòng hộ theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng phòng hộ (Mã RPH). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng tự nhiên phòng hộ. Quy đổi tương đương theo Luật 2024: Đất rừng phòng hộ.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RPN",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Rừng tự nhiên phòng hộ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy đổi sang: Đất rừng phòng hộ (Mã RPH)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RPN ➔ RPH",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng phòng hộ"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RPH",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPN",
+          "sodo": "RPN",
+          "kk": "RPN",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng tự nhiên phòng hộ"
         }
       ],
-      "comparison": {
-        "m24": "RPH",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RPN",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng tự nhiên phòng hộ (Ký hiệu: RPN)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2807,38 +3685,64 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất có rừng phòng hộ là rừng trồng"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
-      "definition": "Tên gọi: Rừng trồng phòng hộ theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng phòng hộ (Mã RPH). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng trồng phòng hộ. Quy đổi tương đương theo Luật 2024: Đất rừng phòng hộ.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RPT",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Rừng trồng phòng hộ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RPH",
+          "sodo": "RPH",
+          "kk": "RPH",
+          "note": "Quy đổi sang: Đất rừng phòng hộ (Mã RPH)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RPT ➔ RPH",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng phòng hộ"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RPH",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RPT",
+          "sodo": "RPT",
+          "kk": "RPT",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng trồng phòng hộ"
         }
       ],
-      "comparison": {
-        "m24": "RPH",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RPT",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng trồng phòng hộ (Ký hiệu: RPT)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng phòng hộ thuộc nhóm Đất rừng phòng hộ (mã RPH).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2862,38 +3766,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng sản xuất; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "definition": "Tên gọi: Đất khoanh nuôi phục hồi rừng sản xuất theo Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng sản xuất (Mã RSX). Quan hệ: N -> 1.",
-      "evolutionNote": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng sản xuất; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Nông nghiệp",
+        "legalBasis": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng sản xuất; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất khoanh nuôi phục hồi rừng sản xuất. Quy đổi tương đương theo Luật 2024: Đất rừng sản xuất.",
+        "evolution": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng sản xuất; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RSK",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)",
-          "status": "Đất khoanh nuôi phục hồi rừng sản xuất"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy đổi sang: Đất rừng sản xuất (Mã RSX)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RSK ➔ RSX",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng sản xuất"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSK",
+          "sodo": "RSK",
+          "kk": "RSK",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất khoanh nuôi phục hồi rừng sản xuất"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RSK",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khoanh nuôi phục hồi rừng sản xuất (Ký hiệu: RSK)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT, TT 28/2004/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT và Thông tư 28/2004/TT-BTNMT: Là chỉ tiêu kiểm kê cấp 3 thuộc nhóm đất rừng sản xuất; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2917,50 +3847,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
       },
-      "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Chỉ tiêu con bắt buộc trong đất rừng sản xuất nhằm bảo vệ nguyên vẹn diện tích rừng tự nhiên theo quy định.",
-      "evolutionNote": "Thông tư 08/2024/TT-BTNMT quy định RSN là chỉ tiêu phân loại chi tiết trong đất rừng sản xuất RSX để theo dõi diện tích rừng tự nhiên.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSN",
+        "name2024": "Trong đó: Đất rừng sản xuất là rừng tự nhiên",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Chỉ tiêu con bắt buộc trong đất rừng sản xuất nhằm bảo vệ nguyên vẹn diện tích rừng tự nhiên theo quy định.",
+        "evolution": "Thông tư 08/2024/TT-BTNMT quy định RSN là chỉ tiêu phân loại chi tiết trong đất rừng sản xuất RSX để theo dõi diện tích rừng tự nhiên."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RSN",
+          "sodo": "RSN",
+          "kk": "RSN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có rừng sản xuất là rừng tự nhiên"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Rừng tự nhiên",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RSX (RSN) | Kiểm kê: RSX (RSN)",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX (RSN)",
+          "sodo": "RSX (RSN)",
+          "kk": "RSX (RSN)",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RSX | GCN: RSX | KK: RSN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Rừng tự nhiên",
+          "sodo": "Rừng tự nhiên",
+          "kk": "Rừng tự nhiên",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RSN (hoặc RSX)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RSN (hoặc RSX)",
-        "m13_bddc": "RSX",
-        "m13_sodo": "RSX",
-        "m13_kk": "RSN",
-        "m03_hsdc": "RSX (RSN)",
-        "m03_kk": "RSX (RSN)",
-        "m95": "Rừng tự nhiên",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất có rừng sản xuất là rừng tự nhiên",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -2983,38 +3927,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng trồng"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng sản xuất thuộc nhóm Đất rừng sản xuất (mã RSX).",
-      "definition": "Tên gọi: Rừng trồng sản xuất theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất rừng sản xuất (Mã RSX). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng sản xuất thuộc nhóm Đất rừng sản xuất (mã RSX).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng sản xuất thuộc nhóm Đất rừng sản xuất (mã RSX).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng trồng sản xuất. Quy đổi tương đương theo Luật 2024: Đất rừng sản xuất.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng sản xuất thuộc nhóm Đất rừng sản xuất (mã RSX)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RST",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Rừng trồng sản xuất"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy đổi sang: Đất rừng sản xuất (Mã RSX)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RST ➔ RSX",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất rừng sản xuất"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RST",
+          "sodo": "RST",
+          "kk": "RST",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng trồng sản xuất"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "RST",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng trồng sản xuất (Ký hiệu: RST)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng trồng sản xuất thuộc nhóm Đất rừng sản xuất (mã RSX).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3038,50 +4008,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
-      "evolutionNote": "Đất rừng phục vụ khai thác gỗ, lâm sản. Luật 2024 phân nhánh chỉ tiêu RSN cho rừng tự nhiên.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
+        "evolution": "Đất rừng phục vụ khai thác gỗ, lâm sản. Luật 2024 phân nhánh chỉ tiêu RSN cho rừng tự nhiên."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất rừng sản xuất (nói chung)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Rừng sản xuất",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RSX | Kiểm kê: RSX",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RSX | GCN: RSX | KK: RSX",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Rừng sản xuất",
+          "sodo": "Rừng sản xuất",
+          "kk": "Rừng sản xuất",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "RSX",
-        "m13_sodo": "RSX",
-        "m13_kk": "RSX",
-        "m03_hsdc": "RSX",
-        "m03_kk": "RSX",
-        "m95": "Rừng sản xuất",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất rừng sản xuất (nói chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3104,50 +4088,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
-      "evolutionNote": "Trong thống kê kiểm kê TT 27/2018 dùng RST. Trên bản đồ địa chính Luật 2024 thể hiện chung là RSX.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
+        "evolution": "Trong thống kê kiểm kê TT 27/2018 dùng RST. Trên bản đồ địa chính Luật 2024 thể hiện chung là RSX."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có rừng sản xuất là rừng trồng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Rừng trồng",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RST",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RSX (RST) | Kiểm kê: RSX (RST)",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX (RST)",
+          "sodo": "RSX (RST)",
+          "kk": "RSX (RST)",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RSX | GCN: RSX | KK: RST",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Rừng trồng",
+          "sodo": "Rừng trồng",
+          "kk": "Rừng trồng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "RSX",
-        "m13_sodo": "RSX",
-        "m13_kk": "RST",
-        "m03_hsdc": "RSX (RST)",
-        "m03_kk": "RSX (RST)",
-        "m95": "Rừng trồng",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất có rừng sản xuất là rừng trồng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3170,50 +4168,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
-      "evolutionNote": "Mã RSM dùng trong kiểm kê đất đai thời kỳ 2013-2018. Trên bản đồ địa chính Luật 2024 thuộc RSX.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
+        "evolution": "Mã RSM dùng trong kiểm kê đất đai thời kỳ 2013-2018. Trên bản đồ địa chính Luật 2024 thuộc RSX."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất đang sử dụng để phát triển rừng sản xuất (khoanh nuôi mới)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Đất trồng rừng",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSM",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RSX | Kiểm kê: RSX",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RSX | GCN: RSX | KK: RSM",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đất trồng rừng",
+          "sodo": "Đất trồng rừng",
+          "kk": "Đất trồng rừng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "RSX",
-        "m13_sodo": "RSX",
-        "m13_kk": "RSM",
-        "m03_hsdc": "RSX",
-        "m03_kk": "RSX",
-        "m95": "Đất trồng rừng",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất đang sử dụng để phát triển rừng sản xuất (khoanh nuôi mới)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3236,50 +4248,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
-      "definition": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
-      "evolutionNote": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT & TT 28/2004/TT-BTNMT: Chỉ tiêu kiểm kê cấp 3; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sử dụng chủ yếu để sản xuất gỗ, lâm sản ngoài gỗ và kết hợp bảo vệ môi trường sinh thái.",
+        "evolution": "Phụ lục 01 Thông tư 08/2007/TT-BTNMT & TT 28/2004/TT-BTNMT: Chỉ tiêu kiểm kê cấp 3; tương đương mã RSX theo quy định tại Thông tư 25/2014/TT-BTNMT và Thông tư 08/2024/TT-BTNMT."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khoanh nuôi phục hồi rừng sản xuất"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Rừng sản xuất",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSM",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: RSX | Kiểm kê: RSK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: RSX | GCN: RSX | KK: RSM",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Rừng sản xuất",
+          "sodo": "Rừng sản xuất",
+          "kk": "Rừng sản xuất",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "RSX (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "RSX (quy đổi)",
-        "m13_bddc": "RSX",
-        "m13_sodo": "RSX",
-        "m13_kk": "RSM",
-        "m03_hsdc": "RSX",
-        "m03_kk": "RSK",
-        "m95": "Rừng sản xuất",
-        "m299": "R"
+      "sec3": {
+        "oldScenario": "Đất khoanh nuôi phục hồi rừng sản xuất",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 3 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3302,38 +4328,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Thông tư 1990/2001/TT-TCĐC và Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Tên viết tắt thực tế trên Giấy chứng nhận quyền sử dụng đất; tương đương đất rừng sản xuất (mã RSX).",
-      "definition": "Tên gọi: Rừng trồng sản xuất (viết tắt Sổ đỏ cũ) theo Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005). Quy đổi tương đương sang Luật 2024: Đất rừng sản xuất (Mã RSX). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Thông tư 1990/2001/TT-TCĐC và Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Tên viết tắt thực tế trên Giấy chứng nhận quyền sử dụng đất; tương đương đất rừng sản xuất (mã RSX).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Nông nghiệp",
+        "legalBasis": "Thông tư 1990/2001/TT-TCĐC và Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Tên viết tắt thực tế trên Giấy chứng nhận quyền sử dụng đất; tương đương đất rừng sản xuất (mã RSX).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Rừng trồng sản xuất (viết tắt Sổ đỏ cũ). Quy đổi tương đương theo Luật 2024: Đất rừng sản xuất.",
+        "evolution": "Thông tư 1990/2001/TT-TCĐC và Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Tên viết tắt thực tế trên Giấy chứng nhận quyền sử dụng đất; tương đương đất rừng sản xuất (mã RSX)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "RTS",
-          "doc": "Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005)",
-          "status": "Rừng trồng sản xuất (viết tắt Sổ đỏ cũ)"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy đổi sang: Đất rừng sản xuất (Mã RSX)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "RTS ➔ RSX",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất rừng sản xuất"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSX",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "RTS",
+          "sodo": "RTS",
+          "kk": "RTS",
+          "note": "Thời kỳ áp dụng: Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Rừng trồng sản xuất (viết tắt Sổ đỏ cũ)"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "RTS",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Rừng trồng sản xuất (viết tắt Sổ đỏ cũ) (Ký hiệu: RTS)",
+        "oldDoc": "Luật 1993 (GCN QSDĐ cũ cấp tại một số địa phương 1995 - 2005)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 1990/2001/TT-TCĐC và Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Tên viết tắt thực tế trên Giấy chứng nhận quyền sử dụng đất; tương đương đất rừng sản xuất (mã RSX).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3357,38 +4409,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên xác định là đất rừng sản xuất là rừng tự nhiên (RSN), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
-      "definition": "Tên gọi: Đất rừng tự nhiên theo Chỉ thị 299/TTg. Quy đổi tương đương sang Luật 2024: Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng (Mã RSN / RPH / RDD). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên xác định là đất rừng sản xuất là rừng tự nhiên (RSN), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSN",
+        "name2024": "Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên xác định là đất rừng sản xuất là rừng tự nhiên (RSN), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất rừng tự nhiên. Quy đổi tương đương theo Luật 2024: Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên xác định là đất rừng sản xuất là rừng tự nhiên (RSN), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TN",
-          "doc": "Chỉ thị 299/TTg",
-          "status": "Đất rừng tự nhiên"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSN",
+          "sodo": "RSN",
+          "kk": "RSN",
+          "note": "Quy đổi sang: Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng (Mã RSN / RPH / RDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TN ➔ RSN / RPH / RDD",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSN / RPH / RDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "TN",
+          "sodo": "TN",
+          "kk": "TN",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất rừng tự nhiên"
         }
       ],
-      "comparison": {
-        "m24": "RSN / RPH / RDD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "TN"
+      "sec3": {
+        "oldScenario": "Đất rừng tự nhiên (Ký hiệu: TN)",
+        "oldDoc": "Chỉ thị 299/TTg",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Rừng tự nhiên xác định là đất rừng sản xuất là rừng tự nhiên (RSN), đất rừng phòng hộ (RPH) hoặc đất rừng đặc dụng (RDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3412,38 +4490,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
-      "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất mặt nước nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
-      "definition": "Tên gọi: Đất nuôi trồng thủy sản theo QĐ 499 (1995), TT 1990/2001. Quy đổi tương đương sang Luật 2024: Đất nuôi trồng thủy sản (Mã NTS). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất mặt nước nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất mặt nước nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất nuôi trồng thủy sản. Quy đổi tương đương theo Luật 2024: Đất nuôi trồng thủy sản.",
+        "evolution": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất mặt nước nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TS",
-          "doc": "QĐ 499 (1995), TT 1990/2001",
-          "status": "Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy đổi sang: Đất nuôi trồng thủy sản (Mã NTS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TS ➔ NTS",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: QĐ 499 (1995), TT 1990/2001"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: QĐ 499 (1995), TT 1990/2001"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "TS",
+          "sodo": "TS",
+          "kk": "TS",
+          "note": "Thời kỳ áp dụng: QĐ 499 (1995), TT 1990/2001"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất nuôi trồng thủy sản"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "TS",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất nuôi trồng thủy sản (Ký hiệu: TS)",
+        "oldDoc": "QĐ 499 (1995), TT 1990/2001",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất mặt nước nuôi trồng thủy sản xác định là Đất nuôi trồng thủy sản (mã NTS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3467,38 +4571,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
-      "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước lợ, mặn hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
-      "definition": "Tên gọi: Đất nuôi trồng thủy sản nước lợ, mặn theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất nuôi trồng thủy sản (Mã NTS). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước lợ, mặn hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước lợ, mặn hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất nuôi trồng thủy sản nước lợ, mặn. Quy đổi tương đương theo Luật 2024: Đất nuôi trồng thủy sản.",
+        "evolution": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước lợ, mặn hợp nhất vào Đất nuôi trồng thủy sản (mã NTS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TSL",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất nuôi trồng thủy sản nước lợ, mặn"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy đổi sang: Đất nuôi trồng thủy sản (Mã NTS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TSL ➔ NTS",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TSL",
+          "sodo": "TSL",
+          "kk": "TSL",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất nuôi trồng thủy sản nước lợ, mặn"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "TSL",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất nuôi trồng thủy sản nước lợ, mặn (Ký hiệu: TSL)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước lợ, mặn hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3522,38 +4652,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
-      "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước ngọt hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
-      "definition": "Tên gọi: Đất nuôi trồng thủy sản nước ngọt theo Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007). Quy đổi tương đương sang Luật 2024: Đất nuôi trồng thủy sản (Mã NTS). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước ngọt hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTS",
+        "name2024": "Đất nuôi trồng thủy sản",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước ngọt hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất nuôi trồng thủy sản nước ngọt. Quy đổi tương đương theo Luật 2024: Đất nuôi trồng thủy sản.",
+        "evolution": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước ngọt hợp nhất vào Đất nuôi trồng thủy sản (mã NTS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TSN",
-          "doc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
-          "status": "Đất nuôi trồng thủy sản nước ngọt"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTS",
+          "sodo": "NTS",
+          "kk": "NTS",
+          "note": "Quy đổi sang: Đất nuôi trồng thủy sản (Mã NTS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TSN ➔ NTS",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất nuôi trồng thủy sản"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TSN",
+          "sodo": "TSN",
+          "kk": "TSN",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất nuôi trồng thủy sản nước ngọt"
         }
       ],
-      "comparison": {
-        "m24": "NTS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "TSN",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất nuôi trồng thủy sản nước ngọt (Ký hiệu: TSN)",
+        "oldDoc": "Luật 2003 (Điều 6 NĐ 181/2004, TT 08/2007)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm đ Khoản 1 Điều 9 Luật Đất đai 2024: Đất nuôi trồng thủy sản nước ngọt hợp nhất vào Đất nuôi trồng thủy sản (mã NTS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3577,38 +4733,64 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng rừng kinh tế hoặc phòng hộ xác định là đất rừng sản xuất (RSX) hoặc đất rừng phòng hộ (RPH) theo phân loại rừng.",
-      "definition": "Tên gọi: Đất trồng rừng theo Chỉ thị 299/TTg. Quy đổi tương đương sang Luật 2024: Đất rừng sản xuất / Rừng phòng hộ (Mã RSX / RPH). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng rừng kinh tế hoặc phòng hộ xác định là đất rừng sản xuất (RSX) hoặc đất rừng phòng hộ (RPH) theo phân loại rừng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất / Rừng phòng hộ",
+        "group": "Nông nghiệp",
+        "legalBasis": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng rừng kinh tế hoặc phòng hộ xác định là đất rừng sản xuất (RSX) hoặc đất rừng phòng hộ (RPH) theo phân loại rừng.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng rừng. Quy đổi tương đương theo Luật 2024: Đất rừng sản xuất / Rừng phòng hộ.",
+        "evolution": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng rừng kinh tế hoặc phòng hộ xác định là đất rừng sản xuất (RSX) hoặc đất rừng phòng hộ (RPH) theo phân loại rừng."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "Tr",
-          "doc": "Chỉ thị 299/TTg",
-          "status": "Đất trồng rừng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "RSX",
+          "sodo": "RSX",
+          "kk": "RSX",
+          "note": "Quy đổi sang: Đất rừng sản xuất / Rừng phòng hộ (Mã RSX / RPH)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "Tr ➔ RSX / RPH",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất rừng sản xuất / Rừng phòng hộ"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "RSX / RPH",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Tr",
+          "sodo": "Tr",
+          "kk": "Tr",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng rừng"
         }
       ],
-      "comparison": {
-        "m24": "RSX / RPH",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "Tr"
+      "sec3": {
+        "oldScenario": "Đất trồng rừng (Ký hiệu: Tr)",
+        "oldDoc": "Chỉ thị 299/TTg",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm d Khoản 1 Điều 9 Luật Đất đai 2024: Đất trồng rừng kinh tế hoặc phòng hộ xác định là đất rừng sản xuất (RSX) hoặc đất rừng phòng hộ (RPH) theo phân loại rừng.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3632,38 +4814,64 @@ window.LAND_DATA = {
         "hex": "#FFE6A0",
         "target": "Đất vườn (299)"
       },
-      "legalBasis": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất vườn trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất vườn độc lập xác định là đất trồng cây lâu năm (CLN) hoặc đất trồng cây hàng năm khác (HNK) theo hiện trạng sử dụng.",
-      "definition": "Tên gọi: Đất vườn theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất trồng cây lâu năm / Đất trồng cây hàng năm khác (Mã CLN / HNK). Quan hệ: 1 -> 1 hoặc 1 -> N.",
-      "evolutionNote": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất vườn trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất vườn độc lập xác định là đất trồng cây lâu năm (CLN) hoặc đất trồng cây hàng năm khác (HNK) theo hiện trạng sử dụng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CLN",
+        "name2024": "Đất trồng cây lâu năm / Đất trồng cây hàng năm khác",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất vườn trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất vườn độc lập xác định là đất trồng cây lâu năm (CLN) hoặc đất trồng cây hàng năm khác (HNK) theo hiện trạng sử dụng.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất vườn. Quy đổi tương đương theo Luật 2024: Đất trồng cây lâu năm / Đất trồng cây hàng năm khác.",
+        "evolution": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất vườn trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất vườn độc lập xác định là đất trồng cây lâu năm (CLN) hoặc đất trồng cây hàng năm khác (HNK) theo hiện trạng sử dụng."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "V",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất vườn"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CLN",
+          "sodo": "CLN",
+          "kk": "CLN",
+          "note": "Quy đổi sang: Đất trồng cây lâu năm / Đất trồng cây hàng năm khác (Mã CLN / HNK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "V ➔ CLN / HNK",
-          "doc": "1 -> 1 hoặc 1 -> N",
-          "status": "Quy đổi sang: Đất trồng cây lâu năm / Đất trồng cây hàng năm khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "CLN / HNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "V",
+          "sodo": "V",
+          "kk": "V",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "V",
+          "sodo": "V",
+          "kk": "V",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất vườn"
         }
       ],
-      "comparison": {
-        "m24": "CLN / HNK",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "V",
-        "m299": "V"
+      "sec3": {
+        "oldScenario": "Đất vườn (Ký hiệu: V)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> 1 hoặc 1 -> N",
+        "statutoryRule": "Khoản 5, Khoản 6 Điều 141 Luật Đất đai 2024: Đất vườn trong cùng thửa đất có nhà ở được xem xét công nhận cùng thửa đất ở; thửa đất vườn độc lập xác định là đất trồng cây lâu năm (CLN) hoặc đất trồng cây hàng năm khác (HNK) theo hiện trạng sử dụng.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ cấp GCN và công nhận hạn mức đất ở đối với hồ sơ xác lập trước ngày 15/10/1993.",
@@ -3687,50 +4895,64 @@ window.LAND_DATA = {
         "hex": "#FF5046",
         "target": "Đất an ninh"
       },
-      "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất làm nơi đóng quân của lực lượng công an, trại tạm giam, cơ sở nghiệp vụ an ninh nhân dân.",
-      "evolutionNote": "Cơ quan công an, đồn biên phòng an ninh, trại tạm giam, cơ sở an ninh.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CAN",
+        "name2024": "Đất an ninh",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất làm nơi đóng quân của lực lượng công an, trại tạm giam, cơ sở nghiệp vụ an ninh nhân dân.",
+        "evolution": "Cơ quan công an, đồn biên phòng an ninh, trại tạm giam, cơ sở an ninh."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "AN / C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CAN",
+          "sodo": "CAN",
+          "kk": "CAN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất an ninh"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "AN",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CAN",
+          "sodo": "CAN",
+          "kk": "CAN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: CAN | Kiểm kê: CAN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CAN",
+          "sodo": "CAN",
+          "kk": "CAN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CAN | GCN: CAN | KK: CAN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "AN",
+          "sodo": "AN",
+          "kk": "AN",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CAN (nhóm CQA)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "AN / C",
+          "sodo": "AN / C",
+          "kk": "AN / C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CAN (nhóm CQA)",
-        "m13_bddc": "CAN",
-        "m13_sodo": "CAN",
-        "m13_kk": "CAN",
-        "m03_hsdc": "CAN",
-        "m03_kk": "CAN",
-        "m95": "AN",
-        "m299": "AN / C"
+      "sec3": {
+        "oldScenario": "Đất an ninh",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3753,50 +4975,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất có mục đích công cộng"
       },
-      "legalBasis": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Nhóm đất sử dụng phục vụ lợi ích chung của cộng đồng, kết cấu hạ tầng kỹ thuật và xã hội.",
-      "evolutionNote": "Các công trình công cộng khác chưa có mã riêng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CCC",
+        "name2024": "Đất sử dụng vào mục đích công cộng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất sử dụng phục vụ lợi ích chung của cộng đồng, kết cấu hạ tầng kỹ thuật và xã hội.",
+        "evolution": "Các công trình công cộng khác chưa có mã riêng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình công cộng khác"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Công cộng)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DCK | Kiểm kê: DCK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DCK | GCN: DCK | KK: DCK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Công cộng)",
+          "sodo": "CD (Công cộng)",
+          "kk": "CD (Công cộng)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CCC (khác)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CCC (khác)",
-        "m13_bddc": "DCK",
-        "m13_sodo": "DCK",
-        "m13_kk": "DCK",
-        "m03_hsdc": "DCK",
-        "m03_kk": "DCK",
-        "m95": "CD (Công cộng)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình công cộng khác",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3819,38 +5055,64 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
-      "legalBasis": "Khoản 2 Điều 9 Luật Đất đai 2024: Căn cứ công trình hiện trạng xác định loại đất phi nông nghiệp tương ứng: đất giao thông (DGT), thủy lợi (DTL), giáo dục (DGD), y tế (DYT), trụ sở cơ quan (TSC).",
-      "definition": "Tên gọi: Đất chuyên dùng theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất công trình giao thông, thủy lợi, trụ sở... (Mã DGT / DTL / TSC / DGD / TMD). Quan hệ: 1 -> N.",
-      "evolutionNote": "Khoản 2 Điều 9 Luật Đất đai 2024: Căn cứ công trình hiện trạng xác định loại đất phi nông nghiệp tương ứng: đất giao thông (DGT), thủy lợi (DTL), giáo dục (DGD), y tế (DYT), trụ sở cơ quan (TSC).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất công trình giao thông, thủy lợi, trụ sở...",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 9 Luật Đất đai 2024: Căn cứ công trình hiện trạng xác định loại đất phi nông nghiệp tương ứng: đất giao thông (DGT), thủy lợi (DTL), giáo dục (DGD), y tế (DYT), trụ sở cơ quan (TSC).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất chuyên dùng. Quy đổi tương đương theo Luật 2024: Đất công trình giao thông, thủy lợi, trụ sở....",
+        "evolution": "Khoản 2 Điều 9 Luật Đất đai 2024: Căn cứ công trình hiện trạng xác định loại đất phi nông nghiệp tương ứng: đất giao thông (DGT), thủy lợi (DTL), giáo dục (DGD), y tế (DYT), trụ sở cơ quan (TSC)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "CD",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất chuyên dùng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy đổi sang: Đất công trình giao thông, thủy lợi, trụ sở... (Mã DGT / DTL / TSC / DGD / TMD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "CD ➔ DGT / DTL / TSC / DGD / TMD",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất công trình giao thông, thủy lợi, trụ sở..."
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DGT / DTL / TSC / DGD / TMD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất chuyên dùng"
         }
       ],
-      "comparison": {
-        "m24": "DGT / DTL / TSC / DGD / TMD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "CD",
-        "m299": "CD"
+      "sec3": {
+        "oldScenario": "Đất chuyên dùng (Ký hiệu: CD)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> N",
+        "statutoryRule": "Khoản 2 Điều 9 Luật Đất đai 2024: Căn cứ công trình hiện trạng xác định loại đất phi nông nghiệp tương ứng: đất giao thông (DGT), thủy lợi (DTL), giáo dục (DGD), y tế (DYT), trụ sở cơ quan (TSC).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3874,38 +5136,64 @@ window.LAND_DATA = {
         "hex": "#FFA0AA",
         "target": "Đất chuyên dùng"
       },
-      "legalBasis": "Khoản 2 Điều 9 Luật Đất đai 2024: Đất cơ quan theo Thông tư 1990/2001 tương ứng đất xây dựng trụ sở cơ quan (TSC) hoặc đất xây dựng công trình sự nghiệp (DSN).",
-      "definition": "Tên gọi: Đất cơ quan, công trình sự nghiệp theo Thông tư 1990/2001/TT-TCĐC. Quy đổi tương đương sang Luật 2024: Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp (Mã TSC / DSN). Quan hệ: 1 -> N.",
-      "evolutionNote": "Khoản 2 Điều 9 Luật Đất đai 2024: Đất cơ quan theo Thông tư 1990/2001 tương ứng đất xây dựng trụ sở cơ quan (TSC) hoặc đất xây dựng công trình sự nghiệp (DSN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "TSC",
+        "name2024": "Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 9 Luật Đất đai 2024: Đất cơ quan theo Thông tư 1990/2001 tương ứng đất xây dựng trụ sở cơ quan (TSC) hoặc đất xây dựng công trình sự nghiệp (DSN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất cơ quan, công trình sự nghiệp. Quy đổi tương đương theo Luật 2024: Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp.",
+        "evolution": "Khoản 2 Điều 9 Luật Đất đai 2024: Đất cơ quan theo Thông tư 1990/2001 tương ứng đất xây dựng trụ sở cơ quan (TSC) hoặc đất xây dựng công trình sự nghiệp (DSN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "CDG",
-          "doc": "Thông tư 1990/2001/TT-TCĐC",
-          "status": "Đất cơ quan, công trình sự nghiệp"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "TSC",
+          "sodo": "TSC",
+          "kk": "TSC",
+          "note": "Quy đổi sang: Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp (Mã TSC / DSN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "CDG ➔ TSC / DSN",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Thông tư 1990/2001/TT-TCĐC"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "TSC / DSN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Thông tư 1990/2001/TT-TCĐC"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CDG",
+          "sodo": "CDG",
+          "kk": "CDG",
+          "note": "Thời kỳ áp dụng: Thông tư 1990/2001/TT-TCĐC"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất cơ quan, công trình sự nghiệp"
         }
       ],
-      "comparison": {
-        "m24": "TSC / DSN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "CDG",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất cơ quan, công trình sự nghiệp (Ký hiệu: CDG)",
+        "oldDoc": "Thông tư 1990/2001/TT-TCĐC",
+        "relation": "1 -> N",
+        "statutoryRule": "Khoản 2 Điều 9 Luật Đất đai 2024: Đất cơ quan theo Thông tư 1990/2001 tương ứng đất xây dựng trụ sở cơ quan (TSC) hoặc đất xây dựng công trình sự nghiệp (DSN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3929,50 +5217,64 @@ window.LAND_DATA = {
         "hex": "#FF6450",
         "target": "Đất quốc phòng"
       },
-      "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất làm nơi đóng quân, căn cứ quân sự, công trình phòng thủ quốc phòng, kho tàng quân đội.",
-      "evolutionNote": "Doanh trại, căn cứ quân sự, công trình quốc phòng. Luật 2024 có mã nhóm chung là CQA.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CQP",
+        "name2024": "Đất quốc phòng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất làm nơi đóng quân, căn cứ quân sự, công trình phòng thủ quốc phòng, kho tàng quân đội.",
+        "evolution": "Doanh trại, căn cứ quân sự, công trình quốc phòng. Luật 2024 có mã nhóm chung là CQA."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "QP / C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CQP",
+          "sodo": "CQP",
+          "kk": "CQP",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất quốc phòng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "QP",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CQP",
+          "sodo": "CQP",
+          "kk": "CQP",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: CQP | Kiểm kê: CQP",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CQP",
+          "sodo": "CQP",
+          "kk": "CQP",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CQP | GCN: CQP | KK: CQP",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "QP",
+          "sodo": "QP",
+          "kk": "QP",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CQP (nhóm CQA)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "QP / C",
+          "sodo": "QP / C",
+          "kk": "QP / C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CQP (nhóm CQA)",
-        "m13_bddc": "CQP",
-        "m13_sodo": "CQP",
-        "m13_kk": "CQP",
-        "m03_hsdc": "CQP",
-        "m03_kk": "CQP",
-        "m95": "QP",
-        "m299": "QP / C"
+      "sec3": {
+        "oldScenario": "Đất quốc phòng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -3995,38 +5297,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất xây dựng trụ sở cơ quan"
       },
-      "legalBasis": "Điểm a Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở cơ quan theo Thông tư 08/2007 tương ứng Đất xây dựng trụ sở cơ quan (mã TSC).",
-      "definition": "Tên gọi: Đất trụ sở cơ quan theo Luật 2003 (Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất xây dựng trụ sở cơ quan (Mã TSC). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm a Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở cơ quan theo Thông tư 08/2007 tương ứng Đất xây dựng trụ sở cơ quan (mã TSC).",
-      "timeline": [
+      "sec1": {
+        "code2024": "TSC",
+        "name2024": "Đất xây dựng trụ sở cơ quan",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở cơ quan theo Thông tư 08/2007 tương ứng Đất xây dựng trụ sở cơ quan (mã TSC).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trụ sở cơ quan. Quy đổi tương đương theo Luật 2024: Đất xây dựng trụ sở cơ quan.",
+        "evolution": "Điểm a Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở cơ quan theo Thông tư 08/2007 tương ứng Đất xây dựng trụ sở cơ quan (mã TSC)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "CTS",
-          "doc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
-          "status": "Đất trụ sở cơ quan"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "TSC",
+          "sodo": "TSC",
+          "kk": "TSC",
+          "note": "Quy đổi sang: Đất xây dựng trụ sở cơ quan (Mã TSC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "CTS ➔ TSC",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất xây dựng trụ sở cơ quan"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "TSC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CTS",
+          "sodo": "CTS",
+          "kk": "CTS",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trụ sở cơ quan"
         }
       ],
-      "comparison": {
-        "m24": "TSC",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "CTS",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trụ sở cơ quan (Ký hiệu: CTS)",
+        "oldDoc": "Luật 2003 (Thông tư 08/2007/TT-BTNMT)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở cơ quan theo Thông tư 08/2007 tương ứng Đất xây dựng trụ sở cơ quan (mã TSC).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4050,38 +5378,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
       },
-      "legalBasis": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng QCVN 01:2021/BXD: Đất cây xanh nhóm nhà ở; tương ứng chỉ tiêu đất khu vui chơi, giải trí, sinh hoạt cộng đồng (DKV) quy định tại Điểm d Khoản 2 Điều 9 Luật Đất đai 2024.",
-      "definition": "Tên gọi: Đất cây xanh nhóm nhà ở (Quy hoạch xây dựng) theo Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng). Quy đổi tương đương sang Luật 2024: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (Mã DKV). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng QCVN 01:2021/BXD: Đất cây xanh nhóm nhà ở; tương ứng chỉ tiêu đất khu vui chơi, giải trí, sinh hoạt cộng đồng (DKV) quy định tại Điểm d Khoản 2 Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKV",
+        "name2024": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng QCVN 01:2021/BXD: Đất cây xanh nhóm nhà ở; tương ứng chỉ tiêu đất khu vui chơi, giải trí, sinh hoạt cộng đồng (DKV) quy định tại Điểm d Khoản 2 Điều 9 Luật Đất đai 2024.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất cây xanh nhóm nhà ở (Quy hoạch xây dựng). Quy đổi tương đương theo Luật 2024: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng.",
+        "evolution": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng QCVN 01:2021/BXD: Đất cây xanh nhóm nhà ở; tương ứng chỉ tiêu đất khu vui chơi, giải trí, sinh hoạt cộng đồng (DKV) quy định tại Điểm d Khoản 2 Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "CXN",
-          "doc": "Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng)",
-          "status": "Đất cây xanh nhóm nhà ở (Quy hoạch xây dựng)"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DKV",
+          "sodo": "DKV",
+          "kk": "DKV",
+          "note": "Quy đổi sang: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (Mã DKV)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "CXN ➔ DKV",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CXN",
+          "sodo": "CXN",
+          "kk": "CXN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DKV",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất cây xanh nhóm nhà ở (Quy hoạch xây dựng)"
         }
       ],
-      "comparison": {
-        "m24": "DKV",
-        "m13_bddc": "CXN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất cây xanh nhóm nhà ở (Quy hoạch xây dựng) (Ký hiệu: CXN)",
+        "oldDoc": "Luật 2013 (QCVN 01:2021/BXD, Đồ án quy hoạch chi tiết xây dựng)",
+        "relation": "1 -> 1",
+        "statutoryRule": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng QCVN 01:2021/BXD: Đất cây xanh nhóm nhà ở; tương ứng chỉ tiêu đất khu vui chơi, giải trí, sinh hoạt cộng đồng (DKV) quy định tại Điểm d Khoản 2 Điều 9 Luật Đất đai 2024.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4105,50 +5459,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình bưu chính viễn thông"
       },
-      "legalBasis": "Điểm h Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Bưu điện, trạm viễn thông, đài phát sóng, cột anten BTS, trung tâm dữ liệu hạ tầng mạng.",
-      "evolutionNote": "Bưu điện, trạm viễn thông, đài phát thanh truyền hình, cột ăng ten BTS, trạm trung chuyển dữ liệu.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DBV",
+        "name2024": "Đất công trình hạ tầng bưu chính, viễn thông, CNTT",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm h Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bưu điện, trạm viễn thông, đài phát sóng, cột anten BTS, trung tâm dữ liệu hạ tầng mạng.",
+        "evolution": "Bưu điện, trạm viễn thông, đài phát thanh truyền hình, cột ăng ten BTS, trạm trung chuyển dữ liệu."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DBV",
+          "sodo": "DBV",
+          "kk": "DBV",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình hạ tầng bưu chính, viễn thông, CNTT"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Bưu điện)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DBV",
+          "sodo": "DBV",
+          "kk": "DBV",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DBV | Kiểm kê: DBV",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DBV",
+          "sodo": "DBV",
+          "kk": "DBV",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DBV | GCN: DBV | KK: DBV",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Bưu điện)",
+          "sodo": "CD (Bưu điện)",
+          "kk": "CD (Bưu điện)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DBV (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DBV (nhóm CCC)",
-        "m13_bddc": "DBV",
-        "m13_sodo": "DBV",
-        "m13_kk": "DBV",
-        "m03_hsdc": "DBV",
-        "m03_kk": "DBV",
-        "m95": "CD (Bưu điện)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình hạ tầng bưu chính, viễn thông, CNTT",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm h Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4171,50 +5539,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất chợ"
       },
-      "legalBasis": "Điểm i Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Khuôn viên chợ truyền thống, chợ dân sinh nông thôn và chợ đầu mối nông sản.",
-      "evolutionNote": "Chợ truyền thống nông thôn và đô thị, chợ đầu mối nông sản.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DCH",
+        "name2024": "Đất chợ dân sinh, chợ đầu mối",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm i Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Khuôn viên chợ truyền thống, chợ dân sinh nông thôn và chợ đầu mối nông sản.",
+        "evolution": "Chợ truyền thống nông thôn và đô thị, chợ đầu mối nông sản."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DCH",
+          "sodo": "DCH",
+          "kk": "DCH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất chợ dân sinh, chợ đầu mối"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Chợ)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DCH",
+          "sodo": "DCH",
+          "kk": "DCH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DCH | Kiểm kê: DCH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DCH",
+          "sodo": "DCH",
+          "kk": "DCH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DCH | GCN: DCH | KK: DCH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Chợ)",
+          "sodo": "CD (Chợ)",
+          "kk": "CD (Chợ)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DCH (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DCH (nhóm CCC)",
-        "m13_bddc": "DCH",
-        "m13_sodo": "DCH",
-        "m13_kk": "DCH",
-        "m03_hsdc": "DCH",
-        "m03_kk": "DCH",
-        "m95": "CD (Chợ)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất chợ dân sinh, chợ đầu mối",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm i Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4237,50 +5619,64 @@ window.LAND_DATA = {
         "hex": "#FFC8AA",
         "target": "Đất công trình công cộng có mục đích kinh doanh"
       },
-      "legalBasis": "Điểm c Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Nhà máy nước, trạm bơm cấp nước sinh hoạt, hệ thống cống và trạm bơm thoát nước đô thị.",
-      "evolutionNote": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DCT cho đất công trình cấp nước, thoát nước.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DCT",
+        "name2024": "Đất công trình cấp nước, thoát nước",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm c Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhà máy nước, trạm bơm cấp nước sinh hoạt, hệ thống cống và trạm bơm thoát nước đô thị.",
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DCT cho đất công trình cấp nước, thoát nước."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DCT",
+          "sodo": "DCT",
+          "kk": "DCT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình cấp nước, thoát nước (nhà máy nước sạch, trạm bơm)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTL / DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DCK | Kiểm kê: DCK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTL / DCK | GCN: DCK | KK: DCK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DCT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DCT",
-        "m13_bddc": "DTL / DCK",
-        "m13_sodo": "DCK",
-        "m13_kk": "DCK",
-        "m03_hsdc": "DCK",
-        "m03_kk": "DCK",
-        "m95": "CD",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình cấp nước, thoát nước (nhà máy nước sạch, trạm bơm)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4303,50 +5699,64 @@ window.LAND_DATA = {
         "hex": "#FFBED2",
         "target": "Đất danh lam thắng cảnh"
       },
-      "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
-      "evolutionNote": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành mã DDD.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
+        "evolution": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành mã DDD."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DDD",
+          "sodo": "DDD",
+          "kk": "DDD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Di tích)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DDT / DDL",
+          "sodo": "DDT / DDL",
+          "kk": "DDT / DDL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DDT / DDL | Kiểm kê: DDT / DDL",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DDT / DDL",
+          "sodo": "DDT / DDL",
+          "kk": "DDT / DDL",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DDT / DDL | GCN: DDT / DDL | KK: DDT / DDL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Di tích)",
+          "sodo": "CD (Di tích)",
+          "kk": "CD (Di tích)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DDD",
-        "m13_bddc": "DDT / DDL",
-        "m13_sodo": "DDT / DDL",
-        "m13_kk": "DDT / DDL",
-        "m03_hsdc": "DDT / DDL",
-        "m03_kk": "DDT / DDL",
-        "m95": "CD (Di tích)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4369,50 +5779,64 @@ window.LAND_DATA = {
         "hex": "#FFBED2",
         "target": "Đất danh lam thắng cảnh"
       },
-      "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
-      "evolutionNote": "Mã cũ DDT theo Luật 2013/2003. Trong CSDL cũ ghi DDT nay chuyển đổi tương đương sang mã DDD.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
+        "evolution": "Mã cũ DDT theo Luật 2013/2003. Trong CSDL cũ ghi DDT nay chuyển đổi tương đương sang mã DDD."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DDD",
+          "sodo": "DDD",
+          "kk": "DDD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có di tích lịch sử - văn hóa (Mã cũ Luật 2013/2003)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Di tích)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DDT",
+          "sodo": "DDT",
+          "kk": "DDT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DDT | Kiểm kê: DDT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DDT",
+          "sodo": "DDT",
+          "kk": "DDT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DDT | GCN: DDT | KK: DDT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Di tích)",
+          "sodo": "CD (Di tích)",
+          "kk": "CD (Di tích)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DDD (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DDD (quy đổi)",
-        "m13_bddc": "DDT",
-        "m13_sodo": "DDT",
-        "m13_kk": "DDT",
-        "m03_hsdc": "DDT",
-        "m03_kk": "DDT",
-        "m95": "CD (Di tích)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất có di tích lịch sử - văn hóa (Mã cũ Luật 2013/2003)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4435,50 +5859,64 @@ window.LAND_DATA = {
         "hex": "#FFBED2",
         "target": "Đất danh lam thắng cảnh"
       },
-      "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
-      "evolutionNote": "Mã cũ DDL theo Luật 2013/2003. Trong CSDL cũ ghi DDL nay chuyển đổi tương đương sang mã DDD.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
+        "evolution": "Mã cũ DDL theo Luật 2013/2003. Trong CSDL cũ ghi DDL nay chuyển đổi tương đương sang mã DDD."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DDD",
+          "sodo": "DDD",
+          "kk": "DDD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có danh lam thắng cảnh (Mã cũ Luật 2013/2003)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Thắng cảnh)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DDL",
+          "sodo": "DDL",
+          "kk": "DDL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DDL | Kiểm kê: DDL",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DDL",
+          "sodo": "DDL",
+          "kk": "DDL",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DDL | GCN: DDL | KK: DDL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Thắng cảnh)",
+          "sodo": "CD (Thắng cảnh)",
+          "kk": "CD (Thắng cảnh)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DDD (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DDD (quy đổi)",
-        "m13_bddc": "DDL",
-        "m13_sodo": "DDL",
-        "m13_kk": "DDL",
-        "m03_hsdc": "DDL",
-        "m03_kk": "DDL",
-        "m95": "CD (Thắng cảnh)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất có danh lam thắng cảnh (Mã cũ Luật 2013/2003)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4501,38 +5939,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất danh lam thắng cảnh"
       },
-      "legalBasis": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất danh lam thắng cảnh vào Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (mã DDD).",
-      "definition": "Tên gọi: Đất có danh lam thắng cảnh theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (Mã DDD). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất danh lam thắng cảnh vào Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (mã DDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất danh lam thắng cảnh vào Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (mã DDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất có danh lam thắng cảnh. Quy đổi tương đương theo Luật 2024: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh.",
+        "evolution": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất danh lam thắng cảnh vào Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (mã DDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DDL",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất có danh lam thắng cảnh"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DDD",
+          "sodo": "DDD",
+          "kk": "DDD",
+          "note": "Quy đổi sang: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (Mã DDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DDL ➔ DDD",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DDL",
+          "sodo": "DDL",
+          "kk": "DDL",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất có danh lam thắng cảnh"
         }
       ],
-      "comparison": {
-        "m24": "DDD",
-        "m13_bddc": "DDL",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất có danh lam thắng cảnh (Ký hiệu: DDL)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất danh lam thắng cảnh vào Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (mã DDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4556,38 +6020,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất có di tích lịch sử - văn hóa"
       },
-      "legalBasis": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành một mã chung (mã DDD).",
-      "definition": "Tên gọi: Đất có di tích lịch sử - văn hóa theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (Mã DDD). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành một mã chung (mã DDD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành một mã chung (mã DDD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất có di tích lịch sử - văn hóa. Quy đổi tương đương theo Luật 2024: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh.",
+        "evolution": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành một mã chung (mã DDD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DDT",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất có di tích lịch sử - văn hóa"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DDD",
+          "sodo": "DDD",
+          "kk": "DDD",
+          "note": "Quy đổi sang: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh (Mã DDD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DDT ➔ DDD",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DDT",
+          "sodo": "DDT",
+          "kk": "DDT",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DDD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất có di tích lịch sử - văn hóa"
         }
       ],
-      "comparison": {
-        "m24": "DDD",
-        "m13_bddc": "DDT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất có di tích lịch sử - văn hóa (Ký hiệu: DDT)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành một mã chung (mã DDD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4611,50 +6101,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở giáo dục và đào tạo"
       },
-      "legalBasis": "Điểm d Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Trường mầm non, trường phổ thông các cấp, trường đại học, cao đẳng, trung cấp, dạy nghề.",
-      "evolutionNote": "Trường mầm non, trường phổ thông các cấp, đại học, cao đẳng, trung cấp, dạy nghề.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGD",
+        "name2024": "Đất xây dựng cơ sở giáo dục và đào tạo",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm d Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Trường mầm non, trường phổ thông các cấp, trường đại học, cao đẳng, trung cấp, dạy nghề.",
+        "evolution": "Trường mầm non, trường phổ thông các cấp, đại học, cao đẳng, trung cấp, dạy nghề."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DGD",
+          "sodo": "DGD",
+          "kk": "DGD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở giáo dục và đào tạo"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Giáo dục)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DGD",
+          "sodo": "DGD",
+          "kk": "DGD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DGD | Kiểm kê: DGD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DGD",
+          "sodo": "DGD",
+          "kk": "DGD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DGD | GCN: DGD | KK: DGD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Giáo dục)",
+          "sodo": "CD (Giáo dục)",
+          "kk": "CD (Giáo dục)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DGD (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DGD (nhóm DSN)",
-        "m13_bddc": "DGD",
-        "m13_sodo": "DGD",
-        "m13_kk": "DGD",
-        "m03_hsdc": "DGD",
-        "m03_kk": "DGD",
-        "m95": "CD (Giáo dục)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở giáo dục và đào tạo",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm d Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4677,50 +6181,64 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
-      "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
-      "evolutionNote": "Đường giao thông các cấp, cầu, hầm, cảng biển, sân bay, nhà ga, bến xe, bãi đỗ xe công cộng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất công trình giao thông",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
+        "evolution": "Đường giao thông các cấp, cầu, hầm, cảng biển, sân bay, nhà ga, bến xe, bãi đỗ xe công cộng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "D (Đường)",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình giao thông (đường bộ, sắt, thủy, hàng không, bến bãi...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "GT",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DGT | Kiểm kê: DGT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DGT | GCN: DGT | KK: DGT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "GT",
+          "sodo": "GT",
+          "kk": "GT",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DGT (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "D (Đường)",
+          "sodo": "D (Đường)",
+          "kk": "D (Đường)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DGT (nhóm CCC)",
-        "m13_bddc": "DGT",
-        "m13_sodo": "DGT",
-        "m13_kk": "DGT",
-        "m03_hsdc": "DGT",
-        "m03_kk": "DGT",
-        "m95": "GT",
-        "m299": "D (Đường)"
+      "sec3": {
+        "oldScenario": "Đất công trình giao thông (đường bộ, sắt, thủy, hàng không, bến bãi...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -4743,50 +6261,64 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
-      "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024: Đất thuộc phạm vi hành lang an toàn công trình giao thông; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và tuân thủ quy định bảo vệ an toàn công trình.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất công trình giao thông",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
+        "evolution": "Điều 210 Luật Đất đai 2024: Đất thuộc phạm vi hành lang an toàn công trình giao thông; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và tuân thủ quy định bảo vệ an toàn công trình."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "CD",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Hành lang an toàn giao thông đường bộ"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hành lang đường",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DGT (HL)",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DGT | Kiểm kê: HLD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "HLD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DGT (HL) | GCN: DGT | KK: DGT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hành lang đường",
+          "sodo": "Hành lang đường",
+          "kk": "Hành lang đường",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DGT (hành lang)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DGT (hành lang)",
-        "m13_bddc": "DGT (HL)",
-        "m13_sodo": "DGT",
-        "m13_kk": "DGT",
-        "m03_hsdc": "DGT",
-        "m03_kk": "HLD",
-        "m95": "Hành lang đường",
-        "m299": "CD"
+      "sec3": {
+        "oldScenario": "Hành lang an toàn giao thông đường bộ",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -4809,50 +6341,64 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
-      "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích trong chỉ giới hành lang bảo vệ an toàn; xác định mục đích sử dụng theo hiện trạng kèm phạm vi giới hạn hành lang.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất công trình giao thông",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
+        "evolution": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích trong chỉ giới hành lang bảo vệ an toàn; xác định mục đích sử dụng theo hiện trạng kèm phạm vi giới hạn hành lang."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "CD",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất hành lang bảo vệ an toàn công trình"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Đất hành lang",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DGT / DTL",
+          "sodo": "DGT / DTL",
+          "kk": "DGT / DTL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DGT / DTL | Kiểm kê: DHL",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DGT / DTL",
+          "sodo": "DGT / DTL",
+          "kk": "DHL",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DGT / DTL | GCN: DGT / DTL | KK: DGT / DTL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đất hành lang",
+          "sodo": "Đất hành lang",
+          "kk": "Đất hành lang",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DGT / DTL (hành lang)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DGT / DTL (hành lang)",
-        "m13_bddc": "DGT / DTL",
-        "m13_sodo": "DGT / DTL",
-        "m13_kk": "DGT / DTL",
-        "m03_hsdc": "DGT / DTL",
-        "m03_kk": "DHL",
-        "m95": "Đất hành lang",
-        "m299": "CD"
+      "sec3": {
+        "oldScenario": "Đất hành lang bảo vệ an toàn công trình",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4866,7 +6412,7 @@ window.LAND_DATA = {
       "displayCode": "DHL",
       "name": "Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn",
       "group": "Phi nông nghiệp",
-      "status": "Hành lang an toàn bảo vệ công trình (Layer ranh giới)",
+      "status": "Hành lang an toàn bảo vệ công trình",
       "primaryPeriod": "Hạn chế quyền sử dụng (Điều 210 Luật 2024)",
       "rgb": {
         "r": 255,
@@ -4875,38 +6421,64 @@ window.LAND_DATA = {
         "hex": "#FF7878",
         "target": "Đất hành lang bảo vệ"
       },
-      "legalBasis": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích nằm trong chỉ giới hành lang bảo vệ an toàn công trình; xác định mục đích sử dụng theo hiện trạng pháp lý kèm phạm vi giới hạn hành lang.",
-      "definition": "Tên gọi: Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn theo Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS). Quy đổi tương đương sang Luật 2024: Đất hành lang bảo vệ an toàn công trình (Mã DGT). Quan hệ: Thuộc tính hành lang.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích nằm trong chỉ giới hành lang bảo vệ an toàn công trình; xác định mục đích sử dụng theo hiện trạng pháp lý kèm phạm vi giới hạn hành lang.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất hành lang bảo vệ an toàn công trình",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích nằm trong chỉ giới hành lang bảo vệ an toàn công trình; xác định mục đích sử dụng theo hiện trạng pháp lý kèm phạm vi giới hạn hành lang.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn. Quy đổi tương đương theo Luật 2024: Đất hành lang bảo vệ an toàn công trình.",
+        "evolution": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích nằm trong chỉ giới hành lang bảo vệ an toàn công trình; xác định mục đích sử dụng theo hiện trạng pháp lý kèm phạm vi giới hạn hành lang."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DHL",
-          "doc": "Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS)",
-          "status": "Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy đổi sang: Đất hành lang bảo vệ an toàn công trình (Mã DGT)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DHL ➔ DGT",
-          "doc": "Thuộc tính hành lang",
-          "status": "Quy đổi sang: Đất hành lang bảo vệ an toàn công trình"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DHL",
+          "sodo": "DHL",
+          "kk": "DHL",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DGT",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn"
         }
       ],
-      "comparison": {
-        "m24": "DGT",
-        "m13_bddc": "DHL",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất hành lang bảo vệ đường bộ / Đất hành lang an toàn (Ký hiệu: DHL)",
+        "oldDoc": "Luật 2013 (Bảng mã phần mềm MicroStation V8i, FAMIS, ViLIS)",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điều 210 Luật Đất đai 2024: Ký hiệu quy ước bản đồ giải thửa đối với diện tích nằm trong chỉ giới hành lang bảo vệ an toàn công trình; xác định mục đích sử dụng theo hiện trạng pháp lý kèm phạm vi giới hạn hành lang.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4930,50 +6502,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở khoa học và công nghệ"
       },
-      "legalBasis": "Điểm e Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Viện nghiên cứu khoa học, phòng thí nghiệm trọng điểm, trạm quan nghiệm công nghệ.",
-      "evolutionNote": "Viện nghiên cứu, trạm nghiên cứu khoa học, trung tâm công nghệ.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKH",
+        "name2024": "Đất xây dựng cơ sở khoa học và công nghệ",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm e Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Viện nghiên cứu khoa học, phòng thí nghiệm trọng điểm, trạm quan nghiệm công nghệ.",
+        "evolution": "Viện nghiên cứu, trạm nghiên cứu khoa học, trung tâm công nghệ."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DKH",
+          "sodo": "DKH",
+          "kk": "DKH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở khoa học và công nghệ"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Khoa học)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DKH",
+          "sodo": "DKH",
+          "kk": "DKH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DKH | Kiểm kê: DKH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DKH",
+          "sodo": "DKH",
+          "kk": "DKH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DKH | GCN: DKH | KK: DKH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Khoa học)",
+          "sodo": "CD (Khoa học)",
+          "kk": "CD (Khoa học)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DKH (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DKH (nhóm DSN)",
-        "m13_bddc": "DKH",
-        "m13_sodo": "DKH",
-        "m13_kk": "DKH",
-        "m03_hsdc": "DKH",
-        "m03_kk": "DKH",
-        "m95": "CD (Khoa học)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở khoa học và công nghệ",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm e Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -4996,50 +6582,64 @@ window.LAND_DATA = {
         "hex": "#FFDCBE",
         "target": "Đất cơ sở sản xuất phi nông nghiệp (2024)"
       },
-      "legalBasis": "Điểm h Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Trạm khí tượng bề mặt, trạm thủy văn, trạm radar thời tiết, trạm quan trắc hải văn.",
-      "evolutionNote": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DKT cho đất công trình khí tượng thủy văn.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKT",
+        "name2024": "Đất xây dựng cơ sở khí tượng thủy văn",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm h Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Trạm khí tượng bề mặt, trạm thủy văn, trạm radar thời tiết, trạm quan trắc hải văn.",
+        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DKT cho đất công trình khí tượng thủy văn."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DKT",
+          "sodo": "DKT",
+          "kk": "DKT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở khí tượng thủy văn"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DSK | Kiểm kê: DSK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DSK | GCN: DSK | KK: DSK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DKT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DKT",
-        "m13_bddc": "DSK",
-        "m13_sodo": "DSK",
-        "m13_kk": "DSK",
-        "m03_hsdc": "DSK",
-        "m03_kk": "DSK",
-        "m95": "CD",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở khí tượng thủy văn",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm h Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5062,50 +6662,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
       },
-      "legalBasis": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Công viên, vườn hoa, bãi tắm công cộng, quảng trường, nhà văn hóa thôn, bản, tổ dân phố.",
-      "evolutionNote": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng và đất khu vui chơi, giải trí vào mã DKV.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKV",
+        "name2024": "Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Công viên, vườn hoa, bãi tắm công cộng, quảng trường, nhà văn hóa thôn, bản, tổ dân phố.",
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng và đất khu vui chơi, giải trí vào mã DKV."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DKV",
+          "sodo": "DKV",
+          "kk": "DKV",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Công viên)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DKV / DSH",
+          "sodo": "DKV / DSH",
+          "kk": "DKV / DSH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DKV / DSH | Kiểm kê: DKV / DSH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DKV / DSH",
+          "sodo": "DKV / DSH",
+          "kk": "DKV / DSH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DKV / DSH | GCN: DKV / DSH | KK: DKV / DSH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Công viên)",
+          "sodo": "CD (Công viên)",
+          "kk": "CD (Công viên)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DKV",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DKV",
-        "m13_bddc": "DKV / DSH",
-        "m13_sodo": "DKV / DSH",
-        "m13_kk": "DKV / DSH",
-        "m03_hsdc": "DKV / DSH",
-        "m03_kk": "DKV / DSH",
-        "m95": "CD (Công viên)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5128,50 +6742,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
       },
-      "legalBasis": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Công viên, vườn hoa, bãi tắm công cộng, quảng trường, nhà văn hóa thôn, bản, tổ dân phố.",
-      "evolutionNote": "Mã cũ DSH theo Luật 2013/2003. Trong CSDL cũ ghi DSH nay chuyển đổi tương đương sang mã DKV.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKV",
+        "name2024": "Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Công viên, vườn hoa, bãi tắm công cộng, quảng trường, nhà văn hóa thôn, bản, tổ dân phố.",
+        "evolution": "Mã cũ DSH theo Luật 2013/2003. Trong CSDL cũ ghi DSH nay chuyển đổi tương đương sang mã DKV."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DKV",
+          "sodo": "DKV",
+          "kk": "DKV",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sinh hoạt cộng đồng (nhà văn hóa thôn, bản, tổ dân phố - Mã cũ 2013)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Nhà văn hóa)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSH",
+          "sodo": "DSH",
+          "kk": "DSH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DSH | Kiểm kê: DSH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSH",
+          "sodo": "DSH",
+          "kk": "DSH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DSH | GCN: DSH | KK: DSH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Nhà văn hóa)",
+          "sodo": "CD (Nhà văn hóa)",
+          "kk": "CD (Nhà văn hóa)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DKV (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DKV (quy đổi)",
-        "m13_bddc": "DSH",
-        "m13_sodo": "DSH",
-        "m13_kk": "DSH",
-        "m03_hsdc": "DSH",
-        "m03_kk": "DSH",
-        "m95": "CD (Nhà văn hóa)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất sinh hoạt cộng đồng (nhà văn hóa thôn, bản, tổ dân phố - Mã cũ 2013)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5194,50 +6822,64 @@ window.LAND_DATA = {
         "hex": "#FFBEB4",
         "target": "Đất thương mại, dịch vụ (2024)"
       },
-      "legalBasis": "Điểm g Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Cơ sở quan trắc môi trường, trạm phân tích kiểm chuẩn chất lượng môi trường.",
-      "evolutionNote": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DMT cho đất công trình môi trường.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DMT",
+        "name2024": "Đất xây dựng cơ sở môi trường",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm g Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Cơ sở quan trắc môi trường, trạm phân tích kiểm chuẩn chất lượng môi trường.",
+        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DMT cho đất công trình môi trường."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DMT",
+          "sodo": "DMT",
+          "kk": "DMT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở môi trường (quan trắc, bảo vệ môi trường)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DSK | Kiểm kê: DSK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DSK | GCN: DSK | KK: DSK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DMT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DMT",
-        "m13_bddc": "DSK",
-        "m13_sodo": "DSK",
-        "m13_kk": "DSK",
-        "m03_hsdc": "DSK",
-        "m03_kk": "DSK",
-        "m95": "CD",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở môi trường (quan trắc, bảo vệ môi trường)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm g Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5260,50 +6902,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở ngoại giao"
       },
-      "legalBasis": "Điểm i Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Trụ sở đại sứ quán, lãnh sự quán, nhà khách ngoại giao của cơ quan đại diện quốc tế.",
-      "evolutionNote": "Đại sứ quán, lãnh sự quán, nhà khách ngoại giao của các tổ chức quốc tế.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DNG",
+        "name2024": "Đất xây dựng cơ sở ngoại giao",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm i Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Trụ sở đại sứ quán, lãnh sự quán, nhà khách ngoại giao của cơ quan đại diện quốc tế.",
+        "evolution": "Đại sứ quán, lãnh sự quán, nhà khách ngoại giao của các tổ chức quốc tế."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DNG",
+          "sodo": "DNG",
+          "kk": "DNG",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở ngoại giao"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Ngoại giao)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DNG",
+          "sodo": "DNG",
+          "kk": "DNG",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DNG | Kiểm kê: DNG",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DNG",
+          "sodo": "DNG",
+          "kk": "DNG",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DNG | GCN: DNG | KK: DNG",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Ngoại giao)",
+          "sodo": "CD (Ngoại giao)",
+          "kk": "CD (Ngoại giao)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DNG (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DNG (nhóm DSN)",
-        "m13_bddc": "DNG",
-        "m13_sodo": "DNG",
-        "m13_kk": "DNG",
-        "m03_hsdc": "DNG",
-        "m03_kk": "DNG",
-        "m95": "CD (Ngoại giao)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở ngoại giao",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm i Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -5326,50 +6982,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình năng lượng"
       },
-      "legalBasis": "Điểm g Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Nhà máy điện các loại, trạm biến áp, hành lang an toàn đường dây dẫn điện, chiếu sáng đô thị.",
-      "evolutionNote": "Nhà máy thủy điện, nhiệt điện, điện mặt trời, trạm biến áp, hành lang an toàn đường dây truyền tải điện.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DNL",
+        "name2024": "Đất công trình năng lượng, chiếu sáng công cộng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm g Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhà máy điện các loại, trạm biến áp, hành lang an toàn đường dây dẫn điện, chiếu sáng đô thị.",
+        "evolution": "Nhà máy thủy điện, nhiệt điện, điện mặt trời, trạm biến áp, hành lang an toàn đường dây truyền tải điện."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DNL",
+          "sodo": "DNL",
+          "kk": "DNL",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình năng lượng, chiếu sáng công cộng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Điện lực)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DNL",
+          "sodo": "DNL",
+          "kk": "DNL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DNL | Kiểm kê: DNL",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DNL",
+          "sodo": "DNL",
+          "kk": "DNL",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DNL | GCN: DNL | KK: DNL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Điện lực)",
+          "sodo": "CD (Điện lực)",
+          "kk": "CD (Điện lực)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DNL (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DNL (nhóm CCC)",
-        "m13_bddc": "DNL",
-        "m13_sodo": "DNL",
-        "m13_kk": "DNL",
-        "m03_hsdc": "DNL",
-        "m03_kk": "DNL",
-        "m95": "CD (Điện lực)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình năng lượng, chiếu sáng công cộng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm g Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5392,38 +7062,64 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
-      "legalBasis": "Thông tư 28/2004/TT-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu thống kê khoanh định ranh giới điểm dân cư nông thôn; đối với từng thửa đất cụ thể của hộ gia đình xác định theo mục đích đất ở tại nông thôn (ONT) theo quy định tại Điều 9 Luật Đất đai 2024.",
-      "definition": "Tên gọi: Đất khu dân cư nông thôn theo Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất ở tại nông thôn (Mã ONT). Quan hệ: 1 -> N.",
-      "evolutionNote": "Thông tư 28/2004/TT-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu thống kê khoanh định ranh giới điểm dân cư nông thôn; đối với từng thửa đất cụ thể của hộ gia đình xác định theo mục đích đất ở tại nông thôn (ONT) theo quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Thông tư 28/2004/TT-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu thống kê khoanh định ranh giới điểm dân cư nông thôn; đối với từng thửa đất cụ thể của hộ gia đình xác định theo mục đích đất ở tại nông thôn (ONT) theo quy định tại Điều 9 Luật Đất đai 2024.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất khu dân cư nông thôn. Quy đổi tương đương theo Luật 2024: Đất ở tại nông thôn.",
+        "evolution": "Thông tư 28/2004/TT-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu thống kê khoanh định ranh giới điểm dân cư nông thôn; đối với từng thửa đất cụ thể của hộ gia đình xác định theo mục đích đất ở tại nông thôn (ONT) theo quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DNT",
-          "doc": "Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT)",
-          "status": "Đất khu dân cư nông thôn"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Quy đổi sang: Đất ở tại nông thôn (Mã ONT)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DNT ➔ ONT",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất ở tại nông thôn"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "ONT",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DNT",
+          "sodo": "DNT",
+          "kk": "DNT",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất khu dân cư nông thôn"
         }
       ],
-      "comparison": {
-        "m24": "ONT",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "DNT",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu dân cư nông thôn (Ký hiệu: DNT)",
+        "oldDoc": "Luật 2003 (Thông tư 28/2004/TT-BTNMT, Thông tư 08/2007/TT-BTNMT)",
+        "relation": "1 -> N",
+        "statutoryRule": "Thông tư 28/2004/TT-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu thống kê khoanh định ranh giới điểm dân cư nông thôn; đối với từng thửa đất cụ thể của hộ gia đình xác định theo mục đích đất ở tại nông thôn (ONT) theo quy định tại Điều 9 Luật Đất đai 2024.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5447,50 +7143,64 @@ window.LAND_DATA = {
         "hex": "#FFD2B4",
         "target": "Đất cơ sở nghiên cứu và đào tạo tư nhân"
       },
-      "legalBasis": "Điểm d Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Kè chống sạt lở bờ sông bờ biển, trạm cảnh báo lũ quét, công trình lánh nạn thiên tai.",
-      "evolutionNote": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DPC cho đất công trình phòng, chống thiên tai.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DPC",
+        "name2024": "Đất công trình phòng, chống thiên tai",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm d Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Kè chống sạt lở bờ sông bờ biển, trạm cảnh báo lũ quét, công trình lánh nạn thiên tai.",
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DPC cho đất công trình phòng, chống thiên tai."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DPC",
+          "sodo": "DPC",
+          "kk": "DPC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình phòng, chống thiên tai (kè chống sạt lở, cứu nạn thiên tai)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTL / DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DCK | Kiểm kê: DCK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DCK",
+          "sodo": "DCK",
+          "kk": "DCK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTL / DCK | GCN: DCK | KK: DCK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DPC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DPC",
-        "m13_bddc": "DTL / DCK",
-        "m13_sodo": "DCK",
-        "m13_kk": "DCK",
-        "m03_hsdc": "DCK",
-        "m03_kk": "DCK",
-        "m95": "CD",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình phòng, chống thiên tai (kè chống sạt lở, cứu nạn thiên tai)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm d Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5513,50 +7223,64 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất bãi thải, xử lý chất thải"
       },
-      "legalBasis": "Điểm e Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Bãi chôn lấp rác thải, khu xử lý rác, nhà máy đốt rác, trạm trung chuyển chất thải rắn.",
-      "evolutionNote": "Bãi thải xỉ, khu xử lý rác thải sinh hoạt và công nghiệp, bãi chôn lấp chất thải hợp vệ sinh.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DRA",
+        "name2024": "Đất công trình xử lý chất thải",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm e Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bãi chôn lấp rác thải, khu xử lý rác, nhà máy đốt rác, trạm trung chuyển chất thải rắn.",
+        "evolution": "Bãi thải xỉ, khu xử lý rác thải sinh hoạt và công nghiệp, bãi chôn lấp chất thải hợp vệ sinh."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DRA",
+          "sodo": "DRA",
+          "kk": "DRA",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình xử lý chất thải (bãi chôn lấp rác, nhà máy đốt rác thải)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Bãi rác)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DRA",
+          "sodo": "DRA",
+          "kk": "DRA",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DRA | Kiểm kê: DRA",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DRA",
+          "sodo": "DRA",
+          "kk": "DRA",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DRA | GCN: DRA | KK: DRA",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Bãi rác)",
+          "sodo": "CD (Bãi rác)",
+          "kk": "CD (Bãi rác)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DRA (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DRA (nhóm CCC)",
-        "m13_bddc": "DRA",
-        "m13_sodo": "DRA",
-        "m13_kk": "DRA",
-        "m03_hsdc": "DRA",
-        "m03_kk": "DRA",
-        "m95": "CD (Bãi rác)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất công trình xử lý chất thải (bãi chôn lấp rác, nhà máy đốt rác thải)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm e Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5579,38 +7303,64 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất bãi thải, xử lý chất thải"
       },
-      "legalBasis": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất bãi thải, xử lý chất thải theo Luật 2013 đổi tên và chuẩn hóa thành Đất công trình môi trường (mã DMT).",
-      "definition": "Tên gọi: Đất bãi thải, xử lý chất thải theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất công trình môi trường (Mã DMT). Quan hệ: 1 -> 1 (Đổi tên).",
-      "evolutionNote": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất bãi thải, xử lý chất thải theo Luật 2013 đổi tên và chuẩn hóa thành Đất công trình môi trường (mã DMT).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DMT",
+        "name2024": "Đất công trình môi trường",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất bãi thải, xử lý chất thải theo Luật 2013 đổi tên và chuẩn hóa thành Đất công trình môi trường (mã DMT).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất bãi thải, xử lý chất thải. Quy đổi tương đương theo Luật 2024: Đất công trình môi trường.",
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất bãi thải, xử lý chất thải theo Luật 2013 đổi tên và chuẩn hóa thành Đất công trình môi trường (mã DMT)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DRA",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất bãi thải, xử lý chất thải"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DMT",
+          "sodo": "DMT",
+          "kk": "DMT",
+          "note": "Quy đổi sang: Đất công trình môi trường (Mã DMT)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DRA ➔ DMT",
-          "doc": "1 -> 1 (Đổi tên)",
-          "status": "Quy đổi sang: Đất công trình môi trường"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DRA",
+          "sodo": "DRA",
+          "kk": "DRA",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DMT",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất bãi thải, xử lý chất thải"
         }
       ],
-      "comparison": {
-        "m24": "DMT",
-        "m13_bddc": "DRA",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất bãi thải, xử lý chất thải (Ký hiệu: DRA)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "1 -> 1 (Đổi tên)",
+        "statutoryRule": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Đất bãi thải, xử lý chất thải theo Luật 2013 đổi tên và chuẩn hóa thành Đất công trình môi trường (mã DMT).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5634,38 +7384,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất sinh hoạt cộng đồng"
       },
-      "legalBasis": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng vào Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (mã DKV).",
-      "definition": "Tên gọi: Đất sinh hoạt cộng đồng theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (Mã DKV). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng vào Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (mã DKV).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DKV",
+        "name2024": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng vào Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (mã DKV).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất sinh hoạt cộng đồng. Quy đổi tương đương theo Luật 2024: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng.",
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng vào Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (mã DKV)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DSH",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất sinh hoạt cộng đồng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DKV",
+          "sodo": "DKV",
+          "kk": "DKV",
+          "note": "Quy đổi sang: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (Mã DKV)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DSH ➔ DKV",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất khu vui chơi, giải trí, sinh hoạt cộng đồng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSH",
+          "sodo": "DSH",
+          "kk": "DSH",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DKV",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất sinh hoạt cộng đồng"
         }
       ],
-      "comparison": {
-        "m24": "DKV",
-        "m13_bddc": "DSH",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất sinh hoạt cộng đồng (Ký hiệu: DSH)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng vào Đất khu vui chơi, giải trí, sinh hoạt cộng đồng (mã DKV).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5689,50 +7465,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
       },
-      "legalBasis": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Các công trình sự nghiệp khác ngoài các cơ sở chuyên ngành nêu trên.",
-      "evolutionNote": "Các công trình sự nghiệp công lập khác ngoài các mã chuyên ngành trên.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DSK",
+        "name2024": "Đất xây dựng công trình sự nghiệp khác",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Các công trình sự nghiệp khác ngoài các cơ sở chuyên ngành nêu trên.",
+        "evolution": "Các công trình sự nghiệp công lập khác ngoài các mã chuyên ngành trên."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng công trình sự nghiệp khác"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Sự nghiệp)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DSK | Kiểm kê: DSK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DSK | GCN: DSK | KK: DSK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Sự nghiệp)",
+          "sodo": "CD (Sự nghiệp)",
+          "kk": "CD (Sự nghiệp)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DSK (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DSK (nhóm DSN)",
-        "m13_bddc": "DSK",
-        "m13_sodo": "DSK",
-        "m13_kk": "DSK",
-        "m03_hsdc": "DSK",
-        "m03_kk": "DSK",
-        "m95": "CD (Sự nghiệp)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng công trình sự nghiệp khác",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5755,50 +7545,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
       },
-      "legalBasis": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Các công trình sự nghiệp khác ngoài các cơ sở chuyên ngành nêu trên.",
-      "evolutionNote": "Bảng mã kiểm kê mở rộng tài sản công 2003: Tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DSK",
+        "name2024": "Đất xây dựng công trình sự nghiệp khác",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Các công trình sự nghiệp khác ngoài các cơ sở chuyên ngành nêu trên.",
+        "evolution": "Bảng mã kiểm kê mở rộng tài sản công 2003: Tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "CD",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trụ sở khác"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Trụ sở",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSK / TSC",
+          "sodo": "DSK / TSC",
+          "kk": "DSK / TSC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DSK / TSC | Kiểm kê: TSK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSK / TSC",
+          "sodo": "DSK / TSC",
+          "kk": "TSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DSK / TSC | GCN: DSK / TSC | KK: DSK / TSC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Trụ sở",
+          "sodo": "Trụ sở",
+          "kk": "Trụ sở",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DSK / TSC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DSK / TSC",
-        "m13_bddc": "DSK / TSC",
-        "m13_sodo": "DSK / TSC",
-        "m13_kk": "DSK / TSC",
-        "m03_hsdc": "DSK / TSC",
-        "m03_kk": "TSK",
-        "m95": "Trụ sở",
-        "m299": "CD"
+      "sec3": {
+        "oldScenario": "Đất trụ sở khác",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5821,50 +7625,64 @@ window.LAND_DATA = {
         "hex": "#FFA0AA",
         "target": "Đất xây dựng công trình sự nghiệp"
       },
-      "legalBasis": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Nhóm đất xây dựng các cơ sở hoạt động sự nghiệp công lập và ngoài công lập.",
-      "evolutionNote": "Luật 2024 không còn duy trì mã DTS riêng mà xếp vào nhóm đất xây dựng công trình sự nghiệp DSN (hoặc DSK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DSN",
+        "name2024": "Đất xây dựng công trình sự nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất xây dựng các cơ sở hoạt động sự nghiệp công lập và ngoài công lập.",
+        "evolution": "Luật 2024 không còn duy trì mã DTS riêng mà xếp vào nhóm đất xây dựng công trình sự nghiệp DSN (hoặc DSK)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng trụ sở của tổ chức sự nghiệp công lập"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Sự nghiệp)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTS",
+          "sodo": "DTS",
+          "kk": "DTS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DTS | Kiểm kê: DTS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DTS",
+          "sodo": "DTS",
+          "kk": "DTS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTS | GCN: DTS | KK: DTS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Sự nghiệp)",
+          "sodo": "CD (Sự nghiệp)",
+          "kk": "CD (Sự nghiệp)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DSN (hoặc DSK)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DSN (hoặc DSK)",
-        "m13_bddc": "DTS",
-        "m13_sodo": "DTS",
-        "m13_kk": "DTS",
-        "m03_hsdc": "DTS",
-        "m03_kk": "DTS",
-        "m95": "CD (Sự nghiệp)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng trụ sở của tổ chức sự nghiệp công lập",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5887,50 +7705,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
       },
-      "legalBasis": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Đê điều thủy lợi, cống, đập, hồ chứa nước thủy lợi, kênh mương dẫn nước tưới tiêu.",
-      "evolutionNote": "Đê sông, đê biển, cống, đập, hồ thủy lợi, kênh mương dẫn nước phục vụ sản xuất và thoát nước.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DTL",
+        "name2024": "Đất công trình thủy lợi",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đê điều thủy lợi, cống, đập, hồ chứa nước thủy lợi, kênh mương dẫn nước tưới tiêu.",
+        "evolution": "Đê sông, đê biển, cống, đập, hồ thủy lợi, kênh mương dẫn nước phục vụ sản xuất và thoát nước."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "D (Đê, đập)",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất công trình thủy lợi (kênh mương, đê điều thủy lợi, hồ đập...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "TL",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DTL | Kiểm kê: DTL",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTL | GCN: DTL | KK: DTL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "TL",
+          "sodo": "TL",
+          "kk": "TL",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DTL (nhóm CCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "D (Đê, đập)",
+          "sodo": "D (Đê, đập)",
+          "kk": "D (Đê, đập)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DTL (nhóm CCC)",
-        "m13_bddc": "DTL",
-        "m13_sodo": "DTL",
-        "m13_kk": "DTL",
-        "m03_hsdc": "DTL",
-        "m03_kk": "DTL",
-        "m95": "TL",
-        "m299": "D (Đê, đập)"
+      "sec3": {
+        "oldScenario": "Đất công trình thủy lợi (kênh mương, đê điều thủy lợi, hồ đập...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -5953,50 +7785,64 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
       },
-      "legalBasis": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
-      "definition": "Đê điều thủy lợi, cống, đập, hồ chứa nước thủy lợi, kênh mương dẫn nước tưới tiêu.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 & Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi; mục đích sử dụng xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DTL",
+        "name2024": "Đất công trình thủy lợi",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đê điều thủy lợi, cống, đập, hồ chứa nước thủy lợi, kênh mương dẫn nước tưới tiêu.",
+        "evolution": "Điều 210 Luật Đất đai 2024 & Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi; mục đích sử dụng xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "CD",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Hành lang bảo vệ công trình thủy lợi, mương kênh"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hành lang mương",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTL (HL)",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DTL | Kiểm kê: HLM",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "HLM",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTL (HL) | GCN: DTL | KK: DTL",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hành lang mương",
+          "sodo": "Hành lang mương",
+          "kk": "Hành lang mương",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DTL (hành lang)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DTL (hành lang)",
-        "m13_bddc": "DTL (HL)",
-        "m13_sodo": "DTL",
-        "m13_kk": "DTL",
-        "m03_hsdc": "DTL",
-        "m03_kk": "HLM",
-        "m95": "Hành lang mương",
-        "m299": "CD"
+      "sec3": {
+        "oldScenario": "Hành lang bảo vệ công trình thủy lợi, mương kênh",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6019,38 +7865,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất xây dựng trụ sở tổ chức sự nghiệp"
       },
-      "legalBasis": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở tổ chức sự nghiệp chuyển thành Đất xây dựng công trình sự nghiệp (mã DSN hoặc DSK).",
-      "definition": "Tên gọi: Đất xây dựng trụ sở tổ chức sự nghiệp theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất xây dựng công trình sự nghiệp / Sự nghiệp khác (Mã DSN / DSK). Quan hệ: 1 -> 1 hoặc N -> 1.",
-      "evolutionNote": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở tổ chức sự nghiệp chuyển thành Đất xây dựng công trình sự nghiệp (mã DSN hoặc DSK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "DSN",
+        "name2024": "Đất xây dựng công trình sự nghiệp / Sự nghiệp khác",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở tổ chức sự nghiệp chuyển thành Đất xây dựng công trình sự nghiệp (mã DSN hoặc DSK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất xây dựng trụ sở tổ chức sự nghiệp. Quy đổi tương đương theo Luật 2024: Đất xây dựng công trình sự nghiệp / Sự nghiệp khác.",
+        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở tổ chức sự nghiệp chuyển thành Đất xây dựng công trình sự nghiệp (mã DSN hoặc DSK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "DTS",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất xây dựng trụ sở tổ chức sự nghiệp"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Quy đổi sang: Đất xây dựng công trình sự nghiệp / Sự nghiệp khác (Mã DSN / DSK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "DTS ➔ DSN / DSK",
-          "doc": "1 -> 1 hoặc N -> 1",
-          "status": "Quy đổi sang: Đất xây dựng công trình sự nghiệp / Sự nghiệp khác"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTS",
+          "sodo": "DTS",
+          "kk": "DTS",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DSN / DSK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất xây dựng trụ sở tổ chức sự nghiệp"
         }
       ],
-      "comparison": {
-        "m24": "DSN / DSK",
-        "m13_bddc": "DTS",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất xây dựng trụ sở tổ chức sự nghiệp (Ký hiệu: DTS)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "1 -> 1 hoặc N -> 1",
+        "statutoryRule": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024: Đất trụ sở tổ chức sự nghiệp chuyển thành Đất xây dựng công trình sự nghiệp (mã DSN hoặc DSK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6074,50 +7946,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở thể dục thể thao"
       },
-      "legalBasis": "Điểm đ Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Sân vận động, khu liên hợp thể thao, nhà thi đấu, bể bơi thi đấu, trung tâm huấn luyện VĐV.",
-      "evolutionNote": "Sân vận động, nhà thi đấu, trung tâm đào tạo VĐV thể thao.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DTT",
+        "name2024": "Đất xây dựng cơ sở thể dục, thể thao",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Sân vận động, khu liên hợp thể thao, nhà thi đấu, bể bơi thi đấu, trung tâm huấn luyện VĐV.",
+        "evolution": "Sân vận động, nhà thi đấu, trung tâm đào tạo VĐV thể thao."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DTT",
+          "sodo": "DTT",
+          "kk": "DTT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở thể dục, thể thao"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Thể thao)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DTT",
+          "sodo": "DTT",
+          "kk": "DTT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DTT | Kiểm kê: DTT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DTT",
+          "sodo": "DTT",
+          "kk": "DTT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DTT | GCN: DTT | KK: DTT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Thể thao)",
+          "sodo": "CD (Thể thao)",
+          "kk": "CD (Thể thao)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DTT (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DTT (nhóm DSN)",
-        "m13_bddc": "DTT",
-        "m13_sodo": "DTT",
-        "m13_kk": "DTT",
-        "m03_hsdc": "DTT",
-        "m03_kk": "DTT",
-        "m95": "CD (Thể thao)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở thể dục, thể thao",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -6140,50 +8026,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở văn hóa"
       },
-      "legalBasis": "Điểm a Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Nhà hát, rạp chiếu phim, bảo tàng, triển lãm, thư viện, cơ sở văn hóa nghệ thuật.",
-      "evolutionNote": "Nhà hát, bảo tàng, thư viện, triển lãm, rạp chiếu phim, nhà văn hóa cấp huyện/tỉnh.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DVH",
+        "name2024": "Đất xây dựng cơ sở văn hóa",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhà hát, rạp chiếu phim, bảo tàng, triển lãm, thư viện, cơ sở văn hóa nghệ thuật.",
+        "evolution": "Nhà hát, bảo tàng, thư viện, triển lãm, rạp chiếu phim, nhà văn hóa cấp huyện/tỉnh."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DVH",
+          "sodo": "DVH",
+          "kk": "DVH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở văn hóa"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Văn hóa)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DVH",
+          "sodo": "DVH",
+          "kk": "DVH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DVH | Kiểm kê: DVH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DVH",
+          "sodo": "DVH",
+          "kk": "DVH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DVH | GCN: DVH | KK: DVH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Văn hóa)",
+          "sodo": "CD (Văn hóa)",
+          "kk": "CD (Văn hóa)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DVH (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DVH (nhóm DSN)",
-        "m13_bddc": "DVH",
-        "m13_sodo": "DVH",
-        "m13_kk": "DVH",
-        "m03_hsdc": "DVH",
-        "m03_kk": "DVH",
-        "m95": "CD (Văn hóa)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở văn hóa",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6206,50 +8106,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở dịch vụ xã hội"
       },
-      "legalBasis": "Điểm b Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Cơ sở nuôi dưỡng người già, trẻ mồ côi, trung tâm bảo trợ xã hội, cơ sở cai nghiện.",
-      "evolutionNote": "Trung tâm bảo trợ xã hội, trại dưỡng lão, trung tâm cai nghiện, chăm sóc trẻ khuyết tật.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DXH",
+        "name2024": "Đất xây dựng cơ sở xã hội",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Cơ sở nuôi dưỡng người già, trẻ mồ côi, trung tâm bảo trợ xã hội, cơ sở cai nghiện.",
+        "evolution": "Trung tâm bảo trợ xã hội, trại dưỡng lão, trung tâm cai nghiện, chăm sóc trẻ khuyết tật."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DXH",
+          "sodo": "DXH",
+          "kk": "DXH",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở dịch vụ xã hội"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Xã hội)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DXH",
+          "sodo": "DXH",
+          "kk": "DXH",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DXH | Kiểm kê: DXH",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DXH",
+          "sodo": "DXH",
+          "kk": "DXH",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DXH | GCN: DXH | KK: DXH",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Xã hội)",
+          "sodo": "CD (Xã hội)",
+          "kk": "CD (Xã hội)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DXH (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DXH (nhóm DSN)",
-        "m13_bddc": "DXH",
-        "m13_sodo": "DXH",
-        "m13_kk": "DXH",
-        "m03_hsdc": "DXH",
-        "m03_kk": "DXH",
-        "m95": "CD (Xã hội)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở dịch vụ xã hội",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6272,50 +8186,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở y tế"
       },
-      "legalBasis": "Điểm c Khoản 4 Điều 5 NĐ 102/2024",
-      "definition": "Bệnh viện, trung tâm y tế, trạm y tế, phòng khám đa khoa, cơ sở phục hồi chức năng y tế.",
-      "evolutionNote": "Bệnh viện, phòng khám, trung tâm y tế, trạm y tế, viện điều dưỡng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DYT",
+        "name2024": "Đất xây dựng cơ sở y tế",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm c Khoản 4 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bệnh viện, trung tâm y tế, trạm y tế, phòng khám đa khoa, cơ sở phục hồi chức năng y tế.",
+        "evolution": "Bệnh viện, phòng khám, trung tâm y tế, trạm y tế, viện điều dưỡng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DYT",
+          "sodo": "DYT",
+          "kk": "DYT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng cơ sở y tế"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Y tế)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DYT",
+          "sodo": "DYT",
+          "kk": "DYT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DYT | Kiểm kê: DYT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DYT",
+          "sodo": "DYT",
+          "kk": "DYT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DYT | GCN: DYT | KK: DYT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Y tế)",
+          "sodo": "CD (Y tế)",
+          "kk": "CD (Y tế)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DYT (nhóm DSN)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DYT (nhóm DSN)",
-        "m13_bddc": "DYT",
-        "m13_sodo": "DYT",
-        "m13_kk": "DYT",
-        "m03_hsdc": "DYT",
-        "m03_kk": "DYT",
-        "m95": "CD (Y tế)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất xây dựng cơ sở y tế",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 4 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6329,7 +8257,7 @@ window.LAND_DATA = {
       "displayCode": "HLD",
       "name": "Hành lang an toàn giao thông đường bộ",
       "group": "Phi nông nghiệp",
-      "status": "Hành lang an toàn bảo vệ công trình (Layer ranh giới)",
+      "status": "Hành lang an toàn bảo vệ công trình",
       "primaryPeriod": "Hạn chế quyền sử dụng (Điều 210 Luật 2024)",
       "rgb": {
         "r": 255,
@@ -6338,38 +8266,64 @@ window.LAND_DATA = {
         "hex": "#FF7878",
         "target": "Hành lang đường bộ"
       },
-      "legalBasis": "Điều 210 Luật Đất đai 2024 (trước đây Điều 157 Luật Đất đai 2013): Đất sử dụng cho hành lang bảo vệ an toàn công trình giao thông đường bộ; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và phải tuân thủ quy định bảo vệ an toàn công trình đường bộ.",
-      "definition": "Tên gọi: Hành lang an toàn giao thông đường bộ theo Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS). Quy đổi tương đương sang Luật 2024: Đất thuộc hành lang bảo vệ an toàn công trình đường bộ (Mã DGT). Quan hệ: Thuộc tính hành lang.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 (trước đây Điều 157 Luật Đất đai 2013): Đất sử dụng cho hành lang bảo vệ an toàn công trình giao thông đường bộ; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và phải tuân thủ quy định bảo vệ an toàn công trình đường bộ.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Đất thuộc hành lang bảo vệ an toàn công trình đường bộ",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điều 210 Luật Đất đai 2024 (trước đây Điều 157 Luật Đất đai 2013): Đất sử dụng cho hành lang bảo vệ an toàn công trình giao thông đường bộ; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và phải tuân thủ quy định bảo vệ an toàn công trình đường bộ.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Hành lang an toàn giao thông đường bộ. Quy đổi tương đương theo Luật 2024: Đất thuộc hành lang bảo vệ an toàn công trình đường bộ.",
+        "evolution": "Điều 210 Luật Đất đai 2024 (trước đây Điều 157 Luật Đất đai 2013): Đất sử dụng cho hành lang bảo vệ an toàn công trình giao thông đường bộ; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và phải tuân thủ quy định bảo vệ an toàn công trình đường bộ."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "HLD",
-          "doc": "Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS)",
-          "status": "Hành lang an toàn giao thông đường bộ"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DGT",
+          "sodo": "DGT",
+          "kk": "DGT",
+          "note": "Quy đổi sang: Đất thuộc hành lang bảo vệ an toàn công trình đường bộ (Mã DGT)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "HLD ➔ DGT",
-          "doc": "Thuộc tính hành lang",
-          "status": "Quy đổi sang: Đất thuộc hành lang bảo vệ an toàn công trình đường bộ"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "HLD",
+          "sodo": "HLD",
+          "kk": "HLD",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DGT",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Hành lang an toàn giao thông đường bộ"
         }
       ],
-      "comparison": {
-        "m24": "DGT",
-        "m13_bddc": "HLD",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Hành lang an toàn giao thông đường bộ (Ký hiệu: HLD)",
+        "oldDoc": "Luật 2013 (Quy ước kỹ thuật phần mềm biên tập bản đồ địa chính CAD/GIS)",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điều 210 Luật Đất đai 2024 (trước đây Điều 157 Luật Đất đai 2013): Đất sử dụng cho hành lang bảo vệ an toàn công trình giao thông đường bộ; người sử dụng đất được tiếp tục sử dụng theo mục đích đã xác định và phải tuân thủ quy định bảo vệ an toàn công trình đường bộ.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6384,7 +8338,7 @@ window.LAND_DATA = {
       "displayCode": "HLM",
       "name": "Hành lang bảo vệ công trình thủy lợi, mương kênh",
       "group": "Phi nông nghiệp",
-      "status": "Hành lang an toàn bảo vệ công trình (Layer ranh giới)",
+      "status": "Hành lang an toàn bảo vệ công trình",
       "primaryPeriod": "Hạn chế quyền sử dụng (Điều 210 Luật 2024)",
       "rgb": {
         "r": 150,
@@ -6393,38 +8347,64 @@ window.LAND_DATA = {
         "hex": "#96DCF0",
         "target": "Hành lang bảo vệ mương kênh"
       },
-      "legalBasis": "Điều 210 Luật Đất đai 2024 và Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi, kênh mương; mục đích sử dụng đất xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp theo quy định bảo vệ đê điều, thủy lợi.",
-      "definition": "Tên gọi: Hành lang bảo vệ công trình thủy lợi, mương kênh theo Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL). Quy đổi tương đương sang Luật 2024: Đất thuộc hành lang bảo vệ công trình thủy lợi (Mã DTL). Quan hệ: Thuộc tính hành lang.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 và Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi, kênh mương; mục đích sử dụng đất xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp theo quy định bảo vệ đê điều, thủy lợi.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DTL",
+        "name2024": "Đất thuộc hành lang bảo vệ công trình thủy lợi",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điều 210 Luật Đất đai 2024 và Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi, kênh mương; mục đích sử dụng đất xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp theo quy định bảo vệ đê điều, thủy lợi.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Hành lang bảo vệ công trình thủy lợi, mương kênh. Quy đổi tương đương theo Luật 2024: Đất thuộc hành lang bảo vệ công trình thủy lợi.",
+        "evolution": "Điều 210 Luật Đất đai 2024 và Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi, kênh mương; mục đích sử dụng đất xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp theo quy định bảo vệ đê điều, thủy lợi."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "HLM",
-          "doc": "Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL)",
-          "status": "Hành lang bảo vệ công trình thủy lợi, mương kênh"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DTL",
+          "sodo": "DTL",
+          "kk": "DTL",
+          "note": "Quy đổi sang: Đất thuộc hành lang bảo vệ công trình thủy lợi (Mã DTL)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "HLM ➔ DTL",
-          "doc": "Thuộc tính hành lang",
-          "status": "Quy đổi sang: Đất thuộc hành lang bảo vệ công trình thủy lợi"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "HLM",
+          "sodo": "HLM",
+          "kk": "HLM",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DTL",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Hành lang bảo vệ công trình thủy lợi, mương kênh"
         }
       ],
-      "comparison": {
-        "m24": "DTL",
-        "m13_bddc": "HLM",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Hành lang bảo vệ công trình thủy lợi, mương kênh (Ký hiệu: HLM)",
+        "oldDoc": "Luật 2013 (Luật Thủy lợi 2017, Pháp lệnh Khai thác bảo vệ CTTL)",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điều 210 Luật Đất đai 2024 và Luật Thủy lợi 2017: Đất thuộc phạm vi bảo vệ công trình thủy lợi, kênh mương; mục đích sử dụng đất xác định theo đất thủy lợi (DTL) hoặc đất hiện trạng tiếp giáp theo quy định bảo vệ đê điều, thủy lợi.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6439,7 +8419,7 @@ window.LAND_DATA = {
       "displayCode": "HLS",
       "name": "Hành lang bảo vệ nguồn nước sông, suối",
       "group": "Phi nông nghiệp",
-      "status": "Hành lang an toàn bảo vệ công trình (Layer ranh giới)",
+      "status": "Hành lang an toàn bảo vệ công trình",
       "primaryPeriod": "Hạn chế quyền sử dụng (Điều 210 Luật 2024)",
       "rgb": {
         "r": 140,
@@ -6448,38 +8428,64 @@ window.LAND_DATA = {
         "hex": "#8CD2FF",
         "target": "Hành lang bảo vệ sông suối"
       },
-      "legalBasis": "Điều 210 Luật Đất đai 2024 và Nghị định 43/2015/NĐ-CP: Đất thuộc phạm vi hành lang bảo vệ nguồn nước sông, suối; người sử dụng đất được sử dụng theo mục đích đã xác định và chịu hạn chế quyền theo quy định của pháp luật tài nguyên nước.",
-      "definition": "Tên gọi: Hành lang bảo vệ nguồn nước sông, suối theo Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính). Quy đổi tương đương sang Luật 2024: Đất thuộc hành lang bảo vệ nguồn nước sông, suối (Mã SON). Quan hệ: Thuộc tính hành lang.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 và Nghị định 43/2015/NĐ-CP: Đất thuộc phạm vi hành lang bảo vệ nguồn nước sông, suối; người sử dụng đất được sử dụng theo mục đích đã xác định và chịu hạn chế quyền theo quy định của pháp luật tài nguyên nước.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SON",
+        "name2024": "Đất thuộc hành lang bảo vệ nguồn nước sông, suối",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điều 210 Luật Đất đai 2024 và Nghị định 43/2015/NĐ-CP: Đất thuộc phạm vi hành lang bảo vệ nguồn nước sông, suối; người sử dụng đất được sử dụng theo mục đích đã xác định và chịu hạn chế quyền theo quy định của pháp luật tài nguyên nước.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Hành lang bảo vệ nguồn nước sông, suối. Quy đổi tương đương theo Luật 2024: Đất thuộc hành lang bảo vệ nguồn nước sông, suối.",
+        "evolution": "Điều 210 Luật Đất đai 2024 và Nghị định 43/2015/NĐ-CP: Đất thuộc phạm vi hành lang bảo vệ nguồn nước sông, suối; người sử dụng đất được sử dụng theo mục đích đã xác định và chịu hạn chế quyền theo quy định của pháp luật tài nguyên nước."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "HLS",
-          "doc": "Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính)",
-          "status": "Hành lang bảo vệ nguồn nước sông, suối"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Quy đổi sang: Đất thuộc hành lang bảo vệ nguồn nước sông, suối (Mã SON)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "HLS ➔ SON",
-          "doc": "Thuộc tính hành lang",
-          "status": "Quy đổi sang: Đất thuộc hành lang bảo vệ nguồn nước sông, suối"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "HLS",
+          "sodo": "HLS",
+          "kk": "HLS",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "SON",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Hành lang bảo vệ nguồn nước sông, suối"
         }
       ],
-      "comparison": {
-        "m24": "SON",
-        "m13_bddc": "HLS",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Hành lang bảo vệ nguồn nước sông, suối (Ký hiệu: HLS)",
+        "oldDoc": "Luật 2013 (Nghị định 43/2015/NĐ-CP, Quy ước phần mềm địa chính)",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điều 210 Luật Đất đai 2024 và Nghị định 43/2015/NĐ-CP: Đất thuộc phạm vi hành lang bảo vệ nguồn nước sông, suối; người sử dụng đất được sử dụng theo mục đích đã xác định và chịu hạn chế quyền theo quy định của pháp luật tài nguyên nước.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6503,50 +8509,64 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước chuyên dùng"
       },
-      "legalBasis": "Điểm a Khoản 10 Điều 5 NĐ 102/2024",
-      "definition": "Ao, hồ, đầm, phá chuyên dùng cảnh quan đô thị, điều hòa thoát nước (không nuôi cá).",
-      "evolutionNote": "Mặt nước chuyên dùng cảnh quan, điều hòa thoát nước (không dùng để nuôi thủy sản). Luật 2024 thuộc nhóm TVC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "MNC",
+        "name2024": "Đất có mặt nước chuyên dùng dạng ao, hồ, đầm, phá",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 10 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Ao, hồ, đầm, phá chuyên dùng cảnh quan đô thị, điều hòa thoát nước (không nuôi cá).",
+        "evolution": "Mặt nước chuyên dùng cảnh quan, điều hòa thoát nước (không dùng để nuôi thủy sản). Luật 2024 thuộc nhóm TVC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "Ao / S",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "MNC",
+          "sodo": "MNC",
+          "kk": "MNC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có mặt nước chuyên dùng dạng ao, hồ, đầm, phá (cảnh quan, điều hòa)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hồ / Đầm / Ao",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MNC",
+          "sodo": "MNC",
+          "kk": "MNC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: MNC | Kiểm kê: MNC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "MNC",
+          "sodo": "MNC",
+          "kk": "MNC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: MNC | GCN: MNC | KK: MNC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hồ / Đầm / Ao",
+          "sodo": "Hồ / Đầm / Ao",
+          "kk": "Hồ / Đầm / Ao",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "MNC (nhóm TVC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Ao / S",
+          "sodo": "Ao / S",
+          "kk": "Ao / S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "MNC (nhóm TVC)",
-        "m13_bddc": "MNC",
-        "m13_sodo": "MNC",
-        "m13_kk": "MNC",
-        "m03_hsdc": "MNC",
-        "m03_kk": "MNC",
-        "m95": "Hồ / Đầm / Ao",
-        "m299": "Ao / S"
+      "sec3": {
+        "oldScenario": "Đất có mặt nước chuyên dùng dạng ao, hồ, đầm, phá (cảnh quan, điều hòa)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 10 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -6569,38 +8589,64 @@ window.LAND_DATA = {
         "hex": "#D2D2D2",
         "target": "Đất nghĩa trang, nghĩa địa, nhà tang lễ, hỏa táng"
       },
-      "legalBasis": "Điểm h Khoản 2 Điều 9 Luật Đất đai 2024: Đất mai táng, nghĩa địa xác định là Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (mã NTD).",
-      "definition": "Tên gọi: Đất nghĩa địa, mồ mả theo Chỉ thị 299/TTg. Quy đổi tương đương sang Luật 2024: Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (Mã NTD). Quan hệ: 1 -> 1.",
-      "evolutionNote": "Điểm h Khoản 2 Điều 9 Luật Đất đai 2024: Đất mai táng, nghĩa địa xác định là Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (mã NTD).",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTD",
+        "name2024": "Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm h Khoản 2 Điều 9 Luật Đất đai 2024: Đất mai táng, nghĩa địa xác định là Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (mã NTD).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất nghĩa địa, mồ mả. Quy đổi tương đương theo Luật 2024: Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng.",
+        "evolution": "Điểm h Khoản 2 Điều 9 Luật Đất đai 2024: Đất mai táng, nghĩa địa xác định là Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (mã NTD)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "Mã",
-          "doc": "Chỉ thị 299/TTg",
-          "status": "Đất nghĩa địa, mồ mả"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "NTD",
+          "sodo": "NTD",
+          "kk": "NTD",
+          "note": "Quy đổi sang: Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (Mã NTD)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "Mã ➔ NTD",
-          "doc": "1 -> 1",
-          "status": "Quy đổi sang: Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "NTD",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Mã",
+          "sodo": "Mã",
+          "kk": "Mã",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất nghĩa địa, mồ mả"
         }
       ],
-      "comparison": {
-        "m24": "NTD",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "Mã"
+      "sec3": {
+        "oldScenario": "Đất nghĩa địa, mồ mả (Ký hiệu: Mã)",
+        "oldDoc": "Chỉ thị 299/TTg",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm h Khoản 2 Điều 9 Luật Đất đai 2024: Đất mai táng, nghĩa địa xác định là Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng (mã NTD).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6624,50 +8670,64 @@ window.LAND_DATA = {
         "hex": "#D2D2D2",
         "target": "Đất nghĩa trang, nghĩa địa, nhà tang lễ, hỏa táng"
       },
-      "legalBasis": "Khoản 9 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Nghĩa trang nhân dân, công viên vĩnh hằng, nhà tang lễ, đài hỏa táng, tháp lưu tro cốt.",
-      "evolutionNote": "Luật 2024 bổ sung rõ ràng phạm vi 'cơ sở lưu trữ tro cốt' vào mã NTD.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NTD",
+        "name2024": "Đất nghĩa trang, nhà tang lễ, cơ sở hỏa táng; cơ sở lưu trữ tro cốt",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 9 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nghĩa trang nhân dân, công viên vĩnh hằng, nhà tang lễ, đài hỏa táng, tháp lưu tro cốt.",
+        "evolution": "Luật 2024 bổ sung rõ ràng phạm vi 'cơ sở lưu trữ tro cốt' vào mã NTD."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "N",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NTD",
+          "sodo": "NTD",
+          "kk": "NTD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất nghĩa trang, nhà tang lễ, cơ sở hỏa táng, lưu trữ tro cốt"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Nghĩa địa",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NTD",
+          "sodo": "NTD",
+          "kk": "NTD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NTD | Kiểm kê: NTD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NTD",
+          "sodo": "NTD",
+          "kk": "NTD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NTD | GCN: NTD | KK: NTD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Nghĩa địa",
+          "sodo": "Nghĩa địa",
+          "kk": "Nghĩa địa",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "NTD",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "N",
+          "sodo": "N",
+          "kk": "N",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "NTD",
-        "m13_bddc": "NTD",
-        "m13_sodo": "NTD",
-        "m13_kk": "NTD",
-        "m03_hsdc": "NTD",
-        "m03_kk": "NTD",
-        "m95": "Nghĩa địa",
-        "m299": "N"
+      "sec3": {
+        "oldScenario": "Đất nghĩa trang, nhà tang lễ, cơ sở hỏa táng, lưu trữ tro cốt",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 9 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6690,50 +8750,64 @@ window.LAND_DATA = {
         "hex": "#FFA0FF",
         "target": "Đất ở tại đô thị"
       },
-      "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất ở thuộc phạm vi địa giới hành chính các phường và thị trấn.",
-      "evolutionNote": "Đất ở tại phường, thị trấn, thành phố. Trước 2004 trên sổ đỏ ghi ký hiệu 'T'.",
-      "timeline": [
+      "sec1": {
+        "code2024": "ODT",
+        "name2024": "Đất ở tại đô thị",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất ở thuộc phạm vi địa giới hành chính các phường và thị trấn.",
+        "evolution": "Đất ở tại phường, thị trấn, thành phố. Trước 2004 trên sổ đỏ ghi ký hiệu 'T'."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "T",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "ODT",
+          "sodo": "ODT",
+          "kk": "ODT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất ở tại đô thị"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "T (Thổ cư đô thị)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "ODT",
+          "sodo": "ODT",
+          "kk": "ODT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: ODT (OĐT) | Kiểm kê: ODT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "ODT (OĐT)",
+          "sodo": "ODT (OĐT)",
+          "kk": "ODT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: ODT | GCN: ODT | KK: ODT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "T (Thổ cư đô thị)",
+          "sodo": "T (Thổ cư đô thị)",
+          "kk": "T (Thổ cư đô thị)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "ODT (nhóm OTC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "ODT (nhóm OTC)",
-        "m13_bddc": "ODT",
-        "m13_sodo": "ODT",
-        "m13_kk": "ODT",
-        "m03_hsdc": "ODT (OĐT)",
-        "m03_kk": "ODT",
-        "m95": "T (Thổ cư đô thị)",
-        "m299": "T"
+      "sec3": {
+        "oldScenario": "Đất ở tại đô thị",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6756,50 +8830,64 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
-      "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
-      "evolutionNote": "Đất ở tại xã nông thôn. Thời kỳ trước 2004 ký hiệu là 'T' (thổ cư). Luật 2024 nhóm đất ở có mã tổng là OTC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
+        "evolution": "Đất ở tại xã nông thôn. Thời kỳ trước 2004 ký hiệu là 'T' (thổ cư). Luật 2024 nhóm đất ở có mã tổng là OTC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "T",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất ở tại nông thôn"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "T (Thổ cư nông thôn)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: ONT | Kiểm kê: ONT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: ONT | GCN: ONT | KK: ONT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "T (Thổ cư nông thôn)",
+          "sodo": "T (Thổ cư nông thôn)",
+          "kk": "T (Thổ cư nông thôn)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "ONT (nhóm OTC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "ONT (nhóm OTC)",
-        "m13_bddc": "ONT",
-        "m13_sodo": "ONT",
-        "m13_kk": "ONT",
-        "m03_hsdc": "ONT",
-        "m03_kk": "ONT",
-        "m95": "T (Thổ cư nông thôn)",
-        "m299": "T"
+      "sec3": {
+        "oldScenario": "Đất ở tại nông thôn",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6822,50 +8910,64 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
-      "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
-      "evolutionNote": "Ký hiệu theo Chỉ thị 299/TTg và Quyết định 499 QĐ/ĐC. Xác định là ONT nếu tại xã hoặc ODT nếu tại phường, thị trấn theo Điều 141 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
+        "evolution": "Ký hiệu theo Chỉ thị 299/TTg và Quyết định 499 QĐ/ĐC. Xác định là ONT nếu tại xã hoặc ODT nếu tại phường, thị trấn theo Điều 141 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "T",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất thổ cư (Ký hiệu cũ 'T' trên sổ đỏ 299, QĐ 499, TT 1990)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "T",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "ONT / ODT",
+          "sodo": "ONT / ODT",
+          "kk": "ONT / ODT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: ONT / ODT | Kiểm kê: ONT / ODT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "ONT / ODT",
+          "sodo": "ONT / ODT",
+          "kk": "ONT / ODT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: ONT / ODT | GCN: ONT / ODT | KK: ONT / ODT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "ONT hoặc ODT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "ONT hoặc ODT",
-        "m13_bddc": "ONT / ODT",
-        "m13_sodo": "ONT / ODT",
-        "m13_kk": "ONT / ODT",
-        "m03_hsdc": "ONT / ODT",
-        "m03_kk": "ONT / ODT",
-        "m95": "T",
-        "m299": "T"
+      "sec3": {
+        "oldScenario": "Đất thổ cư (Ký hiệu cũ 'T' trên sổ đỏ 299, QĐ 499, TT 1990)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -6888,50 +8990,64 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
-      "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
-      "evolutionNote": "Thông tư 28/2004/TT-BTNMT & Thông tư 08/2007/TT-BTNMT: Chỉ tiêu khoanh định ranh giới điểm dân cư; thửa đất ở cụ thể cấp Giấy chứng nhận xác định theo mã ONT quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
+        "evolution": "Thông tư 28/2004/TT-BTNMT & Thông tư 08/2007/TT-BTNMT: Chỉ tiêu khoanh định ranh giới điểm dân cư; thửa đất ở cụ thể cấp Giấy chứng nhận xác định theo mã ONT quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "T",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu dân cư nông thôn"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "KDC nông thôn",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: ONT | Kiểm kê: DNT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "DNT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: ONT | GCN: ONT | KK: ONT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "KDC nông thôn",
+          "sodo": "KDC nông thôn",
+          "kk": "KDC nông thôn",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "ONT (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "ONT (quy đổi)",
-        "m13_bddc": "ONT",
-        "m13_sodo": "ONT",
-        "m13_kk": "ONT",
-        "m03_hsdc": "ONT",
-        "m03_kk": "DNT",
-        "m95": "KDC nông thôn",
-        "m299": "T"
+      "sec3": {
+        "oldScenario": "Đất khu dân cư nông thôn",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -6954,50 +9070,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất phi nông nghiệp khác"
       },
-      "legalBasis": "Khoản 11 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Chòi nghỉ, trạm kiểm soát gác rừng tạm, trạm bảo vệ, công trình phụ trợ phi nông nghiệp khác.",
-      "evolutionNote": "Công trình phụ trợ phi nông nghiệp khác chưa xếp vào các nhóm trên.",
-      "timeline": [
+      "sec1": {
+        "code2024": "PNK",
+        "name2024": "Đất phi nông nghiệp khác",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 11 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Chòi nghỉ, trạm kiểm soát gác rừng tạm, trạm bảo vệ, công trình phụ trợ phi nông nghiệp khác.",
+        "evolution": "Công trình phụ trợ phi nông nghiệp khác chưa xếp vào các nhóm trên."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "PNK",
+          "sodo": "PNK",
+          "kk": "PNK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất phi nông nghiệp khác (chòi canh gác, công trình phụ trợ...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD khác",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "PNK",
+          "sodo": "PNK",
+          "kk": "PNK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: PNK | Kiểm kê: PNK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "PNK",
+          "sodo": "PNK",
+          "kk": "PNK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: PNK | GCN: PNK | KK: PNK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD khác",
+          "sodo": "CD khác",
+          "kk": "CD khác",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "PNK",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "PNK",
-        "m13_bddc": "PNK",
-        "m13_sodo": "PNK",
-        "m13_kk": "PNK",
-        "m03_hsdc": "PNK",
-        "m03_kk": "PNK",
-        "m95": "CD khác",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất phi nông nghiệp khác (chòi canh gác, công trình phụ trợ...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 11 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7020,50 +9150,64 @@ window.LAND_DATA = {
         "hex": "#FFB496",
         "target": "Đất xây dựng cơ sở thể dục, thể thao"
       },
-      "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Khu tập trung các hoạt động nghiên cứu, phát triển, sản xuất sản phẩm phần mềm, CNTT.",
-      "evolutionNote": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã SCT cho đất khu công nghệ thông tin tập trung.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SCT",
+        "name2024": "Đất khu công nghệ thông tin tập trung",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Khu tập trung các hoạt động nghiên cứu, phát triển, sản xuất sản phẩm phần mềm, CNTT.",
+        "evolution": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã SCT cho đất khu công nghệ thông tin tập trung."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SCT",
+          "sodo": "SCT",
+          "kk": "SCT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu công nghệ thông tin tập trung"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKK / SKC",
+          "sodo": "SKK / SKC",
+          "kk": "SKK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKK / SKC | Kiểm kê: SKK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKK / SKC",
+          "sodo": "SKK / SKC",
+          "kk": "SKK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKK / SKC | GCN: SKK / SKC | KK: SKK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD",
+          "sodo": "CD",
+          "kk": "CD",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SCT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SCT",
-        "m13_bddc": "SKK / SKC",
-        "m13_sodo": "SKK / SKC",
-        "m13_kk": "SKK",
-        "m03_hsdc": "SKK / SKC",
-        "m03_kk": "SKK",
-        "m95": "CD",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất khu công nghệ thông tin tập trung",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7086,50 +9230,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
-      "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
-      "evolutionNote": "Nhà máy, xí nghiệp, cơ sở tiểu thủ công nghiệp độc lập ngoài khu/cụm công nghiệp.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKC",
+        "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
+        "evolution": "Nhà máy, xí nghiệp, cơ sở tiểu thủ công nghiệp độc lập ngoài khu/cụm công nghiệp."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKC",
+          "sodo": "SKC",
+          "kk": "SKC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất cơ sở sản xuất phi nông nghiệp (nhà máy, xí nghiệp ngoài KCN)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Sản xuất)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKC",
+          "sodo": "SKC",
+          "kk": "SKC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKC | Kiểm kê: SKC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKC",
+          "sodo": "SKC",
+          "kk": "SKC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKC | GCN: SKC | KK: SKC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Sản xuất)",
+          "sodo": "CD (Sản xuất)",
+          "kk": "CD (Sản xuất)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKC (nhóm CSK)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKC (nhóm CSK)",
-        "m13_bddc": "SKC",
-        "m13_sodo": "SKC",
-        "m13_kk": "SKC",
-        "m03_hsdc": "SKC",
-        "m03_kk": "SKC",
-        "m95": "CD (Sản xuất)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất cơ sở sản xuất phi nông nghiệp (nhà máy, xí nghiệp ngoài KCN)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7152,50 +9310,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
-      "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
-      "evolutionNote": "Luật 2024 không duy trì mã SKX riêng mà gom chung vào đất cơ sở sản xuất phi nông nghiệp SKC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKC",
+        "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
+        "evolution": "Luật 2024 không duy trì mã SKX riêng mà gom chung vào đất cơ sở sản xuất phi nông nghiệp SKC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKC",
+          "sodo": "SKC",
+          "kk": "SKC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sản xuất vật liệu xây dựng, làm đồ gốm"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Lò gạch/đá)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKX",
+          "sodo": "SKX",
+          "kk": "SKX",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKX | Kiểm kê: SKX",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKX",
+          "sodo": "SKX",
+          "kk": "SKX",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKX | GCN: SKX | KK: SKX",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Lò gạch/đá)",
+          "sodo": "CD (Lò gạch/đá)",
+          "kk": "CD (Lò gạch/đá)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKC (quy đổi)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKC (quy đổi)",
-        "m13_bddc": "SKX",
-        "m13_sodo": "SKX",
-        "m13_kk": "SKX",
-        "m03_hsdc": "SKX",
-        "m03_kk": "SKX",
-        "m95": "CD (Lò gạch/đá)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất sản xuất vật liệu xây dựng, làm đồ gốm",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7218,50 +9390,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
       },
-      "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
-      "evolutionNote": "Đất trong ranh giới các khu công nghiệp tập trung. Luật 2024 xếp trong nhóm SCC (KCN và cụm CN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKK",
+        "name2024": "Đất khu công nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
+        "evolution": "Đất trong ranh giới các khu công nghiệp tập trung. Luật 2024 xếp trong nhóm SCC (KCN và cụm CN)."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKK",
+          "sodo": "SKK",
+          "kk": "SKK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu công nghiệp"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (KCN)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKK",
+          "sodo": "SKK",
+          "kk": "SKK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKK | Kiểm kê: SKK",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKK",
+          "sodo": "SKK",
+          "kk": "SKK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKK | GCN: SKK | KK: SKK",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (KCN)",
+          "sodo": "CD (KCN)",
+          "kk": "CD (KCN)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKK (nhóm SCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKK (nhóm SCC)",
-        "m13_bddc": "SKK",
-        "m13_sodo": "SKK",
-        "m13_kk": "SKK",
-        "m03_hsdc": "SKK",
-        "m03_kk": "SKK",
-        "m95": "CD (KCN)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất khu công nghiệp",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7284,50 +9470,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
       },
-      "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
-      "evolutionNote": "Luật 2024 không còn duy trì mã SKT riêng mà xếp chung vào quy chế đất khu công nghiệp SKK/SCC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKK",
+        "name2024": "Đất khu công nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
+        "evolution": "Luật 2024 không còn duy trì mã SKT riêng mà xếp chung vào quy chế đất khu công nghiệp SKK/SCC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKK",
+          "sodo": "SKK",
+          "kk": "SKK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu chế xuất"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (KCX)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKT",
+          "sodo": "SKT",
+          "kk": "SKT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKT | Kiểm kê: SKT",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKT",
+          "sodo": "SKT",
+          "kk": "SKT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKT | GCN: SKT | KK: SKT",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (KCX)",
+          "sodo": "CD (KCX)",
+          "kk": "CD (KCX)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKK / SCC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKK / SCC",
-        "m13_bddc": "SKT",
-        "m13_sodo": "SKT",
-        "m13_kk": "SKT",
-        "m03_hsdc": "SKT",
-        "m03_kk": "SKT",
-        "m95": "CD (KCX)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất khu chế xuất",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7350,50 +9550,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cụm công nghiệp"
       },
-      "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Đất trong phạm vi cụm công nghiệp được cơ quan có thẩm quyền phê duyệt.",
-      "evolutionNote": "Đất trong ranh giới cụm công nghiệp địa phương. Luật 2024 thuộc nhóm SCC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKN",
+        "name2024": "Đất cụm công nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trong phạm vi cụm công nghiệp được cơ quan có thẩm quyền phê duyệt.",
+        "evolution": "Đất trong ranh giới cụm công nghiệp địa phương. Luật 2024 thuộc nhóm SCC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKN",
+          "sodo": "SKN",
+          "kk": "SKN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất cụm công nghiệp"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Cụm CN)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKN",
+          "sodo": "SKN",
+          "kk": "SKN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKN | Kiểm kê: SKN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKN",
+          "sodo": "SKN",
+          "kk": "SKN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKN | GCN: SKN | KK: SKN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Cụm CN)",
+          "sodo": "CD (Cụm CN)",
+          "kk": "CD (Cụm CN)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKN (nhóm SCC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKN (nhóm SCC)",
-        "m13_bddc": "SKN",
-        "m13_sodo": "SKN",
-        "m13_kk": "SKN",
-        "m03_hsdc": "SKN",
-        "m03_kk": "SKN",
-        "m95": "CD (Cụm CN)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất cụm công nghiệp",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7416,50 +9630,64 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất sử dụng cho hoạt động khoáng sản"
       },
-      "legalBasis": "Điểm d Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Khai trường mỏ khoáng sản, khu vực chế biến khoáng sản gắn liền với khu vực khai thác.",
-      "evolutionNote": "Khai trường khai thác quặng, mỏ than, đá, cát, cơ sở chế biến khoáng sản tại chỗ.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKS",
+        "name2024": "Đất sử dụng cho hoạt động khoáng sản",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm d Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Khai trường mỏ khoáng sản, khu vực chế biến khoáng sản gắn liền với khu vực khai thác.",
+        "evolution": "Khai trường khai thác quặng, mỏ than, đá, cát, cơ sở chế biến khoáng sản tại chỗ."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SKS",
+          "sodo": "SKS",
+          "kk": "SKS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sử dụng cho hoạt động khoáng sản (khai thác, chế biến khoáng sản)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Khoáng sản)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKS",
+          "sodo": "SKS",
+          "kk": "SKS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SKS | Kiểm kê: SKS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKS",
+          "sodo": "SKS",
+          "kk": "SKS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SKS | GCN: SKS | KK: SKS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Khoáng sản)",
+          "sodo": "CD (Khoáng sản)",
+          "kk": "CD (Khoáng sản)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SKS (nhóm CSK)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SKS (nhóm CSK)",
-        "m13_bddc": "SKS",
-        "m13_sodo": "SKS",
-        "m13_kk": "SKS",
-        "m03_hsdc": "SKS",
-        "m03_kk": "SKS",
-        "m95": "CD (Khoáng sản)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất sử dụng cho hoạt động khoáng sản (khai thác, chế biến khoáng sản)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm d Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7482,38 +9710,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu chế xuất"
       },
-      "legalBasis": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng khu chế xuất, xếp chung vào Đất khu công nghiệp (mã SKK).",
-      "definition": "Tên gọi: Đất khu chế xuất theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất khu công nghiệp (Mã SKK). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng khu chế xuất, xếp chung vào Đất khu công nghiệp (mã SKK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKK",
+        "name2024": "Đất khu công nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng khu chế xuất, xếp chung vào Đất khu công nghiệp (mã SKK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất khu chế xuất. Quy đổi tương đương theo Luật 2024: Đất khu công nghiệp.",
+        "evolution": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng khu chế xuất, xếp chung vào Đất khu công nghiệp (mã SKK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "SKT",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất khu chế xuất"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "SKK",
+          "sodo": "SKK",
+          "kk": "SKK",
+          "note": "Quy đổi sang: Đất khu công nghiệp (Mã SKK)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "SKT ➔ SKK",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất khu công nghiệp"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKT",
+          "sodo": "SKT",
+          "kk": "SKT",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "SKK",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất khu chế xuất"
         }
       ],
-      "comparison": {
-        "m24": "SKK",
-        "m13_bddc": "SKT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu chế xuất (Ký hiệu: SKT)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng khu chế xuất, xếp chung vào Đất khu công nghiệp (mã SKK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7537,38 +9791,64 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất sản xuất VLXD, làm đồ gốm"
       },
-      "legalBasis": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng đất sản xuất VLXD làm đồ gốm, hợp nhất vào Đất cơ sở sản xuất phi nông nghiệp (mã SKC).",
-      "definition": "Tên gọi: Đất sản xuất VLXD, làm đồ gốm theo Luật 2013 (TT 25/2014, TT 27/2018). Quy đổi tương đương sang Luật 2024: Đất cơ sở sản xuất phi nông nghiệp (Mã SKC). Quan hệ: N -> 1.",
-      "evolutionNote": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng đất sản xuất VLXD làm đồ gốm, hợp nhất vào Đất cơ sở sản xuất phi nông nghiệp (mã SKC).",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKC",
+        "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng đất sản xuất VLXD làm đồ gốm, hợp nhất vào Đất cơ sở sản xuất phi nông nghiệp (mã SKC).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất sản xuất VLXD, làm đồ gốm. Quy đổi tương đương theo Luật 2024: Đất cơ sở sản xuất phi nông nghiệp.",
+        "evolution": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng đất sản xuất VLXD làm đồ gốm, hợp nhất vào Đất cơ sở sản xuất phi nông nghiệp (mã SKC)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "SKX",
-          "doc": "Luật 2013 (TT 25/2014, TT 27/2018)",
-          "status": "Đất sản xuất VLXD, làm đồ gốm"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "SKC",
+          "sodo": "SKC",
+          "kk": "SKC",
+          "note": "Quy đổi sang: Đất cơ sở sản xuất phi nông nghiệp (Mã SKC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "SKX ➔ SKC",
-          "doc": "N -> 1",
-          "status": "Quy đổi sang: Đất cơ sở sản xuất phi nông nghiệp"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKX",
+          "sodo": "SKX",
+          "kk": "SKX",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "SKC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất sản xuất VLXD, làm đồ gốm"
         }
       ],
-      "comparison": {
-        "m24": "SKC",
-        "m13_bddc": "SKX",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất sản xuất VLXD, làm đồ gốm (Ký hiệu: SKX)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018)",
+        "relation": "N -> 1",
+        "statutoryRule": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024: Bãi bỏ mã riêng đất sản xuất VLXD làm đồ gốm, hợp nhất vào Đất cơ sở sản xuất phi nông nghiệp (mã SKC).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7592,38 +9872,64 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
-      "legalBasis": "Quyết định 24/2004/QĐ-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê cấp 1 gộp sông suối và mặt nước; tương ứng đất sông, ngòi, kênh, rạch, suối (SON) hoặc đất có mặt nước chuyên dùng (MNC) quy định tại Điều 9 Luật Đất đai 2024.",
-      "definition": "Tên gọi: Đất sông, suối và mặt nước chuyên dùng theo Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng (Mã SON / MNC). Quan hệ: 1 -> N.",
-      "evolutionNote": "Quyết định 24/2004/QĐ-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê cấp 1 gộp sông suối và mặt nước; tương ứng đất sông, ngòi, kênh, rạch, suối (SON) hoặc đất có mặt nước chuyên dùng (MNC) quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SON",
+        "name2024": "Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Quyết định 24/2004/QĐ-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê cấp 1 gộp sông suối và mặt nước; tương ứng đất sông, ngòi, kênh, rạch, suối (SON) hoặc đất có mặt nước chuyên dùng (MNC) quy định tại Điều 9 Luật Đất đai 2024.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất sông, suối và mặt nước chuyên dùng. Quy đổi tương đương theo Luật 2024: Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng.",
+        "evolution": "Quyết định 24/2004/QĐ-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê cấp 1 gộp sông suối và mặt nước; tương ứng đất sông, ngòi, kênh, rạch, suối (SON) hoặc đất có mặt nước chuyên dùng (MNC) quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "SMN",
-          "doc": "Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT)",
-          "status": "Đất sông, suối và mặt nước chuyên dùng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Quy đổi sang: Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng (Mã SON / MNC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "SMN ➔ SON / MNC",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "SON / MNC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SMN",
+          "sodo": "SMN",
+          "kk": "SMN",
+          "note": "Thời kỳ áp dụng: Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất sông, suối và mặt nước chuyên dùng"
         }
       ],
-      "comparison": {
-        "m24": "SON / MNC",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "SMN",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất sông, suối và mặt nước chuyên dùng (Ký hiệu: SMN)",
+        "oldDoc": "Luật 2003 (QĐ 24/2004/QĐ-BTNMT, Thông tư 08/2007/TT-BTNMT)",
+        "relation": "1 -> N",
+        "statutoryRule": "Quyết định 24/2004/QĐ-BTNMT và Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê cấp 1 gộp sông suối và mặt nước; tương ứng đất sông, ngòi, kênh, rạch, suối (SON) hoặc đất có mặt nước chuyên dùng (MNC) quy định tại Điều 9 Luật Đất đai 2024.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7647,50 +9953,64 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
-      "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
-      "definition": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
-      "evolutionNote": "Lưu vực lòng sông, ngòi, kênh mương lớn tự nhiên. Luật 2024 thuộc nhóm TVC.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SON",
+        "name2024": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
+        "evolution": "Lưu vực lòng sông, ngòi, kênh mương lớn tự nhiên. Luật 2024 thuộc nhóm TVC."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "S",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối tự nhiên"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Sông / Suối",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SON | Kiểm kê: SON",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SON | GCN: SON | KK: SON",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Sông / Suối",
+          "sodo": "Sông / Suối",
+          "kk": "Sông / Suối",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SON (nhóm TVC)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "S",
+          "sodo": "S",
+          "kk": "S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SON (nhóm TVC)",
-        "m13_bddc": "SON",
-        "m13_sodo": "SON",
-        "m13_kk": "SON",
-        "m03_hsdc": "SON",
-        "m03_kk": "SON",
-        "m95": "Sông / Suối",
-        "m299": "S"
+      "sec3": {
+        "oldScenario": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối tự nhiên",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7713,50 +10033,64 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
-      "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
-      "definition": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
-      "evolutionNote": "Quyết định 24/2004/QĐ-BTNMT & Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê gộp; phân định thành SON (sông suối) hoặc MNC (mặt nước chuyên dùng) quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SON",
+        "name2024": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
+        "evolution": "Quyết định 24/2004/QĐ-BTNMT & Thông tư 08/2007/TT-BTNMT: Chỉ tiêu kiểm kê gộp; phân định thành SON (sông suối) hoặc MNC (mặt nước chuyên dùng) quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "D / S",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sông, suối và mặt nước chuyên dùng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Sông suối",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SON / MNC",
+          "sodo": "SON / MNC",
+          "kk": "SON / MNC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SON / MNC | Kiểm kê: SMN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SON / MNC",
+          "sodo": "SON / MNC",
+          "kk": "SMN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SON / MNC | GCN: SON / MNC | KK: SON / MNC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Sông suối",
+          "sodo": "Sông suối",
+          "kk": "Sông suối",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SON / MNC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "D / S",
+          "sodo": "D / S",
+          "kk": "D / S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SON / MNC",
-        "m13_bddc": "SON / MNC",
-        "m13_sodo": "SON / MNC",
-        "m13_kk": "SON / MNC",
-        "m03_hsdc": "SON / MNC",
-        "m03_kk": "SMN",
-        "m95": "Sông suối",
-        "m299": "D / S"
+      "sec3": {
+        "oldScenario": "Đất sông, suối và mặt nước chuyên dùng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7779,50 +10113,64 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
-      "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
-      "definition": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
-      "evolutionNote": "Điều 210 Luật Đất đai 2024 & Nghị định 43/2015/NĐ-CP: Đất thuộc hành lang bảo vệ nguồn nước; xác định theo mục đích hiện trạng và chịu hạn chế quyền theo quy định pháp luật tài nguyên nước.",
-      "timeline": [
+      "sec1": {
+        "code2024": "SON",
+        "name2024": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
+        "evolution": "Điều 210 Luật Đất đai 2024 & Nghị định 43/2015/NĐ-CP: Đất thuộc hành lang bảo vệ nguồn nước; xác định theo mục đích hiện trạng và chịu hạn chế quyền theo quy định pháp luật tài nguyên nước."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "D / S",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Hành lang bảo vệ nguồn nước sông, suối"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hành lang sông",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SON (HL)",
+          "sodo": "SON",
+          "kk": "SON",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: SON | Kiểm kê: HLS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SON",
+          "sodo": "SON",
+          "kk": "HLS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: SON (HL) | GCN: SON | KK: SON",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hành lang sông",
+          "sodo": "Hành lang sông",
+          "kk": "Hành lang sông",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "SON (hành lang)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "D / S",
+          "sodo": "D / S",
+          "kk": "D / S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "SON (hành lang)",
-        "m13_bddc": "SON (HL)",
-        "m13_sodo": "SON",
-        "m13_kk": "SON",
-        "m03_hsdc": "SON",
-        "m03_kk": "HLS",
-        "m95": "Hành lang sông",
-        "m299": "D / S"
+      "sec3": {
+        "oldScenario": "Hành lang bảo vệ nguồn nước sông, suối",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Thuộc tính hành lang",
+        "statutoryRule": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7845,38 +10193,64 @@ window.LAND_DATA = {
         "hex": "#FFB4FF",
         "target": "Đất thổ cư (299/499)"
       },
-      "legalBasis": "Khoản 1, Khoản 2 Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Thửa đất có nguồn gốc trước ngày 15/10/1993 ghi đất 'T' được xác định là đất ở (ONT nếu tại xã, ODT nếu tại phường, thị trấn) theo hạn mức công nhận đất ở; diện tích ngoài hạn mức xác định là đất nông nghiệp (CLN hoặc HNK).",
-      "definition": "Tên gọi: Đất thổ cư theo Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất ở tại nông thôn / Đất ở tại đô thị (Mã ONT / ODT). Quan hệ: 1 -> 1 (theo địa bàn).",
-      "evolutionNote": "Khoản 1, Khoản 2 Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Thửa đất có nguồn gốc trước ngày 15/10/1993 ghi đất 'T' được xác định là đất ở (ONT nếu tại xã, ODT nếu tại phường, thị trấn) theo hạn mức công nhận đất ở; diện tích ngoài hạn mức xác định là đất nông nghiệp (CLN hoặc HNK).",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn / Đất ở tại đô thị",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 1, Khoản 2 Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Thửa đất có nguồn gốc trước ngày 15/10/1993 ghi đất 'T' được xác định là đất ở (ONT nếu tại xã, ODT nếu tại phường, thị trấn) theo hạn mức công nhận đất ở; diện tích ngoài hạn mức xác định là đất nông nghiệp (CLN hoặc HNK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất thổ cư. Quy đổi tương đương theo Luật 2024: Đất ở tại nông thôn / Đất ở tại đô thị.",
+        "evolution": "Khoản 1, Khoản 2 Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Thửa đất có nguồn gốc trước ngày 15/10/1993 ghi đất 'T' được xác định là đất ở (ONT nếu tại xã, ODT nếu tại phường, thị trấn) theo hạn mức công nhận đất ở; diện tích ngoài hạn mức xác định là đất nông nghiệp (CLN hoặc HNK)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "T",
-          "doc": "Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995)",
-          "status": "Đất thổ cư"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "ONT",
+          "sodo": "ONT",
+          "kk": "ONT",
+          "note": "Quy đổi sang: Đất ở tại nông thôn / Đất ở tại đô thị (Mã ONT / ODT)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "T ➔ ONT / ODT",
-          "doc": "1 -> 1 (theo địa bàn)",
-          "status": "Quy đổi sang: Đất ở tại nông thôn / Đất ở tại đô thị"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "ONT / ODT",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T",
+          "sodo": "T",
+          "kk": "T",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất thổ cư"
         }
       ],
-      "comparison": {
-        "m24": "ONT / ODT",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "T",
-        "m299": "T"
+      "sec3": {
+        "oldScenario": "Đất thổ cư (Ký hiệu: T)",
+        "oldDoc": "Chỉ thị 299/TTg (1980), QĐ 56-ĐKTK, QĐ 499 (1995)",
+        "relation": "1 -> 1 (theo địa bàn)",
+        "statutoryRule": "Khoản 1, Khoản 2 Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Thửa đất có nguồn gốc trước ngày 15/10/1993 ghi đất 'T' được xác định là đất ở (ONT nếu tại xã, ODT nếu tại phường, thị trấn) theo hạn mức công nhận đất ở; diện tích ngoài hạn mức xác định là đất nông nghiệp (CLN hoặc HNK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ cấp GCN và công nhận hạn mức đất ở đối với hồ sơ xác lập trước ngày 15/10/1993.",
@@ -7900,50 +10274,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tín ngưỡng"
       },
-      "legalBasis": "Khoản 8 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đình, đền, miếu, am, từ đường, nhà thờ họ phục vụ tín ngưỡng dân gian truyền thống.",
-      "evolutionNote": "Đình làng, đền thờ, miếu mạo, từ đường dòng họ.",
-      "timeline": [
+      "sec1": {
+        "code2024": "TIN",
+        "name2024": "Đất tín ngưỡng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 8 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đình, đền, miếu, am, từ đường, nhà thờ họ phục vụ tín ngưỡng dân gian truyền thống.",
+        "evolution": "Đình làng, đền thờ, miếu mạo, từ đường dòng họ."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "TIN",
+          "sodo": "TIN",
+          "kk": "TIN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất tín ngưỡng (đình, đền, miếu, am, từ đường, nhà thờ họ...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Đình, Đền)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "TIN",
+          "sodo": "TIN",
+          "kk": "TIN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: TIN | Kiểm kê: TIN",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TIN",
+          "sodo": "TIN",
+          "kk": "TIN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: TIN | GCN: TIN | KK: TIN",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Đình, Đền)",
+          "sodo": "CD (Đình, Đền)",
+          "kk": "CD (Đình, Đền)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "TIN",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "TIN",
-        "m13_bddc": "TIN",
-        "m13_sodo": "TIN",
-        "m13_kk": "TIN",
-        "m03_hsdc": "TIN",
-        "m03_kk": "TIN",
-        "m95": "CD (Đình, Đền)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất tín ngưỡng (đình, đền, miếu, am, từ đường, nhà thờ họ...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 8 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -7966,50 +10354,64 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất thương mại, dịch vụ"
       },
-      "legalBasis": "Điểm b Khoản 5 Điều 5 NĐ 102/2024",
-      "definition": "Đất xây dựng các cơ sở kinh doanh thương mại, dịch vụ, khách sạn, nhà hàng, văn phòng cho thuê.",
-      "evolutionNote": "Đất xây dựng trung tâm thương mại, siêu thị, khách sạn, nhà hàng, văn phòng giao dịch thương mại.",
-      "timeline": [
+      "sec1": {
+        "code2024": "TMD",
+        "name2024": "Đất thương mại, dịch vụ",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm b Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất xây dựng các cơ sở kinh doanh thương mại, dịch vụ, khách sạn, nhà hàng, văn phòng cho thuê.",
+        "evolution": "Đất xây dựng trung tâm thương mại, siêu thị, khách sạn, nhà hàng, văn phòng giao dịch thương mại."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "TMD",
+          "sodo": "TMD",
+          "kk": "TMD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất thương mại, dịch vụ (khách sạn, TTTM, văn phòng cho thuê...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Dịch vụ)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "TMD",
+          "sodo": "TMD",
+          "kk": "TMD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: TMD | Kiểm kê: TMD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TMD",
+          "sodo": "TMD",
+          "kk": "TMD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: TMD | GCN: TMD | KK: TMD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Dịch vụ)",
+          "sodo": "CD (Dịch vụ)",
+          "kk": "CD (Dịch vụ)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "TMD (nhóm CSK)",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "TMD (nhóm CSK)",
-        "m13_bddc": "TMD",
-        "m13_sodo": "TMD",
-        "m13_kk": "TMD",
-        "m03_hsdc": "TMD",
-        "m03_kk": "TMD",
-        "m95": "CD (Dịch vụ)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất thương mại, dịch vụ (khách sạn, TTTM, văn phòng cho thuê...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8032,50 +10434,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tôn giáo"
       },
-      "legalBasis": "Khoản 7 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Chùa, nhà thờ, thánh đường, thánh thất, niệm phật đường, tu viện, cơ sở đào tạo tôn giáo.",
-      "evolutionNote": "Cơ sở của các tổ chức tôn giáo hợp pháp. Thời kỳ 2003 từng dùng TTG hoặc TON.",
-      "timeline": [
+      "sec1": {
+        "code2024": "TON",
+        "name2024": "Đất tôn giáo",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 7 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Chùa, nhà thờ, thánh đường, thánh thất, niệm phật đường, tu viện, cơ sở đào tạo tôn giáo.",
+        "evolution": "Cơ sở của các tổ chức tôn giáo hợp pháp. Thời kỳ 2003 từng dùng TTG hoặc TON."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "TON",
+          "sodo": "TON",
+          "kk": "TON",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất tôn giáo (chùa, nhà thờ, thánh thất, tu viện...)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Tôn giáo)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "TON",
+          "sodo": "TON",
+          "kk": "TON",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: TON (TTG) | Kiểm kê: TON",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TON (TTG)",
+          "sodo": "TON (TTG)",
+          "kk": "TON",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: TON | GCN: TON | KK: TON",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Tôn giáo)",
+          "sodo": "CD (Tôn giáo)",
+          "kk": "CD (Tôn giáo)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "TON",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "TON",
-        "m13_bddc": "TON",
-        "m13_sodo": "TON",
-        "m13_kk": "TON",
-        "m03_hsdc": "TON (TTG)",
-        "m03_kk": "TON",
-        "m95": "CD (Tôn giáo)",
-        "m299": "C"
+      "sec3": {
+        "oldScenario": "Đất tôn giáo (chùa, nhà thờ, thánh thất, tu viện...)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 7 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8098,50 +10514,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất xây dựng trụ sở cơ quan"
       },
-      "legalBasis": "Khoản 2 Điều 5 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất xây dựng trụ sở của cơ quan Đảng, cơ quan Nhà nước, Mặt trận Tổ quốc và tổ chức chính trị - xã hội.",
-      "evolutionNote": "Trụ sở cơ quan Đảng, Nhà nước, Mặt trận Tổ quốc, tổ chức chính trị - xã hội. Thời kỳ 299/1993 thuộc đất chuyên dùng CD/C.",
-      "timeline": [
+      "sec1": {
+        "code2024": "TSC",
+        "name2024": "Đất xây dựng trụ sở cơ quan",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất xây dựng trụ sở của cơ quan Đảng, cơ quan Nhà nước, Mặt trận Tổ quốc và tổ chức chính trị - xã hội.",
+        "evolution": "Trụ sở cơ quan Đảng, Nhà nước, Mặt trận Tổ quốc, tổ chức chính trị - xã hội. Thời kỳ 299/1993 thuộc đất chuyên dùng CD/C."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "C (Chuyên dùng)",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "TSC",
+          "sodo": "TSC",
+          "kk": "TSC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng trụ sở cơ quan nhà nước, tổ chức chính trị"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "CD (Công sở)",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "TSC",
+          "sodo": "TSC",
+          "kk": "TSC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: TSC | Kiểm kê: TSC",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TSC",
+          "sodo": "TSC",
+          "kk": "TSC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: TSC | GCN: TSC | KK: TSC",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Công sở)",
+          "sodo": "CD (Công sở)",
+          "kk": "CD (Công sở)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "TSC",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C (Chuyên dùng)",
+          "sodo": "C (Chuyên dùng)",
+          "kk": "C (Chuyên dùng)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "TSC",
-        "m13_bddc": "TSC",
-        "m13_sodo": "TSC",
-        "m13_kk": "TSC",
-        "m03_hsdc": "TSC",
-        "m03_kk": "TSC",
-        "m95": "CD (Công sở)",
-        "m299": "C (Chuyên dùng)"
+      "sec3": {
+        "oldScenario": "Đất xây dựng trụ sở cơ quan nhà nước, tổ chức chính trị",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8164,38 +10594,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
       },
-      "legalBasis": "Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu kiểm kê mở rộng đất trụ sở; tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024.",
-      "definition": "Tên gọi: Đất trụ sở khác theo Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công). Quy đổi tương đương sang Luật 2024: Đất công trình sự nghiệp khác / Trụ sở cơ quan (Mã DSK / TSC). Quan hệ: 1 -> N.",
-      "evolutionNote": "Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu kiểm kê mở rộng đất trụ sở; tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DSK",
+        "name2024": "Đất công trình sự nghiệp khác / Trụ sở cơ quan",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu kiểm kê mở rộng đất trụ sở; tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trụ sở khác. Quy đổi tương đương theo Luật 2024: Đất công trình sự nghiệp khác / Trụ sở cơ quan.",
+        "evolution": "Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu kiểm kê mở rộng đất trụ sở; tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TSK",
-          "doc": "Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công)",
-          "status": "Đất trụ sở khác"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DSK",
+          "sodo": "DSK",
+          "kk": "DSK",
+          "note": "Quy đổi sang: Đất công trình sự nghiệp khác / Trụ sở cơ quan (Mã DSK / TSC)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TSK ➔ DSK / TSC",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất công trình sự nghiệp khác / Trụ sở cơ quan"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "DSK / TSC",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "TSK",
+          "sodo": "TSK",
+          "kk": "TSK",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trụ sở khác"
         }
       ],
-      "comparison": {
-        "m24": "DSK / TSC",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "TSK",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trụ sở khác (Ký hiệu: TSK)",
+        "oldDoc": "Luật 2003 (Bảng mã kiểm kê mở rộng và phân loại tài sản công)",
+        "relation": "1 -> N",
+        "statutoryRule": "Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu kiểm kê mở rộng đất trụ sở; tương ứng đất xây dựng công trình sự nghiệp khác (DSK) hoặc đất xây dựng trụ sở cơ quan (TSC) quy định tại Điều 9 Luật Đất đai 2024.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8219,38 +10675,64 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tôn giáo"
       },
-      "legalBasis": "Điểm c Khoản 2 Điều 9 Luật Đất đai 2024: Ký hiệu chỉ tiêu quy hoạch gộp; căn cứ hiện trạng công trình xác định là đất cơ sở tôn giáo (mã TON) hoặc đất cơ sở tín ngưỡng (mã TIN).",
-      "definition": "Tên gọi: Đất tôn giáo, tín ngưỡng (chỉ tiêu gộp) theo Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê). Quy đổi tương đương sang Luật 2024: Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng (Mã TON / TIN). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm c Khoản 2 Điều 9 Luật Đất đai 2024: Ký hiệu chỉ tiêu quy hoạch gộp; căn cứ hiện trạng công trình xác định là đất cơ sở tôn giáo (mã TON) hoặc đất cơ sở tín ngưỡng (mã TIN).",
-      "timeline": [
+      "sec1": {
+        "code2024": "TON",
+        "name2024": "Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm c Khoản 2 Điều 9 Luật Đất đai 2024: Ký hiệu chỉ tiêu quy hoạch gộp; căn cứ hiện trạng công trình xác định là đất cơ sở tôn giáo (mã TON) hoặc đất cơ sở tín ngưỡng (mã TIN).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất tôn giáo, tín ngưỡng (chỉ tiêu gộp). Quy đổi tương đương theo Luật 2024: Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng.",
+        "evolution": "Điểm c Khoản 2 Điều 9 Luật Đất đai 2024: Ký hiệu chỉ tiêu quy hoạch gộp; căn cứ hiện trạng công trình xác định là đất cơ sở tôn giáo (mã TON) hoặc đất cơ sở tín ngưỡng (mã TIN)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "TTN",
-          "doc": "Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê)",
-          "status": "Đất tôn giáo, tín ngưỡng (chỉ tiêu gộp)"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "TON",
+          "sodo": "TON",
+          "kk": "TON",
+          "note": "Quy đổi sang: Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng (Mã TON / TIN)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "TTN ➔ TON / TIN",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "TTN",
+          "sodo": "TTN",
+          "kk": "TTN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "TON / TIN",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất tôn giáo, tín ngưỡng (chỉ tiêu gộp)"
         }
       ],
-      "comparison": {
-        "m24": "TON / TIN",
-        "m13_bddc": "TTN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất tôn giáo, tín ngưỡng (chỉ tiêu gộp) (Ký hiệu: TTN)",
+        "oldDoc": "Luật 2013 (Đồ án quy hoạch sử dụng đất, bản đồ kiểm kê)",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm c Khoản 2 Điều 9 Luật Đất đai 2024: Ký hiệu chỉ tiêu quy hoạch gộp; căn cứ hiện trạng công trình xác định là đất cơ sở tôn giáo (mã TON) hoặc đất cơ sở tín ngưỡng (mã TIN).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8274,50 +10756,64 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
       },
-      "legalBasis": "Khoản 2 Điều 6 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất bằng phẳng ở đồng bằng, thung lũng, bãi bồi ven sông chưa đưa vào khai thác.",
-      "evolutionNote": "Đất bằng phẳng vùng đồng bằng, bãi cát ven biển chưa đưa vào sử dụng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "BCS",
+        "name2024": "Đất bằng chưa sử dụng",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 2 Điều 6 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất bằng phẳng ở đồng bằng, thung lũng, bãi bồi ven sông chưa đưa vào khai thác.",
+        "evolution": "Đất bằng phẳng vùng đồng bằng, bãi cát ven biển chưa đưa vào sử dụng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "H",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "BCS",
+          "sodo": "BCS",
+          "kk": "BCS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất bằng chưa sử dụng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Hoang bằng",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "BCS",
+          "sodo": "BCS",
+          "kk": "BCS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: BCS | Kiểm kê: BCS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "BCS",
+          "sodo": "BCS",
+          "kk": "BCS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: BCS | GCN: BCS | KK: BCS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hoang bằng",
+          "sodo": "Hoang bằng",
+          "kk": "Hoang bằng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "BCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "H",
+          "sodo": "H",
+          "kk": "H",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "BCS",
-        "m13_bddc": "BCS",
-        "m13_sodo": "BCS",
-        "m13_kk": "BCS",
-        "m03_hsdc": "BCS",
-        "m03_kk": "BCS",
-        "m95": "Hoang bằng",
-        "m299": "H"
+      "sec3": {
+        "oldScenario": "Đất bằng chưa sử dụng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 6 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8340,50 +10836,64 @@ window.LAND_DATA = {
         "hex": "#FF8264",
         "target": "Đất quốc phòng an ninh kết hợp"
       },
-      "legalBasis": "Khoản 1 Điều 6 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất thu hồi theo quy định của pháp luật đất đai giao cho tổ chức phát triển quỹ đất quản lý.",
-      "evolutionNote": "Điểm a Khoản 3 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã CGT đối với đất do Nhà nước thu hồi nhưng chưa giao, chưa cho thuê.",
-      "timeline": [
+      "sec1": {
+        "code2024": "CGT",
+        "name2024": "Đất do Nhà nước thu hồi theo quy định chưa giao, chưa cho thuê",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 1 Điều 6 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất thu hồi theo quy định của pháp luật đất đai giao cho tổ chức phát triển quỹ đất quản lý.",
+        "evolution": "Điểm a Khoản 3 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã CGT đối với đất do Nhà nước thu hồi nhưng chưa giao, chưa cho thuê."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "Không có",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CGT",
+          "sodo": "CGT",
+          "kk": "CGT",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất do Nhà nước thu hồi theo quy định chưa giao, chưa cho thuê"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Không có",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CSD (quản lý)",
+          "sodo": "Không có",
+          "kk": "CSD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: Không có | Kiểm kê: Không có",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "Không có",
+          "sodo": "Không có",
+          "kk": "Không có",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CSD (quản lý) | GCN: Không có | KK: CSD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Không có",
+          "sodo": "Không có",
+          "kk": "Không có",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "CGT",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Không có",
+          "sodo": "Không có",
+          "kk": "Không có",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "CGT",
-        "m13_bddc": "CSD (quản lý)",
-        "m13_sodo": "Không có",
-        "m13_kk": "CSD",
-        "m03_hsdc": "Không có",
-        "m03_kk": "Không có",
-        "m95": "Không có",
-        "m299": "Không có"
+      "sec3": {
+        "oldScenario": "Đất do Nhà nước thu hồi theo quy định chưa giao, chưa cho thuê",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 6 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -8406,38 +10916,64 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
       },
-      "legalBasis": "Khoản 3 Điều 9 Luật Đất đai 2024: Căn cứ địa hình xác định là đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS) hoặc núi đá không có rừng cây (NCS).",
-      "definition": "Tên gọi: Đất chưa sử dụng theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất bằng / Đồi núi / Núi đá chưa sử dụng (Mã BCS / DCS / NCS). Quan hệ: 1 -> N.",
-      "evolutionNote": "Khoản 3 Điều 9 Luật Đất đai 2024: Căn cứ địa hình xác định là đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS) hoặc núi đá không có rừng cây (NCS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "BCS",
+        "name2024": "Đất bằng / Đồi núi / Núi đá chưa sử dụng",
+        "group": "Chưa sử dụng",
+        "legalBasis": "Khoản 3 Điều 9 Luật Đất đai 2024: Căn cứ địa hình xác định là đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS) hoặc núi đá không có rừng cây (NCS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất chưa sử dụng. Quy đổi tương đương theo Luật 2024: Đất bằng / Đồi núi / Núi đá chưa sử dụng.",
+        "evolution": "Khoản 3 Điều 9 Luật Đất đai 2024: Căn cứ địa hình xác định là đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS) hoặc núi đá không có rừng cây (NCS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "CS",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất chưa sử dụng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "BCS",
+          "sodo": "BCS",
+          "kk": "BCS",
+          "note": "Quy đổi sang: Đất bằng / Đồi núi / Núi đá chưa sử dụng (Mã BCS / DCS / NCS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "CS ➔ BCS / DCS / NCS",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất bằng / Đồi núi / Núi đá chưa sử dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "BCS / DCS / NCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Chưa sử dụng"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CS",
+          "sodo": "CS",
+          "kk": "CS",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "CS",
+          "sodo": "CS",
+          "kk": "CS",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất chưa sử dụng"
         }
       ],
-      "comparison": {
-        "m24": "BCS / DCS / NCS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "CS",
-        "m299": "CS"
+      "sec3": {
+        "oldScenario": "Đất chưa sử dụng (Ký hiệu: CS)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> N",
+        "statutoryRule": "Khoản 3 Điều 9 Luật Đất đai 2024: Căn cứ địa hình xác định là đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS) hoặc núi đá không có rừng cây (NCS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8461,50 +10997,64 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất đồi núi chưa sử dụng"
       },
-      "legalBasis": "Khoản 3 Điều 6 NĐ 102/2024/NĐ-CP",
-      "definition": "Đất trên sườn đồi, núi trọc vùng trung du và miền núi chưa có lớp phủ thực vật rừng.",
-      "evolutionNote": "Đồi núi trọc, sườn dốc chưa có lớp phủ thực vật và chưa sử dụng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "DCS",
+        "name2024": "Đất đồi núi chưa sử dụng",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 3 Điều 6 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trên sườn đồi, núi trọc vùng trung du và miền núi chưa có lớp phủ thực vật rừng.",
+        "evolution": "Đồi núi trọc, sườn dốc chưa có lớp phủ thực vật và chưa sử dụng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "H / R",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DCS",
+          "sodo": "DCS",
+          "kk": "DCS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất đồi núi chưa sử dụng"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Đồi trọc",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DCS",
+          "sodo": "DCS",
+          "kk": "DCS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: DCS | Kiểm kê: DCS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DCS",
+          "sodo": "DCS",
+          "kk": "DCS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: DCS | GCN: DCS | KK: DCS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đồi trọc",
+          "sodo": "Đồi trọc",
+          "kk": "Đồi trọc",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "DCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "H / R",
+          "sodo": "H / R",
+          "kk": "H / R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "DCS",
-        "m13_bddc": "DCS",
-        "m13_sodo": "DCS",
-        "m13_kk": "DCS",
-        "m03_hsdc": "DCS",
-        "m03_kk": "DCS",
-        "m95": "Đồi trọc",
-        "m299": "H / R"
+      "sec3": {
+        "oldScenario": "Đất đồi núi chưa sử dụng",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 3 Điều 6 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8527,38 +11077,64 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
       },
-      "legalBasis": "Khoản 3 Điều 9 Luật Đất đai 2024: Đất hoang hóa chưa đưa vào sử dụng xác định là đất bằng chưa sử dụng (BCS) hoặc đất đồi núi chưa sử dụng (DCS).",
-      "definition": "Tên gọi: Đất hoang hóa theo Chỉ thị 299/TTg, QĐ 499 (1995). Quy đổi tương đương sang Luật 2024: Đất bằng chưa sử dụng / Đồi núi chưa sử dụng (Mã BCS / DCS). Quan hệ: 1 -> N.",
-      "evolutionNote": "Khoản 3 Điều 9 Luật Đất đai 2024: Đất hoang hóa chưa đưa vào sử dụng xác định là đất bằng chưa sử dụng (BCS) hoặc đất đồi núi chưa sử dụng (DCS).",
-      "timeline": [
+      "sec1": {
+        "code2024": "BCS",
+        "name2024": "Đất bằng chưa sử dụng / Đồi núi chưa sử dụng",
+        "group": "Chưa sử dụng",
+        "legalBasis": "Khoản 3 Điều 9 Luật Đất đai 2024: Đất hoang hóa chưa đưa vào sử dụng xác định là đất bằng chưa sử dụng (BCS) hoặc đất đồi núi chưa sử dụng (DCS).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất hoang hóa. Quy đổi tương đương theo Luật 2024: Đất bằng chưa sử dụng / Đồi núi chưa sử dụng.",
+        "evolution": "Khoản 3 Điều 9 Luật Đất đai 2024: Đất hoang hóa chưa đưa vào sử dụng xác định là đất bằng chưa sử dụng (BCS) hoặc đất đồi núi chưa sử dụng (DCS)."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "Hoang",
-          "doc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
-          "status": "Đất hoang hóa"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "BCS",
+          "sodo": "BCS",
+          "kk": "BCS",
+          "note": "Quy đổi sang: Đất bằng chưa sử dụng / Đồi núi chưa sử dụng (Mã BCS / DCS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "Hoang ➔ BCS / DCS",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất bằng chưa sử dụng / Đồi núi chưa sử dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "BCS / DCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Chưa sử dụng"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Hoang",
+          "sodo": "Hoang",
+          "kk": "Hoang",
+          "note": "Thời kỳ áp dụng: Chỉ thị 299/TTg, QĐ 499 (1995)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Hoang",
+          "sodo": "Hoang",
+          "kk": "Hoang",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất hoang hóa"
         }
       ],
-      "comparison": {
-        "m24": "BCS / DCS",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "Hoang",
-        "m299": "Hoang"
+      "sec3": {
+        "oldScenario": "Đất hoang hóa (Ký hiệu: Hoang)",
+        "oldDoc": "Chỉ thị 299/TTg, QĐ 499 (1995)",
+        "relation": "1 -> N",
+        "statutoryRule": "Khoản 3 Điều 9 Luật Đất đai 2024: Đất hoang hóa chưa đưa vào sử dụng xác định là đất bằng chưa sử dụng (BCS) hoặc đất đồi núi chưa sử dụng (DCS).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8576,38 +11152,64 @@ window.LAND_DATA = {
       "status": "Trạng thái kỹ thuật dữ liệu hệ thống",
       "primaryPeriod": "Hệ thống phần mềm địa chính",
       "rgb": null,
-      "legalBasis": "Thông tư 10/2024/TT-BTNMT và Thông tư 25/2014/TT-BTNMT: Ký hiệu trạng thái kỹ thuật chưa xác định thông tin loại đất trong cơ sở dữ liệu; căn cứ hồ sơ địa chính gốc và trích lục lưu trữ để xác định mục đích sử dụng đất theo quy định của pháp luật.",
-      "definition": "Tên gọi: Không xác định (trạng thái dữ liệu hệ thống) theo Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS). Quy đổi tương đương sang Luật 2024: Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa) (Mã Chờ rà soát). Quan hệ: Dữ liệu lỗi / thiếu.",
-      "evolutionNote": "Thông tư 10/2024/TT-BTNMT và Thông tư 25/2014/TT-BTNMT: Ký hiệu trạng thái kỹ thuật chưa xác định thông tin loại đất trong cơ sở dữ liệu; căn cứ hồ sơ địa chính gốc và trích lục lưu trữ để xác định mục đích sử dụng đất theo quy định của pháp luật.",
-      "timeline": [
+      "sec1": {
+        "code2024": "Chờ",
+        "name2024": "Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa)",
+        "group": "Chưa sử dụng",
+        "legalBasis": "Thông tư 10/2024/TT-BTNMT và Thông tư 25/2014/TT-BTNMT: Ký hiệu trạng thái kỹ thuật chưa xác định thông tin loại đất trong cơ sở dữ liệu; căn cứ hồ sơ địa chính gốc và trích lục lưu trữ để xác định mục đích sử dụng đất theo quy định của pháp luật.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Không xác định (trạng thái dữ liệu hệ thống). Quy đổi tương đương theo Luật 2024: Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa).",
+        "evolution": "Thông tư 10/2024/TT-BTNMT và Thông tư 25/2014/TT-BTNMT: Ký hiệu trạng thái kỹ thuật chưa xác định thông tin loại đất trong cơ sở dữ liệu; căn cứ hồ sơ địa chính gốc và trích lục lưu trữ để xác định mục đích sử dụng đất theo quy định của pháp luật."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "KXD",
-          "doc": "Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS)",
-          "status": "Không xác định (trạng thái dữ liệu hệ thống)"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "Chờ",
+          "sodo": "Chờ",
+          "kk": "Chờ",
+          "note": "Quy đổi sang: Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa) (Mã Chờ rà soát)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "KXD ➔ Chờ rà soát",
-          "doc": "Dữ liệu lỗi / thiếu",
-          "status": "Quy đổi sang: Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa)"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "KXD",
+          "sodo": "KXD",
+          "kk": "KXD",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "Chờ rà soát",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Chưa sử dụng"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Không xác định (trạng thái dữ liệu hệ thống)"
         }
       ],
-      "comparison": {
-        "m24": "Chờ rà soát",
-        "m13_bddc": "KXD",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Không xác định (trạng thái dữ liệu hệ thống) (Ký hiệu: KXD)",
+        "oldDoc": "Luật 2013 (Trạng thái dữ liệu kỹ thuật hệ thống ViLIS, VBDLIS)",
+        "relation": "Dữ liệu lỗi / thiếu",
+        "statutoryRule": "Thông tư 10/2024/TT-BTNMT và Thông tư 25/2014/TT-BTNMT: Ký hiệu trạng thái kỹ thuật chưa xác định thông tin loại đất trong cơ sở dữ liệu; căn cứ hồ sơ địa chính gốc và trích lục lưu trữ để xác định mục đích sử dụng đất theo quy định của pháp luật.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8631,50 +11233,64 @@ window.LAND_DATA = {
         "hex": "#B4E6FF",
         "target": "Đất có mặt nước chưa sử dụng"
       },
-      "legalBasis": "Khoản 5 Điều 6 NĐ 102/2024/NĐ-CP",
-      "definition": "Vùng mặt nước tự nhiên chưa được Nhà nước giao hoặc cho thuê để sử dụng.",
-      "evolutionNote": "Điểm b Khoản 3 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã MCS đối với đất có mặt nước chưa sử dụng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "MCS",
+        "name2024": "Đất có mặt nước chưa sử dụng",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 5 Điều 6 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Vùng mặt nước tự nhiên chưa được Nhà nước giao hoặc cho thuê để sử dụng.",
+        "evolution": "Điểm b Khoản 3 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Bổ sung mã MCS đối với đất có mặt nước chưa sử dụng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "S",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "MCS",
+          "sodo": "MCS",
+          "kk": "MCS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có mặt nước chưa sử dụng (hồ nước, đầm tự nhiên chưa giao)"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Đầm hoang",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CSD",
+          "sodo": "Không có",
+          "kk": "CSD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: CSD | Kiểm kê: CSD",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CSD",
+          "sodo": "CSD",
+          "kk": "CSD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: CSD | GCN: Không có | KK: CSD",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đầm hoang",
+          "sodo": "Đầm hoang",
+          "kk": "Đầm hoang",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "MCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "S",
+          "sodo": "S",
+          "kk": "S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "MCS",
-        "m13_bddc": "CSD",
-        "m13_sodo": "Không có",
-        "m13_kk": "CSD",
-        "m03_hsdc": "CSD",
-        "m03_kk": "CSD",
-        "m95": "Đầm hoang",
-        "m299": "S"
+      "sec3": {
+        "oldScenario": "Đất có mặt nước chưa sử dụng (hồ nước, đầm tự nhiên chưa giao)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 5 Điều 6 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "Điều 141 Luật Đất đai 2024 và Điều 27 Nghị định 101/2024/NĐ-CP: Căn cứ công nhận quyền sử dụng đất ở, tính toán hạn mức đất ở và xác định diện tích đất vườn, ao trong cùng khuôn viên đất ở.",
@@ -8697,38 +11313,64 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước ven biển (quan sát)"
       },
-      "legalBasis": "Điều 190 Luật Đất đai 2024 và Luật Biển Việt Nam 2012: Quản lý khu vực biển và hoạt động lấn biển; khu vực biển ngoài đường mép nước triều kiệt không thuộc 3 nhóm đất kiểm kê lục địa.",
-      "definition": "Tên gọi: Đất mặt nước ven biển (chỉ tiêu quan sát) theo Luật 2013 (Thông tư 27/2018/TT-BTNMT). Quy đổi tương đương sang Luật 2024: Khu vực biển theo Luật Biển Việt Nam (Mã Khu vực biển). Quan hệ: Chuyển chế độ quản lý.",
-      "evolutionNote": "Điều 190 Luật Đất đai 2024 và Luật Biển Việt Nam 2012: Quản lý khu vực biển và hoạt động lấn biển; khu vực biển ngoài đường mép nước triều kiệt không thuộc 3 nhóm đất kiểm kê lục địa.",
-      "timeline": [
+      "sec1": {
+        "code2024": "Khu",
+        "name2024": "Khu vực biển theo Luật Biển Việt Nam",
+        "group": "Chưa sử dụng",
+        "legalBasis": "Điều 190 Luật Đất đai 2024 và Luật Biển Việt Nam 2012: Quản lý khu vực biển và hoạt động lấn biển; khu vực biển ngoài đường mép nước triều kiệt không thuộc 3 nhóm đất kiểm kê lục địa.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất mặt nước ven biển (chỉ tiêu quan sát). Quy đổi tương đương theo Luật 2024: Khu vực biển theo Luật Biển Việt Nam.",
+        "evolution": "Điều 190 Luật Đất đai 2024 và Luật Biển Việt Nam 2012: Quản lý khu vực biển và hoạt động lấn biển; khu vực biển ngoài đường mép nước triều kiệt không thuộc 3 nhóm đất kiểm kê lục địa."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "MVB",
-          "doc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
-          "status": "Đất mặt nước ven biển (chỉ tiêu quan sát)"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "Khu",
+          "sodo": "Khu",
+          "kk": "Khu",
+          "note": "Quy đổi sang: Khu vực biển theo Luật Biển Việt Nam (Mã Khu vực biển)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "MVB ➔ Khu vực biển",
-          "doc": "Chuyển chế độ quản lý",
-          "status": "Quy đổi sang: Khu vực biển theo Luật Biển Việt Nam"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MVB",
+          "sodo": "MVB",
+          "kk": "MVB",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "Khu vực biển",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Chưa sử dụng"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Thông tư 27/2018/TT-BTNMT)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất mặt nước ven biển (chỉ tiêu quan sát)"
         }
       ],
-      "comparison": {
-        "m24": "Khu vực biển",
-        "m13_bddc": "MVB",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất mặt nước ven biển (chỉ tiêu quan sát) (Ký hiệu: MVB)",
+        "oldDoc": "Luật 2013 (Thông tư 27/2018/TT-BTNMT)",
+        "relation": "Chuyển chế độ quản lý",
+        "statutoryRule": "Điều 190 Luật Đất đai 2024 và Luật Biển Việt Nam 2012: Quản lý khu vực biển và hoạt động lấn biển; khu vực biển ngoài đường mép nước triều kiệt không thuộc 3 nhóm đất kiểm kê lục địa.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8752,50 +11394,64 @@ window.LAND_DATA = {
         "hex": "#E6E6C8",
         "target": "Núi đá không có rừng cây"
       },
-      "legalBasis": "Khoản 4 Điều 6 NĐ 102/2024/NĐ-CP",
-      "definition": "Các mỏm núi đá vôi, núi đá trơ trọi lộ thiên không có cây rừng sinh sống.",
-      "evolutionNote": "Dãy núi đá vôi, mỏm đá trơ trọi không có cây rừng.",
-      "timeline": [
+      "sec1": {
+        "code2024": "NCS",
+        "name2024": "Núi đá không có rừng cây",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 4 Điều 6 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Các mỏm núi đá vôi, núi đá trơ trọi lộ thiên không có cây rừng sinh sống.",
+        "evolution": "Dãy núi đá vôi, mỏm đá trơ trọi không có cây rừng."
+      },
+      "sec2": [
         {
-          "period": "Chỉ thị 299/TTg (1980 - 1993)",
-          "code": "H",
-          "doc": "Chỉ thị 299/TTg, QĐ 56-ĐKTK",
-          "status": "Ký hiệu ruộng đất lịch sử"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NCS",
+          "sodo": "NCS",
+          "kk": "NCS",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Núi đá không có rừng cây"
         },
         {
-          "period": "Giai đoạn 1993 - 2001",
-          "code": "Núi đá",
-          "doc": "TT 1990/2001/TT-TCĐC, QĐ 499 QĐ/ĐC",
-          "status": "Sổ mục kê & Sổ địa chính 1995-2001"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NCS",
+          "sodo": "NCS",
+          "kk": "NCS",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
         },
         {
-          "period": "Luật Đất đai 2003 (2004 - 2014)",
-          "code": "Hồ sơ: NCS | Kiểm kê: NCS",
-          "doc": "TT 09/2007, TT 17/2009, TT 08/2007, NĐ 181/2004",
-          "status": "Giai đoạn Luật 2003"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NCS",
+          "sodo": "NCS",
+          "kk": "NCS",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
         },
         {
-          "period": "Luật Đất đai 2013 (2014 - 2024)",
-          "code": "BĐĐC: NCS | GCN: NCS | KK: NCS",
-          "doc": "TT 25/2014, TT 23/2014, TT 27/2018",
-          "status": "Giai đoạn Luật 2013"
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Núi đá",
+          "sodo": "Núi đá",
+          "kk": "Núi đá",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành từ 01/08/2024)",
-          "code": "NCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT, NĐ 102/2024/NĐ-CP",
-          "status": "Chuẩn hóa hiện hành"
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "H",
+          "sodo": "H",
+          "kk": "H",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
         }
       ],
-      "comparison": {
-        "m24": "NCS",
-        "m13_bddc": "NCS",
-        "m13_sodo": "NCS",
-        "m13_kk": "NCS",
-        "m03_hsdc": "NCS",
-        "m03_kk": "NCS",
-        "m95": "Núi đá",
-        "m299": "H"
+      "sec3": {
+        "oldScenario": "Núi đá không có rừng cây",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 6 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
         "certificateRecognition": "",
@@ -8818,32 +11474,40 @@ window.LAND_DATA = {
         "hex": "#FF5046",
         "target": "Đất an ninh"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất an ninh. Phạm vi quản lý: Cơ sở vật chất lực lượng công an nhân dân.",
-      "evolutionNote": "Bảo vệ theo quy hoạch ngành an ninh",
-      "timeline": [
+      "sec1": {
+        "code2024": "CAN",
+        "name2024": "Đất an ninh",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất an ninh. Phạm vi: Cơ sở vật chất lực lượng công an nhân dân.",
+        "evolution": "Bảo vệ theo quy hoạch ngành an ninh"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "CAN",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "CAN",
+          "sodo": "-",
+          "kk": "CAN",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Cơ sở vật chất lực lượng công an nhân dân"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "CAN",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Cơ sở vật chất lực lượng công an nhân dân"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "CAN",
+          "sodo": "-",
+          "kk": "CAN",
+          "note": "Mã chỉ tiêu kỳ trước: CAN"
         }
       ],
-      "comparison": {
-        "m24": "CAN",
-        "m13_bddc": "CAN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất an ninh",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -8863,32 +11527,40 @@ window.LAND_DATA = {
         "hex": "#FF6450",
         "target": "Đất quốc phòng"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất quốc phòng. Phạm vi quản lý: Quy hoạch phục vụ thế trận an ninh quốc phòng.",
-      "evolutionNote": "Bảo vệ theo quy hoạch ngành quốc phòng",
-      "timeline": [
+      "sec1": {
+        "code2024": "CQP",
+        "name2024": "Đất quốc phòng",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất quốc phòng. Phạm vi: Quy hoạch phục vụ thế trận an ninh quốc phòng.",
+        "evolution": "Bảo vệ theo quy hoạch ngành quốc phòng"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "CQP",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "CQP",
+          "sodo": "-",
+          "kk": "CQP",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Quy hoạch phục vụ thế trận an ninh quốc phòng"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "CQP",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Quy hoạch phục vụ thế trận an ninh quốc phòng"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "CQP",
+          "sodo": "-",
+          "kk": "CQP",
+          "note": "Mã chỉ tiêu kỳ trước: CQP"
         }
       ],
-      "comparison": {
-        "m24": "CQP",
-        "m13_bddc": "CQP",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất quốc phòng",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -8908,32 +11580,40 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất chưa sử dụng"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: ĐẤT CHƯA SỬ DỤNG. Phạm vi quản lý: Quỹ đất dự trữ đưa vào khai thác sử dụng.",
-      "evolutionNote": "Kiểm soát việc đưa đất hoang vào sử dụng",
-      "timeline": [
+      "sec1": {
+        "code2024": "CSD",
+        "name2024": "ĐẤT CHƯA SỬ DỤNG",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: ĐẤT CHƯA SỬ DỤNG. Phạm vi: Quỹ đất dự trữ đưa vào khai thác sử dụng.",
+        "evolution": "Kiểm soát việc đưa đất hoang vào sử dụng"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "CSD",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "CSD",
+          "sodo": "-",
+          "kk": "CSD",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Quỹ đất dự trữ đưa vào khai thác sử dụng"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "CSD",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Quỹ đất dự trữ đưa vào khai thác sử dụng"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "CSD",
+          "sodo": "-",
+          "kk": "CSD",
+          "note": "Mã chỉ tiêu kỳ trước: CSD"
         }
       ],
-      "comparison": {
-        "m24": "CSD",
-        "m13_bddc": "CSD",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "ĐẤT CHƯA SỬ DỤNG",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -8953,32 +11633,40 @@ window.LAND_DATA = {
         "hex": "#FFBED2",
         "target": "Đất danh lam thắng cảnh"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất danh lam thắng cảnh, di tích LS-VH. Phạm vi quản lý: Quần thể di tích, danh thắng quốc gia và địa phương.",
-      "evolutionNote": "Gộp DDT và DDL thành mã chuẩn DDD",
-      "timeline": [
+      "sec1": {
+        "code2024": "DDD",
+        "name2024": "Đất danh lam thắng cảnh, di tích LS-VH",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất danh lam thắng cảnh, di tích LS-VH. Phạm vi: Quần thể di tích, danh thắng quốc gia và địa phương.",
+        "evolution": "Gộp DDT và DDL thành mã chuẩn DDD"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DDT, DDL",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DDD",
+          "sodo": "-",
+          "kk": "DDD",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Quần thể di tích, danh thắng quốc gia và địa phương"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DDD",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Quần thể di tích, danh thắng quốc gia và địa phương"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DDT, DDL",
+          "sodo": "-",
+          "kk": "DDT, DDL",
+          "note": "Mã chỉ tiêu kỳ trước: DDT, DDL"
         }
       ],
-      "comparison": {
-        "m24": "DDD",
-        "m13_bddc": "DDT, DDL",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất danh lam thắng cảnh, di tích LS-VH",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -8998,32 +11686,40 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Đất giao thông. Phạm vi quản lý: Cao tốc, quốc lộ, tỉnh lộ, cảng biển, sân bay.",
-      "evolutionNote": "Dự án trọng điểm quốc gia và địa phương",
-      "timeline": [
+      "sec1": {
+        "code2024": "DGT",
+        "name2024": "Trong đó: Đất giao thông",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Đất giao thông. Phạm vi: Cao tốc, quốc lộ, tỉnh lộ, cảng biển, sân bay.",
+        "evolution": "Dự án trọng điểm quốc gia và địa phương"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DGT",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DGT",
+          "sodo": "-",
+          "kk": "DGT",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Cao tốc, quốc lộ, tỉnh lộ, cảng biển, sân bay"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DGT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Cao tốc, quốc lộ, tỉnh lộ, cảng biển, sân bay"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DGT",
+          "sodo": "-",
+          "kk": "DGT",
+          "note": "Mã chỉ tiêu kỳ trước: DGT"
         }
       ],
-      "comparison": {
-        "m24": "DGT",
-        "m13_bddc": "DGT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Đất giao thông",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9037,32 +11733,40 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất phát triển hạ tầng. Phạm vi quản lý: Chỉ tiêu tổng hợp các công trình giao thông, năng lượng, thủy lợi....",
-      "evolutionNote": "Chỉ tiêu liên ngành cấp quốc gia và tỉnh",
-      "timeline": [
+      "sec1": {
+        "code2024": "DHT",
+        "name2024": "Đất phát triển hạ tầng",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất phát triển hạ tầng. Phạm vi: Chỉ tiêu tổng hợp các công trình giao thông, năng lượng, thủy lợi....",
+        "evolution": "Chỉ tiêu liên ngành cấp quốc gia và tỉnh"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DHT",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DHT",
+          "sodo": "-",
+          "kk": "DHT",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Chỉ tiêu tổng hợp các công trình giao thông, năng lượng, thủy lợi..."
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DHT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Chỉ tiêu tổng hợp các công trình giao thông, năng lượng, thủy lợi..."
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DHT",
+          "sodo": "-",
+          "kk": "DHT",
+          "note": "Mã chỉ tiêu kỳ trước: DHT"
         }
       ],
-      "comparison": {
-        "m24": "DHT",
-        "m13_bddc": "DHT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất phát triển hạ tầng",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9082,32 +11786,40 @@ window.LAND_DATA = {
         "hex": "#FFBEB4",
         "target": "Đất thương mại, dịch vụ (2024)"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Đất công trình xử lý chất thải. Phạm vi quản lý: Khu liên hợp xử lý rác, nhà máy điện rác.",
-      "evolutionNote": "Đổi mã DRA thành DMT theo Luật 2024",
-      "timeline": [
+      "sec1": {
+        "code2024": "DMT",
+        "name2024": "Trong đó: Đất công trình xử lý chất thải",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Đất công trình xử lý chất thải. Phạm vi: Khu liên hợp xử lý rác, nhà máy điện rác.",
+        "evolution": "Đổi mã DRA thành DMT theo Luật 2024"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DRA",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DMT",
+          "sodo": "-",
+          "kk": "DMT",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Khu liên hợp xử lý rác, nhà máy điện rác"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DMT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu liên hợp xử lý rác, nhà máy điện rác"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DRA",
+          "sodo": "-",
+          "kk": "DRA",
+          "note": "Mã chỉ tiêu kỳ trước: DRA"
         }
       ],
-      "comparison": {
-        "m24": "DMT",
-        "m13_bddc": "DRA",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Đất công trình xử lý chất thải",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9127,32 +11839,40 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình năng lượng"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Đất công trình năng lượng. Phạm vi quản lý: Đường dây 500kV, 220kV, nhà máy điện gió, mặt trời.",
-      "evolutionNote": "Hạ tầng an ninh năng lượng",
-      "timeline": [
+      "sec1": {
+        "code2024": "DNL",
+        "name2024": "Trong đó: Đất công trình năng lượng",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Đất công trình năng lượng. Phạm vi: Đường dây 500kV, 220kV, nhà máy điện gió, mặt trời.",
+        "evolution": "Hạ tầng an ninh năng lượng"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DNL",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DNL",
+          "sodo": "-",
+          "kk": "DNL",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Đường dây 500kV, 220kV, nhà máy điện gió, mặt trời"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DNL",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Đường dây 500kV, 220kV, nhà máy điện gió, mặt trời"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DNL",
+          "sodo": "-",
+          "kk": "DNL",
+          "note": "Mã chỉ tiêu kỳ trước: DNL"
         }
       ],
-      "comparison": {
-        "m24": "DNL",
-        "m13_bddc": "DNL",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Đất công trình năng lượng",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9172,32 +11892,40 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Đất thủy lợi. Phạm vi quản lý: Hồ đập, kênh dẫn nước, công trình ngăn mặn.",
-      "evolutionNote": "Hạ tầng thích ứng biến đổi khí hậu",
-      "timeline": [
+      "sec1": {
+        "code2024": "DTL",
+        "name2024": "Trong đó: Đất thủy lợi",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Đất thủy lợi. Phạm vi: Hồ đập, kênh dẫn nước, công trình ngăn mặn.",
+        "evolution": "Hạ tầng thích ứng biến đổi khí hậu"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "DTL",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "DTL",
+          "sodo": "-",
+          "kk": "DTL",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Hồ đập, kênh dẫn nước, công trình ngăn mặn"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "DTL",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Hồ đập, kênh dẫn nước, công trình ngăn mặn"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "DTL",
+          "sodo": "-",
+          "kk": "DTL",
+          "note": "Mã chỉ tiêu kỳ trước: DTL"
         }
       ],
-      "comparison": {
-        "m24": "DTL",
-        "m13_bddc": "DTL",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Đất thủy lợi",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9211,32 +11939,40 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất khu kinh tế. Phạm vi quản lý: Khu kinh tế cửa khẩu, ven biển.",
-      "evolutionNote": "Khu vực kinh tế trọng điểm mở",
-      "timeline": [
+      "sec1": {
+        "code2024": "KKT",
+        "name2024": "Đất khu kinh tế",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất khu kinh tế. Phạm vi: Khu kinh tế cửa khẩu, ven biển.",
+        "evolution": "Khu vực kinh tế trọng điểm mở"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "KKT",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "KKT",
+          "sodo": "-",
+          "kk": "KKT",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Khu kinh tế cửa khẩu, ven biển"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "KKT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu kinh tế cửa khẩu, ven biển"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "KKT",
+          "sodo": "-",
+          "kk": "KKT",
+          "note": "Mã chỉ tiêu kỳ trước: KKT"
         }
       ],
-      "comparison": {
-        "m24": "KKT",
-        "m13_bddc": "KKT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu kinh tế",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9250,32 +11986,40 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất khu công nghệ cao. Phạm vi quản lý: Khu công nghệ cao quốc gia và tỉnh.",
-      "evolutionNote": "Thu hút đầu tư công nghệ tiên tiến",
-      "timeline": [
+      "sec1": {
+        "code2024": "KNC",
+        "name2024": "Đất khu công nghệ cao",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất khu công nghệ cao. Phạm vi: Khu công nghệ cao quốc gia và tỉnh.",
+        "evolution": "Thu hút đầu tư công nghệ tiên tiến"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "KNC",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "KNC",
+          "sodo": "-",
+          "kk": "KNC",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Khu công nghệ cao quốc gia và tỉnh"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "KNC",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu công nghệ cao quốc gia và tỉnh"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "KNC",
+          "sodo": "-",
+          "kk": "KNC",
+          "note": "Mã chỉ tiêu kỳ trước: KNC"
         }
       ],
-      "comparison": {
-        "m24": "KNC",
-        "m13_bddc": "KNC",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu công nghệ cao",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9295,32 +12039,40 @@ window.LAND_DATA = {
         "hex": "#FFFC82",
         "target": "Đất trồng lúa"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất trồng lúa. Phạm vi quản lý: Đất quy hoạch trồng lúa các loại.",
-      "evolutionNote": "Bao gồm chỉ tiêu chuyên lúa và lúa còn lại",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUA",
+        "name2024": "Đất trồng lúa",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất trồng lúa. Phạm vi: Đất quy hoạch trồng lúa các loại.",
+        "evolution": "Bao gồm chỉ tiêu chuyên lúa và lúa còn lại"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "LUA",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "LUA",
+          "sodo": "-",
+          "kk": "LUA",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Đất quy hoạch trồng lúa các loại"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "LUA",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Đất quy hoạch trồng lúa các loại"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "LUA",
+          "sodo": "-",
+          "kk": "LUA",
+          "note": "Mã chỉ tiêu kỳ trước: LUA"
         }
       ],
-      "comparison": {
-        "m24": "LUA",
-        "m13_bddc": "LUA",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất trồng lúa",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9340,32 +12092,40 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Đất chuyên trồng lúa nước. Phạm vi quản lý: Chỉ tiêu diện tích chuyên trồng lúa nước.",
-      "evolutionNote": "Chỉ tiêu theo Nghị quyết của Quốc hội",
-      "timeline": [
+      "sec1": {
+        "code2024": "LUC",
+        "name2024": "Trong đó: Đất chuyên trồng lúa nước",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Đất chuyên trồng lúa nước. Phạm vi: Chỉ tiêu diện tích chuyên trồng lúa nước.",
+        "evolution": "Chỉ tiêu theo Nghị quyết của Quốc hội"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "LUC",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "LUC",
+          "sodo": "-",
+          "kk": "LUC",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Chỉ tiêu diện tích chuyên trồng lúa nước"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "LUC",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Chỉ tiêu diện tích chuyên trồng lúa nước"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "LUC",
+          "sodo": "-",
+          "kk": "LUC",
+          "note": "Mã chỉ tiêu kỳ trước: LUC"
         }
       ],
-      "comparison": {
-        "m24": "LUC",
-        "m13_bddc": "LUC",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Đất chuyên trồng lúa nước",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9385,32 +12145,40 @@ window.LAND_DATA = {
         "hex": "#FFFF64",
         "target": "Đất nông nghiệp"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: ĐẤT NÔNG NGHIỆP. Phạm vi quản lý: Toàn bộ quỹ đất sản xuất nông lâm thủy sản.",
-      "evolutionNote": "Chỉ tiêu kiểm soát vĩ mô an ninh lương thực",
-      "timeline": [
+      "sec1": {
+        "code2024": "NNP",
+        "name2024": "ĐẤT NÔNG NGHIỆP",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: ĐẤT NÔNG NGHIỆP. Phạm vi: Toàn bộ quỹ đất sản xuất nông lâm thủy sản.",
+        "evolution": "Chỉ tiêu kiểm soát vĩ mô an ninh lương thực"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "NNP",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "NNP",
+          "sodo": "-",
+          "kk": "NNP",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Toàn bộ quỹ đất sản xuất nông lâm thủy sản"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "NNP",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Toàn bộ quỹ đất sản xuất nông lâm thủy sản"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "NNP",
+          "sodo": "-",
+          "kk": "NNP",
+          "note": "Mã chỉ tiêu kỳ trước: NNP"
         }
       ],
-      "comparison": {
-        "m24": "NNP",
-        "m13_bddc": "NNP",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "ĐẤT NÔNG NGHIỆP",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9430,32 +12198,40 @@ window.LAND_DATA = {
         "hex": "#FFA0FF",
         "target": "Đất ở tại đô thị"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất ở tại đô thị. Phạm vi quản lý: Khu đô thị mới, tái định cư, nhà ở xã hội.",
-      "evolutionNote": "Chỉ tiêu phát triển nhà ở đô thị",
-      "timeline": [
+      "sec1": {
+        "code2024": "ODT",
+        "name2024": "Đất ở tại đô thị",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất ở tại đô thị. Phạm vi: Khu đô thị mới, tái định cư, nhà ở xã hội.",
+        "evolution": "Chỉ tiêu phát triển nhà ở đô thị"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "ODT",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "ODT",
+          "sodo": "-",
+          "kk": "ODT",
+          "note": "Chỉ tiêu phân bổ cấp Tỉnh / Huyện: Khu đô thị mới, tái định cư, nhà ở xã hội"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "ODT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu đô thị mới, tái định cư, nhà ở xã hội"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "ODT",
+          "sodo": "-",
+          "kk": "ODT",
+          "note": "Mã chỉ tiêu kỳ trước: ODT"
         }
       ],
-      "comparison": {
-        "m24": "ODT",
-        "m13_bddc": "ODT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất ở tại đô thị",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9475,32 +12251,40 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất ở tại nông thôn. Phạm vi quản lý: Mở rộng khu dân cư nông thôn mới.",
-      "evolutionNote": "Đảm bảo hạn mức đất ở cho nhân dân",
-      "timeline": [
+      "sec1": {
+        "code2024": "ONT",
+        "name2024": "Đất ở tại nông thôn",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất ở tại nông thôn. Phạm vi: Mở rộng khu dân cư nông thôn mới.",
+        "evolution": "Đảm bảo hạn mức đất ở cho nhân dân"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "ONT",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "ONT",
+          "sodo": "-",
+          "kk": "ONT",
+          "note": "Chỉ tiêu phân bổ cấp Tỉnh / Huyện: Mở rộng khu dân cư nông thôn mới"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "ONT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Mở rộng khu dân cư nông thôn mới"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "ONT",
+          "sodo": "-",
+          "kk": "ONT",
+          "note": "Mã chỉ tiêu kỳ trước: ONT"
         }
       ],
-      "comparison": {
-        "m24": "ONT",
-        "m13_bddc": "ONT",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất ở tại nông thôn",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9520,32 +12304,40 @@ window.LAND_DATA = {
         "hex": "#FFFF64",
         "target": "Đất phi nông nghiệp"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: ĐẤT PHI NÔNG NGHIỆP. Phạm vi quản lý: Tổng quỹ đất xây dựng phát triển hạ tầng, đô thị, công nghiệp.",
-      "evolutionNote": "Kiểm soát chuyển đổi từ nông nghiệp sang PNN",
-      "timeline": [
+      "sec1": {
+        "code2024": "PNN",
+        "name2024": "ĐẤT PHI NÔNG NGHIỆP",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: ĐẤT PHI NÔNG NGHIỆP. Phạm vi: Tổng quỹ đất xây dựng phát triển hạ tầng, đô thị, công nghiệp.",
+        "evolution": "Kiểm soát chuyển đổi từ nông nghiệp sang PNN"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "PNN",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "PNN",
+          "sodo": "-",
+          "kk": "PNN",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Tổng quỹ đất xây dựng phát triển hạ tầng, đô thị, công nghiệp"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "PNN",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Tổng quỹ đất xây dựng phát triển hạ tầng, đô thị, công nghiệp"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "PNN",
+          "sodo": "-",
+          "kk": "PNN",
+          "note": "Mã chỉ tiêu kỳ trước: PNN"
         }
       ],
-      "comparison": {
-        "m24": "PNN",
-        "m13_bddc": "PNN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "ĐẤT PHI NÔNG NGHIỆP",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9565,32 +12357,40 @@ window.LAND_DATA = {
         "hex": "#6EFF64",
         "target": "Đất rừng đặc dụng"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất rừng đặc dụng. Phạm vi quản lý: Vườn quốc gia, khu bảo tồn thiên nhiên.",
-      "evolutionNote": "Bảo tồn đa dạng sinh học theo quy hoạch lâm nghiệp",
-      "timeline": [
+      "sec1": {
+        "code2024": "RDD",
+        "name2024": "Đất rừng đặc dụng",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất rừng đặc dụng. Phạm vi: Vườn quốc gia, khu bảo tồn thiên nhiên.",
+        "evolution": "Bảo tồn đa dạng sinh học theo quy hoạch lâm nghiệp"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "RDD",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "RDD",
+          "sodo": "-",
+          "kk": "RDD",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Vườn quốc gia, khu bảo tồn thiên nhiên"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "RDD",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Vườn quốc gia, khu bảo tồn thiên nhiên"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "RDD",
+          "sodo": "-",
+          "kk": "RDD",
+          "note": "Mã chỉ tiêu kỳ trước: RDD"
         }
       ],
-      "comparison": {
-        "m24": "RDD",
-        "m13_bddc": "RDD",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất rừng đặc dụng",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9610,32 +12410,40 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất rừng phòng hộ. Phạm vi quản lý: Phòng hộ đầu nguồn, ven biển, bảo vệ sinh thái.",
-      "evolutionNote": "Bảo vệ nguyên trạng chức năng phòng hộ",
-      "timeline": [
+      "sec1": {
+        "code2024": "RPH",
+        "name2024": "Đất rừng phòng hộ",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất rừng phòng hộ. Phạm vi: Phòng hộ đầu nguồn, ven biển, bảo vệ sinh thái.",
+        "evolution": "Bảo vệ nguyên trạng chức năng phòng hộ"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "RPH",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "RPH",
+          "sodo": "-",
+          "kk": "RPH",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Phòng hộ đầu nguồn, ven biển, bảo vệ sinh thái"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "RPH",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Phòng hộ đầu nguồn, ven biển, bảo vệ sinh thái"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "RPH",
+          "sodo": "-",
+          "kk": "RPH",
+          "note": "Mã chỉ tiêu kỳ trước: RPH"
         }
       ],
-      "comparison": {
-        "m24": "RPH",
-        "m13_bddc": "RPH",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất rừng phòng hộ",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9655,32 +12463,40 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Trong đó: Rừng sản xuất là rừng tự nhiên. Phạm vi quản lý: Phân định diện tích rừng tự nhiên không được chuyển mục đích.",
-      "evolutionNote": "Chỉ tiêu mới bổ sung theo TT 29/2024",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSN",
+        "name2024": "Trong đó: Rừng sản xuất là rừng tự nhiên",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Trong đó: Rừng sản xuất là rừng tự nhiên. Phạm vi: Phân định diện tích rừng tự nhiên không được chuyển mục đích.",
+        "evolution": "Chỉ tiêu mới bổ sung theo TT 29/2024"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "-",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "RSN",
+          "sodo": "-",
+          "kk": "RSN",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Phân định diện tích rừng tự nhiên không được chuyển mục đích"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "RSN",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Phân định diện tích rừng tự nhiên không được chuyển mục đích"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Mã chỉ tiêu kỳ trước: -"
         }
       ],
-      "comparison": {
-        "m24": "RSN",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Trong đó: Rừng sản xuất là rừng tự nhiên",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9700,32 +12516,40 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất rừng sản xuất. Phạm vi quản lý: Quy hoạch phát triển kinh tế lâm nghiệp.",
-      "evolutionNote": "Bao gồm chỉ tiêu RSN (rừng tự nhiên sản xuất)",
-      "timeline": [
+      "sec1": {
+        "code2024": "RSX",
+        "name2024": "Đất rừng sản xuất",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất rừng sản xuất. Phạm vi: Quy hoạch phát triển kinh tế lâm nghiệp.",
+        "evolution": "Bao gồm chỉ tiêu RSN (rừng tự nhiên sản xuất)"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "RSX",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "RSX",
+          "sodo": "-",
+          "kk": "RSX",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Quy hoạch phát triển kinh tế lâm nghiệp"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "RSX",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Quy hoạch phát triển kinh tế lâm nghiệp"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "RSX",
+          "sodo": "-",
+          "kk": "RSX",
+          "note": "Mã chỉ tiêu kỳ trước: RSX"
         }
       ],
-      "comparison": {
-        "m24": "RSX",
-        "m13_bddc": "RSX",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất rừng sản xuất",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9745,32 +12569,40 @@ window.LAND_DATA = {
         "hex": "#FFB496",
         "target": "Đất xây dựng cơ sở thể dục, thể thao"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất khu công nghệ thông tin tập trung. Phạm vi quản lý: Khu công viên phần mềm, khu công nghệ thông tin.",
-      "evolutionNote": "Chỉ tiêu hoàn toàn mới theo TT 29/2024",
-      "timeline": [
+      "sec1": {
+        "code2024": "SCT",
+        "name2024": "Đất khu công nghệ thông tin tập trung",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất khu công nghệ thông tin tập trung. Phạm vi: Khu công viên phần mềm, khu công nghệ thông tin.",
+        "evolution": "Chỉ tiêu hoàn toàn mới theo TT 29/2024"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "-",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "SCT",
+          "sodo": "-",
+          "kk": "SCT",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Khu công viên phần mềm, khu công nghệ thông tin"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "SCT",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu công viên phần mềm, khu công nghệ thông tin"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Mã chỉ tiêu kỳ trước: -"
         }
       ],
-      "comparison": {
-        "m24": "SCT",
-        "m13_bddc": "-",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu công nghệ thông tin tập trung",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9790,32 +12622,40 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất cơ sở sản xuất phi nông nghiệp. Phạm vi quản lý: Nhà xưởng tiểu thủ công nghiệp ngoài KCN.",
-      "evolutionNote": "Phục vụ sản xuất vừa và nhỏ",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKC",
+        "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất cơ sở sản xuất phi nông nghiệp. Phạm vi: Nhà xưởng tiểu thủ công nghiệp ngoài KCN.",
+        "evolution": "Phục vụ sản xuất vừa và nhỏ"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "SKC",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "SKC",
+          "sodo": "-",
+          "kk": "SKC",
+          "note": "Chỉ tiêu phân bổ cấp Tỉnh / Huyện: Nhà xưởng tiểu thủ công nghiệp ngoài KCN"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "SKC",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Nhà xưởng tiểu thủ công nghiệp ngoài KCN"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "SKC",
+          "sodo": "-",
+          "kk": "SKC",
+          "note": "Mã chỉ tiêu kỳ trước: SKC"
         }
       ],
-      "comparison": {
-        "m24": "SKC",
-        "m13_bddc": "SKC",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất cơ sở sản xuất phi nông nghiệp",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9835,32 +12675,40 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất khu công nghiệp. Phạm vi quản lý: Khu công nghiệp tập trung thành lập mới và mở rộng.",
-      "evolutionNote": "Chỉ tiêu động lực phát triển kinh tế công nghiệp",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKK",
+        "name2024": "Đất khu công nghiệp",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất khu công nghiệp. Phạm vi: Khu công nghiệp tập trung thành lập mới và mở rộng.",
+        "evolution": "Chỉ tiêu động lực phát triển kinh tế công nghiệp"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "SKK",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "SKK",
+          "sodo": "-",
+          "kk": "SKK",
+          "note": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện: Khu công nghiệp tập trung thành lập mới và mở rộng"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "SKK",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu công nghiệp tập trung thành lập mới và mở rộng"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "SKK",
+          "sodo": "-",
+          "kk": "SKK",
+          "note": "Mã chỉ tiêu kỳ trước: SKK"
         }
       ],
-      "comparison": {
-        "m24": "SKK",
-        "m13_bddc": "SKK",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất khu công nghiệp",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9880,32 +12728,40 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cụm công nghiệp"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất cụm công nghiệp. Phạm vi quản lý: Cụm công nghiệp địa phương và làng nghề.",
-      "evolutionNote": "Chỉ tiêu phân bổ theo quy hoạch tỉnh",
-      "timeline": [
+      "sec1": {
+        "code2024": "SKN",
+        "name2024": "Đất cụm công nghiệp",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất cụm công nghiệp. Phạm vi: Cụm công nghiệp địa phương và làng nghề.",
+        "evolution": "Chỉ tiêu phân bổ theo quy hoạch tỉnh"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "SKN",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "SKN",
+          "sodo": "-",
+          "kk": "SKN",
+          "note": "Chỉ tiêu phân bổ cấp Tỉnh / Huyện: Cụm công nghiệp địa phương và làng nghề"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "SKN",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Cụm công nghiệp địa phương và làng nghề"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "SKN",
+          "sodo": "-",
+          "kk": "SKN",
+          "note": "Mã chỉ tiêu kỳ trước: SKN"
         }
       ],
-      "comparison": {
-        "m24": "SKN",
-        "m13_bddc": "SKN",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất cụm công nghiệp",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9925,32 +12781,40 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất thương mại, dịch vụ"
       },
-      "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
-      "definition": "Chỉ tiêu quy hoạch: Đất thương mại, dịch vụ. Phạm vi quản lý: Khu dịch vụ, logistics, trung tâm bán lẻ du lịch.",
-      "evolutionNote": "Chỉ tiêu phát triển kinh tế dịch vụ",
-      "timeline": [
+      "sec1": {
+        "code2024": "TMD",
+        "name2024": "Đất thương mại, dịch vụ",
+        "group": "Chỉ tiêu quy hoạch sử dụng đất",
+        "legalBasis": "Thông tư 29/2024/TT-BTNMT và Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (từ 12/12/2024)",
+        "purpose": "Chỉ tiêu quy hoạch sử dụng đất: Đất thương mại, dịch vụ. Phạm vi: Khu dịch vụ, logistics, trung tâm bán lẻ du lịch.",
+        "evolution": "Chỉ tiêu phát triển kinh tế dịch vụ"
+      },
+      "sec2": [
         {
-          "period": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
-          "code": "TMD",
-          "doc": "Thông tư 01/2021/TT-BTNMT",
-          "status": "Mã chỉ tiêu kỳ trước"
+          "era": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
+          "doc": "Thông tư 29/2024/TT-BTNMT & Luật 2024",
+          "bddc": "TMD",
+          "sodo": "-",
+          "kk": "TMD",
+          "note": "Chỉ tiêu phân bổ cấp Tỉnh / Huyện: Khu dịch vụ, logistics, trung tâm bán lẻ du lịch"
         },
         {
-          "period": "Kỳ quy hoạch hiện hành (Thông tư 29/2024/TT-BTNMT)",
-          "code": "TMD",
-          "doc": "Thông tư 29/2024/TT-BTNMT",
-          "status": "Khu dịch vụ, logistics, trung tâm bán lẻ du lịch"
+          "era": "Kỳ quy hoạch trước (Thông tư 01/2021/TT-BTNMT)",
+          "doc": "Thông tư 01/2021/TT-BTNMT",
+          "bddc": "TMD",
+          "sodo": "-",
+          "kk": "TMD",
+          "note": "Mã chỉ tiêu kỳ trước: TMD"
         }
       ],
-      "comparison": {
-        "m24": "TMD",
-        "m13_bddc": "TMD",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất thương mại, dịch vụ",
+        "oldDoc": "Thông tư 01/2021/TT-BTNMT",
+        "relation": "1 -> 1",
+        "statutoryRule": "Thông tư 29/2024/TT-BTNMT",
+        "practicalPrinciple": "Áp dụng trong lập, điều chỉnh quy hoạch, kế hoạch sử dụng đất các cấp quốc gia, cấp tỉnh và cấp huyện.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 07_QUY_HOACH_XAY_DUNG."
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
@@ -9970,38 +12834,64 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước chuyên dùng"
       },
-      "legalBasis": "Điểm i Khoản 2 Điều 9 Luật Đất đai 2024: Hồ đầm mặt nước chuyên dùng xác định là mã MNC; trường hợp mặt nước tự nhiên chưa sử dụng xác định là mã MCS.",
-      "definition": "Tên gọi: Đất có mặt nước chuyên dùng theo Luật 2013 (TT 25/2014). Quy đổi tương đương sang Luật 2024: Đất có mặt nước chuyên dùng / Mặt nước chưa sử dụng (Mã MNC / MCS). Quan hệ: 1 -> N.",
-      "evolutionNote": "Điểm i Khoản 2 Điều 9 Luật Đất đai 2024: Hồ đầm mặt nước chuyên dùng xác định là mã MNC; trường hợp mặt nước tự nhiên chưa sử dụng xác định là mã MCS.",
-      "timeline": [
+      "sec1": {
+        "code2024": "MNC",
+        "name2024": "Đất có mặt nước chuyên dùng / Mặt nước chưa sử dụng",
+        "group": "Phi nông nghiệp / Chưa SD",
+        "legalBasis": "Điểm i Khoản 2 Điều 9 Luật Đất đai 2024: Hồ đầm mặt nước chuyên dùng xác định là mã MNC; trường hợp mặt nước tự nhiên chưa sử dụng xác định là mã MCS.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất có mặt nước chuyên dùng. Quy đổi tương đương theo Luật 2024: Đất có mặt nước chuyên dùng / Mặt nước chưa sử dụng.",
+        "evolution": "Điểm i Khoản 2 Điều 9 Luật Đất đai 2024: Hồ đầm mặt nước chuyên dùng xác định là mã MNC; trường hợp mặt nước tự nhiên chưa sử dụng xác định là mã MCS."
+      },
+      "sec2": [
         {
-          "period": "Thời kỳ gốc phát sinh",
-          "code": "MNC",
-          "doc": "Luật 2013 (TT 25/2014)",
-          "status": "Đất có mặt nước chuyên dùng"
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "MNC",
+          "sodo": "MNC",
+          "kk": "MNC",
+          "note": "Quy đổi sang: Đất có mặt nước chuyên dùng / Mặt nước chưa sử dụng (Mã MNC / MCS)"
         },
         {
-          "period": "Quan hệ chuyển đổi sang Luật 2024",
-          "code": "MNC ➔ MNC / MCS",
-          "doc": "1 -> N",
-          "status": "Quy đổi sang: Đất có mặt nước chuyên dùng / Mặt nước chưa sử dụng"
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MNC",
+          "sodo": "MNC",
+          "kk": "MNC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014)"
         },
         {
-          "period": "Luật Đất đai 2024 (Hiện hành)",
-          "code": "MNC / MCS",
-          "doc": "Thông tư 08/2024/TT-BTNMT & Nghị định 102/2024/NĐ-CP",
-          "status": "Nhóm Phi nông nghiệp / Chưa SD"
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất có mặt nước chuyên dùng"
         }
       ],
-      "comparison": {
-        "m24": "MNC / MCS",
-        "m13_bddc": "MNC",
-        "m13_sodo": "-",
-        "m13_kk": "-",
-        "m03_hsdc": "-",
-        "m03_kk": "-",
-        "m95": "-",
-        "m299": "-"
+      "sec3": {
+        "oldScenario": "Đất có mặt nước chuyên dùng (Ký hiệu: MNC)",
+        "oldDoc": "Luật 2013 (TT 25/2014)",
+        "relation": "1 -> N",
+        "statutoryRule": "Điểm i Khoản 2 Điều 9 Luật Đất đai 2024: Hồ đầm mặt nước chuyên dùng xác định là mã MNC; trường hợp mặt nước tự nhiên chưa sử dụng xác định là mã MCS.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
       },
       "specialLegal": {
         "certificateRecognition": "",

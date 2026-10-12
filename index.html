@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Từ Điển Mã Loại Đất Việt Nam — Tra Cứu Chuẩn Hóa Qua Các Thời Kỳ Pháp Luật</title>
+  <title>Hệ Thống Tra Cứu Mã Loại Đất & Đối Chiếu Lịch Sử Đất Đai Việt Nam</title>
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <!-- HEADER CHÍNH -->
+  <!-- HEADER CHÍNH TINH GỌN -->
   <header class="app-header">
     <div class="header-brand">
       <div class="brand-logo">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
           <polyline points="14 2 14 8 20 8"></polyline>
           <line x1="16" y1="13" x2="8" y2="13"></line>
@@ -20,17 +20,17 @@
         </svg>
       </div>
       <div class="brand-text">
-        <h1>TỪ ĐIỂN MÃ LOẠI ĐẤT VIỆT NAM</h1>
-        <p class="brand-subtitle">Cơ sở dữ liệu tra cứu chuẩn hóa & đối chiếu lịch sử (Chỉ thị 299/TTg &rarr; Luật Đất đai 2024)</p>
+        <h1>HỆ THỐNG TRA CỨU MÃ LOẠI ĐẤT & ĐỐI CHIẾU LỊCH SỬ ĐẤT ĐAI VIỆT NAM</h1>
+        <p class="brand-subtitle">Cơ sở dữ liệu tra cứu đa chiều: Luật Đất đai 2024 &bull; Luật 2013 &bull; Luật 2003 &bull; Giai đoạn 1993-2001 &bull; Chỉ thị 299/TTg</p>
       </div>
     </div>
     <div class="header-actions">
-      <button id="btnOpenDocs" class="btn btn-outline" title="Xem danh mục 22 văn bản quy phạm pháp luật">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <button id="btnOpenDocs" class="btn btn-outline" title="Xem danh mục 22 văn bản quy phạm pháp luật căn cứ">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
           <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
         </svg>
-        22 Văn bản Pháp luật
+        22 Văn bản Căn cứ
       </button>
     </div>
   </header>
@@ -42,11 +42,11 @@
       <!-- Ô TÌM KIẾM -->
       <div class="search-section">
         <div class="search-input-wrapper">
-          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="searchInput" placeholder="Tìm theo mã (LUC, ONT, T...), tên đất, điều luật..." autocomplete="off" spellcheck="false">
+          <input type="text" id="searchInput" placeholder="Gõ mã (ONT, LUC, T, BHK...), tên đất..." autocomplete="off" spellcheck="false">
           <button id="searchClear" class="btn-clear hidden" title="Xóa tìm kiếm">&times;</button>
           <span class="search-kbd-hint" title="Phím tắt tìm kiếm">/</span>
         </div>
@@ -66,7 +66,7 @@
 
         <div class="filter-subrow">
           <select id="periodFilterSelect" class="form-select">
-            <option value="ALL">Tất cả thời kỳ pháp luật</option>
+            <option value="ALL">Tất cả các thời kỳ pháp luật</option>
             <option value="2024">Luật Đất đai 2024 (Hiện hành)</option>
             <option value="2013">Luật Đất đai 2013</option>
             <option value="2003">Luật Đất đai 2003</option>
@@ -81,7 +81,7 @@
         <span class="candidate-count-text">
           Hiển thị <strong id="visibleCount">0</strong> / <span id="totalCount">0</span> mục
         </span>
-        <button id="btnResetFilter" class="btn-text-link hidden">Đặt lại bộ lọc</button>
+        <button id="btnResetFilter" class="btn-text-link hidden">Đặt lại</button>
       </div>
 
       <!-- DANH SÁCH CANDIDATE -->
@@ -90,148 +90,139 @@
       </div>
     </aside>
 
-    <!-- CỘT PHẢI: CHI TIẾT MÃ LOẠI ĐẤT TOÀN MÀN HÌNH (FULL WIDTH) -->
+    <!-- CỘT PHẢI: CHI TIẾT MÃ LOẠI ĐẤT TOÀN MÀN HÌNH (FULL WIDTH DENSE) -->
     <main class="app-main" id="mainContent">
       <!-- TRẠNG THÁI CHƯA CHỌN -->
       <div id="emptyView" class="empty-view hidden">
         <div class="empty-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
         </div>
         <h3>Chọn một mã loại đất từ danh sách bên trái</h3>
-        <p>Hoặc nhập ký hiệu mã (ví dụ <code>LUC</code>, <code>ONT</code>, <code>T</code>, <code>COC</code>, <code>HLD</code>) vào thanh tìm kiếm.</p>
+        <p>Hoặc nhập ký hiệu mã (ví dụ <code>LUC</code>, <code>ONT</code>, <code>T</code>, <code>BHK</code>, <code>HLD</code>) vào ô tìm kiếm.</p>
       </div>
 
-      <!-- NỘI DUNG CHI TIẾT -->
+      <!-- NỘI DUNG CHI TIẾT (3 KHỐI COMPACT CHUYÊN SÂU) -->
       <div id="detailView" class="detail-view">
-        <!-- KHỐI TIÊU ĐỀ HERO TINH GỌN -->
-        <section class="detail-hero-card">
-          <div class="hero-top">
-            <div class="hero-left-wrap">
-              <div class="hero-code-badge" id="heroCodeBadge">---</div>
-              <div class="color-preview-box hidden" id="colorPreviewBox" title="Mẫu màu bản đồ hiện trạng"></div>
+        
+        <!-- HEADER STRIP: MÃ ĐANG TRA CỨU & NÚT CÔNG CỤ -->
+        <div class="detail-header-strip">
+          <div class="strip-left">
+            <span class="strip-label">MÃ CẦN TRA CỨU:</span>
+            <span class="strip-code" id="heroCodeBadge">---</span>
+            <span class="color-preview-box hidden" id="colorPreviewBox" title="Mẫu màu bản đồ hiện trạng"></span>
+            <span class="strip-name" id="heroTitle">---</span>
+            <div class="strip-badges" id="heroBadges"></div>
+          </div>
+          <div class="strip-actions">
+            <button class="btn btn-sm btn-tool" id="btnCopyCode" title="Sao chép ký hiệu mã">Sao chép Mã</button>
+            <button class="btn btn-sm btn-tool" id="btnCopyCitation" title="Sao chép trích dẫn pháp lý">Trích dẫn</button>
+            <button class="btn btn-sm btn-tool" id="btnShareLink" title="Sao chép liên kết trực tiếp">Chia sẻ</button>
+          </div>
+        </div>
+
+        <!-- KHỐI I: THÔNG TIN LOẠI ĐẤT CHUẨN HÓA THEO LUẬT ĐẤT ĐAI 2024 -->
+        <section class="dense-section">
+          <div class="dense-sec-title">
+            <span class="sec-icon">📌</span>
+            <span>I. THÔNG TIN LOẠI ĐẤT CHUẨN HÓA THEO LUẬT ĐẤT ĐAI 2024</span>
+          </div>
+          <div class="dense-kv-table">
+            <div class="kv-row">
+              <div class="kv-cell kv-label">Mã đất chuẩn hóa (2024):</div>
+              <div class="kv-cell kv-val"><strong class="highlight-code" id="sec1Code">---</strong></div>
+              <div class="kv-cell kv-label">Nhóm đất chính:</div>
+              <div class="kv-cell kv-val"><span class="badge-tag" id="sec1Group">---</span></div>
             </div>
-            <div class="hero-title-group">
-              <h2 class="hero-title" id="heroTitle">---</h2>
-              <div class="hero-badges" id="heroBadges">
-                <!-- Badges render động -->
-              </div>
+            <div class="kv-row">
+              <div class="kv-cell kv-label">Tên loại đất chuẩn (2024):</div>
+              <div class="kv-cell kv-val"><strong id="sec1Name">---</strong></div>
+              <div class="kv-cell kv-label">Tình trạng hiệu lực:</div>
+              <div class="kv-cell kv-val"><span class="status-effect" id="sec1StatusEffect">---</span></div>
             </div>
-            <div class="hero-actions">
-              <button class="btn btn-sm btn-outline-dark" id="btnCopyCode" title="Sao chép ký hiệu mã">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-                </svg>
-                Mã
-              </button>
-              <button class="btn btn-sm btn-outline-dark" id="btnCopyCitation" title="Sao chép trích dẫn pháp lý">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-                </svg>
-                Trích dẫn
-              </button>
-              <button class="btn btn-sm btn-outline-dark" id="btnShareLink" title="Sao chép liên kết trực tiếp">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="18" cy="5" r="3"></circle>
-                  <circle cx="6" cy="12" r="3"></circle>
-                  <circle cx="18" cy="19" r="3"></circle>
-                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-                </svg>
-                Chia sẻ
-              </button>
+            <div class="kv-row">
+              <div class="kv-cell kv-label">Căn cứ phân loại chi tiết:</div>
+              <div class="kv-cell kv-val" id="sec1LegalBasis">---</div>
+              <div class="kv-cell kv-label">Thông số màu bản đồ (RGB):</div>
+              <div class="kv-cell kv-val" id="sec1Rgb">---</div>
+            </div>
+            <div class="kv-row full-span">
+              <div class="kv-cell kv-label">Mục đích sử dụng quy định:</div>
+              <div class="kv-cell kv-val full" id="sec1Purpose">---</div>
+            </div>
+            <div class="kv-row full-span">
+              <div class="kv-cell kv-label">Điểm mới / Thay đổi so với trước:</div>
+              <div class="kv-cell kv-val full" id="sec1Evolution">---</div>
             </div>
           </div>
         </section>
 
-        <!-- SƠ ĐỒ TIẾN TRÌNH LỊCH SỬ 5 THỜI KỲ (DẠNG NGANG DENSE) -->
-        <section class="detail-section">
-          <div class="section-header">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="10"></circle>
-              <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-            <h3>Trục thời gian chuyển đổi mã qua 5 giai đoạn pháp luật (1980 - 2024)</h3>
-          </div>
-          <div class="timeline-container" id="timelineContainer">
-            <!-- Timeline render dạng ngang động -->
-          </div>
-        </section>
-
-        <!-- NỘI DUNG QUY ĐỊNH PHÁP LUẬT CHI TIẾT (LƯỚI 2 CỘT TẬN DỤNG KHÔNG GIAN) -->
-        <section class="detail-section">
-          <div class="section-header">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-              <polyline points="14 2 14 8 20 8"></polyline>
-            </svg>
-            <h3>Quy định pháp lý & Mục đích sử dụng</h3>
-          </div>
-          <div class="detail-grid">
-            <div class="detail-grid-item">
-              <label>Căn cứ văn bản quy phạm pháp luật:</label>
-              <div class="detail-value highlight-legal" id="detailLegalBasis">---</div>
-            </div>
-            <div class="detail-grid-item">
-              <label>Bản chất thay đổi & Cơ chế chuyển đổi đối chiếu CSDL:</label>
-              <div class="detail-value" id="detailEvolution">---</div>
-            </div>
-            <div class="detail-grid-item full-width">
-              <label>Định nghĩa pháp luật & Mục đích sử dụng đất:</label>
-              <div class="detail-value" id="detailDefinition">---</div>
-            </div>
-          </div>
-        </section>
-
-        <!-- BẢNG ĐỐI CHIẾU CHUYỂN ĐỔI THEO CÁC VĂN BẢN (FULL WIDTH) -->
-        <section class="detail-section">
-          <div class="section-header">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-              <line x1="3" y1="9" x2="21" y2="9"></line>
-              <line x1="9" y1="21" x2="9" y2="9"></line>
-            </svg>
-            <h3>Bảng đối chiếu ký hiệu qua từng văn bản quy định</h3>
+        <!-- KHỐI II: ĐỐI CHIẾU DÒNG LỊCH SỬ KÝ HIỆU LOẠI ĐẤT QUA CÁC THỜI KỲ PHÁP LUẬT -->
+        <section class="dense-section">
+          <div class="dense-sec-title">
+            <span class="sec-icon">📜</span>
+            <span>II. ĐỐI CHIẾU DÒNG LỊCH SỬ KÝ HIỆU LOẠI ĐẤT QUA CÁC THỜI KỲ PHÁP LUẬT</span>
           </div>
           <div class="table-responsive">
             <table class="data-table">
               <thead>
                 <tr>
-                  <th style="width: 200px;">Thời kỳ pháp luật</th>
-                  <th style="width: 260px;">Văn bản quy định</th>
-                  <th style="width: 140px;">Ký hiệu thể hiện</th>
-                  <th>Mục đích sử dụng & Ghi chú kỹ thuật</th>
+                  <th style="width: 175px;">Thời kỳ / Giai đoạn</th>
+                  <th style="width: 215px;">Văn bản căn cứ</th>
+                  <th style="width: 95px; text-align: center;">Bản đồ địa chính</th>
+                  <th style="width: 95px; text-align: center;">Sổ đỏ / GCN</th>
+                  <th style="width: 95px; text-align: center;">Kiểm kê đất đai</th>
+                  <th>Ý nghĩa phân loại & Quy cách thể hiện lịch sử</th>
                 </tr>
               </thead>
               <tbody id="crossTableBody">
-                <!-- Render động các dòng đối chiếu -->
+                <!-- Render động 5 dòng lịch sử -->
               </tbody>
             </table>
           </div>
         </section>
 
-        <!-- HỘP THÔNG TIN PHÁP LÝ ĐẶC THÙ (NẾU CÓ) -->
-        <section class="special-legal-container hidden" id="specialLegalContainer">
-          <!-- Render thông báo Điều 141 (Đất ở 299), Điều 210 (Hành lang), Điều 152 (Đính chính sai sót) -->
+        <!-- KHỐI III: HƯỚNG DẪN XỬ LÝ HỒ SƠ ĐỊA CHÍNH LỊCH SỬ & QUY ĐỔI KHI CẤP GIẤY CHỨNG NHẬN -->
+        <section class="dense-section">
+          <div class="dense-sec-title">
+            <span class="sec-icon">⚖️</span>
+            <span>III. HƯỚNG DẪN XỬ LÝ HỒ SƠ ĐỊA CHÍNH LỊCH SỬ & QUY ĐỔI KHI CẤP GIẤY CHỨNG NHẬN</span>
+          </div>
+          <div class="dense-kv-table">
+            <div class="kv-row">
+              <div class="kv-cell kv-label">Tình huống hồ sơ cũ:</div>
+              <div class="kv-cell kv-val" id="sec3OldScenario">---</div>
+              <div class="kv-cell kv-label">Văn bản quy định mã cũ:</div>
+              <div class="kv-cell kv-val" id="sec3OldDoc">---</div>
+            </div>
+            <div class="kv-row">
+              <div class="kv-cell kv-label">Quan hệ chuyển đổi mục đích:</div>
+              <div class="kv-cell kv-val"><span class="badge-relation" id="sec3Relation">---</span></div>
+              <div class="kv-cell kv-label">Liên kết các bảng cơ sở dữ liệu:</div>
+              <div class="kv-cell kv-val" id="sec3TabsRef">---</div>
+            </div>
+            <div class="kv-row full-span">
+              <div class="kv-cell kv-label">Căn cứ pháp lý xác định loại đất:</div>
+              <div class="kv-cell kv-val full highlight-rule" id="sec3StatutoryRule">---</div>
+            </div>
+            <div class="kv-row full-span">
+              <div class="kv-cell kv-label">Nguyên tắc áp dụng thực tế:</div>
+              <div class="kv-cell kv-val full" id="sec3PracticalPrinciple">---</div>
+            </div>
+          </div>
+
+          <!-- KHỐI LƯU Ý PHÁP LÝ ĐẶC THÙ (ĐIỀU 141, ĐIỀU 210, ĐIỀU 152) -->
+          <div class="special-legal-container hidden" id="specialLegalContainer"></div>
         </section>
 
         <!-- DANH MỤC MÃ LIÊN QUAN / CÙNG NHÓM -->
-        <section class="detail-section">
-          <div class="section-header">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-            </svg>
-            <h3>Các mã loại đất liên quan trong hệ thống</h3>
-          </div>
-          <div class="related-chips" id="relatedChips">
-            <!-- Chips liên quan render động -->
-          </div>
-        </section>
+        <div class="related-strip">
+          <span class="related-label">Mã liên quan cùng nhóm:</span>
+          <div class="related-chips" id="relatedChips"></div>
+        </div>
+
       </div>
     </main>
   </div>
@@ -249,13 +240,13 @@
           <table class="data-table">
             <thead>
               <tr>
-                <th style="width: 50px;">STT</th>
-                <th style="width: 140px;">Thời kỳ</th>
-                <th style="width: 200px;">Số hiệu văn bản</th>
-                <th style="width: 100px;">Ban hành</th>
-                <th style="width: 120px;">Cơ quan</th>
+                <th style="width: 45px; text-align: center;">STT</th>
+                <th style="width: 130px;">Thời kỳ</th>
+                <th style="width: 180px;">Số hiệu văn bản</th>
+                <th style="width: 90px; text-align: center;">Ban hành</th>
+                <th style="width: 110px;">Cơ quan</th>
                 <th>Trích yếu nội dung chuyên môn</th>
-                <th style="width: 130px;">Hiệu lực</th>
+                <th style="width: 120px;">Hiệu lực</th>
               </tr>
             </thead>
             <tbody id="docsTableBody">
@@ -273,7 +264,7 @@
   <!-- TOAST THÔNG BÁO -->
   <div class="toast hidden" id="toast">Thông báo</div>
 
-  <!-- NẠP DỮ LIỆU TĨNH TỪ DATA.JS (KHÔNG BỊ CHẶN BỞI CORS) -->
+  <!-- NẠP DỮ LIỆU TĨNH TỪ DATA.JS -->
   <script src="data.js"></script>
   <!-- SCRIPT ENGINE TRA CỨU CLIENT-SIDE -->
   <script src="app.js"></script>
