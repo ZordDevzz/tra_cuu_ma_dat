@@ -1599,3 +1599,26 @@ mark.hl {
   background-color: var(--group-sub-bg);
   border-color: rgba(194, 65, 12, 0.25);
 }
+
+/* QoL: Liên kết CSDL Google Sheets trong khối III (Liên kết các bảng CSDL) */
+.db-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent-blue);
+  text-decoration: none;
+  border: 1px solid rgba(2, 132, 199, 0.35);
+  border-radius: var(--r-xs);
+  padding: 1px 7px;
+  background-color: rgba(2, 132, 199, 0.06);
+  white-space: nowrap;
+  transition: background-color var(--t), border-color var(--t), color var(--t);
+}
+.db-link:hover {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: #FFFFFF;
+}

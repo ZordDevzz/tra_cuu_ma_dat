@@ -15,6 +15,9 @@
 
   const { dictionary, legalDocs } = window.LAND_DATA;
 
+  // CSDL nguồn đầy đủ 9 sheet (Google Sheets) cho các mục "tra cứu chuyên sâu"
+  const DB_SHEET_URL = "https://docs.google.com/spreadsheets/d/1nlLd0dOKhCZNHbEKkoI84NcTwnHyPMqIsyim3WaI6OM/edit?usp=sharing";
+
   // 2. TRẠNG THÁI ỨNG DỤNG (APP STATE)
   const state = {
     searchQuery: "",
@@ -503,7 +506,7 @@
     sec3OldScenario.textContent = sec3.oldScenario || item.name;
     sec3OldDoc.textContent = sec3.oldDoc || (item.primaryPeriod || "-");
     sec3Relation.textContent = sec3.relation || "1 -> 1";
-    sec3TabsRef.textContent = sec3.tabsRef || "01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI";
+    sec3TabsRef.innerHTML = `${escapeHtml(sec3.tabsRef || "01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI")} <a class="db-link" href="${DB_SHEET_URL}" target="_blank" rel="noopener" title="Mở CSDL đầy đủ 9 sheet trên Google Sheets">Mở CSDL đầy đủ (Google Sheets)&nbsp;↗</a>`;
     sec3StatutoryRule.textContent = sec3.statutoryRule || (sec1.legalBasis || "-");
     sec3PracticalPrinciple.textContent = sec3.practicalPrinciple || "Căn cứ hồ sơ địa chính gốc và quy định hiện hành của Luật Đất đai 2024 để xác định mục đích sử dụng đất tương đương.";
 
