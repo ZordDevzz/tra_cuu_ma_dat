@@ -5,7 +5,7 @@
 
 window.LAND_DATA = {
   "generatedAt": "2026-10-12",
-  "totalCount": 167,
+  "totalCount": 185,
   "legalDocs": [
     {
       "stt": 1,
@@ -12818,6 +12818,852 @@ window.LAND_DATA = {
       },
       "specialLegal": {},
       "sourceSheet": "07_QUY_HOACH_XAY_DUNG"
+    },
+    {
+      "id": "SUB_CDQ",
+      "code": "CDQ",
+      "displayCode": "CDQ",
+      "name": "Cộng đồng dân cư",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "CDQ",
+        "name2024": "Cộng đồng dân cư",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 4 Điều 7 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Quản lý đất đình, đền, miếu, nhà văn hóa thôn, đất rừng cộng đồng được giao quản lý",
+        "evolution": "Mã CDQ"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 4 Điều 7 Luật 2024",
+          "bddc": "CDQ",
+          "sodo": "CDQ",
+          "kk": "CDQ",
+          "note": "Mã định danh đối tượng: Cộng đồng dân cư"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Cộng đồng dân cư",
+        "oldDoc": "Khoản 4 Điều 7 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 7 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_CDS",
+      "code": "CDS",
+      "displayCode": "CDS",
+      "name": "Cộng đồng dân cư",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "CDS",
+        "name2024": "Cộng đồng dân cư",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 4 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Thôn, làng, ấp, bản, buôn, phum, sóc hoặc điểm dân cư tương tự có cùng phong tục tập quán",
+        "evolution": "Mã CDS"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 4 Điều 4 Luật 2024",
+          "bddc": "CDS",
+          "sodo": "CDS",
+          "kk": "CDS",
+          "note": "Mã định danh đối tượng: Cộng đồng dân cư"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Cộng đồng dân cư",
+        "oldDoc": "Khoản 4 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 4 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_CNC",
+      "code": "CNC",
+      "displayCode": "CNC",
+      "name": "Người đại diện theo pháp luật của tổ chức hoặc cá nhân chịu trách nhiệm",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "CNC",
+        "name2024": "Người đại diện theo pháp luật của tổ chức hoặc cá nhân chịu trách nhiệm",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 5 Điều 7 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Chủ tịch UBND cấp xã quản lý đất công ích 5%, đất chưa sử dụng tại địa phương",
+        "evolution": "UBND cấp xã quản lý quỹ đất công ích và đất chưa sử dụng"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 5 Điều 7 Luật 2024",
+          "bddc": "CNC",
+          "sodo": "CNC",
+          "kk": "CNC",
+          "note": "Mã định danh đối tượng: Người đại diện theo pháp luật của tổ chức hoặc cá nhân chịu trách nhiệm"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Người đại diện theo pháp luật của tổ chức hoặc cá nhân chịu trách nhiệm",
+        "oldDoc": "Khoản 5 Điều 7 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 5 Điều 7 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_CNN",
+      "code": "CNN",
+      "displayCode": "CNN",
+      "name": "Người Việt Nam định cư ở nước ngoài là công dân Việt Nam",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "CNN",
+        "name2024": "Người Việt Nam định cư ở nước ngoài là công dân Việt Nam",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 1 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Công dân Việt Nam mang quốc tịch VN đang sinh sống, cư trú tại nước ngoài",
+        "evolution": "Mã phân loại CNN"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 1 Điều 4 Luật 2024",
+          "bddc": "CNN",
+          "sodo": "CNN",
+          "kk": "CNN",
+          "note": "Mã định danh đối tượng: Người Việt Nam định cư ở nước ngoài là công dân Việt Nam"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Người Việt Nam định cư ở nước ngoài là công dân Việt Nam",
+        "oldDoc": "Khoản 1 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_CNV",
+      "code": "CNV",
+      "displayCode": "CNV",
+      "name": "Cá nhân trong nước",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "CNV",
+        "name2024": "Cá nhân trong nước",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 1 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Công dân Việt Nam cư trú trong nước",
+        "evolution": "Kế thừa mã CNV"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 1 Điều 4 Luật 2024",
+          "bddc": "CNV",
+          "sodo": "CNV",
+          "kk": "CNV",
+          "note": "Mã định danh đối tượng: Cá nhân trong nước"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Cá nhân trong nước",
+        "oldDoc": "Khoản 1 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_KTQ",
+      "code": "KTQ",
+      "displayCode": "KTQ",
+      "name": "Tổ chức kinh tế",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "KTQ",
+        "name2024": "Tổ chức kinh tế",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 3 Điều 7 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Doanh nghiệp được giao quản lý đất hành lang an toàn công trình, đất dự án hạ tầng",
+        "evolution": "Mã KTQ"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 3 Điều 7 Luật 2024",
+          "bddc": "KTQ",
+          "sodo": "KTQ",
+          "kk": "KTQ",
+          "note": "Mã định danh đối tượng: Tổ chức kinh tế"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức kinh tế",
+        "oldDoc": "Khoản 3 Điều 7 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 3 Điều 7 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_NGV",
+      "code": "NGV",
+      "displayCode": "NGV",
+      "name": "Người gốc Việt Nam định cư ở nước ngoài",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "NGV",
+        "name2024": "Người gốc Việt Nam định cư ở nước ngoài",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 6 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Người gốc Việt Nam không có quốc tịch VN định cư tại nước ngoài",
+        "evolution": "Đối tượng bổ sung theo Luật Đất đai 2024"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 6 Điều 4 Luật 2024",
+          "bddc": "NGV",
+          "sodo": "NGV",
+          "kk": "NGV",
+          "note": "Mã định danh đối tượng: Người gốc Việt Nam định cư ở nước ngoài"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Người gốc Việt Nam định cư ở nước ngoài",
+        "oldDoc": "Khoản 6 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 6 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TCC",
+      "code": "TCC",
+      "displayCode": "TCC",
+      "name": "Tổ chức trong nước",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TCC",
+        "name2024": "Tổ chức trong nước",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 2 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Cơ quan nhà nước, đơn vị vũ trang, doanh nghiệp, tổ chức chính trị - xã hội trong nước",
+        "evolution": "Mã nhóm TCC"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 2 Điều 4 Luật 2024",
+          "bddc": "TCC",
+          "sodo": "TCC",
+          "kk": "TCC",
+          "note": "Mã định danh đối tượng: Tổ chức trong nước"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức trong nước",
+        "oldDoc": "Khoản 2 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TCN",
+      "code": "TCN",
+      "displayCode": "TCN",
+      "name": "Cơ quan nhà nước, cơ quan đảng và đơn vị vũ trang nhân dân",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TCN",
+        "name2024": "Cơ quan nhà nước, cơ quan đảng và đơn vị vũ trang nhân dân",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Điểm a Khoản 2 Điều 4",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Cơ quan hành chính nhà nước, viện kiểm sát, tòa án, đảng bộ, ban chỉ huy quân sự, công an",
+        "evolution": "Mã TCN"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Điểm a Khoản 2 Điều 4",
+          "bddc": "TCN",
+          "sodo": "TCN",
+          "kk": "TCN",
+          "note": "Mã định danh đối tượng: Cơ quan nhà nước, cơ quan đảng và đơn vị vũ trang nhân dân"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Cơ quan nhà nước, cơ quan đảng và đơn vị vũ trang nhân dân",
+        "oldDoc": "Điểm a Khoản 2 Điều 4",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm a Khoản 2 Điều 4",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TCQ",
+      "code": "TCQ",
+      "displayCode": "TCQ",
+      "name": "Cơ quan nhà nước, cơ quan Đảng, đơn vị vũ trang nhân dân",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TCQ",
+        "name2024": "Cơ quan nhà nước, cơ quan Đảng, đơn vị vũ trang nhân dân",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 1 Điều 7 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Quản lý đất trụ sở, đất công trình công cộng, đất giao quản lý bảo vệ",
+        "evolution": "Mã TCQ"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 1 Điều 7 Luật 2024",
+          "bddc": "TCQ",
+          "sodo": "TCQ",
+          "kk": "TCQ",
+          "note": "Mã định danh đối tượng: Cơ quan nhà nước, cơ quan Đảng, đơn vị vũ trang nhân dân"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Cơ quan nhà nước, cơ quan Đảng, đơn vị vũ trang nhân dân",
+        "oldDoc": "Khoản 1 Điều 7 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 1 Điều 7 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TKH",
+      "code": "TKH",
+      "displayCode": "TKH",
+      "name": "Tổ chức khác trong nước",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TKH",
+        "name2024": "Tổ chức khác trong nước",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Điểm đ Khoản 2 Điều 4",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Các tổ chức khác thành lập hợp pháp theo pháp luật Việt Nam",
+        "evolution": "Mã TKH"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Điểm đ Khoản 2 Điều 4",
+          "bddc": "TKH",
+          "sodo": "TKH",
+          "kk": "TKH",
+          "note": "Mã định danh đối tượng: Tổ chức khác trong nước"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức khác trong nước",
+        "oldDoc": "Điểm đ Khoản 2 Điều 4",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm đ Khoản 2 Điều 4",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TKT",
+      "code": "TKT",
+      "displayCode": "TKT",
+      "name": "Tổ chức kinh tế",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TKT",
+        "name2024": "Tổ chức kinh tế",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Điểm d Khoản 2 Điều 4",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Doanh nghiệp trong nước, hợp tác xã, liên hiệp HTX",
+        "evolution": "Mã TKT"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Điểm d Khoản 2 Điều 4",
+          "bddc": "TKT",
+          "sodo": "TKT",
+          "kk": "TKT",
+          "note": "Mã định danh đối tượng: Tổ chức kinh tế"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức kinh tế",
+        "oldDoc": "Điểm d Khoản 2 Điều 4",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm d Khoản 2 Điều 4",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TNG",
+      "code": "TNG",
+      "displayCode": "TNG",
+      "name": "Tổ chức nước ngoài có chức năng ngoại giao",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TNG",
+        "name2024": "Tổ chức nước ngoài có chức năng ngoại giao",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 5 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Đại sứ quán, lãnh sự quán, cơ quan đại diện các tổ chức thuộc Liên Hợp Quốc",
+        "evolution": "Mã TNG"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 5 Điều 4 Luật 2024",
+          "bddc": "TNG",
+          "sodo": "TNG",
+          "kk": "TNG",
+          "note": "Mã định danh đối tượng: Tổ chức nước ngoài có chức năng ngoại giao"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức nước ngoài có chức năng ngoại giao",
+        "oldDoc": "Khoản 5 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 5 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TSN",
+      "code": "TSN",
+      "displayCode": "TSN",
+      "name": "Đơn vị sự nghiệp công lập",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TSN",
+        "name2024": "Đơn vị sự nghiệp công lập",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Điểm b Khoản 2 Điều 4",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Trường công lập, bệnh viện công lập, viện nghiên cứu công lập",
+        "evolution": "Mã TSN"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Điểm b Khoản 2 Điều 4",
+          "bddc": "TSN",
+          "sodo": "TSN",
+          "kk": "TSN",
+          "note": "Mã định danh đối tượng: Đơn vị sự nghiệp công lập"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đơn vị sự nghiệp công lập",
+        "oldDoc": "Điểm b Khoản 2 Điều 4",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 2 Điều 4",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TSQ",
+      "code": "TSQ",
+      "displayCode": "TSQ",
+      "name": "Đơn vị sự nghiệp công lập",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TSQ",
+        "name2024": "Đơn vị sự nghiệp công lập",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 2 Điều 7 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Ban quản lý rừng đặc dụng, ban quản lý rừng phòng hộ, trung tâm phát triển quỹ đất",
+        "evolution": "Mã TSQ"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 2 Điều 7 Luật 2024",
+          "bddc": "TSQ",
+          "sodo": "TSQ",
+          "kk": "TSQ",
+          "note": "Mã định danh đối tượng: Đơn vị sự nghiệp công lập"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đơn vị sự nghiệp công lập",
+        "oldDoc": "Khoản 2 Điều 7 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 2 Điều 7 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TTG",
+      "code": "TTG",
+      "displayCode": "TTG",
+      "name": "Tổ chức tôn giáo, tổ chức tôn giáo trực thuộc",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TTG",
+        "name2024": "Tổ chức tôn giáo, tổ chức tôn giáo trực thuộc",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 3 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Giáo hội Phật giáo, Tòa Giám mục, Hội thánh, Ban trị sự tôn giáo các cấp",
+        "evolution": "Mã TTG"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 3 Điều 4 Luật 2024",
+          "bddc": "TTG",
+          "sodo": "TTG",
+          "kk": "TTG",
+          "note": "Mã định danh đối tượng: Tổ chức tôn giáo, tổ chức tôn giáo trực thuộc"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức tôn giáo, tổ chức tôn giáo trực thuộc",
+        "oldDoc": "Khoản 3 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 3 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TVN",
+      "code": "TVN",
+      "displayCode": "TVN",
+      "name": "Tổ chức kinh tế có vốn đầu tư nước ngoài",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TVN",
+        "name2024": "Tổ chức kinh tế có vốn đầu tư nước ngoài",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Khoản 7 Điều 4 Luật 2024",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Doanh nghiệp FDI thành lập và hoạt động tại Việt Nam",
+        "evolution": "Mã TVN"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Khoản 7 Điều 4 Luật 2024",
+          "bddc": "TVN",
+          "sodo": "TVN",
+          "kk": "TVN",
+          "note": "Mã định danh đối tượng: Tổ chức kinh tế có vốn đầu tư nước ngoài"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức kinh tế có vốn đầu tư nước ngoài",
+        "oldDoc": "Khoản 7 Điều 4 Luật 2024",
+        "relation": "1 -> 1",
+        "statutoryRule": "Khoản 7 Điều 4 Luật 2024",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
+    },
+    {
+      "id": "SUB_TXH",
+      "code": "TXH",
+      "displayCode": "TXH",
+      "name": "Tổ chức xã hội, tổ chức xã hội - nghề nghiệp",
+      "group": "Đối tượng quản lý & sử dụng đất",
+      "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": null,
+      "sec1": {
+        "code2024": "TXH",
+        "name2024": "Tổ chức xã hội, tổ chức xã hội - nghề nghiệp",
+        "group": "Đối tượng quản lý & sử dụng đất",
+        "legalBasis": "Điểm c Khoản 2 Điều 4",
+        "statusEffect": "Đang có hiệu lực (từ 01/08/2024)",
+        "purpose": "Hội Luật gia, Hội Nhà văn, Hội Nông dân, các hiệp hội nghề nghiệp",
+        "evolution": "Mã TXH"
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Điểm c Khoản 2 Điều 4",
+          "bddc": "TXH",
+          "sodo": "TXH",
+          "kk": "TXH",
+          "note": "Mã định danh đối tượng: Tổ chức xã hội, tổ chức xã hội - nghề nghiệp"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "Điều 5 Luật Đất đai 2013 & TT 25/2014",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Quy định đối tượng người sử dụng đất theo Luật 2013"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Tổ chức xã hội, tổ chức xã hội - nghề nghiệp",
+        "oldDoc": "Điểm c Khoản 2 Điều 4",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm c Khoản 2 Điều 4",
+        "practicalPrinciple": "Áp dụng để ghi mã đối tượng sử dụng đất hoặc đối tượng được giao quản lý đất trong cơ sở dữ liệu địa chính và hồ sơ địa chính.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 03_LUAT_2024_HIEN_HANH (Mục B & C)."
+      },
+      "specialLegal": {},
+      "sourceSheet": "03_LUAT_2024_HIEN_HANH"
     },
     {
       "id": "REV_MNC_42",

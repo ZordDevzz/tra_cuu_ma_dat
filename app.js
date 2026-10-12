@@ -21,7 +21,10 @@
     groupFilter: "ALL",
     periodFilter: "ALL",
     selectedId: null,
-    filteredItems: []
+    filteredItems: [],
+    // Chế độ phân giải mã trùng định danh: tắt auto-chọn, yêu cầu người dùng chọn biến thể
+    disambiguate: false,
+    disambiguationMsg: ""
   };
 
   // 3. DOM ELEMENTS
@@ -36,6 +39,12 @@
 
   const detailView = document.getElementById("detailView");
   const emptyView = document.getElementById("emptyView");
+  const emptyViewHint = document.getElementById("emptyViewHint");
+
+  // Variant Strip (biến thể pháp lý cùng mã định danh)
+  const variantStrip = document.getElementById("variantStrip");
+  const variantBaseCode = document.getElementById("variantBaseCode");
+  const variantChips = document.getElementById("variantChips");
 
   // Header Strip Elements
   const heroCodeBadge = document.getElementById("heroCodeBadge");
@@ -105,6 +114,95 @@
       .replace(/'/g, "&#039;");
   }
 
+  // QoL: Đánh dấu (highlight) từ khóa khớp trong văn bản hiển thị
+  function highlightMatch(text, query) {
+    const t = String(text || "");
+    const q = String(query || "").trim();
+    if (!q) return escapeHtml(t);
+    const qLower = q.toLowerCase();
+    const tLower = t.toLowerCase();
+    let out = "", i = 0, hit;
+    while ((hit = tLower.indexOf(qLower, i)) !== -1) {
+      out += escapeHtml(t.slice(i, hit)) + '<mark class="hl">' + escapeHtml(t.slice(hit, hit + q.length)) + "</mark>";
+      i = hit + q.length;
+    }
+    out += escapeHtml(t.slice(i));
+    return out || escapeHtml(t);
+  }
+
+  // =========================================================================
+  // ROUTING THEO ID DUY NHẤT + PHÂN GIẢI MÃ TRÙNG ĐỊNH DANH
+  // Bản chất từ điển địa chính: cùng một ký hiệu mã (CLN, RSX, ONT...) có thể
+  // tồn tại nhiều biến thể pháp lý (Luật 2024 / quy hoạch / lịch sử 299-2013).
+  // - Deep link chuẩn: #id=<id duy nhất> (VD: #id=M24_CLN_6)
+  // - Deep link theo mã (#code=CLN) chỉ là "ý định tra cứu": lọc toàn bộ biến
+  //   thể, KHÔNG auto-chọn; nếu chỉ đúng 1 kết quả thì chọn và chuẩn hóa hash.
+  // =========================================================================
+  // QoL: Phân giải phạm vi (scope) của bản ghi: mã đất / chỉ tiêu quy hoạch /
+  // mã đối tượng sử dụng-quản lý đất. Cùng một ký hiệu (VD: TSN) có thể tồn tại
+  // ở các phạm vi khác nhau với ý nghĩa pháp lý hoàn toàn khác nhau.
+  function scopeOf(item) {
+    const grp = (item.group || "").toLowerCase();
+    if (grp.includes("đối tượng")) return { key: "SUB", label: "Mã đối tượng" };
+    if (grp.includes("quy hoạch")) return { key: "QH", label: "Chỉ tiêu QH" };
+    return { key: "LAND", label: "Mã loại đất" };
+  }
+
+  function baseCodeOf(item) {
+    const c = (item.code || item.displayCode || "").toString();
+    return c.split(/[\s(\/]/)[0].trim().toUpperCase();
+  }
+
+  function parseHash() {
+    const hash = window.location.hash.replace(/^#/, "");
+    const params = {};
+    if (!hash) return params;
+    hash.split("&").forEach(pair => {
+      const idx = pair.indexOf("=");
+      if (idx > 0) {
+        params[pair.slice(0, idx).toLowerCase()] = decodeURIComponent(pair.slice(idx + 1));
+      }
+    });
+    return params;
+  }
+
+  function findById(id) {
+    const needle = String(id).trim();
+    return dictionary.find(it => it.id === needle) || null;
+  }
+
+  // QoL: Tra cứu theo ký hiệu mã từ bất kỳ đâu (link bảng đối chiếu, chip gợi ý...)
+  // Tái sử dụng đúng logic deep link #code=: lọc mọi biến thể, nhiều kết quả thì
+  // chuyển sang chế độ phân giải trùng mã, một kết quả thì chọn luôn.
+  function searchByCode(code) {
+    const codeTrim = String(code || "").trim();
+    if (!codeTrim) return;
+    const base = codeTrim.split(/[\s(\/]/)[0].trim().toUpperCase();
+    const variants = dictionary.filter(it => baseCodeOf(it) === base);
+
+    searchInput.value = codeTrim;
+    state.searchQuery = codeTrim;
+    state.disambiguate = false;
+    state.disambiguationMsg = "";
+    searchClear.classList.remove("hidden");
+
+    if (variants.length > 1) {
+      state.disambiguate = true;
+      const scopeLabels = [...new Set(variants.map(v => scopeOf(v).label))];
+      const scopeNote = scopeLabels.length > 1
+        ? " Lưu ý: cùng ký hiệu nhưng thuộc các phạm vi khác nhau (" + scopeLabels.join(" / ") + ")."
+        : "";
+      state.disambiguationMsg =
+        'Mã "' + base + '" có ' + variants.length + ' biến thể pháp lý khác nhau ' +
+        '(Luật 2024 / quy hoạch / lịch sử). Hãy chọn biến thể cụ thể trong danh sách bên trái.' + scopeNote;
+    }
+    filterDictionary();
+
+    if (!state.disambiguate && state.filteredItems.length > 0) {
+      selectItem(state.filteredItems[0].id, true);
+    }
+  }
+
   // Tiền xử lý chỉ mục tìm kiếm cho từng bản ghi
   dictionary.forEach(item => {
     const rawSearchText = [
@@ -125,6 +223,29 @@
   // =========================================================================
   // BỘ LỌC & TÌM KIẾM
   // =========================================================================
+  // Quy tắc khớp nhóm đất (dùng chung cho bộ lọc và bộ đếm trên pill)
+  function matchesGroupFilter(item, group) {
+    const itemGrp = (item.group || "").toLowerCase();
+    if (group === "NNP") return itemGrp.includes("nông nghiệp") && !itemGrp.includes("phi nông nghiệp");
+    if (group === "PNN") return itemGrp.includes("phi nông nghiệp");
+    if (group === "CSD") return itemGrp.includes("chưa sử dụng");
+    if (group === "HL") return (item.status && item.status.includes("Hành lang")) || (item.name && item.name.includes("Hành lang"));
+    if (group === "QH") return itemGrp.includes("quy hoạch");
+    if (group === "SUB") return itemGrp.includes("đối tượng");
+    return true;
+  }
+
+  // QoL: Hiển thị số lượng bản ghi của từng nhóm ngay trên pill bộ lọc
+  function renderPillCounts() {
+    groupFilterPills.querySelectorAll(".pill").forEach(pill => {
+      const key = pill.dataset.group;
+      if (!key || key === "ALL") return;
+      const badge = document.createElement("span");
+      badge.className = "pill-count";
+      badge.textContent = dictionary.filter(it => matchesGroupFilter(it, key)).length;
+      pill.appendChild(badge);
+    });
+  }
   function filterDictionary() {
     const query = state.searchQuery.trim();
     const queryNorm = removeVietnameseTones(query);
@@ -141,15 +262,7 @@
       }
 
       // 2. Lọc theo nhóm đất
-      if (group !== "ALL") {
-        const itemGrp = (item.group || "").toLowerCase();
-        if (group === "NNP" && (!itemGrp.includes("nông nghiệp") || itemGrp.includes("phi nông nghiệp"))) return false;
-        if (group === "PNN" && !itemGrp.includes("phi nông nghiệp")) return false;
-        if (group === "CSD" && !itemGrp.includes("chưa sử dụng")) return false;
-        if (group === "HL" && !(item.status.includes("Hành lang") || item.name.includes("Hành lang"))) return false;
-        if (group === "QH" && !itemGrp.includes("quy hoạch")) return false;
-        if (group === "SUB" && !itemGrp.includes("đối tượng")) return false;
-      }
+      if (group !== "ALL" && !matchesGroupFilter(item, group)) return false;
 
       // 3. Lọc theo thời kỳ pháp luật
       if (period !== "ALL") {
@@ -185,11 +298,17 @@
     renderCandidateList();
     updateCounter();
 
-    // Tự động chọn item đầu tiên nếu item hiện tại không còn trong danh sách
+    // Tự động chọn item đầu tiên nếu item hiện tại không còn trong danh sách.
+    // Ngoại lệ: đang phân giải mã trùng định danh -> giữ trạng thái rỗng và
+    // yêu cầu người dùng chủ động chọn biến thể pháp lý.
     if (state.filteredItems.length > 0) {
       const exists = state.filteredItems.some(it => it.id === state.selectedId);
       if (!exists) {
-        selectItem(state.filteredItems[0].id, false);
+        if (state.disambiguate) {
+          showEmptyState(state.disambiguationMsg);
+        } else {
+          selectItem(state.filteredItems[0].id, false);
+        }
       }
     } else {
       showEmptyState();
@@ -248,11 +367,11 @@
         <div class="card-top">
           <div class="card-code-wrap">
             ${colorDotHtml}
-            <span class="card-code">${escapeHtml(item.displayCode || item.code)}</span>
+            <span class="card-code">${highlightMatch(item.displayCode || item.code, state.searchQuery)}</span>
           </div>
           <span class="badge-tag ${tagClass}">${escapeHtml(tagLabel)}</span>
         </div>
-        <div class="card-name" title="${escapeHtml(item.name)}">${escapeHtml(item.name)}</div>
+        <div class="card-name" title="${escapeHtml(item.name)}">${highlightMatch(item.name, state.searchQuery)}</div>
         <div class="card-subtext">
           <span class="card-period-hint">${escapeHtml(item.primaryPeriod || '')}</span>
         </div>
@@ -288,6 +407,8 @@
     if (!item) return;
 
     state.selectedId = id;
+    state.disambiguate = false;
+    state.disambiguationMsg = "";
 
     // Cập nhật class active trong danh sách candidate
     const cards = candidateList.querySelectorAll(".candidate-card");
@@ -302,9 +423,10 @@
 
     renderDetail(item);
 
-    // Cập nhật URL Hash
+    // Cập nhật URL Hash theo id duy nhất (định danh ổn định, không trùng lặp)
     if (updateHash) {
-      window.location.hash = "code=" + encodeURIComponent(item.code);
+      window.location.hash = "id=" + encodeURIComponent(item.id);
+      pushRecent(item); // QoL: ghi lịch sử tra cứu (chỉ thao tác chủ động của người dùng)
     }
   }
 
@@ -333,15 +455,15 @@
       colorPreviewBox.classList.remove("hidden");
       colorPreviewBox.style.backgroundColor = item.rgb.hex;
       colorPreviewBox.title = `Màu bản đồ hiện trạng: RGB(${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b}) - Hex ${item.rgb.hex}`;
-      rgbBadgeHtml = `<span class="badge-tag" style="background-color: #E2E8F0; color: #1E293B; font-family: var(--font-mono);" title="Thông số màu bản đồ hiện trạng">RGB: ${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b} (${item.rgb.hex})</span>`;
+      rgbBadgeHtml = `<span class="badge-tag tag-rgb" title="Thông số màu bản đồ hiện trạng">RGB: ${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b} (${item.rgb.hex})</span>`;
     } else {
       colorPreviewBox.classList.add("hidden");
     }
 
     heroBadges.innerHTML = `
       <span class="badge-tag ${tagClass}">${escapeHtml(item.group)}</span>
-      <span class="badge-tag" style="background-color: #E2E8F0; color: #334155;">${escapeHtml(item.primaryPeriod)}</span>
-      <span class="badge-tag" style="background-color: #FEF3C7; color: #92400E;">${escapeHtml(item.status)}</span>
+      <span class="badge-tag tag-period">${escapeHtml(item.primaryPeriod)}</span>
+      <span class="badge-tag tag-status">${escapeHtml(item.status)}</span>
       ${rgbBadgeHtml}
     `;
 
@@ -357,8 +479,8 @@
 
     if (item.rgb && item.rgb.hex) {
       sec1Rgb.innerHTML = `
-        <span style="display: inline-flex; align-items: center; gap: 6px;">
-          <span style="display: inline-block; width: 14px; height: 14px; border-radius: 2px; border: 1px solid rgba(0,0,0,0.25); background-color: ${item.rgb.hex};"></span>
+        <span class="rgb-inline">
+          <span class="rgb-swatch" style="background-color: ${item.rgb.hex};"></span>
           <span>RGB(${item.rgb.r}, ${item.rgb.g}, ${item.rgb.b}) &bull; Mã màu Hex: <code class="cell-code">${item.rgb.hex}</code></span>
         </span>
       `;
@@ -390,6 +512,41 @@
 
     // Mã liên quan
     renderRelatedChips(item);
+
+    // Biến thể pháp lý cùng mã định danh (nếu có)
+    renderVariantStrip(item);
+  }
+
+  // RENDER STRIP BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH
+  // Cùng ký hiệu mã (VD: CLN) nhưng khác nội dung pháp lý -> cho phép nhảy
+  // nhanh giữa các biến thể mà không phải quay lại ô tìm kiếm.
+  function renderVariantStrip(item) {
+    variantChips.innerHTML = "";
+    const base = baseCodeOf(item);
+    const variants = dictionary.filter(it => baseCodeOf(it) === base);
+    if (variants.length <= 1) {
+      variantStrip.classList.add("hidden");
+      return;
+    }
+
+    variantBaseCode.textContent = base;
+    variants.forEach(v => {
+      const chip = document.createElement("div");
+      chip.className = "variant-chip" + (v.id === item.id ? " active" : "");
+      chip.title = v.name + " — " + (v.primaryPeriod || "");
+      const sc = scopeOf(v);
+      chip.innerHTML = `
+        <span class="chip-code">${escapeHtml(v.displayCode || v.code)}</span>
+        <span class="v-scope scope-${sc.key.toLowerCase()}">${escapeHtml(sc.label)}</span>
+        <span class="v-name">${escapeHtml(v.name)}</span>
+        <span class="v-period">${escapeHtml(v.primaryPeriod || "")}</span>
+      `;
+      chip.addEventListener("click", () => {
+        selectItem(v.id, true);
+      });
+      variantChips.appendChild(chip);
+    });
+    variantStrip.classList.remove("hidden");
   }
 
   // RENDER MA TRẬN 6 CỘT KHỐI II
@@ -406,17 +563,21 @@
 
     historyRows.forEach(r => {
       const tr = document.createElement("tr");
-      const bddcVal = r.bddc && r.bddc !== "-" ? `<code class="cell-code">${escapeHtml(r.bddc)}</code>` : "-";
-      const sodoVal = r.sodo && r.sodo !== "-" ? `<code class="cell-code">${escapeHtml(r.sodo)}</code>` : "-";
-      const kkVal = r.kk && r.kk !== "-" ? `<code class="cell-code">${escapeHtml(r.kk)}</code>` : "-";
+      // QoL: mã ký hiệu trong bảng trở thành nút tra cứu tiếp (click để tra mã đó)
+      const codeBtn = (v) => v && v !== "-"
+        ? `<button class="cell-code cell-code-link" data-code="${escapeHtml(v)}" title="Tra cứu ký hiệu ${escapeHtml(v)}">${escapeHtml(v)}</button>`
+        : "-";
+      const bddcVal = codeBtn(r.bddc);
+      const sodoVal = codeBtn(r.sodo);
+      const kkVal = codeBtn(r.kk);
 
       tr.innerHTML = `
-        <td style="font-weight: 700; color: #1E293B;">${escapeHtml(r.era)}</td>
-        <td style="color: #334155;">${escapeHtml(r.doc)}</td>
+        <td class="cell-era">${escapeHtml(r.era)}</td>
+        <td class="cell-doc">${escapeHtml(r.doc)}</td>
         <td style="text-align: center;">${bddcVal}</td>
         <td style="text-align: center;">${sodoVal}</td>
         <td style="text-align: center;">${kkVal}</td>
-        <td style="color: #0F172A;">${escapeHtml(r.note || '-')}</td>
+        <td class="cell-note">${escapeHtml(r.note || '-')}</td>
       `;
       crossTableBody.appendChild(tr);
     });
@@ -521,9 +682,10 @@
     });
   }
 
-  function showEmptyState() {
+  function showEmptyState(message) {
     emptyView.classList.remove("hidden");
     detailView.classList.add("hidden");
+    emptyViewHint.textContent = message || "Hoặc nhập ký hiệu mã (ví dụ LUC, ONT, T, BHK, HLD) vào ô tìm kiếm.";
   }
 
   // =========================================================================
@@ -536,15 +698,66 @@
       const isEffective = d.status.includes("Đang có hiệu lực");
       tr.innerHTML = `
         <td style="text-align: center; font-weight: 600;">${d.stt}</td>
-        <td><span class="badge-tag" style="background-color: #E2E8F0; color: #1E293B;">${escapeHtml(d.period)}</span></td>
+        <td><span class="badge-tag tag-plain">${escapeHtml(d.period)}</span></td>
         <td><strong style="color: var(--primary-navy);">${escapeHtml(d.docNumber)}</strong></td>
         <td style="text-align: center;">${escapeHtml(d.issueDate)}</td>
         <td>${escapeHtml(d.authority)}</td>
         <td>${escapeHtml(d.summary)}</td>
-        <td><span style="font-size: 0.725rem; color: ${isEffective ? '#166534' : '#64748B'}; font-weight: 600;">${escapeHtml(d.status)}</span></td>
+        <td><span class="doc-status ${isEffective ? 'is-effective' : ''}">${escapeHtml(d.status)}</span></td>
       `;
       docsTableBody.appendChild(tr);
     });
+  }
+
+  // =========================================================================
+  // QoL: LỊCH SỬ TRA CỨU GẦN ĐÂY (localStorage, tối đa 8 mục)
+  // =========================================================================
+  const RECENT_KEY = "landdict_recent_v1";
+
+  function loadRecent() {
+    try {
+      const arr = JSON.parse(localStorage.getItem(RECENT_KEY) || "[]");
+      return Array.isArray(arr) ? arr.filter(r => r && r.id) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function pushRecent(item) {
+    let rec = loadRecent().filter(r => r.id !== item.id);
+    rec.unshift({ id: item.id, code: item.displayCode || item.code, name: item.name });
+    rec = rec.slice(0, 8);
+    try {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(rec));
+    } catch (e) { /* chế độ riêng tư / file:// chặn localStorage -> bỏ qua */ }
+    renderRecent();
+  }
+
+  function renderRecent() {
+    const rec = loadRecent();
+    const recentChips = document.getElementById("recentChips");
+    const recentStripEl = document.getElementById("recentStrip");
+    if (!recentChips || !recentStripEl) return;
+    recentChips.innerHTML = "";
+
+    if (rec.length === 0) {
+      recentStripEl.classList.add("hidden");
+      return;
+    }
+
+    rec.forEach(r => {
+      const chip = document.createElement("button");
+      chip.className = "recent-chip";
+      chip.type = "button";
+      chip.title = r.name || "";
+      chip.innerHTML = `<span class="chip-code">${escapeHtml(r.code || "")}</span><span class="rc-name">${escapeHtml(r.name || "")}</span>`;
+      chip.addEventListener("click", () => {
+        const matched = findById(r.id);
+        if (matched) selectItem(matched.id, true);
+      });
+      recentChips.appendChild(chip);
+    });
+    recentStripEl.classList.remove("hidden");
   }
 
   // =========================================================================
@@ -591,6 +804,7 @@
   // =========================================================================
   searchInput.addEventListener("input", e => {
     state.searchQuery = e.target.value;
+    state.disambiguate = false;
     if (state.searchQuery) {
       searchClear.classList.remove("hidden");
     } else {
@@ -602,6 +816,7 @@
   searchClear.addEventListener("click", () => {
     searchInput.value = "";
     state.searchQuery = "";
+    state.disambiguate = false;
     searchClear.classList.add("hidden");
     searchInput.focus();
     filterDictionary();
@@ -614,12 +829,14 @@
     groupFilterPills.querySelectorAll(".pill").forEach(p => p.classList.remove("active"));
     pill.classList.add("active");
     state.groupFilter = pill.dataset.group;
+    state.disambiguate = false;
     filterDictionary();
   });
 
   // Filter thời kỳ
   periodFilterSelect.addEventListener("change", e => {
     state.periodFilter = e.target.value;
+    state.disambiguate = false;
     filterDictionary();
   });
 
@@ -635,6 +852,7 @@
 
     periodFilterSelect.value = "ALL";
     state.periodFilter = "ALL";
+    state.disambiguate = false;
 
     filterDictionary();
   });
@@ -702,38 +920,76 @@
     if (e.target === docsModal) docsModal.classList.add("hidden");
   });
 
-  // Hash Routing
-  function initHashRouting() {
-    const hash = window.location.hash;
-    if (hash && hash.startsWith("#code=")) {
-      const codeParam = decodeURIComponent(hash.substring(6)).trim().toLowerCase();
-      const matched = dictionary.find(it => 
-        (it.code && it.code.toLowerCase() === codeParam) || 
-        (it.displayCode && it.displayCode.toLowerCase() === codeParam)
-      );
+  // QoL: Click mã trong bảng đối chiếu 5 thời kỳ (Khối II) để tra cứu tiếp
+  crossTableBody.addEventListener("click", e => {
+    const btn = e.target.closest(".cell-code-link");
+    if (btn) searchByCode(btn.dataset.code);
+  });
+
+  // QoL: Chip tra nhanh tại trạng thái chưa chọn mã
+  const quickChips = document.getElementById("quickCodeChips");
+  if (quickChips) {
+    quickChips.addEventListener("click", e => {
+      const chip = e.target.closest(".quick-chip");
+      if (chip) searchByCode(chip.dataset.code);
+    });
+  }
+
+  // QoL: Nút In / Xuất PDF trang chi tiết
+  const btnPrintDetail = document.getElementById("btnPrintDetail");
+  if (btnPrintDetail) {
+    btnPrintDetail.addEventListener("click", () => {
+      if (state.selectedId) window.print();
+    });
+  }
+
+  // QoL: Click ô mẫu màu để sao chép mã Hex
+  colorPreviewBox.addEventListener("click", () => {
+    const item = dictionary.find(it => it.id === state.selectedId);
+    if (item && item.rgb && item.rgb.hex) {
+      copyToClipboard(item.rgb.hex, `Đã sao chép mã màu: ${item.rgb.hex}`);
+    }
+  });
+
+  // Hash Routing: #id=<id duy nhất> là canonical; #code=<mã> là legacy/tra cứu
+  function applyHashRouting() {
+    const { id, code } = parseHash();
+
+    if (id) {
+      const matched = findById(id);
       if (matched) {
         state.selectedId = matched.id;
-        return;
+        return true;
       }
     }
+
+    if (code !== undefined && code !== "") {
+      // Deep link theo mã định danh: lọc danh sách tất cả biến thể cùng mã.
+      searchByCode(code);
+      return true;
+    }
+
+    return false;
+  }
+
+  function initHashRouting() {
+    const routed = applyHashRouting();
+    if (routed) return;
+
     // Mặc định chọn mã BHK như hình mẫu của người dùng nếu có, hoặc LUC
     const defaultItem = dictionary.find(it => it.code === "BHK" || it.displayCode === "BHK") ||
-                        dictionary.find(it => it.code === "LUC") || 
+                        dictionary.find(it => it.code === "LUC") ||
                         dictionary[0];
     if (defaultItem) {
       state.selectedId = defaultItem.id;
     }
   }
 
-  // Lắng nghe thay đổi Hash
+  // Lắng nghe thay đổi Hash (deep link / nút back-forward)
   window.addEventListener("hashchange", () => {
-    const hash = window.location.hash;
-    if (hash && hash.startsWith("#code=")) {
-      const codeParam = decodeURIComponent(hash.substring(6)).trim().toLowerCase();
-      const matched = dictionary.find(it => 
-        (it.code && it.code.toLowerCase() === codeParam) || 
-        (it.displayCode && it.displayCode.toLowerCase() === codeParam)
-      );
+    const { id } = parseHash();
+    if (id) {
+      const matched = findById(id);
       if (matched && matched.id !== state.selectedId) {
         selectItem(matched.id, false);
       }
@@ -741,6 +997,8 @@
   });
 
   // KHỞI ĐỘNG HỆ THỐNG
+  renderPillCounts();
+  renderRecent();
   initHashRouting();
   filterDictionary();
   if (state.selectedId) {

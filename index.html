@@ -52,6 +52,12 @@
         </div>
       </div>
 
+      <!-- QoL: LỊCH SỬ TRA CỨU GẦN ĐÂY -->
+      <div class="recent-strip hidden" id="recentStrip">
+        <span class="recent-label">Vừa tra:</span>
+        <div class="recent-chips" id="recentChips"></div>
+      </div>
+
       <!-- BỘ LỌC DANH MỤC -->
       <div class="filter-section">
         <div class="filter-pills" id="groupFilterPills">
@@ -101,7 +107,19 @@
           </svg>
         </div>
         <h3>Chọn một mã loại đất từ danh sách bên trái</h3>
-        <p>Hoặc nhập ký hiệu mã (ví dụ <code>LUC</code>, <code>ONT</code>, <code>T</code>, <code>BHK</code>, <code>HLD</code>) vào ô tìm kiếm.</p>
+        <p id="emptyViewHint">Hoặc nhập ký hiệu mã (ví dụ <code>LUC</code>, <code>ONT</code>, <code>T</code>, <code>BHK</code>, <code>HLD</code>) vào ô tìm kiếm.</p>
+        <div class="quick-chips" id="quickCodeChips">
+          <span class="quick-label">Tra nhanh:</span>
+          <button class="quick-chip" type="button" data-code="LUC">LUC</button>
+          <button class="quick-chip" type="button" data-code="ONT">ONT</button>
+          <button class="quick-chip" type="button" data-code="ODT">ODT</button>
+          <button class="quick-chip" type="button" data-code="CLN">CLN</button>
+          <button class="quick-chip" type="button" data-code="HNK">HNK</button>
+          <button class="quick-chip" type="button" data-code="NTS">NTS</button>
+          <button class="quick-chip" type="button" data-code="HLD">HLD</button>
+          <button class="quick-chip" type="button" data-code="T">T</button>
+          <button class="quick-chip" type="button" data-code="TSQ">TSQ</button>
+        </div>
       </div>
 
       <!-- NỘI DUNG CHI TIẾT (3 KHỐI COMPACT CHUYÊN SÂU) -->
@@ -120,13 +138,25 @@
             <button class="btn btn-sm btn-tool" id="btnCopyCode" title="Sao chép ký hiệu mã">Sao chép Mã</button>
             <button class="btn btn-sm btn-tool" id="btnCopyCitation" title="Sao chép trích dẫn pháp lý">Trích dẫn</button>
             <button class="btn btn-sm btn-tool" id="btnShareLink" title="Sao chép liên kết trực tiếp">Chia sẻ</button>
+            <button class="btn btn-sm btn-tool" id="btnPrintDetail" title="In hoặc xuất PDF hồ sơ mã đất đang tra cứu">In / PDF</button>
           </div>
+        </div>
+
+        <!-- BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH (DISAMBIGUATION) -->
+        <div class="variant-strip hidden" id="variantStrip">
+          <span class="variant-label">Biến thể pháp lý cùng mã <strong id="variantBaseCode">---</strong>:</span>
+          <div class="variant-chips" id="variantChips"></div>
         </div>
 
         <!-- KHỐI I: THÔNG TIN LOẠI ĐẤT CHUẨN HÓA THEO LUẬT ĐẤT ĐAI 2024 -->
         <section class="dense-section">
           <div class="dense-sec-title">
-            <span class="sec-icon">📌</span>
+            <span class="sec-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </span>
             <span>I. THÔNG TIN LOẠI ĐẤT CHUẨN HÓA THEO LUẬT ĐẤT ĐAI 2024</span>
           </div>
           <div class="dense-kv-table">
@@ -162,7 +192,13 @@
         <!-- KHỐI II: ĐỐI CHIẾU DÒNG LỊCH SỬ KÝ HIỆU LOẠI ĐẤT QUA CÁC THỜI KỲ PHÁP LUẬT -->
         <section class="dense-section">
           <div class="dense-sec-title">
-            <span class="sec-icon">📜</span>
+            <span class="sec-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                <path d="M3 3v5h5"></path>
+                <path d="M12 7v5l4 2"></path>
+              </svg>
+            </span>
             <span>II. ĐỐI CHIẾU DÒNG LỊCH SỬ KÝ HIỆU LOẠI ĐẤT QUA CÁC THỜI KỲ PHÁP LUẬT</span>
           </div>
           <div class="table-responsive">
@@ -187,7 +223,15 @@
         <!-- KHỐI III: HƯỚNG DẪN XỬ LÝ HỒ SƠ ĐỊA CHÍNH LỊCH SỬ & QUY ĐỔI KHI CẤP GIẤY CHỨNG NHẬN -->
         <section class="dense-section">
           <div class="dense-sec-title">
-            <span class="sec-icon">⚖️</span>
+            <span class="sec-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
+                <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
+                <path d="M7 21h10"></path>
+                <path d="M12 3v18"></path>
+                <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path>
+              </svg>
+            </span>
             <span>III. HƯỚNG DẪN XỬ LÝ HỒ SƠ ĐỊA CHÍNH LỊCH SỬ & QUY ĐỔI KHI CẤP GIẤY CHỨNG NHẬN</span>
           </div>
           <div class="dense-kv-table">

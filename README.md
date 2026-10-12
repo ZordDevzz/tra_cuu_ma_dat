@@ -20,13 +20,20 @@
 
 - **Thông tin chi tiết chuyên sâu:**
   - **Trục thời gian chuyển đổi (Timeline):** Sơ đồ diễn tiến kết nối mã đất xuyên suốt 5 thời kỳ từ năm 1980 đến nay.
-  - **Thông số màu bản đồ hiện trạng (RGB):** Hiển thị mẫu màu và mã màu RGB / HEX theo Thông tư 27/2018/TT-BTNMT.
-  - **Bảng đối chiếu đa văn bản:** Bảng so sánh trực diện ký hiệu mã qua từng Thông tư và Quyết định chuyên ngành.
+  - **Thông số màu bản đồ hiện trạng (RGB):** Hiển thị mẫu màu và mã màu RGB / HEX theo Thông tư 27/2018/TT-BTNMT (click ô mẫu màu để sao chép mã Hex).
+  - **Bảng đối chiếu đa văn bản:** Bảng so sánh trực diện ký hiệu mã qua từng Thông tư và Quyết định chuyên ngành — **click vào bất kỳ ký hiệu mã nào trong bảng để tra cứu tiếp mã đó**.
   - **Hộp thông tin pháp lý đặc thù:**
     - Căn cứ công nhận hạn mức đất ở theo **Điều 141 Luật Đất đai 2024** và Điều 27 Nghị định 101/2024/NĐ-CP (đối với đất `T`, `V`, `Ao` thời kỳ 299).
     - Ranh giới và điều kiện hạn chế quyền sử dụng đất trong hành lang an toàn công trình theo **Điều 210 Luật Đất đai 2024** (`HLD`, `HLR`, `HLS`, `HLM`, `DHL`).
     - Quy định về thẩm quyền đính chính sai sót CSDL địa chính theo **Khoản 1 Điều 152 Luật Đất đai 2024** và **Điều 45 Nghị định 101/2024/NĐ-CP**.
   - **Danh mục 22 văn bản pháp luật:** Bảng tra cứu toàn văn danh mục văn bản quy phạm pháp luật căn cứ từ 1980 đến 2024.
+
+- **QoL (tiện ích nâng cao):**
+  - **Đếm số lượng theo nhóm** hiển thị trực tiếp trên từng pill bộ lọc.
+  - **Đánh dấu (highlight) từ khóa** khớp trong danh sách kết quả tìm kiếm.
+  - **Lịch sử tra cứu gần đây** (tối đa 8 mục, lưu `localStorage` tại máy người dùng).
+  - **Chip tra nhanh mã phổ biến** tại màn hình khởi đầu (`LUC`, `ONT`, `CLN`, `HLD`, `T`, `TSQ`...).
+  - **In / Xuất PDF** hồ sơ chi tiết mã đất (bộ lọc in tự ẩn các phần giao diện không cần thiết).
 
 ---
 
@@ -36,7 +43,7 @@
 ├── index.html       # Giao diện người dùng Semantic HTML5
 ├── app.css          # Bảng định kiểu giao diện phong cách công sở GIS
 ├── app.js           # Động cơ tìm kiếm, lọc và điều hướng client-side
-├── data.js          # Cơ sở dữ liệu tĩnh (167 bản ghi mã đất & 22 văn bản pháp lý)
+├── data.js          # Cơ sở dữ liệu tĩnh (185 bản ghi mã đất & 22 văn bản pháp lý)
 └── README.md        # Tài liệu hướng dẫn sử dụng
 ```
 
