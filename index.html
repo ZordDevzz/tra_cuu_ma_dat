@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Từ Điển Mã Loại Đất Việt Nam — Tra Cứu Chuẩn Hóa Qua Các Thời Kỳ Pháp Luật</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <!-- HEADER CHÍNH -->
+  <header class="app-header">
+    <div class="header-brand">
+      <div class="brand-logo">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>TỪ ĐIỂN MÃ LOẠI ĐẤT VIỆT NAM</h1>
+        <p class="brand-subtitle">Cơ sở dữ liệu tra cứu chuẩn hóa & đối chiếu lịch sử (Chỉ thị 299/TTg &rarr; Luật Đất đai 2024)</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="btnOpenDocs" class="btn btn-outline" title="Xem danh mục 22 văn bản quy phạm pháp luật">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        Danh mục 22 Văn bản Pháp luật
+      </button>
+    </div>
+  </header>
+
+  <!-- BỐ CỤC CHÍNH (2 CỘT) -->
+  <div class="app-layout">
+    <!-- CỘT TRÁI: SIDEBAR TÌM KIẾM & CANDIDATE -->
+    <aside class="app-sidebar" id="sidebar">
+      <!-- Ô TÌM KIẾM -->
+      <div class="search-section">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Tìm theo mã (LUC, ONT, T...), tên đất, điều luật..." autocomplete="off" spellcheck="false">
+          <button id="searchClear" class="btn-clear hidden" title="Xóa tìm kiếm">&times;</button>
+          <span class="search-kbd-hint" title="Phím tắt tìm kiếm">/</span>
+        </div>
+      </div>
+
+      <!-- BỘ LỌC DANH MỤC -->
+      <div class="filter-section">
+        <div class="filter-group-label">Nhóm đất:</div>
+        <div class="filter-pills" id="groupFilterPills">
+          <button class="pill active" data-group="ALL">Tất cả</button>
+          <button class="pill pill-nnp" data-group="NNP">Nông nghiệp</button>
+          <button class="pill pill-pnn" data-group="PNN">Phi nông nghiệp</button>
+          <button class="pill pill-csd" data-group="CSD">Chưa sử dụng</button>
+          <button class="pill pill-hl" data-group="HL">Hành lang & Hạn chế</button>
+          <button class="pill pill-qh" data-group="QH">Quy hoạch</button>
+          <button class="pill pill-sub" data-group="SUB">Đối tượng QL/SD</button>
+        </div>
+
+        <div class="filter-subrow">
+          <select id="periodFilterSelect" class="form-select">
+            <option value="ALL">Tất cả các thời kỳ pháp luật</option>
+            <option value="2024">Luật Đất đai 2024 (Hiện hành)</option>
+            <option value="2013">Luật Đất đai 2013</option>
+            <option value="2003">Luật Đất đai 2003</option>
+            <option value="1993_2001">Giai đoạn 1993 - 2001</option>
+            <option value="299">Chỉ thị 299/TTg (Trước 1993)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- THANH TRẠNG THÁI SỐ LƯỢNG KẾT QUẢ -->
+      <div class="candidate-header">
+        <span class="candidate-count-text">
+          Hiển thị <strong id="visibleCount">0</strong> / <span id="totalCount">0</span> mục
+        </span>
+        <button id="btnResetFilter" class="btn-text-link hidden">Đặt lại bộ lọc</button>
+      </div>
+
+      <!-- DANH SÁCH CANDIDATE -->
+      <div class="candidate-list" id="candidateList" tabindex="0">
+        <!-- Render danh sách động bằng app.js -->
+      </div>
+    </aside>
+
+    <!-- CỘT PHẢI: CHI TIẾT MÃ LOẠI ĐẤT -->
+    <main class="app-main" id="mainContent">
+      <!-- TRẠNG THÁI CHƯA CHỌN -->
+      <div id="emptyView" class="empty-view hidden">
+        <div class="empty-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <h3>Chọn một mã loại đất từ danh sách bên trái</h3>
+        <p>Hoặc nhập ký hiệu mã (ví dụ <code>LUC</code>, <code>ONT</code>, <code>T</code>, <code>COC</code>, <code>HLD</code>) vào thanh tìm kiếm.</p>
+      </div>
+
+      <!-- NỘI DUNG CHI TIẾT -->
+      <div id="detailView" class="detail-view">
+        <!-- KHỐI TIÊU ĐỀ HERO -->
+        <section class="detail-hero-card">
+          <div class="hero-top">
+            <div class="hero-code-badge" id="heroCodeBadge">---</div>
+            <div class="hero-title-group">
+              <h2 class="hero-title" id="heroTitle">---</h2>
+              <div class="hero-badges" id="heroBadges">
+                <!-- Badges render động -->
+              </div>
+            </div>
+            <div class="hero-actions">
+              <button class="btn btn-sm btn-outline" id="btnCopyCode" title="Sao chép ký hiệu mã">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Sao chép Mã
+              </button>
+              <button class="btn btn-sm btn-outline" id="btnCopyCitation" title="Sao chép trích dẫn pháp lý">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                </svg>
+                Trích dẫn
+              </button>
+              <button class="btn btn-sm btn-outline" id="btnShareLink" title="Sao chép liên kết trực tiếp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="5" r="3"></circle>
+                  <circle cx="6" cy="12" r="3"></circle>
+                  <circle cx="18" cy="19" r="3"></circle>
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+                Chia sẻ
+              </button>
+            </div>
+          </div>
+
+          <!-- MẪU MÀU RGB BẢN ĐỒ HIỆN TRẠNG (NẾU CÓ) -->
+          <div class="color-spec-card hidden" id="colorSpecCard">
+            <div class="color-preview-box" id="colorPreviewBox"></div>
+            <div class="color-details">
+              <div class="color-details-title">Thông số màu hiển thị bản đồ hiện trạng sử dụng đất:</div>
+              <div class="color-codes">
+                <span class="color-code-item"><strong>RGB:</strong> <code id="colorRgbVal">255, 255, 255</code></span>
+                <span class="color-code-item"><strong>HEX:</strong> <code id="colorHexVal">#FFFFFF</code></span>
+                <span class="color-target-name" id="colorTargetName"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SƠ ĐỒ TIẾN TRÌNH LỊCH SỬ 5 THỜI KỲ -->
+        <section class="detail-section">
+          <div class="section-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <h3>Trục thời gian chuyển đổi qua các thời kỳ pháp luật</h3>
+          </div>
+          <div class="timeline-container" id="timelineContainer">
+            <!-- Timeline render động -->
+          </div>
+        </section>
+
+        <!-- NỘI DUNG QUY ĐỊNH PHÁP LUẬT CHI TIẾT -->
+        <section class="detail-section">
+          <div class="section-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <h3>Quy định pháp lý & Mục đích sử dụng</h3>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-grid-item full-width">
+              <label>Căn cứ văn bản quy phạm pháp luật:</label>
+              <div class="detail-value highlight-legal" id="detailLegalBasis">---</div>
+            </div>
+            <div class="detail-grid-item full-width">
+              <label>Định nghĩa & Mục đích sử dụng:</label>
+              <div class="detail-value" id="detailDefinition">---</div>
+            </div>
+            <div class="detail-grid-item full-width">
+              <label>Bản chất thay đổi & Cơ chế chuyển đổi đối chiếu CSDL:</label>
+              <div class="detail-value" id="detailEvolution">---</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- BẢNG ĐỐI CHIẾU CHUYỂN ĐỔI THEO CÁC VĂN BẢN -->
+        <section class="detail-section">
+          <div class="section-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="9" y1="21" x2="9" y2="9"></line>
+            </svg>
+            <h3>Bảng đối chiếu ký hiệu qua từng văn bản quy định</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Thời kỳ pháp luật</th>
+                  <th>Văn bản quy định</th>
+                  <th>Ký hiệu thể hiện</th>
+                  <th>Mục đích / Ghi chú kỹ thuật</th>
+                </tr>
+              </thead>
+              <tbody id="crossTableBody">
+                <!-- Render động các dòng đối chiếu -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- HỘP THÔNG TIN PHÁP LÝ ĐẶC THÙ (NẾU CÓ) -->
+        <section class="special-legal-container hidden" id="specialLegalContainer">
+          <!-- Render thông báo Điều 141 (Đất ở 299), Điều 210 (Hành lang), Điều 152 (Đính chính sai sót) -->
+        </section>
+
+        <!-- DANH MỤC MÃ LIÊN QUAN / CÙNG NHÓM -->
+        <section class="detail-section">
+          <div class="section-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+            <h3>Các mã loại đất liên quan trong hệ thống</h3>
+          </div>
+          <div class="related-chips" id="relatedChips">
+            <!-- Chips liên quan render động -->
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- MODAL: DANH MỤC 22 VĂN BẢN PHÁP LUẬT -->
+  <div class="modal-overlay hidden" id="docsModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h2>Danh mục 22 Văn bản Quy phạm Pháp luật Căn cứ (1980 - 2024)</h2>
+        <button class="btn-close-modal" id="btnCloseDocsModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Hệ thống từ điển được xây dựng dựa trên các văn bản quy phạm pháp luật chính thống từ Công báo Chính phủ, Bộ Tài nguyên và Môi trường, và Bộ Xây dựng:</p>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 50px;">STT</th>
+                <th style="width: 140px;">Thời kỳ</th>
+                <th style="width: 200px;">Số hiệu văn bản</th>
+                <th style="width: 100px;">Ban hành</th>
+                <th style="width: 120px;">Cơ quan</th>
+                <th>Trích yếu nội dung chuyên môn</th>
+                <th style="width: 130px;">Hiệu lực</th>
+              </tr>
+            </thead>
+            <tbody id="docsTableBody">
+              <!-- Render động 22 văn bản -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="btnConfirmCloseModal">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST THÔNG BÁO -->
+  <div class="toast hidden" id="toast">Thông báo</div>
+
+  <!-- NẠP DỮ LIỆU TĨNH TỪ DATA.JS (KHÔNG BỊ CHẶN BỞI CORS) -->
+  <script src="data.js"></script>
+  <!-- SCRIPT ENGINE TRA CỨU CLIENT-SIDE -->
+  <script src="app.js"></script>
+</body>
+</html>
