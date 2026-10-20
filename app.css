@@ -1035,87 +1035,327 @@ body {
 }
 
 /* ==========================================================================
-   STRIP BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH (DISAMBIGUATION)
+   KHỐI BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH (DISAMBIGUATION CARDS)
    ========================================================================== */
 .variant-strip {
-  background-color: #F4F7FB;
-  border: 1px dashed #B9C6D8;
+  background-color: #F8FAFD;
+  border: 1px solid #CFDCEB;
+  border-left: 4px solid var(--accent-gold);
   border-radius: var(--r-md);
-  padding: 5px 10px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.variant-strip-header {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.variant-header-title {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5px 8px;
+  gap: 6px 8px;
+  font-size: 0.84rem;
+  color: var(--primary-navy);
+}
+
+.variant-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-gold);
+}
+
+.variant-label {
+  font-weight: 700;
+  color: var(--primary-navy);
+}
+
+.variant-label strong {
+  font-family: var(--font-mono);
+  color: var(--accent-blue);
+  background-color: #E8EEF5;
+  padding: 1px 6px;
+  border-radius: var(--r-xs);
+  font-size: 0.9em;
+}
+
+.variant-count {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  background-color: #E2EBF6;
+  border: 1px solid #C4D6EA;
+  padding: 1px 7px;
+  border-radius: 999px;
+}
+
+.variant-subhint {
   font-size: 0.72rem;
   color: var(--text-secondary);
 }
 
-.variant-label {
+.variant-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.variant-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  background-color: #FFFFFF;
+  border: 1.5px solid #D5DFEC;
+  border-radius: var(--r-md);
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--t);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  position: relative;
+  font-family: inherit;
+  color: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.variant-card:hover {
+  border-color: #93B4D7;
+  background-color: #FBFDFE;
+  box-shadow: 0 3px 8px rgba(27, 54, 93, 0.08);
+  transform: translateY(-1px);
+}
+
+.variant-card.active {
+  background-color: #EFF5FC;
+  border-color: var(--primary-navy);
+  box-shadow: 0 0 0 1px var(--primary-navy), 0 3px 8px rgba(27, 54, 93, 0.12);
+}
+
+.variant-card:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
+.vcard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.vcard-badges {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.vcard-code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  background: #E8EEF5;
+  padding: 1px 6px;
+  border-radius: var(--r-xs);
+  letter-spacing: 0.02em;
+}
+
+.vcard-scope {
+  font-size: 0.62rem;
   font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.vcard-tag {
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: var(--r-xs);
+  border: 1px solid transparent;
+}
+
+.vtag-current {
+  background-color: #E6F4EA;
+  color: #137333;
+  border-color: #CEEAD6;
+}
+
+.vtag-hist {
+  background-color: #FEF7E0;
+  color: #925400;
+  border-color: #FEEFC3;
+}
+
+.vtag-qh {
+  background-color: #F3E8FD;
+  color: #7B1FA2;
+  border-color: #E1BEE7;
+}
+
+.vtag-sub {
+  background-color: #FFF0E6;
+  color: #C2410C;
+  border-color: #FFD8BE;
+}
+
+.vtag-other {
+  background-color: #F1F3F4;
+  color: #3C4043;
+  border-color: #DADCE0;
+}
+
+.vcard-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  background-color: #DBE8F6;
+  border: 1px solid #BACFE5;
+  padding: 1px 7px;
+  border-radius: 999px;
   white-space: nowrap;
 }
 
-.variant-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  min-width: 0;
+.vcard-action {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  white-space: nowrap;
 }
 
-.variant-chip {
+.variant-card:hover .vcard-action {
+  text-decoration: underline;
+}
+
+.vcard-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.variant-card.active .vcard-name {
+  color: var(--primary-navy);
+}
+
+.vcard-meta {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ==========================================================================
+   STRIP CƠ CẤU PHÂN CẤP MÃ ĐẤT (HIERARCHY STRIP)
+   ========================================================================== */
+.hierarchy-strip {
+  background-color: #F8FAFD;
+  border: 1px solid #D5E0EE;
+  border-left: 3px solid var(--accent-blue);
+  border-radius: var(--r-md);
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.hierarchy-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--primary-navy);
+  white-space: nowrap;
+}
+
+.hierarchy-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.hierarchy-chip {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-grid);
-  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: 1px solid #C0D2E8;
+  font-size: 0.72rem;
   color: var(--text-primary);
   cursor: pointer;
-  min-width: 0;
-  max-width: 300px; /* chống chip tràn khi tên đất dài */
-  transition: background-color var(--t), border-color var(--t), color var(--t);
+  transition: all var(--t);
+  font-family: inherit;
 }
 
-.variant-chip:hover {
-  border-color: #A8B8CE;
-  background-color: #E9EEF6;
-}
-
-.variant-chip.active {
+.hierarchy-chip:hover {
   background-color: var(--primary-navy);
+  color: #FFFFFF;
   border-color: var(--primary-navy);
+}
+
+.hierarchy-chip:hover .chip-code {
   color: #FFFFFF;
 }
 
-.variant-chip .v-name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  min-width: 0;
-  font-weight: 500;
-}
-
-.variant-chip .v-period {
-  font-size: 0.625rem;
-  color: var(--text-muted);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.variant-chip.active .v-period {
-  color: #C9D8F0;
-}
-
-.variant-chip .chip-code {
+.hierarchy-chip .chip-code {
   font-family: var(--font-mono);
   font-weight: 700;
-  flex-shrink: 0;
+  color: var(--primary-navy);
 }
 
-.variant-chip.active .chip-code {
-  color: var(--accent-gold-soft);
+.hierarchy-parent-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background-color: #EBF3FC;
+  border: 1px solid #B8D5F4;
+  color: #104C8A;
+  font-weight: 600;
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all var(--t);
+  font-family: inherit;
+}
+
+.hierarchy-parent-badge:hover {
+  background-color: #104C8A;
+  color: #FFFFFF;
+}
+
+.hierarchy-parent-badge:hover .chip-code {
+  color: #FFFFFF;
+}
+
+.hierarchy-parent-badge .chip-code {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: #104C8A;
 }
 
 /* ==========================================================================
@@ -1360,6 +1600,9 @@ body {
   }
   .modal-header h2 {
     font-size: 0.8rem;
+  }
+  .variant-cards {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -4,8 +4,8 @@
  */
 
 window.LAND_DATA = {
-  "generatedAt": "2026-10-12",
-  "totalCount": 185,
+  "generatedAt": "2026-10-19",
+  "totalCount": 207,
   "legalDocs": [
     {
       "stt": 1,
@@ -222,6 +222,12 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất 1 vụ lúa (299)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "LUK",
         "name2024": "Đất trồng lúa nước còn lại",
@@ -302,6 +308,12 @@ window.LAND_DATA = {
         "b": 140,
         "hex": "#FFFC8C",
         "target": "Đất 2 vụ lúa (299)"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "LUC",
@@ -384,6 +396,12 @@ window.LAND_DATA = {
         "hex": "#AAEBFF",
         "target": "Đất ao (299)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "NTS",
         "name2024": "Đất nuôi trồng thủy sản",
@@ -464,6 +482,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#FFF0B4",
         "target": "Đất bằng trồng cây hàng năm khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "HNK",
@@ -546,6 +570,12 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "HNK",
         "name2024": "Đất trồng cây hàng năm khác",
@@ -613,7 +643,214 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_CLN_6",
+      "id": "M24_CHN_2",
+      "code": "CHN",
+      "displayCode": "CHN",
+      "name": "Đất trồng cây hằng năm (nhóm đất trồng lúa và cây hằng năm khác)",
+      "group": "Đất nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 252,
+        "b": 120,
+        "hex": "#FFFC78",
+        "target": "Đất trồng cây hàng năm"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": [
+          {
+            "code": "LUA",
+            "name": "Đất trồng lúa"
+          },
+          {
+            "code": "LUC",
+            "name": "Đất chuyên trồng lúa nước"
+          },
+          {
+            "code": "LUK",
+            "name": "Đất trồng lúa nước còn lại"
+          },
+          {
+            "code": "HNK",
+            "name": "Đất trồng cây hằng năm khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CHN",
+        "name2024": "Đất trồng cây hằng năm",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng các loại cây được gieo trồng, cho thu hoạch và kết thúc chu kỳ sản xuất trong thời gian không quá 01 năm.",
+        "evolution": "Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chỉ tiêu cấp 2 gồm đất trồng lúa (LUA - LUC, LUK) và đất trồng cây hằng năm khác (HNK)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CHN",
+          "sodo": "CHN",
+          "kk": "CHN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây hằng năm (nhóm đất trồng lúa và cây hằng năm khác)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUA / HNK",
+          "sodo": "LUA / HNK / BHK",
+          "kk": "CHN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LUC / LUK / BHK",
+          "sodo": "LUC / LUK / BHK",
+          "kk": "CHN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Lúa / Màu",
+          "sodo": "Lúa / Màu",
+          "kk": "Lúa / Màu",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "L / M",
+          "sodo": "L / M",
+          "kk": "L / M",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất trồng cây hằng năm (nhóm đất trồng lúa và cây hằng năm khác)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 1 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm CHN: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (LUA, LUC, LUK, HNK) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_CHN_66",
+      "code": "CHN",
+      "displayCode": "CHN",
+      "name": "Đất trồng cây hằng năm (chỉ tiêu nhóm nông nghiệp)",
+      "group": "Nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 252,
+        "b": 120,
+        "hex": "#FFFC78",
+        "target": "Đất trồng cây hàng năm"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "LUA",
+            "name": "Đất trồng lúa"
+          },
+          {
+            "code": "LUC",
+            "name": "Đất chuyên trồng lúa nước"
+          },
+          {
+            "code": "LUK",
+            "name": "Đất trồng lúa nước còn lại"
+          },
+          {
+            "code": "HNK",
+            "name": "Đất trồng cây hằng năm khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CHN",
+        "name2024": "Đất trồng cây hằng năm",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành LUA (trồng lúa) hoặc HNK (cây hàng năm khác).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất trồng cây hằng năm (chỉ tiêu nhóm nông nghiệp). Quy đổi tương đương theo Luật 2024: Đất trồng cây hằng năm.",
+        "evolution": "Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành LUA (trồng lúa) hoặc HNK (cây hàng năm khác)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CHN",
+          "sodo": "CHN",
+          "kk": "CHN",
+          "note": "Quy đổi sang: Đất trồng cây hằng năm (Mã CHN)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CHN",
+          "sodo": "CHN",
+          "kk": "CHN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CHN",
+          "sodo": "CHN",
+          "kk": "CHN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất trồng cây hằng năm (chỉ tiêu nhóm nông nghiệp)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất trồng cây hằng năm (chỉ tiêu nhóm nông nghiệp) (Ký hiệu: CHN)",
+        "oldDoc": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành LUA (trồng lúa) hoặc HNK (cây hàng năm khác).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
+      "id": "M24_CLN_10",
       "code": "CLN",
       "displayCode": "CLN",
       "name": "Đất trồng cây lâu năm (nói chung)",
@@ -626,6 +863,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -693,7 +936,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CLN_7",
+      "id": "M24_CLN_11",
       "code": "CLN",
       "displayCode": "CLN (quy đổi)",
       "name": "Đất trồng cây công nghiệp lâu năm (cao su, cà phê, hồ tiêu, chè...)",
@@ -706,6 +949,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -773,7 +1022,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CLN_8",
+      "id": "M24_CLN_12",
       "code": "CLN",
       "displayCode": "CLN (quy đổi)",
       "name": "Đất trồng cây ăn quả lâu năm (cam, bưởi, xoài, sầu riêng, vải...)",
@@ -786,6 +1035,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -853,7 +1108,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CLN_9",
+      "id": "M24_CLN_13",
       "code": "CLN",
       "displayCode": "CLN (quy đổi)",
       "name": "Đất trồng cây lâu năm khác (lấy gỗ lâu năm, cây bóng mát...)",
@@ -866,6 +1121,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -933,7 +1194,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CLN_10",
+      "id": "M24_CLN_14",
       "code": "CLN",
       "displayCode": "CLN hoặc HNK",
       "name": "Đất vườn (thuộc nhóm nông nghiệp, canh tác cây hàng năm/lâu năm)",
@@ -946,6 +1207,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -1013,10 +1280,10 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CNT_19",
+      "id": "M24_CNT_24",
       "code": "CNT",
       "displayCode": "CNT",
-      "name": "Đất chăn nuôi tập trung (trang trại chăn nuôi gia súc, gia cầm quy mô tập trung)",
+      "name": "Đất chăn nuôi tập trung (trang trại chăn nuôi quy mô tập trung)",
       "group": "Đất nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
       "primaryPeriod": "Luật Đất đai 2024",
@@ -1026,6 +1293,12 @@ window.LAND_DATA = {
         "b": 200,
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CNT",
@@ -1043,7 +1316,7 @@ window.LAND_DATA = {
           "bddc": "CNT",
           "sodo": "CNT",
           "kk": "CNT",
-          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất chăn nuôi tập trung (trang trại chăn nuôi gia súc, gia cầm quy mô tập trung)"
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất chăn nuôi tập trung (trang trại chăn nuôi quy mô tập trung)"
         },
         {
           "era": "Luật Đất đai 2013 (2014 - 2024)",
@@ -1079,7 +1352,7 @@ window.LAND_DATA = {
         }
       ],
       "sec3": {
-        "oldScenario": "Đất chăn nuôi tập trung (trang trại chăn nuôi gia súc, gia cầm quy mô tập trung)",
+        "oldScenario": "Đất chăn nuôi tập trung (trang trại chăn nuôi quy mô tập trung)",
         "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
         "relation": "1 -> 1",
         "statutoryRule": "Khoản 5 Điều 4 NĐ 102/2024/NĐ-CP",
@@ -1093,7 +1366,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CNT_20",
+      "id": "M24_CNT_25",
       "code": "CNT",
       "displayCode": "CNT hoặc HNK",
       "name": "Đất cỏ dùng vào chăn nuôi (đồng cỏ, bãi chăn thả gia súc)",
@@ -1106,6 +1379,12 @@ window.LAND_DATA = {
         "b": 200,
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "CNT",
@@ -1186,6 +1465,12 @@ window.LAND_DATA = {
         "b": 200,
         "hex": "#E6F5C8",
         "target": "Đất chăn nuôi tập trung"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "CNT",
@@ -1268,6 +1553,12 @@ window.LAND_DATA = {
         "hex": "#A0DC78",
         "target": "Hành lang bảo vệ rừng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RPH",
         "name2024": "Đất thuộc hành lang bảo vệ an toàn rừng",
@@ -1335,7 +1626,93 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_HNK_4",
+      "id": "M24_HNK_7",
+      "code": "HNK",
+      "displayCode": "HNK",
+      "name": "Đất trồng cây hằng năm khác (rau màu, cây ngắn ngày)",
+      "group": "Đất nông nghiệp",
+      "status": "Mã hiện hành Luật Đất đai 2024",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 240,
+        "b": 180,
+        "hex": "#FFF0B4",
+        "target": "Đất trồng cây hàng năm khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
+      },
+      "sec1": {
+        "code2024": "HNK",
+        "name2024": "Đất trồng cây hằng năm khác",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng cây hằng năm không phải là trồng lúa, như cây rau màu, cây họ đậu, cây hoa, cây dược liệu ngắn ngày...",
+        "evolution": "Điểm b Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Kế thừa mã HNK thống nhất; gồm toàn bộ cây ngắn ngày không phải trồng lúa."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "HNK",
+          "sodo": "HNK",
+          "kk": "HNK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng cây hằng năm khác (rau màu, cây ngắn ngày)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "BHK / NHK",
+          "sodo": "BHK / NHK",
+          "kk": "HNK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "BHK / NHK",
+          "sodo": "BHK / NHK",
+          "kk": "HNK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "M (Đất màu)",
+          "sodo": "M (Đất màu)",
+          "kk": "M (Đất màu)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "M",
+          "sodo": "M",
+          "kk": "M",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất trồng cây hằng năm khác (rau màu, cây ngắn ngày)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "1 -> 1",
+        "statutoryRule": "Điểm b Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_HNK_8",
       "code": "HNK",
       "displayCode": "HNK (gộp)",
       "name": "Đất bằng trồng cây hằng năm khác (rau màu, cây ngắn ngày vùng bằng)",
@@ -1348,6 +1725,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
       },
       "sec1": {
         "code2024": "HNK",
@@ -1415,7 +1798,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_HNK_5",
+      "id": "M24_HNK_9",
       "code": "HNK",
       "displayCode": "HNK (gộp)",
       "name": "Đất nương rẫy trồng cây hằng năm khác (canh tác nương rẫy dốc)",
@@ -1428,6 +1811,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#FFF0B4",
         "target": "Đất trồng cây hàng năm khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
       },
       "sec1": {
         "code2024": "HNK",
@@ -1509,6 +1898,12 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "LUC",
         "name2024": "Đất chuyên trồng lúa nước",
@@ -1576,7 +1971,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_LMU_21",
+      "id": "M24_LMU_26",
       "code": "LMU",
       "displayCode": "LMU",
       "name": "Đất làm muối",
@@ -1589,6 +1984,12 @@ window.LAND_DATA = {
         "b": 0,
         "hex": "#000000",
         "target": "Đất làm muối"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "LMU",
@@ -1669,6 +2070,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -1751,6 +2158,12 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CLN",
         "name2024": "Đất trồng cây lâu năm",
@@ -1832,6 +2245,12 @@ window.LAND_DATA = {
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CLN",
         "name2024": "Đất trồng cây lâu năm",
@@ -1899,6 +2318,213 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
+      "id": "M24_LNP_15",
+      "code": "LNP",
+      "displayCode": "LNP",
+      "name": "Đất lâm nghiệp (nhóm đất rừng đặc dụng, phòng hộ, sản xuất)",
+      "group": "Đất nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 170,
+        "g": 255,
+        "b": 50,
+        "hex": "#AAFF32",
+        "target": "Đất lâm nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": [
+          {
+            "code": "RDD",
+            "name": "Đất rừng đặc dụng"
+          },
+          {
+            "code": "RPH",
+            "name": "Đất rừng phòng hộ"
+          },
+          {
+            "code": "RSX",
+            "name": "Đất rừng sản xuất"
+          },
+          {
+            "code": "RSN",
+            "name": "Đất rừng sản xuất là rừng tự nhiên"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "LNP",
+        "name2024": "Đất lâm nghiệp",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 4 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất đang có rừng tự nhiên, đất đang có rừng trồng và đất được sử dụng để phát triển rừng.",
+        "evolution": "Khoản 3 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chỉ tiêu cấp 2 gồm đất rừng đặc dụng (RDD), đất rừng phòng hộ (RPH) và đất rừng sản xuất (RSX)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LNP",
+          "sodo": "LNP",
+          "kk": "LNP",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất lâm nghiệp (nhóm đất rừng đặc dụng, phòng hộ, sản xuất)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "RSX / RPH / RDD",
+          "sodo": "RSX / RPH / RDD",
+          "kk": "LNP",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "RSX / RPH / RDD",
+          "sodo": "RSX / RPH / RDD",
+          "kk": "LNP (LNR)",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Rừng",
+          "sodo": "Rừng",
+          "kk": "Rừng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "R",
+          "sodo": "R",
+          "kk": "R",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất lâm nghiệp (nhóm đất rừng đặc dụng, phòng hộ, sản xuất)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 3 Điều 4 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm LNP: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (RDD, RPH, RSX, RSN) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_LNP_67",
+      "code": "LNP",
+      "displayCode": "LNP",
+      "name": "Đất lâm nghiệp (chỉ tiêu nhóm đất rừng)",
+      "group": "Nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 170,
+        "g": 255,
+        "b": 50,
+        "hex": "#AAFF32",
+        "target": "Đất lâm nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "RDD",
+            "name": "Đất rừng đặc dụng"
+          },
+          {
+            "code": "RPH",
+            "name": "Đất rừng phòng hộ"
+          },
+          {
+            "code": "RSX",
+            "name": "Đất rừng sản xuất"
+          },
+          {
+            "code": "RSN",
+            "name": "Đất rừng sản xuất là rừng tự nhiên"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "LNP",
+        "name2024": "Đất lâm nghiệp",
+        "group": "Nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành RDD (rừng đặc dụng), RPH (rừng phòng hộ) hoặc RSX (rừng sản xuất).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất lâm nghiệp (chỉ tiêu nhóm đất rừng). Quy đổi tương đương theo Luật 2024: Đất lâm nghiệp.",
+        "evolution": "Khoản 3 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành RDD (rừng đặc dụng), RPH (rừng phòng hộ) hoặc RSX (rừng sản xuất)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "LNP",
+          "sodo": "LNP",
+          "kk": "LNP",
+          "note": "Quy đổi sang: Đất lâm nghiệp (Mã LNP)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LNP",
+          "sodo": "LNP",
+          "kk": "LNP",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LNP",
+          "sodo": "LNP",
+          "kk": "LNP",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất lâm nghiệp (chỉ tiêu nhóm đất rừng)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất lâm nghiệp (chỉ tiêu nhóm đất rừng) (Ký hiệu: LNP)",
+        "oldDoc": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 3 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân loại chi tiết thành RDD (rừng đặc dụng), RPH (rừng phòng hộ) hoặc RSX (rừng sản xuất).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
       "id": "REV_LNQ_22",
       "code": "LNQ",
       "displayCode": "LNQ",
@@ -1912,6 +2538,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFD2A0",
         "target": "Đất trồng cây lâu năm"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "CLN",
@@ -1980,7 +2612,102 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_LUC_1",
+      "id": "M24_LUA_3",
+      "code": "LUA",
+      "displayCode": "LUA",
+      "name": "Đất trồng lúa (nhóm chung đất chuyên trồng lúa và lúa còn lại)",
+      "group": "Đất nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 252,
+        "b": 130,
+        "hex": "#FFFC82",
+        "target": "Đất trồng lúa"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": [
+          {
+            "code": "LUC",
+            "name": "Đất chuyên trồng lúa nước"
+          },
+          {
+            "code": "LUK",
+            "name": "Đất trồng lúa nước còn lại"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "LUA",
+        "name2024": "Đất trồng lúa",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Đất trồng từ một vụ lúa trở lên hoặc trồng lúa kết hợp với các mục đích sử dụng đất khác được pháp luật cho phép.",
+        "evolution": "Điểm a Khoản 1 Điều 4 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Gồm đất chuyên trồng lúa nước (LUC) và đất trồng lúa còn lại (LUK)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "LUA",
+          "sodo": "LUA",
+          "kk": "LUA",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất trồng lúa (nhóm chung đất chuyên trồng lúa và lúa còn lại)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "LUA",
+          "sodo": "LUA",
+          "kk": "LUA",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "LUA",
+          "sodo": "LUA",
+          "kk": "LUA",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "2L / 1L",
+          "sodo": "2L / 1L",
+          "kk": "2L / 1L",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "2L / 1L",
+          "sodo": "2L / 1L",
+          "kk": "2L / 1L",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất trồng lúa (nhóm chung đất chuyên trồng lúa và lúa còn lại)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Điểm a Khoản 1 Điều 4 NĐ 102/2024",
+        "practicalPrinciple": "Đối với mã nhóm LUA: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (LUC, LUK) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_LUC_4",
       "code": "LUC",
       "displayCode": "LUC",
       "name": "Đất chuyên trồng lúa nước (trồng từ 2 vụ lúa trở lên)",
@@ -1993,6 +2720,12 @@ window.LAND_DATA = {
         "b": 140,
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
       },
       "sec1": {
         "code2024": "LUC",
@@ -2060,7 +2793,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_LUK_2",
+      "id": "M24_LUK_5",
       "code": "LUK",
       "displayCode": "LUK",
       "name": "Đất trồng lúa nước còn lại (trồng 1 vụ lúa trong năm)",
@@ -2073,6 +2806,12 @@ window.LAND_DATA = {
         "b": 150,
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
       },
       "sec1": {
         "code2024": "LUK",
@@ -2140,7 +2879,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_LUK_3",
+      "id": "M24_LUK_6",
       "code": "LUK",
       "displayCode": "LUK (gộp)",
       "name": "Đất trồng lúa nương (canh tác lúa trên sườn dốc/nương rẫy)",
@@ -2153,6 +2892,12 @@ window.LAND_DATA = {
         "b": 150,
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CHN",
+        "parentName": "Đất trồng cây hằng năm",
+        "children": []
       },
       "sec1": {
         "code2024": "LUK",
@@ -2233,6 +2978,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#FFFCB4",
         "target": "Đất trồng lúa nương"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "LUK",
@@ -2315,6 +3066,12 @@ window.LAND_DATA = {
         "hex": "#FFFC96",
         "target": "Đất trồng lúa nước còn lại"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "LUK",
         "name2024": "Đất trồng lúa nước còn lại / Cây hàng năm khác",
@@ -2395,6 +3152,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#B4FFFF",
         "target": "Đất mặt nước ven biển có rừng ngập mặn"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -2477,6 +3240,12 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất mặt nước ven biển nuôi trồng thủy sản"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "NTS",
         "name2024": "Đất nuôi trồng thủy sản",
@@ -2557,6 +3326,12 @@ window.LAND_DATA = {
         "b": 0,
         "hex": "#000000",
         "target": "Đất làm muối"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "LMU",
@@ -2639,6 +3414,12 @@ window.LAND_DATA = {
         "hex": "#FFF0B4",
         "target": "Đất nương rẫy trồng cây hàng năm khác"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "HNK",
         "name2024": "Đất trồng cây hàng năm khác",
@@ -2706,7 +3487,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_NKH_22",
+      "id": "M24_NKH_27",
       "code": "NKH",
       "displayCode": "NKH",
       "name": "Đất nông nghiệp khác (nhà kính, ươm giống, nghiên cứu nông nghiệp...)",
@@ -2719,6 +3500,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#F5FFB4",
         "target": "Đất nông nghiệp khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "NKH",
@@ -2786,7 +3573,122 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_NTS_17",
+      "id": "M24_NNP_1",
+      "code": "NNP",
+      "displayCode": "NNP",
+      "name": "Nhóm đất nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+      "group": "Đất nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 1 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 100,
+        "hex": "#FFFF64",
+        "target": "Đất nông nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "CHN",
+            "name": "Đất trồng cây hằng năm"
+          },
+          {
+            "code": "CLN",
+            "name": "Đất trồng cây lâu năm"
+          },
+          {
+            "code": "LNP",
+            "name": "Đất lâm nghiệp"
+          },
+          {
+            "code": "NTS",
+            "name": "Đất nuôi trồng thủy sản"
+          },
+          {
+            "code": "CNT",
+            "name": "Đất chăn nuôi tập trung"
+          },
+          {
+            "code": "LMU",
+            "name": "Đất làm muối"
+          },
+          {
+            "code": "NKH",
+            "name": "Đất nông nghiệp khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "NNP",
+        "name2024": "Nhóm đất nông nghiệp",
+        "group": "Đất nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 9 Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bao gồm các loại đất sử dụng vào mục đích sản xuất nông nghiệp, lâm nghiệp, nuôi trồng thủy sản, làm muối và chăn nuôi tập trung.",
+        "evolution": "Khoản 1 Điều 9 Luật Đất đai 2024: Nhóm đất nông nghiệp bao gồm đất trồng cây hằng năm (CHN), cây lâu năm (CLN), lâm nghiệp (LNP), nuôi thủy sản (NTS), chăn nuôi tập trung (CNT), làm muối (LMU) và nông nghiệp khác (NKH)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "NNP",
+          "sodo": "NNP",
+          "kk": "NNP",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Nhóm đất nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "NNP",
+          "sodo": "Đất nông nghiệp",
+          "kk": "NNP",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "NNP",
+          "sodo": "NNP",
+          "kk": "NNP",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đất nông nghiệp",
+          "sodo": "Đất nông nghiệp",
+          "kk": "Đất nông nghiệp",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Nông nghiệp",
+          "sodo": "Nông nghiệp",
+          "kk": "Nông nghiệp",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Nhóm đất nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 1 Điều 9 Luật Đất đai 2024",
+        "practicalPrinciple": "Đối với mã nhóm NNP: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (CHN, CLN, LNP, NTS, CNT, LMU, NKH) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_NTS_22",
       "code": "NTS",
       "displayCode": "NTS",
       "name": "Đất nuôi trồng thủy sản",
@@ -2799,6 +3701,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "NTS",
@@ -2866,7 +3774,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_NTS_18",
+      "id": "M24_NTS_23",
       "code": "NTS",
       "displayCode": "NTS (hoặc MNC)",
       "name": "Đất ao (thuộc nhóm đất nông nghiệp)",
@@ -2879,6 +3787,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "NNP",
+        "parentName": "Nhóm đất nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "NTS",
@@ -2960,6 +3874,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSX",
         "name2024": "Đất rừng sản xuất / Phòng hộ / Đặc dụng",
@@ -3027,7 +3947,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_RDD_16",
+      "id": "M24_RDD_21",
       "code": "RDD",
       "displayCode": "RDD",
       "name": "Đất rừng đặc dụng",
@@ -3040,6 +3960,12 @@ window.LAND_DATA = {
         "b": 100,
         "hex": "#6EFF64",
         "target": "Đất rừng đặc dụng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RDD",
@@ -3120,6 +4046,12 @@ window.LAND_DATA = {
         "b": 100,
         "hex": "#6EFF64",
         "target": "Đất có rừng đặc dụng là rừng tự nhiên"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RDD",
@@ -3202,6 +4134,12 @@ window.LAND_DATA = {
         "hex": "#6EFF64",
         "target": "Đất có rừng đặc dụng là rừng trồng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RDD",
         "name2024": "Đất rừng đặc dụng",
@@ -3269,7 +4207,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_RPH_15",
+      "id": "M24_RPH_20",
       "code": "RPH",
       "displayCode": "RPH",
       "name": "Đất rừng phòng hộ",
@@ -3282,6 +4220,12 @@ window.LAND_DATA = {
         "b": 30,
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -3349,7 +4293,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_RPH_73",
+      "id": "M24_RPH_87",
       "code": "RPH",
       "displayCode": "RPH (quy đổi)",
       "name": "Đất khoanh nuôi phục hồi rừng phòng hộ",
@@ -3362,6 +4306,12 @@ window.LAND_DATA = {
         "b": 30,
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -3429,7 +4379,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_RPH_79",
+      "id": "M24_RPH_93",
       "code": "RPH",
       "displayCode": "RPH / RSX (hành lang)",
       "name": "Hành lang an toàn bảo vệ rừng / Vành đai phòng cháy",
@@ -3442,6 +4392,12 @@ window.LAND_DATA = {
         "b": 30,
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -3522,6 +4478,12 @@ window.LAND_DATA = {
         "b": 30,
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -3604,6 +4566,12 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất có rừng phòng hộ là rừng tự nhiên"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RPH",
         "name2024": "Đất rừng phòng hộ",
@@ -3684,6 +4652,12 @@ window.LAND_DATA = {
         "b": 30,
         "hex": "#BEFF1E",
         "target": "Đất có rừng phòng hộ là rừng trồng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RPH",
@@ -3766,6 +4740,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSX",
         "name2024": "Đất rừng sản xuất",
@@ -3833,7 +4813,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_RSN_12",
+      "id": "M24_RSN_17",
       "code": "RSN",
       "displayCode": "RSN (hoặc RSX)",
       "name": "Đất có rừng sản xuất là rừng tự nhiên",
@@ -3846,6 +4826,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RSN",
@@ -3927,6 +4913,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng trồng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSX",
         "name2024": "Đất rừng sản xuất",
@@ -3994,7 +4986,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_RSX_11",
+      "id": "M24_RSX_16",
       "code": "RSX",
       "displayCode": "RSX",
       "name": "Đất rừng sản xuất (nói chung)",
@@ -4007,6 +4999,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RSX",
@@ -4074,7 +5072,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_RSX_13",
+      "id": "M24_RSX_18",
       "code": "RSX",
       "displayCode": "RSX",
       "name": "Đất có rừng sản xuất là rừng trồng",
@@ -4087,6 +5085,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RSX",
@@ -4154,7 +5158,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_RSX_14",
+      "id": "M24_RSX_19",
       "code": "RSX",
       "displayCode": "RSX",
       "name": "Đất đang sử dụng để phát triển rừng sản xuất (khoanh nuôi mới)",
@@ -4167,6 +5171,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RSX",
@@ -4234,7 +5244,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_RSX_74",
+      "id": "M24_RSX_88",
       "code": "RSX",
       "displayCode": "RSX (quy đổi)",
       "name": "Đất khoanh nuôi phục hồi rừng sản xuất",
@@ -4247,6 +5257,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "LNP",
+        "parentName": "Đất lâm nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "RSX",
@@ -4327,6 +5343,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RSX",
@@ -4409,6 +5431,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSN",
         "name2024": "Rừng tự nhiên sản xuất / Phòng hộ / Đặc dụng",
@@ -4489,6 +5517,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "NTS",
@@ -4571,6 +5605,12 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "NTS",
         "name2024": "Đất nuôi trồng thủy sản",
@@ -4651,6 +5691,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#AAFFFF",
         "target": "Đất nuôi trồng thủy sản"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "NTS",
@@ -4733,6 +5779,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSX",
         "name2024": "Đất rừng sản xuất / Rừng phòng hộ",
@@ -4814,6 +5866,12 @@ window.LAND_DATA = {
         "hex": "#FFE6A0",
         "target": "Đất vườn (299)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CLN",
         "name2024": "Đất trồng cây lâu năm / Đất trồng cây hàng năm khác",
@@ -4881,9 +5939,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_CAN_29",
+      "id": "M24_CAN_36",
       "code": "CAN",
-      "displayCode": "CAN (nhóm CQA)",
+      "displayCode": "CAN",
       "name": "Đất an ninh",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -4895,6 +5953,12 @@ window.LAND_DATA = {
         "hex": "#FF5046",
         "target": "Đất an ninh"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CQA",
+        "parentName": "Đất quốc phòng, an ninh",
+        "children": []
+      },
       "sec1": {
         "code2024": "CAN",
         "name2024": "Đất an ninh",
@@ -4902,7 +5966,7 @@ window.LAND_DATA = {
         "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất làm nơi đóng quân của lực lượng công an, trại tạm giam, cơ sở nghiệp vụ an ninh nhân dân.",
-        "evolution": "Cơ quan công an, đồn biên phòng an ninh, trại tạm giam, cơ sở an ninh."
+        "evolution": "Cơ quan công an, đồn biên phòng an ninh, trại tạm giam, cơ sở an ninh. Luật 2024 thuộc nhóm CQA."
       },
       "sec2": [
         {
@@ -4961,12 +6025,12 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CCC_61",
+      "id": "M24_CCC_59",
       "code": "CCC",
-      "displayCode": "CCC (khác)",
-      "name": "Đất công trình công cộng khác",
+      "displayCode": "CCC",
+      "name": "Đất sử dụng vào mục đích công cộng (nhóm chung)",
       "group": "Đất phi nông nghiệp",
-      "status": "Mã hiện hành Luật Đất đai 2024",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": {
         "r": 255,
@@ -4974,6 +6038,180 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất có mục đích công cộng"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "DGT",
+            "name": "Đất công trình giao thông"
+          },
+          {
+            "code": "DTL",
+            "name": "Đất công trình thủy lợi"
+          },
+          {
+            "code": "DCT",
+            "name": "Đất công trình cấp nước, thoát nước"
+          },
+          {
+            "code": "DPC",
+            "name": "Đất công trình phòng, chống thiên tai"
+          },
+          {
+            "code": "DDD",
+            "name": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh"
+          },
+          {
+            "code": "DRA",
+            "name": "Đất công trình xử lý chất thải"
+          },
+          {
+            "code": "DNL",
+            "name": "Đất công trình năng lượng, chiếu sáng công cộng"
+          },
+          {
+            "code": "DBV",
+            "name": "Đất công trình bưu chính, viễn thông, CNTT"
+          },
+          {
+            "code": "DCH",
+            "name": "Đất chợ dân sinh, chợ đầu mối"
+          },
+          {
+            "code": "DKV",
+            "name": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CCC",
+        "name2024": "Đất sử dụng vào mục đích công cộng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất sử dụng phục vụ lợi ích chung của cộng đồng, kết cấu hạ tầng kỹ thuật và xã hội.",
+        "evolution": "Khoản 6 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Nhóm đất phục vụ lợi ích chung của cộng đồng, kết cấu hạ tầng (DGT, DTL, DCT, DPC, DDD, DRA, DNL, DBV, DCH, DKV)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sử dụng vào mục đích công cộng (nhóm chung)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD / GT / TL",
+          "sodo": "CD / GT / TL",
+          "kk": "CD / GT / TL",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C / D",
+          "sodo": "C / D",
+          "kk": "C / D",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất sử dụng vào mục đích công cộng (nhóm chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm CCC: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (DGT, DTL, DCT, DPC, DDD, DRA, DNL, DBV, DCH, DKV) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_CCC_73",
+      "code": "CCC",
+      "displayCode": "CCC (khác)",
+      "name": "Đất công trình công cộng khác",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 170,
+        "b": 160,
+        "hex": "#FFAAA0",
+        "target": "Đất có mục đích công cộng"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "DGT",
+            "name": "Đất công trình giao thông"
+          },
+          {
+            "code": "DTL",
+            "name": "Đất công trình thủy lợi"
+          },
+          {
+            "code": "DCT",
+            "name": "Đất công trình cấp nước, thoát nước"
+          },
+          {
+            "code": "DPC",
+            "name": "Đất công trình phòng, chống thiên tai"
+          },
+          {
+            "code": "DDD",
+            "name": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh"
+          },
+          {
+            "code": "DRA",
+            "name": "Đất công trình xử lý chất thải"
+          },
+          {
+            "code": "DNL",
+            "name": "Đất công trình năng lượng, chiếu sáng công cộng"
+          },
+          {
+            "code": "DBV",
+            "name": "Đất công trình bưu chính, viễn thông, CNTT"
+          },
+          {
+            "code": "DCH",
+            "name": "Đất chợ dân sinh, chợ đầu mối"
+          },
+          {
+            "code": "DKV",
+            "name": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng"
+          }
+        ]
       },
       "sec1": {
         "code2024": "CCC",
@@ -5029,9 +6267,9 @@ window.LAND_DATA = {
       "sec3": {
         "oldScenario": "Đất công trình công cộng khác",
         "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
-        "relation": "1 -> 1",
+        "relation": "Mã nhóm chung",
         "statutoryRule": "Khoản 6 Điều 5 NĐ 102/2024/NĐ-CP",
-        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "practicalPrinciple": "Đối với mã nhóm CCC: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (DGT, DTL, DCT, DPC, DDD, DRA, DNL, DBV, DCH, DKV) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
         "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
@@ -5039,6 +6277,134 @@ window.LAND_DATA = {
         "restrictions": ""
       },
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_CCC_63",
+      "code": "CCC",
+      "displayCode": "CCC",
+      "name": "Đất sử dụng vào mục đích công cộng (nhóm công cộng)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 170,
+        "b": 160,
+        "hex": "#FFAAA0",
+        "target": "Đất có mục đích công cộng"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "DGT",
+            "name": "Đất công trình giao thông"
+          },
+          {
+            "code": "DTL",
+            "name": "Đất công trình thủy lợi"
+          },
+          {
+            "code": "DCT",
+            "name": "Đất công trình cấp nước, thoát nước"
+          },
+          {
+            "code": "DPC",
+            "name": "Đất công trình phòng, chống thiên tai"
+          },
+          {
+            "code": "DDD",
+            "name": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh"
+          },
+          {
+            "code": "DRA",
+            "name": "Đất công trình xử lý chất thải"
+          },
+          {
+            "code": "DNL",
+            "name": "Đất công trình năng lượng, chiếu sáng công cộng"
+          },
+          {
+            "code": "DBV",
+            "name": "Đất công trình bưu chính, viễn thông, CNTT"
+          },
+          {
+            "code": "DCH",
+            "name": "Đất chợ dân sinh, chợ đầu mối"
+          },
+          {
+            "code": "DKV",
+            "name": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CCC",
+        "name2024": "Đất sử dụng vào mục đích công cộng",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 6 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm CCC hoặc phân loại chi tiết theo công trình hạ tầng kỹ thuật, xã hội.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất sử dụng vào mục đích công cộng (nhóm công cộng). Quy đổi tương đương theo Luật 2024: Đất sử dụng vào mục đích công cộng.",
+        "evolution": "Khoản 6 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm CCC hoặc phân loại chi tiết theo công trình hạ tầng kỹ thuật, xã hội."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Quy đổi sang: Đất sử dụng vào mục đích công cộng (Mã CCC)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CCC",
+          "sodo": "CCC",
+          "kk": "CCC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất sử dụng vào mục đích công cộng (nhóm công cộng)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất sử dụng vào mục đích công cộng (nhóm công cộng) (Ký hiệu: CCC)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 6 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm CCC hoặc phân loại chi tiết theo công trình hạ tầng kỹ thuật, xã hội.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
       "id": "REV_CD_15",
@@ -5054,6 +6420,12 @@ window.LAND_DATA = {
         "b": 50,
         "hex": "#FFAA32",
         "target": "Đất giao thông"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DGT",
@@ -5136,6 +6508,12 @@ window.LAND_DATA = {
         "hex": "#FFA0AA",
         "target": "Đất chuyên dùng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TSC",
         "name2024": "Đất xây dựng trụ sở cơ quan / Công trình sự nghiệp",
@@ -5203,9 +6581,200 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_CQP_28",
+      "id": "M24_CQA_34",
+      "code": "CQA",
+      "displayCode": "CQA",
+      "name": "Đất quốc phòng, an ninh (nhóm chung)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 80,
+        "b": 70,
+        "hex": "#FF5046",
+        "target": "Đất quốc phòng, an ninh"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "CQP",
+            "name": "Đất quốc phòng"
+          },
+          {
+            "code": "CAN",
+            "name": "Đất an ninh"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CQA",
+        "name2024": "Đất quốc phòng, an ninh",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất sử dụng vào mục đích bảo đảm quốc phòng và an ninh quốc gia.",
+        "evolution": "Khoản 3 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu nhóm chung CQA, phân định thành đất quốc phòng (CQP) và đất an ninh (CAN)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CQA",
+          "sodo": "CQA",
+          "kk": "CQA",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất quốc phòng, an ninh (nhóm chung)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CQP / CAN",
+          "sodo": "CQP / CAN",
+          "kk": "CQA",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CQP / CAN",
+          "sodo": "CQP / CAN",
+          "kk": "CQA",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "QP / AN",
+          "sodo": "QP / AN",
+          "kk": "QP / AN",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Q / A",
+          "sodo": "Q / A",
+          "kk": "Q / A",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất quốc phòng, an ninh (nhóm chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm CQA: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (CQP, CAN) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_CQA_65",
+      "code": "CQA",
+      "displayCode": "CQA",
+      "name": "Đất quốc phòng, an ninh (chỉ tiêu nhóm)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 80,
+        "b": 70,
+        "hex": "#FF5046",
+        "target": "Đất quốc phòng, an ninh"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "CQP",
+            "name": "Đất quốc phòng"
+          },
+          {
+            "code": "CAN",
+            "name": "Đất an ninh"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CQA",
+        "name2024": "Đất quốc phòng, an ninh",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 3 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành CQP (quốc phòng) hoặc CAN (an ninh).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất quốc phòng, an ninh (chỉ tiêu nhóm). Quy đổi tương đương theo Luật 2024: Đất quốc phòng, an ninh.",
+        "evolution": "Khoản 3 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành CQP (quốc phòng) hoặc CAN (an ninh)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CQA",
+          "sodo": "CQA",
+          "kk": "CQA",
+          "note": "Quy đổi sang: Đất quốc phòng, an ninh (Mã CQA)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CQA",
+          "sodo": "CQA",
+          "kk": "CQA",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CQA",
+          "sodo": "CQA",
+          "kk": "CQA",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất quốc phòng, an ninh (chỉ tiêu nhóm)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất quốc phòng, an ninh (chỉ tiêu nhóm) (Ký hiệu: CQA)",
+        "oldDoc": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 3 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành CQP (quốc phòng) hoặc CAN (an ninh).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
+      "id": "M24_CQP_35",
       "code": "CQP",
-      "displayCode": "CQP (nhóm CQA)",
+      "displayCode": "CQP",
       "name": "Đất quốc phòng",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -5217,6 +6786,12 @@ window.LAND_DATA = {
         "hex": "#FF6450",
         "target": "Đất quốc phòng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CQA",
+        "parentName": "Đất quốc phòng, an ninh",
+        "children": []
+      },
       "sec1": {
         "code2024": "CQP",
         "name2024": "Đất quốc phòng",
@@ -5224,7 +6799,7 @@ window.LAND_DATA = {
         "legalBasis": "Khoản 3 Điều 5 NĐ 102/2024/NĐ-CP",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất làm nơi đóng quân, căn cứ quân sự, công trình phòng thủ quốc phòng, kho tàng quân đội.",
-        "evolution": "Doanh trại, căn cứ quân sự, công trình quốc phòng. Luật 2024 có mã nhóm chung là CQA."
+        "evolution": "Doanh trại, căn cứ quân sự, công trình quốc phòng. Luật 2024 thuộc nhóm đất quốc phòng, an ninh CQA."
       },
       "sec2": [
         {
@@ -5283,6 +6858,237 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
+      "id": "M24_CSK_49",
+      "code": "CSK",
+      "displayCode": "CSK",
+      "name": "Đất sản xuất, kinh doanh phi nông nghiệp (nhóm chung)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 160,
+        "b": 170,
+        "hex": "#FFA0AA",
+        "target": "Đất sản xuất, kinh doanh phi nông nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "SCC",
+            "name": "Đất khu công nghiệp, cụm công nghiệp"
+          },
+          {
+            "code": "SKK",
+            "name": "Đất khu công nghiệp"
+          },
+          {
+            "code": "SKN",
+            "name": "Đất cụm công nghiệp"
+          },
+          {
+            "code": "SCT",
+            "name": "Đất khu công nghệ thông tin tập trung"
+          },
+          {
+            "code": "TMD",
+            "name": "Đất thương mại, dịch vụ"
+          },
+          {
+            "code": "SKC",
+            "name": "Đất cơ sở sản xuất phi nông nghiệp"
+          },
+          {
+            "code": "SKS",
+            "name": "Đất sử dụng cho hoạt động khoáng sản"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CSK",
+        "name2024": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 5 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất phục vụ cho hoạt động công nghiệp, tiểu thủ công nghiệp, thương mại, dịch vụ.",
+        "evolution": "Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Mục A Phụ lục II Thông tư 08/2024/TT-BTNMT: Mã nhóm đất sản xuất, kinh doanh phi nông nghiệp. Bao gồm: nhóm đất KCN/cụm CN/CNTT (SCC - SKK, SKN, SCT), đất thương mại dịch vụ (TMD), đất cơ sở sản xuất phi nông nghiệp (SKC) và đất khoáng sản (SKS). CSDL và GCN các thời kỳ ghi nhận trực tiếp mã CSK."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất sản xuất, kinh doanh phi nông nghiệp (nhóm chung)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Sản xuất KD)",
+          "sodo": "CD (Sản xuất KD)",
+          "kk": "CD (Sản xuất KD)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất sản xuất, kinh doanh phi nông nghiệp (nhóm chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 5 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm CSK: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (SCC, SKK, SKN, SCT, TMD, SKC, SKS) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_CSK_60",
+      "code": "CSK",
+      "displayCode": "CSK",
+      "name": "Đất sản xuất, kinh doanh phi nông nghiệp (ghi trên GCN / CSDL cũ)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 25/2014, TT 28/2014, TT 27/2018) & Luật 2003 (TT 08/2007, TT 09/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 160,
+        "b": 170,
+        "hex": "#FFA0AA",
+        "target": "Đất sản xuất, kinh doanh phi nông nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "SCC",
+            "name": "Đất khu công nghiệp, cụm công nghiệp"
+          },
+          {
+            "code": "SKK",
+            "name": "Đất khu công nghiệp"
+          },
+          {
+            "code": "SKN",
+            "name": "Đất cụm công nghiệp"
+          },
+          {
+            "code": "SCT",
+            "name": "Đất khu công nghệ thông tin tập trung"
+          },
+          {
+            "code": "TMD",
+            "name": "Đất thương mại, dịch vụ"
+          },
+          {
+            "code": "SKC",
+            "name": "Đất cơ sở sản xuất phi nông nghiệp"
+          },
+          {
+            "code": "SKS",
+            "name": "Đất sử dụng cho hoạt động khoáng sản"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CSK",
+        "name2024": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: GCN hoặc CSDL cũ ghi mã CSK được tiếp tục xác định là Đất sản xuất, kinh doanh phi nông nghiệp (mã CSK); khi cấp đổi, cấp mới hoặc đăng ký biến động, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định loại đất chi tiết (TMD, SKC, SKK, SKN, SCT, SKS) hoặc tiếp tục ghi nhận mã nhóm chung CSK.",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất sản xuất, kinh doanh phi nông nghiệp (ghi trên GCN / CSDL cũ). Quy đổi tương đương theo Luật 2024: Đất sản xuất, kinh doanh phi nông nghiệp.",
+        "evolution": "Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: GCN hoặc CSDL cũ ghi mã CSK được tiếp tục xác định là Đất sản xuất, kinh doanh phi nông nghiệp (mã CSK); khi cấp đổi, cấp mới hoặc đăng ký biến động, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định loại đất chi tiết (TMD, SKC, SKK, SKN, SCT, SKS) hoặc tiếp tục ghi nhận mã nhóm chung CSK."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Quy đổi sang: Đất sản xuất, kinh doanh phi nông nghiệp (Mã CSK)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 28/2014, TT 27/2018) & Luật 2003 (TT 08/2007, TT 09/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CSK",
+          "sodo": "CSK",
+          "kk": "CSK",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 28/2014, TT 27/2018) & Luật 2003 (TT 08/2007, TT 09/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 28/2014, TT 27/2018) & Luật 2003 (TT 08/2007, TT 09/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất sản xuất, kinh doanh phi nông nghiệp (ghi trên GCN / CSDL cũ)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất sản xuất, kinh doanh phi nông nghiệp (ghi trên GCN / CSDL cũ) (Ký hiệu: CSK)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 28/2014, TT 27/2018) & Luật 2003 (TT 08/2007, TT 09/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: GCN hoặc CSDL cũ ghi mã CSK được tiếp tục xác định là Đất sản xuất, kinh doanh phi nông nghiệp (mã CSK); khi cấp đổi, cấp mới hoặc đăng ký biến động, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định loại đất chi tiết (TMD, SKC, SKK, SKN, SCT, SKS) hoặc tiếp tục ghi nhận mã nhóm chung CSK.",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
       "id": "REV_CTS_26",
       "code": "CTS",
       "displayCode": "CTS",
@@ -5296,6 +7102,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất xây dựng trụ sở cơ quan"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "TSC",
@@ -5378,6 +7190,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DKV",
         "name2024": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng",
@@ -5445,9 +7263,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DBV_57",
+      "id": "M24_DBV_69",
       "code": "DBV",
-      "displayCode": "DBV (nhóm CCC)",
+      "displayCode": "DBV",
       "name": "Đất công trình hạ tầng bưu chính, viễn thông, CNTT",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -5459,6 +7277,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình bưu chính viễn thông"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DBV",
         "name2024": "Đất công trình hạ tầng bưu chính, viễn thông, CNTT",
@@ -5466,7 +7290,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm h Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Bưu điện, trạm viễn thông, đài phát sóng, cột anten BTS, trung tâm dữ liệu hạ tầng mạng.",
-        "evolution": "Bưu điện, trạm viễn thông, đài phát thanh truyền hình, cột ăng ten BTS, trạm trung chuyển dữ liệu."
+        "evolution": "Bưu điện, trạm viễn thông, đài phát thanh truyền hình, cột ăng ten BTS, trạm trung chuyển dữ liệu. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -5525,9 +7349,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DCH_58",
+      "id": "M24_DCH_70",
       "code": "DCH",
-      "displayCode": "DCH (nhóm CCC)",
+      "displayCode": "DCH",
       "name": "Đất chợ dân sinh, chợ đầu mối",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -5539,6 +7363,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất chợ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DCH",
         "name2024": "Đất chợ dân sinh, chợ đầu mối",
@@ -5546,7 +7376,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm i Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Khuôn viên chợ truyền thống, chợ dân sinh nông thôn và chợ đầu mối nông sản.",
-        "evolution": "Chợ truyền thống nông thôn và đô thị, chợ đầu mối nông sản."
+        "evolution": "Chợ truyền thống nông thôn và đô thị, chợ đầu mối nông sản. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -5605,7 +7435,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DCT_50",
+      "id": "M24_DCT_62",
       "code": "DCT",
       "displayCode": "DCT",
       "name": "Đất công trình cấp nước, thoát nước (nhà máy nước sạch, trạm bơm)",
@@ -5617,7 +7447,13 @@ window.LAND_DATA = {
         "g": 200,
         "b": 170,
         "hex": "#FFC8AA",
-        "target": "Đất công trình công cộng có mục đích kinh doanh"
+        "target": "Đất công trình cấp nước, thoát nước"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DCT",
@@ -5626,7 +7462,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm c Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Nhà máy nước, trạm bơm cấp nước sinh hoạt, hệ thống cống và trạm bơm thoát nước đô thị.",
-        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DCT cho đất công trình cấp nước, thoát nước."
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DCT cho đất công trình cấp nước, thoát nước. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -5685,7 +7521,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DDD_52",
+      "id": "M24_DDD_64",
       "code": "DDD",
       "displayCode": "DDD",
       "name": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên",
@@ -5694,10 +7530,16 @@ window.LAND_DATA = {
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": {
         "r": 255,
-        "g": 190,
-        "b": 210,
-        "hex": "#FFBED2",
-        "target": "Đất danh lam thắng cảnh"
+        "g": 170,
+        "b": 160,
+        "hex": "#FFAAA0",
+        "target": "Đất có di tích lịch sử - văn hóa"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DDD",
@@ -5706,7 +7548,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm đ Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Di tích lịch sử - văn hóa, danh lam thắng cảnh được xếp hạng hoặc bảo vệ theo Luật Di sản.",
-        "evolution": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành mã DDD."
+        "evolution": "Điểm g Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất di tích lịch sử - văn hóa và đất danh lam thắng cảnh thành mã DDD. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -5765,7 +7607,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DDD_53",
+      "id": "M24_DDD_65",
       "code": "DDD",
       "displayCode": "DDD (quy đổi)",
       "name": "Đất có di tích lịch sử - văn hóa (Mã cũ Luật 2013/2003)",
@@ -5774,10 +7616,16 @@ window.LAND_DATA = {
       "primaryPeriod": "Mã lịch sử đối chiếu Luật 2024",
       "rgb": {
         "r": 255,
-        "g": 190,
-        "b": 210,
-        "hex": "#FFBED2",
-        "target": "Đất danh lam thắng cảnh"
+        "g": 170,
+        "b": 160,
+        "hex": "#FFAAA0",
+        "target": "Đất có di tích lịch sử - văn hóa"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DDD",
@@ -5845,7 +7693,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DDD_54",
+      "id": "M24_DDD_66",
       "code": "DDD",
       "displayCode": "DDD (quy đổi)",
       "name": "Đất có danh lam thắng cảnh (Mã cũ Luật 2013/2003)",
@@ -5854,10 +7702,16 @@ window.LAND_DATA = {
       "primaryPeriod": "Mã lịch sử đối chiếu Luật 2024",
       "rgb": {
         "r": 255,
-        "g": 190,
-        "b": 210,
-        "hex": "#FFBED2",
+        "g": 170,
+        "b": 160,
+        "hex": "#FFAAA0",
         "target": "Đất danh lam thắng cảnh"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DDD",
@@ -5938,6 +7792,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất danh lam thắng cảnh"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DDD",
@@ -6020,6 +7880,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất có di tích lịch sử - văn hóa"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DDD",
         "name2024": "Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh",
@@ -6087,9 +7953,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DGD_32",
+      "id": "M24_DGD_40",
       "code": "DGD",
-      "displayCode": "DGD (nhóm DSN)",
+      "displayCode": "DGD",
       "name": "Đất xây dựng cơ sở giáo dục và đào tạo",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -6101,6 +7967,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở giáo dục và đào tạo"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DGD",
         "name2024": "Đất xây dựng cơ sở giáo dục và đào tạo",
@@ -6108,7 +7980,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm d Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Trường mầm non, trường phổ thông các cấp, trường đại học, cao đẳng, trung cấp, dạy nghề.",
-        "evolution": "Trường mầm non, trường phổ thông các cấp, đại học, cao đẳng, trung cấp, dạy nghề."
+        "evolution": "Trường mầm non, trường phổ thông các cấp, đại học, cao đẳng, trung cấp, dạy nghề. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -6167,9 +8039,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DGT_48",
+      "id": "M24_DGT_60",
       "code": "DGT",
-      "displayCode": "DGT (nhóm CCC)",
+      "displayCode": "DGT",
       "name": "Đất công trình giao thông (đường bộ, sắt, thủy, hàng không, bến bãi...)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -6181,6 +8053,12 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DGT",
         "name2024": "Đất công trình giao thông",
@@ -6188,7 +8066,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đường bộ, đường sắt, cảng thủy nội địa, cảng biển, cảng hàng không, nhà ga, bến xe, bãi đỗ xe.",
-        "evolution": "Đường giao thông các cấp, cầu, hầm, cảng biển, sân bay, nhà ga, bến xe, bãi đỗ xe công cộng."
+        "evolution": "Đường giao thông các cấp, cầu, hầm, cảng biển, sân bay, nhà ga, bến xe, bãi đỗ xe công cộng. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -6247,7 +8125,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DGT_78",
+      "id": "M24_DGT_92",
       "code": "DGT",
       "displayCode": "DGT (hành lang)",
       "name": "Hành lang an toàn giao thông đường bộ",
@@ -6260,6 +8138,12 @@ window.LAND_DATA = {
         "b": 50,
         "hex": "#FFAA32",
         "target": "Đất giao thông"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DGT",
@@ -6327,7 +8211,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DGT_82",
+      "id": "M24_DGT_96",
       "code": "DGT",
       "displayCode": "DGT / DTL (hành lang)",
       "name": "Đất hành lang bảo vệ an toàn công trình",
@@ -6340,6 +8224,12 @@ window.LAND_DATA = {
         "b": 50,
         "hex": "#FFAA32",
         "target": "Đất giao thông"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DGT",
@@ -6421,6 +8311,12 @@ window.LAND_DATA = {
         "hex": "#FF7878",
         "target": "Đất hành lang bảo vệ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DGT",
         "name2024": "Đất hành lang bảo vệ an toàn công trình",
@@ -6488,9 +8384,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DKH_34",
+      "id": "M24_DKH_42",
       "code": "DKH",
-      "displayCode": "DKH (nhóm DSN)",
+      "displayCode": "DKH",
       "name": "Đất xây dựng cơ sở khoa học và công nghệ",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -6502,6 +8398,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở khoa học và công nghệ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DKH",
         "name2024": "Đất xây dựng cơ sở khoa học và công nghệ",
@@ -6509,7 +8411,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm e Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Viện nghiên cứu khoa học, phòng thí nghiệm trọng điểm, trạm quan nghiệm công nghệ.",
-        "evolution": "Viện nghiên cứu, trạm nghiên cứu khoa học, trung tâm công nghệ."
+        "evolution": "Viện nghiên cứu, trạm nghiên cứu khoa học, trung tâm công nghệ. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -6568,7 +8470,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DKT_37",
+      "id": "M24_DKT_45",
       "code": "DKT",
       "displayCode": "DKT",
       "name": "Đất xây dựng cơ sở khí tượng thủy văn",
@@ -6582,6 +8484,12 @@ window.LAND_DATA = {
         "hex": "#FFDCBE",
         "target": "Đất cơ sở sản xuất phi nông nghiệp (2024)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DKT",
         "name2024": "Đất xây dựng cơ sở khí tượng thủy văn",
@@ -6589,7 +8497,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm h Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Trạm khí tượng bề mặt, trạm thủy văn, trạm radar thời tiết, trạm quan trắc hải văn.",
-        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DKT cho đất công trình khí tượng thủy văn."
+        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DKT cho đất công trình khí tượng thủy văn. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -6648,7 +8556,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DKV_59",
+      "id": "M24_DKV_71",
       "code": "DKV",
       "displayCode": "DKV",
       "name": "Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng",
@@ -6662,6 +8570,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DKV",
         "name2024": "Đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng",
@@ -6669,7 +8583,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm k Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Công viên, vườn hoa, bãi tắm công cộng, quảng trường, nhà văn hóa thôn, bản, tổ dân phố.",
-        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng và đất khu vui chơi, giải trí vào mã DKV."
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024: Hợp nhất đất sinh hoạt cộng đồng và đất khu vui chơi, giải trí vào mã DKV. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -6728,7 +8642,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DKV_60",
+      "id": "M24_DKV_72",
       "code": "DKV",
       "displayCode": "DKV (quy đổi)",
       "name": "Đất sinh hoạt cộng đồng (nhà văn hóa thôn, bản, tổ dân phố - Mã cũ 2013)",
@@ -6741,6 +8655,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất khu vui chơi, giải trí công cộng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DKV",
@@ -6808,7 +8728,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DMT_36",
+      "id": "M24_DMT_44",
       "code": "DMT",
       "displayCode": "DMT",
       "name": "Đất xây dựng cơ sở môi trường (quan trắc, bảo vệ môi trường)",
@@ -6822,6 +8742,12 @@ window.LAND_DATA = {
         "hex": "#FFBEB4",
         "target": "Đất thương mại, dịch vụ (2024)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DMT",
         "name2024": "Đất xây dựng cơ sở môi trường",
@@ -6829,7 +8755,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm g Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Cơ sở quan trắc môi trường, trạm phân tích kiểm chuẩn chất lượng môi trường.",
-        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DMT cho đất công trình môi trường."
+        "evolution": "Điểm e Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DMT cho đất công trình môi trường. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -6888,9 +8814,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DNG_38",
+      "id": "M24_DNG_46",
       "code": "DNG",
-      "displayCode": "DNG (nhóm DSN)",
+      "displayCode": "DNG",
       "name": "Đất xây dựng cơ sở ngoại giao",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -6902,6 +8828,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở ngoại giao"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DNG",
         "name2024": "Đất xây dựng cơ sở ngoại giao",
@@ -6909,7 +8841,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm i Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Trụ sở đại sứ quán, lãnh sự quán, nhà khách ngoại giao của cơ quan đại diện quốc tế.",
-        "evolution": "Đại sứ quán, lãnh sự quán, nhà khách ngoại giao của các tổ chức quốc tế."
+        "evolution": "Đại sứ quán, lãnh sự quán, nhà khách ngoại giao của các tổ chức quốc tế. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -6968,9 +8900,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DNL_56",
+      "id": "M24_DNL_68",
       "code": "DNL",
-      "displayCode": "DNL (nhóm CCC)",
+      "displayCode": "DNL",
       "name": "Đất công trình năng lượng, chiếu sáng công cộng",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -6982,6 +8914,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình năng lượng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DNL",
         "name2024": "Đất công trình năng lượng, chiếu sáng công cộng",
@@ -6989,7 +8927,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm g Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Nhà máy điện các loại, trạm biến áp, hành lang an toàn đường dây dẫn điện, chiếu sáng đô thị.",
-        "evolution": "Nhà máy thủy điện, nhiệt điện, điện mặt trời, trạm biến áp, hành lang an toàn đường dây truyền tải điện."
+        "evolution": "Nhà máy thủy điện, nhiệt điện, điện mặt trời, trạm biến áp, hành lang an toàn đường dây truyền tải điện. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -7062,6 +9000,12 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "ONT",
         "name2024": "Đất ở tại nông thôn",
@@ -7129,7 +9073,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DPC_51",
+      "id": "M24_DPC_63",
       "code": "DPC",
       "displayCode": "DPC",
       "name": "Đất công trình phòng, chống thiên tai (kè chống sạt lở, cứu nạn thiên tai)",
@@ -7141,7 +9085,13 @@ window.LAND_DATA = {
         "g": 210,
         "b": 180,
         "hex": "#FFD2B4",
-        "target": "Đất cơ sở nghiên cứu và đào tạo tư nhân"
+        "target": "Đất công trình phòng chống thiên tai"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DPC",
@@ -7150,7 +9100,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm d Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Kè chống sạt lở bờ sông bờ biển, trạm cảnh báo lũ quét, công trình lánh nạn thiên tai.",
-        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DPC cho đất công trình phòng, chống thiên tai."
+        "evolution": "Điểm d Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã DPC cho đất công trình phòng, chống thiên tai. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -7209,9 +9159,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DRA_55",
+      "id": "M24_DRA_67",
       "code": "DRA",
-      "displayCode": "DRA (nhóm CCC)",
+      "displayCode": "DRA",
       "name": "Đất công trình xử lý chất thải (bãi chôn lấp rác, nhà máy đốt rác thải)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -7223,6 +9173,12 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất bãi thải, xử lý chất thải"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DRA",
         "name2024": "Đất công trình xử lý chất thải",
@@ -7230,7 +9186,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm e Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Bãi chôn lấp rác thải, khu xử lý rác, nhà máy đốt rác, trạm trung chuyển chất thải rắn.",
-        "evolution": "Bãi thải xỉ, khu xử lý rác thải sinh hoạt và công nghiệp, bãi chôn lấp chất thải hợp vệ sinh."
+        "evolution": "Bãi thải xỉ, khu xử lý rác thải sinh hoạt và công nghiệp, bãi chôn lấp chất thải hợp vệ sinh. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -7302,6 +9258,12 @@ window.LAND_DATA = {
         "b": 205,
         "hex": "#CDAACD",
         "target": "Đất bãi thải, xử lý chất thải"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DMT",
@@ -7384,6 +9346,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất sinh hoạt cộng đồng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DKV",
         "name2024": "Đất khu vui chơi, giải trí, sinh hoạt cộng đồng",
@@ -7451,9 +9419,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DSK_39",
+      "id": "M24_DSK_47",
       "code": "DSK",
-      "displayCode": "DSK (nhóm DSN)",
+      "displayCode": "DSK",
       "name": "Đất xây dựng công trình sự nghiệp khác",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -7465,6 +9433,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DSK",
         "name2024": "Đất xây dựng công trình sự nghiệp khác",
@@ -7472,7 +9446,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm k Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Các công trình sự nghiệp khác ngoài các cơ sở chuyên ngành nêu trên.",
-        "evolution": "Các công trình sự nghiệp công lập khác ngoài các mã chuyên ngành trên."
+        "evolution": "Các công trình sự nghiệp công lập khác ngoài các mã chuyên ngành nêu trên. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -7531,7 +9505,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DSK_77",
+      "id": "M24_DSK_91",
       "code": "DSK",
       "displayCode": "DSK / TSC",
       "name": "Đất trụ sở khác",
@@ -7544,6 +9518,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "DSK",
@@ -7611,12 +9591,12 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DSN_27",
+      "id": "M24_DSN_37",
       "code": "DSN",
-      "displayCode": "DSN (hoặc DSK)",
-      "name": "Đất xây dựng trụ sở của tổ chức sự nghiệp công lập",
+      "displayCode": "DSN",
+      "name": "Đất xây dựng công trình sự nghiệp (nhóm chung)",
       "group": "Đất phi nông nghiệp",
-      "status": "Mã hiện hành Luật Đất đai 2024",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": {
         "r": 255,
@@ -7624,6 +9604,180 @@ window.LAND_DATA = {
         "b": 170,
         "hex": "#FFA0AA",
         "target": "Đất xây dựng công trình sự nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "DVH",
+            "name": "Đất xây dựng cơ sở văn hóa"
+          },
+          {
+            "code": "DXH",
+            "name": "Đất xây dựng cơ sở xã hội"
+          },
+          {
+            "code": "DYT",
+            "name": "Đất xây dựng cơ sở y tế"
+          },
+          {
+            "code": "DGD",
+            "name": "Đất xây dựng cơ sở giáo dục và đào tạo"
+          },
+          {
+            "code": "DTT",
+            "name": "Đất xây dựng cơ sở thể dục, thể thao"
+          },
+          {
+            "code": "DKH",
+            "name": "Đất xây dựng cơ sở khoa học và công nghệ"
+          },
+          {
+            "code": "DMT",
+            "name": "Đất xây dựng cơ sở môi trường"
+          },
+          {
+            "code": "DKT",
+            "name": "Đất xây dựng cơ sở khí tượng thủy văn"
+          },
+          {
+            "code": "DNG",
+            "name": "Đất xây dựng cơ sở ngoại giao"
+          },
+          {
+            "code": "DSK",
+            "name": "Đất xây dựng công trình sự nghiệp khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "DSN",
+        "name2024": "Đất xây dựng công trình sự nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất xây dựng các cơ sở hoạt động sự nghiệp công lập và ngoài công lập.",
+        "evolution": "Khoản 4 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Nhóm đất xây dựng các cơ sở hoạt động sự nghiệp công lập và ngoài công lập (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng công trình sự nghiệp (nhóm chung)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSN / DTS",
+          "sodo": "DSN / DTS",
+          "kk": "DSN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (Sự nghiệp)",
+          "sodo": "CD (Sự nghiệp)",
+          "kk": "CD (Sự nghiệp)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất xây dựng công trình sự nghiệp (nhóm chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm DSN: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_DSN_48",
+      "code": "DSN",
+      "displayCode": "DSN (hoặc DSK)",
+      "name": "Đất xây dựng trụ sở của tổ chức sự nghiệp công lập (Mã cũ DTS)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 160,
+        "b": 170,
+        "hex": "#FFA0AA",
+        "target": "Đất xây dựng công trình sự nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "DVH",
+            "name": "Đất xây dựng cơ sở văn hóa"
+          },
+          {
+            "code": "DXH",
+            "name": "Đất xây dựng cơ sở xã hội"
+          },
+          {
+            "code": "DYT",
+            "name": "Đất xây dựng cơ sở y tế"
+          },
+          {
+            "code": "DGD",
+            "name": "Đất xây dựng cơ sở giáo dục và đào tạo"
+          },
+          {
+            "code": "DTT",
+            "name": "Đất xây dựng cơ sở thể dục, thể thao"
+          },
+          {
+            "code": "DKH",
+            "name": "Đất xây dựng cơ sở khoa học và công nghệ"
+          },
+          {
+            "code": "DMT",
+            "name": "Đất xây dựng cơ sở môi trường"
+          },
+          {
+            "code": "DKT",
+            "name": "Đất xây dựng cơ sở khí tượng thủy văn"
+          },
+          {
+            "code": "DNG",
+            "name": "Đất xây dựng cơ sở ngoại giao"
+          },
+          {
+            "code": "DSK",
+            "name": "Đất xây dựng công trình sự nghiệp khác"
+          }
+        ]
       },
       "sec1": {
         "code2024": "DSN",
@@ -7641,7 +9795,7 @@ window.LAND_DATA = {
           "bddc": "DSN",
           "sodo": "DSN",
           "kk": "DSN",
-          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng trụ sở của tổ chức sự nghiệp công lập"
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất xây dựng trụ sở của tổ chức sự nghiệp công lập (Mã cũ DTS)"
         },
         {
           "era": "Luật Đất đai 2013 (2014 - 2024)",
@@ -7677,11 +9831,11 @@ window.LAND_DATA = {
         }
       ],
       "sec3": {
-        "oldScenario": "Đất xây dựng trụ sở của tổ chức sự nghiệp công lập",
+        "oldScenario": "Đất xây dựng trụ sở của tổ chức sự nghiệp công lập (Mã cũ DTS)",
         "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
-        "relation": "1 -> 1",
+        "relation": "Mã nhóm chung",
         "statutoryRule": "Khoản 4 Điều 5 NĐ 102/2024/NĐ-CP",
-        "practicalPrinciple": "Khi cấp mới hoặc cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Luật 2024: Cơ quan đăng ký đất đai ghi tên loại đất chuẩn hóa quy định tại Điều 9 Luật 2024 và Nghị định 102/2024/NĐ-CP, đồng thời ghi nhận mã tương ứng theo Phụ lục II Thông tư 08/2024/TT-BTNMT.",
+        "practicalPrinciple": "Đối với mã nhóm DSN: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
         "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
       },
       "specialLegal": {
@@ -7691,9 +9845,137 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DTL_49",
+      "id": "REV_DSN_62",
+      "code": "DSN",
+      "displayCode": "DSN",
+      "name": "Đất xây dựng công trình sự nghiệp (nhóm sự nghiệp)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 160,
+        "b": 170,
+        "hex": "#FFA0AA",
+        "target": "Đất xây dựng công trình sự nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "DVH",
+            "name": "Đất xây dựng cơ sở văn hóa"
+          },
+          {
+            "code": "DXH",
+            "name": "Đất xây dựng cơ sở xã hội"
+          },
+          {
+            "code": "DYT",
+            "name": "Đất xây dựng cơ sở y tế"
+          },
+          {
+            "code": "DGD",
+            "name": "Đất xây dựng cơ sở giáo dục và đào tạo"
+          },
+          {
+            "code": "DTT",
+            "name": "Đất xây dựng cơ sở thể dục, thể thao"
+          },
+          {
+            "code": "DKH",
+            "name": "Đất xây dựng cơ sở khoa học và công nghệ"
+          },
+          {
+            "code": "DMT",
+            "name": "Đất xây dựng cơ sở môi trường"
+          },
+          {
+            "code": "DKT",
+            "name": "Đất xây dựng cơ sở khí tượng thủy văn"
+          },
+          {
+            "code": "DNG",
+            "name": "Đất xây dựng cơ sở ngoại giao"
+          },
+          {
+            "code": "DSK",
+            "name": "Đất xây dựng công trình sự nghiệp khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "DSN",
+        "name2024": "Đất xây dựng công trình sự nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 4 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm DSN hoặc phân loại chi tiết theo cơ sở chuyên ngành (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất xây dựng công trình sự nghiệp (nhóm sự nghiệp). Quy đổi tương đương theo Luật 2024: Đất xây dựng công trình sự nghiệp.",
+        "evolution": "Khoản 4 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm DSN hoặc phân loại chi tiết theo cơ sở chuyên ngành (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Quy đổi sang: Đất xây dựng công trình sự nghiệp (Mã DSN)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "DSN",
+          "sodo": "DSN",
+          "kk": "DSN",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất xây dựng công trình sự nghiệp (nhóm sự nghiệp)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất xây dựng công trình sự nghiệp (nhóm sự nghiệp) (Ký hiệu: DSN)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 4 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Chuẩn hóa sang nhóm DSN hoặc phân loại chi tiết theo cơ sở chuyên ngành (DVH, DXH, DYT, DGD, DTT, DKH, DMT, DKT, DNG, DSK).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
+      "id": "M24_DTL_61",
       "code": "DTL",
-      "displayCode": "DTL (nhóm CCC)",
+      "displayCode": "DTL",
       "name": "Đất công trình thủy lợi (kênh mương, đê điều thủy lợi, hồ đập...)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -7705,6 +9987,12 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
+      },
       "sec1": {
         "code2024": "DTL",
         "name2024": "Đất công trình thủy lợi",
@@ -7712,7 +10000,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm b Khoản 6 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đê điều thủy lợi, cống, đập, hồ chứa nước thủy lợi, kênh mương dẫn nước tưới tiêu.",
-        "evolution": "Đê sông, đê biển, cống, đập, hồ thủy lợi, kênh mương dẫn nước phục vụ sản xuất và thoát nước."
+        "evolution": "Đê sông, đê biển, cống, đập, hồ thủy lợi, kênh mương dẫn nước phục vụ sản xuất và thoát nước. Thuộc nhóm CCC."
       },
       "sec2": [
         {
@@ -7771,7 +10059,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DTL_81",
+      "id": "M24_DTL_95",
       "code": "DTL",
       "displayCode": "DTL (hành lang)",
       "name": "Hành lang bảo vệ công trình thủy lợi, mương kênh",
@@ -7784,6 +10072,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CCC",
+        "parentName": "Đất sử dụng vào mục đích công cộng",
+        "children": []
       },
       "sec1": {
         "code2024": "DTL",
@@ -7865,6 +10159,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất xây dựng trụ sở tổ chức sự nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DSN",
         "name2024": "Đất xây dựng công trình sự nghiệp / Sự nghiệp khác",
@@ -7932,9 +10232,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DTT_33",
+      "id": "M24_DTT_41",
       "code": "DTT",
-      "displayCode": "DTT (nhóm DSN)",
+      "displayCode": "DTT",
       "name": "Đất xây dựng cơ sở thể dục, thể thao",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -7946,6 +10246,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở thể dục thể thao"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DTT",
         "name2024": "Đất xây dựng cơ sở thể dục, thể thao",
@@ -7953,7 +10259,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm đ Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Sân vận động, khu liên hợp thể thao, nhà thi đấu, bể bơi thi đấu, trung tâm huấn luyện VĐV.",
-        "evolution": "Sân vận động, nhà thi đấu, trung tâm đào tạo VĐV thể thao."
+        "evolution": "Sân vận động, nhà thi đấu, trung tâm đào tạo VĐV thể thao. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -8012,9 +10318,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DVH_30",
+      "id": "M24_DVH_38",
       "code": "DVH",
-      "displayCode": "DVH (nhóm DSN)",
+      "displayCode": "DVH",
       "name": "Đất xây dựng cơ sở văn hóa",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8026,6 +10332,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở văn hóa"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DVH",
         "name2024": "Đất xây dựng cơ sở văn hóa",
@@ -8033,7 +10345,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Nhà hát, rạp chiếu phim, bảo tàng, triển lãm, thư viện, cơ sở văn hóa nghệ thuật.",
-        "evolution": "Nhà hát, bảo tàng, thư viện, triển lãm, rạp chiếu phim, nhà văn hóa cấp huyện/tỉnh."
+        "evolution": "Nhà hát, bảo tàng, thư viện, triển lãm, rạp chiếu phim, nhà văn hóa cấp huyện/tỉnh. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -8092,9 +10404,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DXH_35",
+      "id": "M24_DXH_43",
       "code": "DXH",
-      "displayCode": "DXH (nhóm DSN)",
+      "displayCode": "DXH",
       "name": "Đất xây dựng cơ sở dịch vụ xã hội",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8106,6 +10418,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở dịch vụ xã hội"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DXH",
         "name2024": "Đất xây dựng cơ sở xã hội",
@@ -8113,7 +10431,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm b Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Cơ sở nuôi dưỡng người già, trẻ mồ côi, trung tâm bảo trợ xã hội, cơ sở cai nghiện.",
-        "evolution": "Trung tâm bảo trợ xã hội, trại dưỡng lão, trung tâm cai nghiện, chăm sóc trẻ khuyết tật."
+        "evolution": "Trung tâm bảo trợ xã hội, trại dưỡng lão, trung tâm cai nghiện, chăm sóc trẻ khuyết tật. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -8172,9 +10490,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_DYT_31",
+      "id": "M24_DYT_39",
       "code": "DYT",
-      "displayCode": "DYT (nhóm DSN)",
+      "displayCode": "DYT",
       "name": "Đất xây dựng cơ sở y tế",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8186,6 +10504,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở y tế"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "DSN",
+        "parentName": "Đất xây dựng công trình sự nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "DYT",
         "name2024": "Đất xây dựng cơ sở y tế",
@@ -8193,7 +10517,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm c Khoản 4 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Bệnh viện, trung tâm y tế, trạm y tế, phòng khám đa khoa, cơ sở phục hồi chức năng y tế.",
-        "evolution": "Bệnh viện, phòng khám, trung tâm y tế, trạm y tế, viện điều dưỡng."
+        "evolution": "Bệnh viện, phòng khám, trung tâm y tế, trạm y tế, viện điều dưỡng. Thuộc nhóm DSN."
       },
       "sec2": [
         {
@@ -8265,6 +10589,12 @@ window.LAND_DATA = {
         "b": 120,
         "hex": "#FF7878",
         "target": "Hành lang đường bộ"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DGT",
@@ -8347,6 +10677,12 @@ window.LAND_DATA = {
         "hex": "#96DCF0",
         "target": "Hành lang bảo vệ mương kênh"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DTL",
         "name2024": "Đất thuộc hành lang bảo vệ công trình thủy lợi",
@@ -8428,6 +10764,12 @@ window.LAND_DATA = {
         "hex": "#8CD2FF",
         "target": "Hành lang bảo vệ sông suối"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "SON",
         "name2024": "Đất thuộc hành lang bảo vệ nguồn nước sông, suối",
@@ -8495,9 +10837,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_MNC_65",
+      "id": "M24_MNC_78",
       "code": "MNC",
-      "displayCode": "MNC (nhóm TVC)",
+      "displayCode": "MNC",
       "name": "Đất có mặt nước chuyên dùng dạng ao, hồ, đầm, phá (cảnh quan, điều hòa)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8509,6 +10851,12 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước chuyên dùng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "TVC",
+        "parentName": "Đất có mặt nước chuyên dùng",
+        "children": []
+      },
       "sec1": {
         "code2024": "MNC",
         "name2024": "Đất có mặt nước chuyên dùng dạng ao, hồ, đầm, phá",
@@ -8516,7 +10864,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 10 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Ao, hồ, đầm, phá chuyên dùng cảnh quan đô thị, điều hòa thoát nước (không nuôi cá).",
-        "evolution": "Mặt nước chuyên dùng cảnh quan, điều hòa thoát nước (không dùng để nuôi thủy sản). Luật 2024 thuộc nhóm TVC."
+        "evolution": "Mặt nước chuyên dùng cảnh quan, điều hòa thoát nước (không dùng để nuôi thủy sản). Thuộc nhóm TVC."
       },
       "sec2": [
         {
@@ -8589,6 +10937,12 @@ window.LAND_DATA = {
         "hex": "#D2D2D2",
         "target": "Đất nghĩa trang, nghĩa địa, nhà tang lễ, hỏa táng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "NTD",
         "name2024": "Đất làm nghĩa trang, nhà tang lễ, cơ sở hỏa táng",
@@ -8656,7 +11010,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_NTD_64",
+      "id": "M24_NTD_76",
       "code": "NTD",
       "displayCode": "NTD",
       "name": "Đất nghĩa trang, nhà tang lễ, cơ sở hỏa táng, lưu trữ tro cốt",
@@ -8669,6 +11023,12 @@ window.LAND_DATA = {
         "b": 210,
         "hex": "#D2D2D2",
         "target": "Đất nghĩa trang, nghĩa địa, nhà tang lễ, hỏa táng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "NTD",
@@ -8736,9 +11096,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_ODT_24",
+      "id": "M24_ODT_31",
       "code": "ODT",
-      "displayCode": "ODT (nhóm OTC)",
+      "displayCode": "ODT",
       "name": "Đất ở tại đô thị",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8750,6 +11110,12 @@ window.LAND_DATA = {
         "hex": "#FFA0FF",
         "target": "Đất ở tại đô thị"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "OTC",
+        "parentName": "Đất ở",
+        "children": []
+      },
       "sec1": {
         "code2024": "ODT",
         "name2024": "Đất ở tại đô thị",
@@ -8757,7 +11123,7 @@ window.LAND_DATA = {
         "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất ở thuộc phạm vi địa giới hành chính các phường và thị trấn.",
-        "evolution": "Đất ở tại phường, thị trấn, thành phố. Trước 2004 trên sổ đỏ ghi ký hiệu 'T'."
+        "evolution": "Đất ở tại phường, thị trấn, thành phố. Trước 2004 trên sổ đỏ ghi ký hiệu 'T'. Luật 2024 thuộc nhóm đất ở OTC."
       },
       "sec2": [
         {
@@ -8816,9 +11182,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_ONT_23",
+      "id": "M24_ONT_30",
       "code": "ONT",
-      "displayCode": "ONT (nhóm OTC)",
+      "displayCode": "ONT",
       "name": "Đất ở tại nông thôn",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -8830,6 +11196,12 @@ window.LAND_DATA = {
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "OTC",
+        "parentName": "Đất ở",
+        "children": []
+      },
       "sec1": {
         "code2024": "ONT",
         "name2024": "Đất ở tại nông thôn",
@@ -8837,7 +11209,7 @@ window.LAND_DATA = {
         "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất ở thuộc phạm vi địa giới hành chính các xã (trừ các xã đã có quy hoạch đô thị).",
-        "evolution": "Đất ở tại xã nông thôn. Thời kỳ trước 2004 ký hiệu là 'T' (thổ cư). Luật 2024 nhóm đất ở có mã tổng là OTC."
+        "evolution": "Đất ở tại xã nông thôn. Thời kỳ trước 2004 ký hiệu là 'T' (thổ cư). Luật 2024 thuộc nhóm đất ở OTC."
       },
       "sec2": [
         {
@@ -8896,7 +11268,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_ONT_25",
+      "id": "M24_ONT_32",
       "code": "ONT",
       "displayCode": "ONT hoặc ODT",
       "name": "Đất thổ cư (Ký hiệu cũ 'T' trên sổ đỏ 299, QĐ 499, TT 1990)",
@@ -8909,6 +11281,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "OTC",
+        "parentName": "Đất ở",
+        "children": []
       },
       "sec1": {
         "code2024": "ONT",
@@ -8976,7 +11354,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_ONT_76",
+      "id": "M24_ONT_90",
       "code": "ONT",
       "displayCode": "ONT (quy đổi)",
       "name": "Đất khu dân cư nông thôn",
@@ -8989,6 +11367,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "OTC",
+        "parentName": "Đất ở",
+        "children": []
       },
       "sec1": {
         "code2024": "ONT",
@@ -9056,7 +11440,198 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_PNK_67",
+      "id": "M24_OTC_29",
+      "code": "OTC",
+      "displayCode": "OTC",
+      "name": "Đất ở (nhóm chung đất ở tại nông thôn và đất ở tại đô thị)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 180,
+        "b": 255,
+        "hex": "#FFB4FF",
+        "target": "Đất ở"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "ONT",
+            "name": "Đất ở tại nông thôn"
+          },
+          {
+            "code": "ODT",
+            "name": "Đất ở tại đô thị"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "OTC",
+        "name2024": "Đất ở",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bao gồm đất để xây dựng nhà ở, công trình phục vụ đời sống trong cùng thửa đất ở.",
+        "evolution": "Khoản 1 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Ký hiệu chung cho nhóm đất ở là OTC; phân loại chi tiết thành ONT (nông thôn) và ODT (đô thị)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "OTC",
+          "sodo": "OTC",
+          "kk": "OTC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất ở (nhóm chung đất ở tại nông thôn và đất ở tại đô thị)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "ONT / ODT",
+          "sodo": "ONT / ODT",
+          "kk": "OTC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "ONT / ODT",
+          "sodo": "ONT / ODT",
+          "kk": "OTC",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "T (Đất ở)",
+          "sodo": "T (Đất ở)",
+          "kk": "T (Đất ở)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "T (Thổ cư)",
+          "sodo": "T (Thổ cư)",
+          "kk": "T (Thổ cư)",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất ở (nhóm chung đất ở tại nông thôn và đất ở tại đô thị)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 1 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm OTC: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (ONT, ODT) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_OTC_64",
+      "code": "OTC",
+      "displayCode": "OTC",
+      "name": "Đất ở (chỉ tiêu nhóm thống kê, kiểm kê)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+      "rgb": {
+        "r": 255,
+        "g": 180,
+        "b": 255,
+        "hex": "#FFB4FF",
+        "target": "Đất ở"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "ONT",
+            "name": "Đất ở tại nông thôn"
+          },
+          {
+            "code": "ODT",
+            "name": "Đất ở tại đô thị"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "OTC",
+        "name2024": "Đất ở (nhóm chung)",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Khoản 1 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành ONT (nông thôn) hoặc ODT (đô thị).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất ở (chỉ tiêu nhóm thống kê, kiểm kê). Quy đổi tương đương theo Luật 2024: Đất ở (nhóm chung).",
+        "evolution": "Khoản 1 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành ONT (nông thôn) hoặc ODT (đô thị)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "OTC",
+          "sodo": "OTC",
+          "kk": "OTC",
+          "note": "Quy đổi sang: Đất ở (nhóm chung) (Mã OTC)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "OTC",
+          "sodo": "OTC",
+          "kk": "OTC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "OTC",
+          "sodo": "OTC",
+          "kk": "OTC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất ở (chỉ tiêu nhóm thống kê, kiểm kê)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất ở (chỉ tiêu nhóm thống kê, kiểm kê) (Ký hiệu: OTC)",
+        "oldDoc": "Luật 2013 (TT 27/2018), Luật 2003 (TT 08/2007)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Khoản 1 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Xác định cụ thể thành ONT (nông thôn) hoặc ODT (đô thị).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
+      "id": "M24_PNK_80",
       "code": "PNK",
       "displayCode": "PNK",
       "name": "Đất phi nông nghiệp khác (chòi canh gác, công trình phụ trợ...)",
@@ -9069,6 +11644,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất phi nông nghiệp khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "PNK",
@@ -9136,7 +11717,337 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SCT_43",
+      "id": "M24_PNN_28",
+      "code": "PNN",
+      "displayCode": "PNN",
+      "name": "Nhóm đất phi nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 1 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 100,
+        "hex": "#FFFF64",
+        "target": "Đất phi nông nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "OTC",
+            "name": "Đất ở"
+          },
+          {
+            "code": "TSC",
+            "name": "Đất xây dựng trụ sở cơ quan"
+          },
+          {
+            "code": "CQA",
+            "name": "Đất quốc phòng, an ninh"
+          },
+          {
+            "code": "DSN",
+            "name": "Đất xây dựng công trình sự nghiệp"
+          },
+          {
+            "code": "CSK",
+            "name": "Đất sản xuất, kinh doanh phi nông nghiệp"
+          },
+          {
+            "code": "CCC",
+            "name": "Đất sử dụng vào mục đích công cộng"
+          },
+          {
+            "code": "TON",
+            "name": "Đất tôn giáo"
+          },
+          {
+            "code": "TIN",
+            "name": "Đất tín ngưỡng"
+          },
+          {
+            "code": "NTD",
+            "name": "Đất nghĩa trang, nhà tang lễ, hỏa táng, tro cốt"
+          },
+          {
+            "code": "TVC",
+            "name": "Đất có mặt nước chuyên dùng"
+          },
+          {
+            "code": "PNK",
+            "name": "Đất phi nông nghiệp khác"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "PNN",
+        "name2024": "Nhóm đất phi nông nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 2 Điều 9 Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bao gồm đất ở, đất xây dựng trụ sở, đất quốc phòng an ninh, đất công cộng, sản xuất kinh doanh...",
+        "evolution": "Khoản 2 Điều 9 Luật Đất đai 2024: Nhóm đất phi nông nghiệp gồm đất ở (OTC), trụ sở (TSC), quốc phòng an ninh (CQA), sự nghiệp (DSN), sản xuất kinh doanh PNN (CSK), công cộng (CCC), tôn giáo tín ngưỡng (TON, TIN), nghĩa trang (NTD), mặt nước chuyên dùng (TVC) và phi nông nghiệp khác (PNK)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "PNN",
+          "sodo": "PNN",
+          "kk": "PNN",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Nhóm đất phi nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "PNN",
+          "sodo": "Đất phi nông nghiệp",
+          "kk": "PNN",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "PNN",
+          "sodo": "PNN",
+          "kk": "PNN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD & Đất ở",
+          "sodo": "CD & Đất ở",
+          "kk": "CD & Đất ở",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Chuyên dùng & Thổ cư",
+          "sodo": "Chuyên dùng & Thổ cư",
+          "kk": "Chuyên dùng & Thổ cư",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Nhóm đất phi nông nghiệp (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 2 Điều 9 Luật Đất đai 2024",
+        "practicalPrinciple": "Đối với mã nhóm PNN: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (OTC, TSC, CQA, DSN, CSK, CCC, TON, TIN, NTD, TVC, PNK) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_SCC_50",
+      "code": "SCC",
+      "displayCode": "SCC",
+      "name": "Đất khu công nghiệp, cụm công nghiệp (nhóm trung gian)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 250,
+        "g": 170,
+        "b": 160,
+        "hex": "#FAAAA0",
+        "target": "Đất khu công nghiệp, cụm công nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": [
+          {
+            "code": "SKK",
+            "name": "Đất khu công nghiệp"
+          },
+          {
+            "code": "SKN",
+            "name": "Đất cụm công nghiệp"
+          },
+          {
+            "code": "SCT",
+            "name": "Đất khu công nghệ thông tin tập trung"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "SCC",
+        "name2024": "Đất khu công nghiệp, cụm công nghiệp",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất khu công nghiệp, cụm công nghiệp và khu công nghệ thông tin tập trung.",
+        "evolution": "Điểm a Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Mã nhóm trung gian trong CSK, bao gồm: đất khu công nghiệp (SKK), đất cụm công nghiệp (SKN) và đất khu công nghệ thông tin tập trung (SCT)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "SCC",
+          "sodo": "SCC",
+          "kk": "SCC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất khu công nghiệp, cụm công nghiệp (nhóm trung gian)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SKK / SKN",
+          "sodo": "SKK / SKN / SKT",
+          "kk": "SKK / SKN / SKT",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "SKK / SKN / SKT",
+          "sodo": "SKK / SKN / SKT",
+          "kk": "SKK / SKN / SKT",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "CD (KCN)",
+          "sodo": "CD (KCN)",
+          "kk": "CD (KCN)",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "C",
+          "sodo": "C",
+          "kk": "C",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất khu công nghiệp, cụm công nghiệp (nhóm trung gian)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
+        "practicalPrinciple": "Đối với mã nhóm SCC: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (SKK, SKN, SCT) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "REV_SCC_61",
+      "code": "SCC",
+      "displayCode": "SCC",
+      "name": "Đất khu công nghiệp, cụm công nghiệp (chỉ tiêu nhóm)",
+      "group": "Phi nông nghiệp",
+      "status": "Mã nhóm CSDL/GCN cũ tra cứu đối chiếu sang Luật 2024",
+      "primaryPeriod": "Luật 2013 (Quy hoạch sử dụng đất, CSDL địa chính)",
+      "rgb": {
+        "r": 250,
+        "g": 170,
+        "b": 160,
+        "hex": "#FAAAA0",
+        "target": "Đất khu công nghiệp, cụm công nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "SKK",
+            "name": "Đất khu công nghiệp"
+          },
+          {
+            "code": "SKN",
+            "name": "Đất cụm công nghiệp"
+          },
+          {
+            "code": "SCT",
+            "name": "Đất khu công nghệ thông tin tập trung"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "SCC",
+        "name2024": "Đất khu công nghiệp, cụm công nghiệp",
+        "group": "Phi nông nghiệp",
+        "legalBasis": "Điểm a Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân định chi tiết thành đất khu công nghiệp (SKK), cụm công nghiệp (SKN) hoặc khu CNTT tập trung (SCT).",
+        "statusEffect": "Đang có hiệu lực theo Luật Đất đai 2024",
+        "purpose": "Tên gọi lịch sử: Đất khu công nghiệp, cụm công nghiệp (chỉ tiêu nhóm). Quy đổi tương đương theo Luật 2024: Đất khu công nghiệp, cụm công nghiệp.",
+        "evolution": "Điểm a Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân định chi tiết thành đất khu công nghiệp (SKK), cụm công nghiệp (SKN) hoặc khu CNTT tập trung (SCT)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Thông tư 08/2024/TT-BTNMT & NĐ 102/2024/NĐ-CP",
+          "bddc": "SCC",
+          "sodo": "SCC",
+          "kk": "SCC",
+          "note": "Quy đổi sang: Đất khu công nghiệp, cụm công nghiệp (Mã SCC)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "SCC",
+          "sodo": "SCC",
+          "kk": "SCC",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy hoạch sử dụng đất, CSDL địa chính)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy hoạch sử dụng đất, CSDL địa chính)"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Thời kỳ áp dụng: Luật 2013 (Quy hoạch sử dụng đất, CSDL địa chính)"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "-",
+          "sodo": "-",
+          "kk": "-",
+          "note": "Ký hiệu giải thửa ruộng đất 299: Đất khu công nghiệp, cụm công nghiệp (chỉ tiêu nhóm)"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất khu công nghiệp, cụm công nghiệp (chỉ tiêu nhóm) (Ký hiệu: SCC)",
+        "oldDoc": "Luật 2013 (Quy hoạch sử dụng đất, CSDL địa chính)",
+        "relation": "1 -> 1 (hoặc 1 -> N)",
+        "statutoryRule": "Điểm a Khoản 5 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Phân định chi tiết thành đất khu công nghiệp (SKK), cụm công nghiệp (SKN) hoặc khu CNTT tập trung (SCT).",
+        "practicalPrinciple": "Căn cứ hồ sơ gốc, bản đồ địa chính và Giấy chứng nhận đã cấp để xác định diện tích và mục đích sử dụng đất tương đương theo quy định của Luật Đất đai 2024.",
+        "tabsRef": "Tra cứu chuyên sâu tại tab: 09_TRA_CUU_NGUOC_CSDL (Từ điển đối chiếu mã cũ)."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": "",
+        "auditNote": ""
+      },
+      "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
+    },
+    {
+      "id": "M24_SCT_54",
       "code": "SCT",
       "displayCode": "SCT",
       "name": "Đất khu công nghệ thông tin tập trung",
@@ -9148,7 +12059,13 @@ window.LAND_DATA = {
         "g": 180,
         "b": 150,
         "hex": "#FFB496",
-        "target": "Đất xây dựng cơ sở thể dục, thể thao"
+        "target": "Đất khu CNTT tập trung"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "SCT",
@@ -9157,7 +12074,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Khu tập trung các hoạt động nghiên cứu, phát triển, sản xuất sản phẩm phần mềm, CNTT.",
-        "evolution": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã SCT cho đất khu công nghệ thông tin tập trung."
+        "evolution": "Điểm đ Khoản 2 Điều 9 Luật Đất đai 2024 và Phụ lục II Thông tư 08/2024/TT-BTNMT: Quy định mã SCT cho đất khu CNTT tập trung (thuộc nhóm SCC/CSK)."
       },
       "sec2": [
         {
@@ -9216,9 +12133,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKC_45",
+      "id": "M24_SKC_56",
       "code": "SKC",
-      "displayCode": "SKC (nhóm CSK)",
+      "displayCode": "SKC",
       "name": "Đất cơ sở sản xuất phi nông nghiệp (nhà máy, xí nghiệp ngoài KCN)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9230,6 +12147,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKC",
         "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
@@ -9237,7 +12160,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
-        "evolution": "Nhà máy, xí nghiệp, cơ sở tiểu thủ công nghiệp độc lập ngoài khu/cụm công nghiệp."
+        "evolution": "Nhà máy, xí nghiệp, cơ sở tiểu thủ công nghiệp độc lập ngoài khu/cụm công nghiệp. Thuộc nhóm CSK."
       },
       "sec2": [
         {
@@ -9296,7 +12219,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKC_47",
+      "id": "M24_SKC_58",
       "code": "SKC",
       "displayCode": "SKC (quy đổi)",
       "name": "Đất sản xuất vật liệu xây dựng, làm đồ gốm",
@@ -9310,6 +12233,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKC",
         "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
@@ -9317,7 +12246,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm c Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Nhà máy, xí nghiệp, xưởng sản xuất công nghiệp, tiểu thủ công nghiệp độc lập ngoài KCN.",
-        "evolution": "Luật 2024 không duy trì mã SKX riêng mà gom chung vào đất cơ sở sản xuất phi nông nghiệp SKC."
+        "evolution": "Luật 2024 không duy trì mã SKX riêng mà gom chung vào đất cơ sở sản xuất phi nông nghiệp SKC thuộc nhóm CSK."
       },
       "sec2": [
         {
@@ -9376,9 +12305,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKK_40",
+      "id": "M24_SKK_51",
       "code": "SKK",
-      "displayCode": "SKK (nhóm SCC)",
+      "displayCode": "SKK",
       "name": "Đất khu công nghiệp",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9390,6 +12319,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKK",
         "name2024": "Đất khu công nghiệp",
@@ -9397,7 +12332,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
-        "evolution": "Đất trong ranh giới các khu công nghiệp tập trung. Luật 2024 xếp trong nhóm SCC (KCN và cụm CN)."
+        "evolution": "Đất trong ranh giới các khu công nghiệp tập trung. Luật 2024 xếp trong nhóm SCC và nhóm lớn CSK."
       },
       "sec2": [
         {
@@ -9456,9 +12391,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKK_42",
+      "id": "M24_SKK_53",
       "code": "SKK",
-      "displayCode": "SKK / SCC",
+      "displayCode": "SKK (KCX)",
       "name": "Đất khu chế xuất",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9470,6 +12405,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKK",
         "name2024": "Đất khu công nghiệp",
@@ -9477,7 +12418,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất trong phạm vi ranh giới khu công nghiệp được thành lập theo quy định.",
-        "evolution": "Luật 2024 không còn duy trì mã SKT riêng mà xếp chung vào quy chế đất khu công nghiệp SKK/SCC."
+        "evolution": "Luật 2024 không còn duy trì mã SKT riêng mà xếp chung vào quy chế đất khu công nghiệp SKK thuộc nhóm SCC/CSK."
       },
       "sec2": [
         {
@@ -9536,9 +12477,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKN_41",
+      "id": "M24_SKN_52",
       "code": "SKN",
-      "displayCode": "SKN (nhóm SCC)",
+      "displayCode": "SKN",
       "name": "Đất cụm công nghiệp",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9550,6 +12491,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cụm công nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKN",
         "name2024": "Đất cụm công nghiệp",
@@ -9557,7 +12504,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm a Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất trong phạm vi cụm công nghiệp được cơ quan có thẩm quyền phê duyệt.",
-        "evolution": "Đất trong ranh giới cụm công nghiệp địa phương. Luật 2024 thuộc nhóm SCC."
+        "evolution": "Đất trong ranh giới cụm công nghiệp địa phương. Luật 2024 thuộc nhóm SCC và nhóm lớn CSK."
       },
       "sec2": [
         {
@@ -9616,9 +12563,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SKS_46",
+      "id": "M24_SKS_57",
       "code": "SKS",
-      "displayCode": "SKS (nhóm CSK)",
+      "displayCode": "SKS",
       "name": "Đất sử dụng cho hoạt động khoáng sản (khai thác, chế biến khoáng sản)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9630,6 +12577,12 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất sử dụng cho hoạt động khoáng sản"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "SKS",
         "name2024": "Đất sử dụng cho hoạt động khoáng sản",
@@ -9637,7 +12590,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm d Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Khai trường mỏ khoáng sản, khu vực chế biến khoáng sản gắn liền với khu vực khai thác.",
-        "evolution": "Khai trường khai thác quặng, mỏ than, đá, cát, cơ sở chế biến khoáng sản tại chỗ."
+        "evolution": "Khai trường khai thác quặng, mỏ than, đá, cát, cơ sở chế biến khoáng sản tại chỗ. Thuộc nhóm CSK."
       },
       "sec2": [
         {
@@ -9709,6 +12662,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FAAAA0",
         "target": "Đất khu chế xuất"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "SKK",
@@ -9791,6 +12750,12 @@ window.LAND_DATA = {
         "hex": "#CDAACD",
         "target": "Đất sản xuất VLXD, làm đồ gốm"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "SKC",
         "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
@@ -9872,6 +12837,12 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "SON",
         "name2024": "Đất sông, ngòi, kênh, rạch, suối / Mặt nước chuyên dùng",
@@ -9939,9 +12910,9 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_SON_66",
+      "id": "M24_SON_79",
       "code": "SON",
-      "displayCode": "SON (nhóm TVC)",
+      "displayCode": "SON",
       "name": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối tự nhiên",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -9953,6 +12924,12 @@ window.LAND_DATA = {
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "TVC",
+        "parentName": "Đất có mặt nước chuyên dùng",
+        "children": []
+      },
       "sec1": {
         "code2024": "SON",
         "name2024": "Đất có mặt nước dạng sông, ngòi, kênh, rạch, suối",
@@ -9960,7 +12937,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm b Khoản 10 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Lòng sông tự nhiên, ngòi, kênh mương cấp thoát nước tự nhiên và nhân tạo.",
-        "evolution": "Lưu vực lòng sông, ngòi, kênh mương lớn tự nhiên. Luật 2024 thuộc nhóm TVC."
+        "evolution": "Lưu vực lòng sông, ngòi, kênh mương lớn tự nhiên. Thuộc nhóm TVC."
       },
       "sec2": [
         {
@@ -10019,7 +12996,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SON_75",
+      "id": "M24_SON_89",
       "code": "SON",
       "displayCode": "SON / MNC",
       "name": "Đất sông, suối và mặt nước chuyên dùng",
@@ -10032,6 +13009,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "TVC",
+        "parentName": "Đất có mặt nước chuyên dùng",
+        "children": []
       },
       "sec1": {
         "code2024": "SON",
@@ -10099,7 +13082,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_SON_80",
+      "id": "M24_SON_94",
       "code": "SON",
       "displayCode": "SON (hành lang)",
       "name": "Hành lang bảo vệ nguồn nước sông, suối",
@@ -10112,6 +13095,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#A0FFFF",
         "target": "Đất sông, ngòi, kênh, rạch, suối"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "TVC",
+        "parentName": "Đất có mặt nước chuyên dùng",
+        "children": []
       },
       "sec1": {
         "code2024": "SON",
@@ -10193,6 +13182,12 @@ window.LAND_DATA = {
         "hex": "#FFB4FF",
         "target": "Đất thổ cư (299/499)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "ONT",
         "name2024": "Đất ở tại nông thôn / Đất ở tại đô thị",
@@ -10260,7 +13255,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_TIN_63",
+      "id": "M24_TIN_75",
       "code": "TIN",
       "displayCode": "TIN",
       "name": "Đất tín ngưỡng (đình, đền, miếu, am, từ đường, nhà thờ họ...)",
@@ -10273,6 +13268,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tín ngưỡng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "TIN",
@@ -10340,9 +13341,9 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_TMD_44",
+      "id": "M24_TMD_55",
       "code": "TMD",
-      "displayCode": "TMD (nhóm CSK)",
+      "displayCode": "TMD",
       "name": "Đất thương mại, dịch vụ (khách sạn, TTTM, văn phòng cho thuê...)",
       "group": "Đất phi nông nghiệp",
       "status": "Mã hiện hành Luật Đất đai 2024",
@@ -10354,6 +13355,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất thương mại, dịch vụ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSK",
+        "parentName": "Đất sản xuất, kinh doanh phi nông nghiệp",
+        "children": []
+      },
       "sec1": {
         "code2024": "TMD",
         "name2024": "Đất thương mại, dịch vụ",
@@ -10361,7 +13368,7 @@ window.LAND_DATA = {
         "legalBasis": "Điểm b Khoản 5 Điều 5 NĐ 102/2024",
         "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
         "purpose": "Đất xây dựng các cơ sở kinh doanh thương mại, dịch vụ, khách sạn, nhà hàng, văn phòng cho thuê.",
-        "evolution": "Đất xây dựng trung tâm thương mại, siêu thị, khách sạn, nhà hàng, văn phòng giao dịch thương mại."
+        "evolution": "Đất xây dựng trung tâm thương mại, siêu thị, khách sạn, nhà hàng, văn phòng giao dịch thương mại. Thuộc nhóm CSK."
       },
       "sec2": [
         {
@@ -10420,7 +13427,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_TON_62",
+      "id": "M24_TON_74",
       "code": "TON",
       "displayCode": "TON",
       "name": "Đất tôn giáo (chùa, nhà thờ, thánh thất, tu viện...)",
@@ -10433,6 +13440,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tôn giáo"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "TON",
@@ -10500,7 +13513,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_TSC_26",
+      "id": "M24_TSC_33",
       "code": "TSC",
       "displayCode": "TSC",
       "name": "Đất xây dựng trụ sở cơ quan nhà nước, tổ chức chính trị",
@@ -10513,6 +13526,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất xây dựng trụ sở cơ quan"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": []
       },
       "sec1": {
         "code2024": "TSC",
@@ -10593,6 +13612,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FFAAA0",
         "target": "Đất cơ sở sự nghiệp khác"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DSK",
@@ -10675,6 +13700,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất cơ sở tôn giáo"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TON",
         "name2024": "Đất cơ sở tôn giáo / Đất cơ sở tín ngưỡng",
@@ -10742,7 +13773,102 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_BCS_69",
+      "id": "M24_TVC_77",
+      "code": "TVC",
+      "displayCode": "TVC",
+      "name": "Đất có mặt nước chuyên dùng (nhóm chung)",
+      "group": "Đất phi nông nghiệp",
+      "status": "Mã nhóm loại đất cấp 2 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 153,
+        "g": 204,
+        "b": 255,
+        "hex": "#99CCFF",
+        "target": "Đất có mặt nước chuyên dùng"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": "PNN",
+        "parentName": "Nhóm đất phi nông nghiệp",
+        "children": [
+          {
+            "code": "MNC",
+            "name": "Đất có mặt nước chuyên dùng ao, hồ, đầm, phá"
+          },
+          {
+            "code": "SON",
+            "name": "Đất có mặt nước sông, ngòi, kênh, rạch, suối"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "TVC",
+        "name2024": "Đất có mặt nước chuyên dùng",
+        "group": "Đất phi nông nghiệp",
+        "legalBasis": "Khoản 10 Điều 5 NĐ 102/2024/NĐ-CP",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Nhóm đất mặt nước chuyên dùng không phục vụ nuôi thủy sản mà phục vụ cảnh quan, thủy lợi...",
+        "evolution": "Khoản 10 Điều 5 Nghị định 102/2024/NĐ-CP và Phụ lục II Thông tư 08/2024/TT-BTNMT: Nhóm đất có mặt nước chuyên dùng gồm ao hồ đầm phá cảnh quan (MNC) và sông ngòi kênh rạch suối tự nhiên (SON)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "TVC",
+          "sodo": "TVC",
+          "kk": "TVC",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Đất có mặt nước chuyên dùng (nhóm chung)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "MNC / SON",
+          "sodo": "MNC / SON",
+          "kk": "SMN / MNC",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "MNC / SON",
+          "sodo": "MNC / SON",
+          "kk": "SMN",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Mặt nước / Sông hồ",
+          "sodo": "Mặt nước / Sông hồ",
+          "kk": "Mặt nước / Sông hồ",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "MN / S",
+          "sodo": "MN / S",
+          "kk": "MN / S",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Đất có mặt nước chuyên dùng (nhóm chung)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 10 Điều 5 NĐ 102/2024/NĐ-CP",
+        "practicalPrinciple": "Đối với mã nhóm TVC: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (MNC, SON) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_BCS_83",
       "code": "BCS",
       "displayCode": "BCS",
       "name": "Đất bằng chưa sử dụng",
@@ -10755,6 +13881,12 @@ window.LAND_DATA = {
         "b": 254,
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSD",
+        "parentName": "Nhóm đất chưa sử dụng",
+        "children": []
       },
       "sec1": {
         "code2024": "BCS",
@@ -10822,7 +13954,7 @@ window.LAND_DATA = {
       "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
     },
     {
-      "id": "M24_CGT_68",
+      "id": "M24_CGT_82",
       "code": "CGT",
       "displayCode": "CGT",
       "name": "Đất do Nhà nước thu hồi theo quy định chưa giao, chưa cho thuê",
@@ -10834,7 +13966,13 @@ window.LAND_DATA = {
         "g": 130,
         "b": 100,
         "hex": "#FF8264",
-        "target": "Đất quốc phòng an ninh kết hợp"
+        "target": "Đất Nhà nước thu hồi chưa giao"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSD",
+        "parentName": "Nhóm đất chưa sử dụng",
+        "children": []
       },
       "sec1": {
         "code2024": "CGT",
@@ -10916,6 +14054,12 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "BCS",
         "name2024": "Đất bằng / Đồi núi / Núi đá chưa sử dụng",
@@ -10983,7 +14127,114 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_DCS_70",
+      "id": "M24_CSD_81",
+      "code": "CSD",
+      "displayCode": "CSD",
+      "name": "Nhóm đất chưa sử dụng / Đất chưa sử dụng (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+      "group": "Đất chưa sử dụng",
+      "status": "Mã nhóm loại đất cấp 1 (Luật Đất đai 2024)",
+      "primaryPeriod": "Luật Đất đai 2024",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 254,
+        "hex": "#FFFFFE",
+        "target": "Đất chưa sử dụng"
+      },
+      "hierarchy": {
+        "isGroup": true,
+        "parentCode": null,
+        "parentName": null,
+        "children": [
+          {
+            "code": "CGT",
+            "name": "Đất Nhà nước thu hồi chưa giao, chưa cho thuê"
+          },
+          {
+            "code": "BCS",
+            "name": "Đất bằng chưa sử dụng"
+          },
+          {
+            "code": "DCS",
+            "name": "Đất đồi núi chưa sử dụng"
+          },
+          {
+            "code": "NCS",
+            "name": "Núi đá không có rừng cây"
+          },
+          {
+            "code": "MCS",
+            "name": "Đất có mặt nước chưa sử dụng"
+          }
+        ]
+      },
+      "sec1": {
+        "code2024": "CSD",
+        "name2024": "Nhóm đất chưa sử dụng",
+        "group": "Đất chưa sử dụng",
+        "legalBasis": "Khoản 3 Điều 9 Luật Đất đai 2024",
+        "statusEffect": "Đang có hiệu lực (Luật Đất đai 2024 áp dụng từ 01/08/2024)",
+        "purpose": "Bao gồm các loại đất chưa xác định mục đích sử dụng hoặc quỹ đất đã thu hồi chưa giao, chưa cho thuê.",
+        "evolution": "Khoản 3 Điều 9 Luật Đất đai 2024: Nhóm đất chưa sử dụng gồm đất thu hồi chưa giao/cho thuê (CGT), đất bằng chưa sử dụng (BCS), đất đồi núi chưa sử dụng (DCS), núi đá không có rừng cây (NCS) và đất có mặt nước chưa sử dụng (MCS)."
+      },
+      "sec2": [
+        {
+          "era": "Luật Đất đai 2024 (Hiện hành)",
+          "doc": "Luật 31/2024 & TT 08/2024, TT 10/2024, NĐ 102/2024",
+          "bddc": "CSD",
+          "sodo": "CSD",
+          "kk": "CSD",
+          "note": "Quy định chuẩn hóa tại Mục A Phụ lục II TT 08/2024 & NĐ 102/2024: Nhóm đất chưa sử dụng / Đất chưa sử dụng (Cấp 1 theo Điều 9 Luật Đất đai 2024)"
+        },
+        {
+          "era": "Luật Đất đai 2013 (2014 - 2024)",
+          "doc": "TT 25/2014 & TT 23/2014, TT 27/2018",
+          "bddc": "CSD",
+          "sodo": "Đất chưa sử dụng",
+          "kk": "CSD",
+          "note": "Ký hiệu theo TT 25/2014 (BĐĐC) và TT 23/2014 (Trang 2 Giấy chứng nhận/Sổ đỏ)"
+        },
+        {
+          "era": "Luật Đất đai 2003 (2004 - 2014)",
+          "doc": "TT 08/2007 & TT 09/2007, TT 17/2009",
+          "bddc": "CSD",
+          "sodo": "CSD",
+          "kk": "CSD",
+          "note": "Ký hiệu hồ sơ địa chính TT 09/2007 và bảng mã kiểm kê TT 08/2007"
+        },
+        {
+          "era": "Giai đoạn 1995 - 2001 (Luật 1993)",
+          "doc": "TT 1990/2001/TT-TCĐC & QĐ 499 QĐ/ĐC",
+          "bddc": "Đất chưa sử dụng",
+          "sodo": "Đất chưa sử dụng",
+          "kk": "Đất chưa sử dụng",
+          "note": "Ký hiệu chữ quy ước theo QĐ 499 và TT 1990 ghi trên Sổ địa chính và GCN"
+        },
+        {
+          "era": "Thời kỳ Chỉ thị 299/TTg (Trước 1993)",
+          "doc": "Chỉ thị 299/TTg & QĐ 56-ĐKTK (1981)",
+          "bddc": "Đất hoang / Đồi trọc",
+          "sodo": "Đất hoang / Đồi trọc",
+          "kk": "Đất hoang / Đồi trọc",
+          "note": "Ký hiệu giải thửa ghi trong Sổ mục kê 299, bản đồ đo đạc theo QĐ 56-ĐKTK"
+        }
+      ],
+      "sec3": {
+        "oldScenario": "Nhóm đất chưa sử dụng / Đất chưa sử dụng (Cấp 1 theo Điều 9 Luật Đất đai 2024)",
+        "oldDoc": "Luật 2013 (TT 25/2014, TT 27/2018) / Luật 2003",
+        "relation": "Mã nhóm chung",
+        "statutoryRule": "Khoản 3 Điều 9 Luật Đất đai 2024",
+        "practicalPrinciple": "Đối với mã nhóm CSD: Khi cấp Giấy chứng nhận quyền sử dụng đất, cơ quan đăng ký đất đai căn cứ quyết định giao đất, cho thuê đất, giấy phép xây dựng hoặc hiện trạng sử dụng đất để xác định và ghi nhận mã loại đất chi tiết trực thuộc (CGT, BCS, DCS, NCS, MCS) hoặc tiếp tục ghi nhận mã nhóm chung theo đúng quy định.",
+        "tabsRef": "Tra cứu chuyên sâu tại các tab: 01_TONG_QUAN_CAN_CU, 02_DOI_CHIEU_CHUYEN_DOI, 08_CHI_THI_299_LICH_SU, 09_TRA_CUU_NGUOC_CSDL."
+      },
+      "specialLegal": {
+        "certificateRecognition": "",
+        "restrictions": ""
+      },
+      "sourceSheet": "02_DOI_CHIEU_CHUYEN_DOI"
+    },
+    {
+      "id": "M24_DCS_84",
       "code": "DCS",
       "displayCode": "DCS",
       "name": "Đất đồi núi chưa sử dụng",
@@ -10996,6 +14247,12 @@ window.LAND_DATA = {
         "b": 254,
         "hex": "#FFFFFE",
         "target": "Đất đồi núi chưa sử dụng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSD",
+        "parentName": "Nhóm đất chưa sử dụng",
+        "children": []
       },
       "sec1": {
         "code2024": "DCS",
@@ -11077,6 +14334,12 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất bằng chưa sử dụng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "BCS",
         "name2024": "Đất bằng chưa sử dụng / Đồi núi chưa sử dụng",
@@ -11152,6 +14415,12 @@ window.LAND_DATA = {
       "status": "Trạng thái kỹ thuật dữ liệu hệ thống",
       "primaryPeriod": "Hệ thống phần mềm địa chính",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "Chờ",
         "name2024": "Chưa xác định được loại đất (Dữ liệu chờ chuẩn hóa)",
@@ -11219,7 +14488,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_MCS_72",
+      "id": "M24_MCS_86",
       "code": "MCS",
       "displayCode": "MCS",
       "name": "Đất có mặt nước chưa sử dụng (hồ nước, đầm tự nhiên chưa giao)",
@@ -11232,6 +14501,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#B4E6FF",
         "target": "Đất có mặt nước chưa sử dụng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSD",
+        "parentName": "Nhóm đất chưa sử dụng",
+        "children": []
       },
       "sec1": {
         "code2024": "MCS",
@@ -11313,6 +14588,12 @@ window.LAND_DATA = {
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước ven biển (quan sát)"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "Khu",
         "name2024": "Khu vực biển theo Luật Biển Việt Nam",
@@ -11380,7 +14661,7 @@ window.LAND_DATA = {
       "sourceSheet": "09_TRA_CUU_NGUOC_CSDL"
     },
     {
-      "id": "M24_NCS_71",
+      "id": "M24_NCS_85",
       "code": "NCS",
       "displayCode": "NCS",
       "name": "Núi đá không có rừng cây",
@@ -11393,6 +14674,12 @@ window.LAND_DATA = {
         "b": 200,
         "hex": "#E6E6C8",
         "target": "Núi đá không có rừng cây"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "CSD",
+        "parentName": "Nhóm đất chưa sử dụng",
+        "children": []
       },
       "sec1": {
         "code2024": "NCS",
@@ -11474,6 +14761,12 @@ window.LAND_DATA = {
         "hex": "#FF5046",
         "target": "Đất an ninh"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CAN",
         "name2024": "Đất an ninh",
@@ -11526,6 +14819,12 @@ window.LAND_DATA = {
         "b": 80,
         "hex": "#FF6450",
         "target": "Đất quốc phòng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "CQP",
@@ -11580,6 +14879,12 @@ window.LAND_DATA = {
         "hex": "#FFFFFE",
         "target": "Đất chưa sử dụng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CSD",
         "name2024": "ĐẤT CHƯA SỬ DỤNG",
@@ -11626,12 +14931,12 @@ window.LAND_DATA = {
       "group": "Chỉ tiêu quy hoạch sử dụng đất",
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
-      "rgb": {
-        "r": 255,
-        "g": 190,
-        "b": 210,
-        "hex": "#FFBED2",
-        "target": "Đất danh lam thắng cảnh"
+      "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DDD",
@@ -11686,6 +14991,12 @@ window.LAND_DATA = {
         "hex": "#FFAA32",
         "target": "Đất giao thông"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DGT",
         "name2024": "Trong đó: Đất giao thông",
@@ -11733,6 +15044,12 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DHT",
         "name2024": "Đất phát triển hạ tầng",
@@ -11785,6 +15102,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#FFBEB4",
         "target": "Đất thương mại, dịch vụ (2024)"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "DMT",
@@ -11839,6 +15162,12 @@ window.LAND_DATA = {
         "hex": "#FFAAA0",
         "target": "Đất công trình năng lượng"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DNL",
         "name2024": "Trong đó: Đất công trình năng lượng",
@@ -11892,6 +15221,12 @@ window.LAND_DATA = {
         "hex": "#AAFFFF",
         "target": "Đất thủy lợi"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "DTL",
         "name2024": "Trong đó: Đất thủy lợi",
@@ -11939,6 +15274,12 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "KKT",
         "name2024": "Đất khu kinh tế",
@@ -11986,6 +15327,12 @@ window.LAND_DATA = {
       "status": "Chỉ tiêu phân bổ cấp Quốc gia / Tỉnh / Huyện",
       "primaryPeriod": "Quy hoạch TT 29/2024/TT-BTNMT",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "KNC",
         "name2024": "Đất khu công nghệ cao",
@@ -12038,6 +15385,12 @@ window.LAND_DATA = {
         "b": 130,
         "hex": "#FFFC82",
         "target": "Đất trồng lúa"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "LUA",
@@ -12092,6 +15445,12 @@ window.LAND_DATA = {
         "hex": "#FFFC8C",
         "target": "Đất chuyên trồng lúa nước"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "LUC",
         "name2024": "Trong đó: Đất chuyên trồng lúa nước",
@@ -12144,6 +15503,12 @@ window.LAND_DATA = {
         "b": 100,
         "hex": "#FFFF64",
         "target": "Đất nông nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "NNP",
@@ -12198,6 +15563,12 @@ window.LAND_DATA = {
         "hex": "#FFA0FF",
         "target": "Đất ở tại đô thị"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "ODT",
         "name2024": "Đất ở tại đô thị",
@@ -12250,6 +15621,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#FFD0FF",
         "target": "Đất ở tại nông thôn"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "ONT",
@@ -12304,6 +15681,12 @@ window.LAND_DATA = {
         "hex": "#FFFF64",
         "target": "Đất phi nông nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "PNN",
         "name2024": "ĐẤT PHI NÔNG NGHIỆP",
@@ -12356,6 +15739,12 @@ window.LAND_DATA = {
         "b": 100,
         "hex": "#6EFF64",
         "target": "Đất rừng đặc dụng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RDD",
@@ -12410,6 +15799,12 @@ window.LAND_DATA = {
         "hex": "#BEFF1E",
         "target": "Đất rừng phòng hộ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RPH",
         "name2024": "Đất rừng phòng hộ",
@@ -12462,6 +15857,12 @@ window.LAND_DATA = {
         "b": 180,
         "hex": "#B4FFB4",
         "target": "Đất có rừng sản xuất là rừng tự nhiên"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "RSN",
@@ -12516,6 +15917,12 @@ window.LAND_DATA = {
         "hex": "#B4FFB4",
         "target": "Đất rừng sản xuất"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "RSX",
         "name2024": "Đất rừng sản xuất",
@@ -12567,7 +15974,13 @@ window.LAND_DATA = {
         "g": 180,
         "b": 150,
         "hex": "#FFB496",
-        "target": "Đất xây dựng cơ sở thể dục, thể thao"
+        "target": "Đất khu CNTT tập trung"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "SCT",
@@ -12622,6 +16035,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cơ sở sản xuất phi nông nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "SKC",
         "name2024": "Đất cơ sở sản xuất phi nông nghiệp",
@@ -12674,6 +16093,12 @@ window.LAND_DATA = {
         "b": 160,
         "hex": "#FAAAA0",
         "target": "Đất khu công nghiệp"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
       },
       "sec1": {
         "code2024": "SKK",
@@ -12728,6 +16153,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất cụm công nghiệp"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "SKN",
         "name2024": "Đất cụm công nghiệp",
@@ -12781,6 +16212,12 @@ window.LAND_DATA = {
         "hex": "#FAAAA0",
         "target": "Đất thương mại, dịch vụ"
       },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TMD",
         "name2024": "Đất thương mại, dịch vụ",
@@ -12828,6 +16265,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CDQ",
         "name2024": "Cộng đồng dân cư",
@@ -12875,6 +16318,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CDS",
         "name2024": "Cộng đồng dân cư",
@@ -12922,6 +16371,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CNC",
         "name2024": "Người đại diện theo pháp luật của tổ chức hoặc cá nhân chịu trách nhiệm",
@@ -12969,6 +16424,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CNN",
         "name2024": "Người Việt Nam định cư ở nước ngoài là công dân Việt Nam",
@@ -13016,6 +16477,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "CNV",
         "name2024": "Cá nhân trong nước",
@@ -13063,6 +16530,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "KTQ",
         "name2024": "Tổ chức kinh tế",
@@ -13110,6 +16583,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "NGV",
         "name2024": "Người gốc Việt Nam định cư ở nước ngoài",
@@ -13157,6 +16636,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TCC",
         "name2024": "Tổ chức trong nước",
@@ -13204,6 +16689,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TCN",
         "name2024": "Cơ quan nhà nước, cơ quan đảng và đơn vị vũ trang nhân dân",
@@ -13251,6 +16742,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TCQ",
         "name2024": "Cơ quan nhà nước, cơ quan Đảng, đơn vị vũ trang nhân dân",
@@ -13298,6 +16795,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TKH",
         "name2024": "Tổ chức khác trong nước",
@@ -13345,6 +16848,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TKT",
         "name2024": "Tổ chức kinh tế",
@@ -13392,6 +16901,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TNG",
         "name2024": "Tổ chức nước ngoài có chức năng ngoại giao",
@@ -13439,6 +16954,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TSN",
         "name2024": "Đơn vị sự nghiệp công lập",
@@ -13486,6 +17007,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng quản lý đất (Mục C Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TSQ",
         "name2024": "Đơn vị sự nghiệp công lập",
@@ -13533,6 +17060,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TTG",
         "name2024": "Tổ chức tôn giáo, tổ chức tôn giáo trực thuộc",
@@ -13580,6 +17113,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TVN",
         "name2024": "Tổ chức kinh tế có vốn đầu tư nước ngoài",
@@ -13627,6 +17166,12 @@ window.LAND_DATA = {
       "status": "Mã đối tượng sử dụng đất (Mục B Phụ lục II TT 08/2024)",
       "primaryPeriod": "Luật Đất đai 2024",
       "rgb": null,
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": null,
+        "parentName": null,
+        "children": []
+      },
       "sec1": {
         "code2024": "TXH",
         "name2024": "Tổ chức xã hội, tổ chức xã hội - nghề nghiệp",
@@ -13679,6 +17224,12 @@ window.LAND_DATA = {
         "b": 255,
         "hex": "#B4FFFF",
         "target": "Đất có mặt nước chuyên dùng"
+      },
+      "hierarchy": {
+        "isGroup": false,
+        "parentCode": "TVC",
+        "parentName": "Đất có mặt nước chuyên dùng",
+        "children": []
       },
       "sec1": {
         "code2024": "MNC",

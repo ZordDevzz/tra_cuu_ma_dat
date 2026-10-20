@@ -47,7 +47,13 @@
   // Variant Strip (biến thể pháp lý cùng mã định danh)
   const variantStrip = document.getElementById("variantStrip");
   const variantBaseCode = document.getElementById("variantBaseCode");
+  const variantCount = document.getElementById("variantCount");
   const variantChips = document.getElementById("variantChips");
+
+  // Hierarchy Strip (Cơ cấu phân cấp mã nhóm đất)
+  const hierarchyStrip = document.getElementById("hierarchyStrip");
+  const hierarchyTitle = document.getElementById("hierarchyTitle");
+  const hierarchyContent = document.getElementById("hierarchyContent");
 
   // Header Strip Elements
   const heroCodeBadge = document.getElementById("heroCodeBadge");
@@ -190,19 +196,21 @@
     searchClear.classList.remove("hidden");
 
     if (variants.length > 1) {
-      state.disambiguate = true;
       const scopeLabels = [...new Set(variants.map(v => scopeOf(v).label))];
       const scopeNote = scopeLabels.length > 1
         ? " Lưu ý: cùng ký hiệu nhưng thuộc các phạm vi khác nhau (" + scopeLabels.join(" / ") + ")."
         : "";
       state.disambiguationMsg =
         'Mã "' + base + '" có ' + variants.length + ' biến thể pháp lý khác nhau ' +
-        '(Luật 2024 / quy hoạch / lịch sử). Hãy chọn biến thể cụ thể trong danh sách bên trái.' + scopeNote;
+        '(Luật 2024 / quy hoạch / lịch sử).' + scopeNote;
     }
     filterDictionary();
 
-    if (!state.disambiguate && state.filteredItems.length > 0) {
-      selectItem(state.filteredItems[0].id, true);
+    if (state.filteredItems.length > 0) {
+      const prefItem = state.filteredItems.find(it => it.id && it.id.startsWith("M24_" + base)) ||
+                       state.filteredItems.find(it => it.code === base) ||
+                       state.filteredItems[0];
+      selectItem(prefItem.id, true);
     }
   }
 
@@ -288,6 +296,13 @@
         if (aExact && !bExact) return -1;
         if (!aExact && bExact) return 1;
 
+        if (aExact && bExact) {
+          const aM24 = a.id && a.id.startsWith("M24_");
+          const bM24 = b.id && b.id.startsWith("M24_");
+          if (aM24 && !bM24) return -1;
+          if (!aM24 && bM24) return 1;
+        }
+
         const aStart = a._codeLower.startsWith(queryCodeLower) || a._displayCodeLower.startsWith(queryCodeLower);
         const bStart = b._codeLower.startsWith(queryCodeLower) || b._displayCodeLower.startsWith(queryCodeLower);
         if (aStart && !bStart) return -1;
@@ -301,17 +316,13 @@
     renderCandidateList();
     updateCounter();
 
-    // Tự động chọn item đầu tiên nếu item hiện tại không còn trong danh sách.
-    // Ngoại lệ: đang phân giải mã trùng định danh -> giữ trạng thái rỗng và
-    // yêu cầu người dùng chủ động chọn biến thể pháp lý.
+    // Tự động chọn item đầu tiên (ưu tiên Luật 2024) nếu item hiện tại không còn trong danh sách
     if (state.filteredItems.length > 0) {
       const exists = state.filteredItems.some(it => it.id === state.selectedId);
       if (!exists) {
-        if (state.disambiguate) {
-          showEmptyState(state.disambiguationMsg);
-        } else {
-          selectItem(state.filteredItems[0].id, false);
-        }
+        const prefItem = state.filteredItems.find(it => it.id && it.id.startsWith("M24_")) ||
+                         state.filteredItems[0];
+        selectItem(prefItem.id, false);
       }
     } else {
       showEmptyState();
@@ -518,11 +529,88 @@
 
     // Biến thể pháp lý cùng mã định danh (nếu có)
     renderVariantStrip(item);
+
+    // Cơ cấu phân cấp nhóm loại đất (mã cha / mã con trực thuộc)
+    renderHierarchyStrip(item);
   }
 
-  // RENDER STRIP BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH
-  // Cùng ký hiệu mã (VD: CLN) nhưng khác nội dung pháp lý -> cho phép nhảy
-  // nhanh giữa các biến thể mà không phải quay lại ô tìm kiếm.
+  // HELPER: PHÂN LOẠI & GẮN NHÃN BIẾN THỂ PHÁP LÝ
+  function getVariantMeta(item) {
+    const p = (item.primaryPeriod || "").trim();
+    const s = item.sourceSheet || "";
+    const name = item.name || "";
+    const grp = (item.group || "").toLowerCase();
+
+    let tagLabel = "Biến thể";
+    let tagClass = "vtag-other";
+    let sourceLabel = "";
+
+    if (s === "07_QUY_HOACH_XAY_DUNG" || grp.includes("quy hoạch")) {
+      tagLabel = "Quy hoạch 2024";
+      tagClass = "vtag-qh";
+      sourceLabel = "Chỉ tiêu quy hoạch (TT 29/2024/TT-BTNMT)";
+    } else if (s === "08_DOI_TUONG_SU_DUNG" || grp.includes("đối tượng")) {
+      tagLabel = "Mã đối tượng";
+      tagClass = "vtag-sub";
+      sourceLabel = "Đối tượng sử dụng, quản lý đất (TT 25/2014)";
+    } else if (s === "09_TRA_CUU_NGUOC_CSDL") {
+      tagClass = "vtag-hist";
+      sourceLabel = "Tra cứu ngược CSDL & GCN cũ";
+      if (p.includes("2013") && p.includes("2003")) {
+        tagLabel = "CSDL cũ 2013 / 2003";
+      } else if (p.includes("2013")) {
+        tagLabel = "CSDL Luật 2013";
+      } else if (p.includes("2003")) {
+        tagLabel = "CSDL Luật 2003";
+      } else if (p.includes("299")) {
+        tagLabel = "Thời kỳ 299/TTg";
+      } else {
+        tagLabel = "CSDL / Sổ cũ";
+      }
+    } else if (s === "03_LUAT_2024_HIEN_HANH") {
+      tagLabel = "Luật 2024 chuẩn";
+      tagClass = "vtag-current";
+      sourceLabel = "Bảng mã danh mục Luật Đất đai 2024";
+    } else if (s === "02_DOI_CHIEU_CHUYEN_DOI") {
+      if (name.includes("sổ đỏ 299") || name.includes("Ký hiệu cũ")) {
+        tagLabel = "Sổ đỏ cũ quy đổi";
+        tagClass = "vtag-hist";
+        sourceLabel = "Đối chiếu sổ đỏ cũ sang Luật 2024";
+      } else if (p.includes("lịch sử") || name.includes("Mã lịch sử")) {
+        tagLabel = "Lịch sử đối chiếu";
+        tagClass = "vtag-hist";
+        sourceLabel = "Bảng đối chiếu chuyển tiếp Luật 2024";
+      } else if (p.includes("hạn chế") || name.includes("Hành lang")) {
+        tagLabel = "Ranh giới hạn chế";
+        tagClass = "vtag-current";
+        sourceLabel = "Ranh giới hạn chế quyền (Điều 210 Luật 2024)";
+      } else {
+        tagLabel = "Luật 2024 hiện hành";
+        tagClass = "vtag-current";
+        sourceLabel = "Mục đích sử dụng đất (Luật Đất đai 2024)";
+      }
+    } else {
+      if (p.includes("2024")) {
+        tagLabel = "Luật 2024";
+        tagClass = "vtag-current";
+      } else if (p.includes("2013")) {
+        tagLabel = "Thời kỳ 2013";
+        tagClass = "vtag-hist";
+      } else if (p.includes("299")) {
+        tagLabel = "Thời kỳ 299";
+        tagClass = "vtag-hist";
+      } else {
+        tagLabel = p.slice(0, 18) || "Biến thể";
+      }
+      sourceLabel = p || "";
+    }
+
+    return { tagLabel, tagClass, sourceLabel };
+  }
+
+  // RENDER KHỐI BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH (DISAMBIGUATION CARDS)
+  // Cùng ký hiệu mã (VD: CSK, TMD, ONT, DSN...) nhưng khác nội dung pháp lý.
+  // Thiết kế dạng thẻ responsive, không cắt chữ, gắn badge phân loại rõ ràng.
   function renderVariantStrip(item) {
     variantChips.innerHTML = "";
     const base = baseCodeOf(item);
@@ -533,23 +621,92 @@
     }
 
     variantBaseCode.textContent = base;
+    if (variantCount) {
+      variantCount.textContent = variants.length + " biến thể";
+    }
+
     variants.forEach(v => {
-      const chip = document.createElement("div");
-      chip.className = "variant-chip" + (v.id === item.id ? " active" : "");
-      chip.title = v.name + " — " + (v.primaryPeriod || "");
+      const isCurrent = v.id === item.id;
+      const card = document.createElement("button");
+      card.type = "button";
+      card.className = "variant-card" + (isCurrent ? " active" : "");
+      card.setAttribute("aria-pressed", isCurrent ? "true" : "false");
+      card.title = v.name + (v.primaryPeriod ? " — " + v.primaryPeriod : "");
+
       const sc = scopeOf(v);
-      chip.innerHTML = `
-        <span class="chip-code">${escapeHtml(v.displayCode || v.code)}</span>
-        <span class="v-scope scope-${sc.key.toLowerCase()}">${escapeHtml(sc.label)}</span>
-        <span class="v-name">${escapeHtml(v.name)}</span>
-        <span class="v-period">${escapeHtml(v.primaryPeriod || "")}</span>
+      const meta = getVariantMeta(v);
+
+      const statusHtml = isCurrent
+        ? `<span class="vcard-status">
+             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+               <polyline points="20 6 9 17 4 12"></polyline>
+             </svg>
+             Đang xem
+           </span>`
+        : `<span class="vcard-action">Xem biến thể &rarr;</span>`;
+
+      card.innerHTML = `
+        <div class="vcard-header">
+          <div class="vcard-badges">
+            <span class="vcard-code">${escapeHtml(v.displayCode || v.code)}</span>
+            <span class="vcard-scope scope-${sc.key.toLowerCase()}">${escapeHtml(sc.label)}</span>
+            <span class="vcard-tag ${meta.tagClass}">${escapeHtml(meta.tagLabel)}</span>
+          </div>
+          ${statusHtml}
+        </div>
+        <div class="vcard-name">${escapeHtml(v.name)}</div>
+        <div class="vcard-meta">
+          <span>${escapeHtml(meta.sourceLabel)}</span>
+        </div>
       `;
-      chip.addEventListener("click", () => {
+
+      card.addEventListener("click", () => {
         selectItem(v.id, true);
       });
-      variantChips.appendChild(chip);
+      variantChips.appendChild(card);
     });
     variantStrip.classList.remove("hidden");
+  }
+
+  // RENDER CƠ CẤU PHÂN CẤP NHÓM LOẠI ĐẤT (MÃ CHA / MÃ CON TRỰC THUỘC)
+  function renderHierarchyStrip(item) {
+    if (!hierarchyStrip || !hierarchyContent) return;
+    hierarchyContent.innerHTML = "";
+    const h = item.hierarchy;
+    if (!h) {
+      hierarchyStrip.classList.add("hidden");
+      return;
+    }
+
+    if (h.isGroup && Array.isArray(h.children) && h.children.length > 0) {
+      hierarchyStrip.classList.remove("hidden");
+      hierarchyTitle.textContent = "Các loại đất trực thuộc nhóm (" + h.children.length + " mã):";
+      h.children.forEach(child => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "hierarchy-chip";
+        chip.innerHTML = `<span class="chip-code">${escapeHtml(child.code)}</span> <span>${escapeHtml(child.name)}</span>`;
+        chip.title = `Xem chi tiết loại đất ${child.code}: ${child.name}`;
+        chip.addEventListener("click", () => {
+          searchByCode(child.code);
+        });
+        hierarchyContent.appendChild(chip);
+      });
+    } else if (h.parentCode) {
+      hierarchyStrip.classList.remove("hidden");
+      hierarchyTitle.textContent = "Thuộc nhóm loại đất:";
+      const pBadge = document.createElement("button");
+      pBadge.type = "button";
+      pBadge.className = "hierarchy-parent-badge";
+      pBadge.innerHTML = `<span class="chip-code">${escapeHtml(h.parentCode)}</span> &bull; <span>${escapeHtml(h.parentName || h.parentCode)}</span> &rarr;`;
+      pBadge.title = `Xem chi tiết mã nhóm cha: ${h.parentCode}`;
+      pBadge.addEventListener("click", () => {
+        searchByCode(h.parentCode);
+      });
+      hierarchyContent.appendChild(pBadge);
+    } else {
+      hierarchyStrip.classList.add("hidden");
+    }
   }
 
   // RENDER MA TRẬN 6 CỘT KHỐI II

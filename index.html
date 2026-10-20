@@ -158,8 +158,38 @@
 
         <!-- BIẾN THỂ PHÁP LÝ CÙNG MÃ ĐỊNH DANH (DISAMBIGUATION) -->
         <div class="variant-strip hidden" id="variantStrip">
-          <span class="variant-label">Biến thể pháp lý cùng mã <strong id="variantBaseCode">---</strong>:</span>
-          <div class="variant-chips" id="variantChips"></div>
+          <div class="variant-strip-header">
+            <div class="variant-header-title">
+              <span class="variant-icon" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 3h5v5"></path>
+                  <path d="M8 21H3v-5"></path>
+                  <path d="M21 3l-7.5 7.5"></path>
+                  <path d="M3 21l7.5-7.5"></path>
+                </svg>
+              </span>
+              <span class="variant-label">Biến thể pháp lý cùng mã <strong id="variantBaseCode">---</strong></span>
+              <span class="variant-count" id="variantCount"></span>
+            </div>
+            <span class="variant-subhint">Mã này có nhiều biến thể theo thời kỳ pháp lý hoặc phạm vi áp dụng. Chọn biến thể để xem hồ sơ đối chiếu:</span>
+          </div>
+          <div class="variant-cards" id="variantChips"></div>
+        </div>
+
+        <!-- CƠ CẤU PHÂN CẤP NHÓM LOẠI ĐẤT (HIERARCHY STRIP) -->
+        <div class="hierarchy-strip hidden" id="hierarchyStrip">
+          <div class="hierarchy-header">
+            <span class="hierarchy-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </span>
+            <strong id="hierarchyTitle">Cơ cấu nhóm mã đất:</strong>
+          </div>
+          <div class="hierarchy-content" id="hierarchyContent"></div>
         </div>
 
         <!-- KHỐI I: THÔNG TIN LOẠI ĐẤT CHUẨN HÓA THEO LUẬT ĐẤT ĐAI 2024 -->
